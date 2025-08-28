@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which of the following helps to backup data on a Mac?",
+    "options": ["App Store", "Extensions", "Time Machine", "Internet Accounts"],
+    "answer": "Time Machine"
+  },
+  {
+    "question": "Which of the following fundamental concepts of security refers to an action taken in advance to protect the system against threats or dangers?",
+    "options": ["Precaution", "Maintenance", "Nonrepudiation", "Reaction"],
+    "answer": "Precaution"
+  },
+  {
+    "question": "InfraTech Inc. is an international IT company with offices in Dubai, Singapore, and Australia. To have continuity of business practice, it is imperative that all the branch offices be able to communicate amongst themselves. Which of the following network systems would be suitable for data communication between the employees of all branches of InfraTech Inc.?",
+    "options": ["Ethernet", "Virtual Private Network", "Wide Area Network", "Local Area Network"],
+    "answer": "Wide Area Network"
+  },
+  {
+    "question": "Which of the following is an encryption program in Mac that helps users to protect their data?",
+    "options": ["SPAMfighter", "FileVault", "Safari", "Lockbin"],
+    "answer": "FileVault"
+  },
+  {
+    "question": "Samuel, a network admin in an IT firm, has just discovered a phishing site known for targeting corporate entities. Several employees have received emails with the domain name, which is the same as that of this site. In order to prevent the company’s network from being corrupted, Samuel decides to block all incoming and outgoing traffic from that site. Which of the following defense mechanisms can Samuel use to implement this?",
+    "options": ["Virus", "Disk encryption", "Firewall", "Encryption"],
+    "answer": "Firewall"
+  },
+  {
+    "question": "ABC Info Ltd. has a part of its business already on a cloud computing platform. However, its new product suite would need a cloud service which runs on a totally different technology. The company should be able to make its legacy products and new products communicate with each other as the new products are just an upgrade of the old ones and much of the required data still resides on the old cloud. Which of the following cloud computing platforms will be suitable for ABC Info’s future needs?",
+    "options": ["Public cloud", "Community cloud", "Hybrid cloud", "Private cloud"],
+    "answer": "Hybrid cloud"
+  },
+  {
+    "question": "Steven and Paul were exchanging data on their mobile phones through Bluetooth. After the exchange, Paul disabled the Bluetooth option but Steven forgot to disable it. Paul's mobile device is now available on everyone's device. There is a chance for hackers to open the Bluetooth connection on his phone and steal data. Under which attack is Steven currently vulnerable to?",
+    "options": ["Bluesnarfing", "Blue Screen of Death", "Denial of Service", "Phishing"],
+    "answer": "Bluesnarfing"
+  },
+  {
+    "question": "Windy wants to send an encrypted email to her superiors so that they can decrypt the email as quickly as possible and read the confidential information in it. In this case, which symmetric encryption algorithm can provide fast, strong, and robust encryption and decryption of emails?",
+    "options": ["Diffie-Hellman", "ElGamal", "CRC-32", "Serpent"],
+    "answer": "Serpent"
+  },
+  {
+    "question": "James's laptop is infected with malware, and he is unable to remove it because of its stealthy operation. Which malicious software type has infected his laptop?",
+    "options": ["Virus", "Spyware", "Rootkit", "Worm"],
+    "answer": "Rootkit"
+  },
+  {
+    "question": "As part of his security implementation plan, Glenn was updating his firewall. Which aspect of the security implementation plan was Glenn working on?",
+    "options": ["Reaction", "Maintenance", "Precaution", "Nonrepudiation"],
+    "answer": "Maintenance"
+  },
+  {
+    "question": "Joseph purchased a Mac laptop. He travels a lot and carries the laptop with him. To protect the confidential details on his laptop from being seen or copied, Joseph has encrypted the files using FileVault. Identify the encryption algorithm used by FileVault to encrypt files.",
+    "options": ["Advanced Encryption Standard", "Data Encryption Standard", "RC5", "RC4"],
+    "answer": "Advanced Encryption Standard"
+  },
+  {
+    "question": "Williams downloaded a free application from the Internet. After downloading, he observed that his browser security settings had been modified. What sort of malware can render a browser's settings vulnerable?",
+    "options": ["Worm", "Virus", "Spyware"],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Because of the pandemic, Sam was given the option of working remotely. She attended training on ensuring security while working remotely. Which of the following will help her maintain the physical security of her laptop and prevent anyone from copying data from her laptop?",
+    "options": ["Enable a USB data blocker", "Lock meetings with the lock meeting feature", "Do not use public Wi-Fi", "Do not click on suspicious links"],
+    "answer": "Enable a USB data blocker"
+  },
+  {
+    "question": "Jennifer recently discovered that some websites she visited using the Microsoft Edge browser collected her browsing history. She researched and discovered that she could set up Microsoft Edge to send a Do Not Track request to the website. Where can she locate and activate the Do Not Track setting in Edge?",
+    "options": ["Auto-fill -> Passwords", "Settings -> Advanced", "Settings -> Privacy, search, and services", "Settings -> Privacy & Security"],
+    "answer": "Settings -> Privacy, search, and services"
+  },
+  {
+    "question": "Robert wants to open a branch of his office in a different area of the same city. In this case, which network type would help Robert connect computers within this geographical radius?",
+    "options": ["Wireless Metropolitan Area Networks (WMAN)", "Wireless Local Area Network (WLAN)", "Wireless Wide Area Network (WWAN)", "Wireless Personal Area Network (WPAN)"],
+    "answer": "Wireless Metropolitan Area Networks (WMAN)"
+  },
+  {
+    "question": "Lily got a work-from-home job but needed a broadband connection. She contacted a service provider and obtained one. She started working and was satisfied with the connection. After a few days, she saw that her Internet data usage had randomly gone very high and the Internet became slow. She contacted the service provider and explained her problem. They suggested that someone was using her broadband connection. What problem is Lily facing?",
+    "options": ["Man in the middle", "Backdoor hacking", "Phishing", "Piggybacking"],
+    "answer": "Piggybacking"
+  }
+]
