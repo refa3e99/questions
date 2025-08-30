@@ -1,82 +1,1402 @@
 [
   {
+    "question": "Ellie, an 18-year-old student, encrypts her drive with inbuilt Windows software so that her mischievous brother cannot access her assignments. Which software did Ellie use?",
+    "options": [
+      "Adobe",
+      "Skype",
+      "SPAMfighter",
+      "BitLocker"
+    ],
+    "answer": "BitLocker"
+  },
+  {
+    "question": "As part of his security implementation plan, Glenn was updating his firewall. Which aspect of the security implementation plan was Glenn working on?",
+    "options": [
+      "Reaction",
+      "Maintenance",
+      "Nonrepudiation",
+      "Precaution"
+    ],
+    "answer": "Maintenance"
+  },
+  {
+    "question": "Sarah started a small business with seven employees. She provided every employee with a computer and a common printer which is meant to be shared. Which of the following networks would suit Sarah’s business need?",
+    "options": [
+      "Ethernet Physical Layer",
+      "Wide Area Network",
+      "Virtual Private Network",
+      "Local Area Network"
+    ],
+    "answer": "Local Area Network"
+  },
+  {
+    "question": "A new online service allows roommates to input all their household expenses in a ‘share calculator’ program, which calculates and shares the detailed report with all listed roommates. This service is an example of which of the following?",
+    "options": [
+      "Software as a Service",
+      "Network as a Service",
+      "Infrastructure as a Service",
+      "Platform as a Service"
+    ],
+    "answer": "Software as a Service"
+  },
+  {
+    "question": "A newly established ITES company plans to launch a website that allows users to share pictures and videos, comment, and re-share them. Under which cloud category will the company’s product fall?",
+    "options": [
+      "Community Cloud",
+      "Private Cloud",
+      "Public Cloud",
+      "Hybrid Cloud"
+    ],
+    "answer": "Public Cloud"
+  },
+  {
+    "question": "XYZ Infra Solutions seeks a cloud provider who can provide VMs, VLAN, custom apps, on-demand storage, IP addresses, and firewalls. Which cloud computing service can meet the company’s needs?",
+    "options": [
+      "Application as a Service",
+      "Infrastructure as a Service",
+      "Software as a Service",
+      "Platform as a Service"
+    ],
+    "answer": "Infrastructure as a Service"
+  },
+  {
+    "question": "Harry, a college student, was working on his dissertation when a message appeared demanding $1000 to unlock his encrypted files. Even after paying, he lost all his documents. Which malware attack was Harry a victim of?",
+    "options": [
+      "Botnet",
+      "Adware",
+      "Virus",
+      "Ransomware"
+    ],
+    "answer": "Ransomware"
+  },
+  {
     "question": "Which of the following helps to backup data on a Mac?",
-    "options": ["App Store", "Extensions", "Time Machine", "Internet Accounts"],
+    "options": [
+      "App Store",
+      "Extensions",
+      "Time Machine",
+      "Internet Accounts"
+    ],
     "answer": "Time Machine"
   },
   {
     "question": "Which of the following fundamental concepts of security refers to an action taken in advance to protect the system against threats or dangers?",
-    "options": ["Precaution", "Maintenance", "Nonrepudiation", "Reaction"],
+    "options": [
+      "Precaution",
+      "Maintenance",
+      "Nonrepudiation",
+      "Reaction"
+    ],
     "answer": "Precaution"
   },
   {
-    "question": "InfraTech Inc. is an international IT company with offices in Dubai, Singapore, and Australia. To have continuity of business practice, it is imperative that all the branch offices be able to communicate amongst themselves. Which of the following network systems would be suitable for data communication between the employees of all branches of InfraTech Inc.?",
-    "options": ["Ethernet", "Virtual Private Network", "Wide Area Network", "Local Area Network"],
+    "question": "InfraTech Inc. is an IT company with offices in Dubai, Singapore, and Australia. To ensure branch offices communicate seamlessly, which network system would be most suitable?",
+    "options": [
+      "Ethernet",
+      "Virtual Private Network",
+      "Wide Area Network",
+      "Local Area Network"
+    ],
     "answer": "Wide Area Network"
   },
   {
+    "question": "Ruth Cole regularly updates client data to remote storage via the Internet so she doesn’t lose it if her laptop crashes. Which type of data backup is she using?",
+    "options": [
+      "Full system backup",
+      "Incremental backup",
+      "Online data backup (Dropbox)",
+      "Differential backup"
+    ],
+    "answer": "Online data backup (Dropbox)"
+  },
+  {
     "question": "Which of the following is an encryption program in Mac that helps users to protect their data?",
-    "options": ["SPAMfighter", "FileVault", "Safari", "Lockbin"],
+    "options": [
+      "SPAMfighter",
+      "FileVault",
+      "Safari",
+      "Lockbin"
+    ],
     "answer": "FileVault"
   },
   {
-    "question": "Samuel, a network admin in an IT firm, has just discovered a phishing site known for targeting corporate entities. Several employees have received emails with the domain name, which is the same as that of this site. In order to prevent the company’s network from being corrupted, Samuel decides to block all incoming and outgoing traffic from that site. Which of the following defense mechanisms can Samuel use to implement this?",
-    "options": ["Virus", "Disk encryption", "Firewall", "Encryption"],
+    "question": "Samuel, a network admin, blocked all incoming and outgoing traffic from a phishing site domain to protect his firm. Which defense mechanism did Samuel use?",
+    "options": [
+      "Virus",
+      "Disk encryption",
+      "Firewall",
+      "Encryption"
+    ],
     "answer": "Firewall"
   },
   {
-    "question": "ABC Info Ltd. has a part of its business already on a cloud computing platform. However, its new product suite would need a cloud service which runs on a totally different technology. The company should be able to make its legacy products and new products communicate with each other as the new products are just an upgrade of the old ones and much of the required data still resides on the old cloud. Which of the following cloud computing platforms will be suitable for ABC Info’s future needs?",
-    "options": ["Public cloud", "Community cloud", "Hybrid cloud", "Private cloud"],
-    "answer": "Hybrid cloud"
+    "question": "ABC Info Ltd. needs its new cloud service to work with existing legacy products on a different cloud platform. Which cloud platform would be most suitable?",
+    "options": [
+      "Public Cloud",
+      "Community Cloud",
+      "Hybrid Cloud",
+      "Private Cloud"
+    ],
+    "answer": "Hybrid Cloud"
   },
   {
-    "question": "Steven and Paul were exchanging data on their mobile phones through Bluetooth. After the exchange, Paul disabled the Bluetooth option but Steven forgot to disable it. Paul's mobile device is now available on everyone's device. There is a chance for hackers to open the Bluetooth connection on his phone and steal data. Under which attack is Steven currently vulnerable to?",
-    "options": ["Bluesnarfing", "Blue Screen of Death", "Denial of Service", "Phishing"],
-    "answer": "Bluesnarfing"
+    "question": "What is the encryption type used by FileVault?",
+    "options": [
+      "RSA",
+      "AES",
+      "SHA-256",
+      "Blowfish"
+    ],
+    "answer": "AES"
   },
   {
-    "question": "Windy wants to send an encrypted email to her superiors so that they can decrypt the email as quickly as possible and read the confidential information in it. In this case, which symmetric encryption algorithm can provide fast, strong, and robust encryption and decryption of emails?",
-    "options": ["Diffie-Hellman", "ElGamal", "CRC-32", "Serpent"],
-    "answer": "Serpent"
+    "question": "Which encryption method is used for email encryption with Serpent?",
+    "options": [
+      "Asymmetric",
+      "Hashing",
+      "Symmetric",
+      "Tokenization"
+    ],
+    "answer": "Symmetric"
   },
   {
-    "question": "James's laptop is infected with malware, and he is unable to remove it because of its stealthy operation. Which malicious software type has infected his laptop?",
-    "options": ["Virus", "Spyware", "Rootkit", "Worm"],
+    "question": "Which Twitter setting helps you hide your email address from being discoverable?",
+    "options": [
+      "Profile privacy",
+      "Discoverability",
+      "Mute settings",
+      "Block list"
+    ],
+    "answer": "Discoverability"
+  },
+  {
+    "question": "Which Microsoft Edge setting helps to disable pop-ups?",
+    "options": [
+      "Bookmarks",
+      "Extensions",
+      "Cookies and file permissions",
+      "Themes"
+    ],
+    "answer": "Cookies and file permissions"
+  },
+  {
+    "question": "Which Zoom setting helps to disable pop-ups?",
+    "options": [
+      "Mute microphone",
+      "Disable private chat",
+      "Turn off video",
+      "Restrict screen share"
+    ],
+    "answer": "Disable private chat"
+  },
+  {
+    "question": "You create a full backup on August 1 with File A, B, and C. On August 10, only File B changes, so only B is added. On August 20, only File C changes, so only C is added. What type of backup is this?",
+    "options": [
+      "Full backup",
+      "Differential backup",
+      "Incremental backup",
+      "Online backup"
+    ],
+    "answer": "Incremental backup"
+  },
+  {
+    "question": "In every subsequent update to the backup, only files changed or created after the previous backup are included. Which type of backup is this?",
+    "options": [
+      "Differential backup",
+      "Incremental backup",
+      "Full backup",
+      "Mirror backup"
+    ],
+    "answer": "Incremental backup"
+  },
+  {
+    "question": "Which of the following is an antivirus program?",
+    "options": [
+      "Avira",
+      "Skype",
+      "Adobe",
+      "Dropbox"
+    ],
+    "answer": "Avira"
+  },
+  {
+    "question": "Your browser history is compromised on an Alexa device. Which of the following can help?",
+    "options": [
+      "EFS",
+      "FileVault",
+      "Change wake word",
+      "Raise user access control"
+    ],
+    "answer": "Raise user access control"
+  },
+  {
+    "question": "Which Mac feature limits time spent on the device?",
+    "options": [
+      "FileVault",
+      "Screen Time",
+      "Time Machine",
+      "Finder"
+    ],
+    "answer": "Screen Time"
+  },
+  {
+    "question": "What is the best package to protect IoT devices?",
+    "options": [
+      "Hijacking and identification",
+      "MITM and security monitoring",
+      "Permanent DoS & MFA",
+      "DDoS & encryption"
+    ],
+    "answer": "DDoS & encryption"
+  },
+  {
+    "question": "What is the path to block spam emails?",
+    "options": [
+      "Delete group in Home > Junk > Junk email options > Blocked senders",
+      "Add spam filters in Outlook settings",
+      "Change DNS settings",
+      "Reset cache"
+    ],
+    "answer": "Delete group in Home > Junk > Junk email options > Blocked senders"
+  },
+  {
+    "question": "Which Teams path ensures no one can access a secret file?",
+    "options": [
+      "Sensitivity MIP",
+      "Privacy settings",
+      "Encryption mode",
+      "Restricted access"
+    ],
+    "answer": "Sensitivity MIP"
+  },
+  {
+    "question": "Which malware cannot be deleted easily?",
+    "options": [
+      "Trojan",
+      "Rootkit",
+      "Adware",
+      "Spyware"
+    ],
     "answer": "Rootkit"
   },
   {
-    "question": "As part of his security implementation plan, Glenn was updating his firewall. Which aspect of the security implementation plan was Glenn working on?",
-    "options": ["Reaction", "Maintenance", "Precaution", "Nonrepudiation"],
-    "answer": "Maintenance"
+    "question": "Which malicious program installs malware disguised as legitimate software?",
+    "options": [
+      "Virus",
+      "Worm",
+      "Trojan",
+      "Botnet"
+    ],
+    "answer": "Trojan"
   },
   {
-    "question": "Joseph purchased a Mac laptop. He travels a lot and carries the laptop with him. To protect the confidential details on his laptop from being seen or copied, Joseph has encrypted the files using FileVault. Identify the encryption algorithm used by FileVault to encrypt files.",
-    "options": ["Advanced Encryption Standard", "Data Encryption Standard", "RC5", "RC4"],
-    "answer": "Advanced Encryption Standard"
+    "question": "Which is the most popular threat on Bluetooth?",
+    "options": [
+      "Bluejacking",
+      "Bluesnarfing",
+      "Bluebugging",
+      "Bluetooth spoofing"
+    ],
+    "answer": "Bluesnarfing"
   },
   {
-    "question": "Williams downloaded a free application from the Internet. After downloading, he observed that his browser security settings had been modified. What sort of malware can render a browser's settings vulnerable?",
-    "options": ["Worm", "Virus", "Spyware"],
+    "question": "What is the path to disable geotagging on Mac?",
+    "options": [
+      "Settings > Privacy and Security > Location Services > Camera > Never",
+      "Finder > Camera > Disable GPS",
+      "iCloud > Photos > Remove location",
+      "Terminal > Security Off"
+    ],
+    "answer": "Settings > Privacy and Security > Location Services > Camera > Never"
+  },
+  {
+    "question": "Which type of network does WPAN stand for?",
+    "options": [
+      "Wide Personal Area Network",
+      "Wireless Personal Area Network",
+      "Wired Public Access Network",
+      "Wireless Private Area Network"
+    ],
+    "answer": "Wireless Personal Area Network"
+  },
+  {
+    "question": "Which type of network connects branches in the same city?",
+    "options": [
+      "LAN",
+      "WAN",
+      "WMAN",
+      "VPN"
+    ],
+    "answer": "WMAN"
+  },
+  {
+    "question": "Which type of network connects branches in different countries?",
+    "options": [
+      "WAN",
+      "LAN",
+      "PAN",
+      "WMAN"
+    ],
+    "answer": "WAN"
+  },
+  {
+    "question": "If you lose your phone, which number is essential to identify it?",
+    "options": [
+      "PIN",
+      "IMEI",
+      "SIM serial",
+      "ICCID"
+    ],
+    "answer": "IMEI"
+  },
+  {
+    "question": "Which physical security measure helps remote workers prevent data theft when charging devices?",
+    "options": [
+      "Strong password",
+      "USB data blocker",
+      "Firewall",
+      "VPN"
+    ],
+    "answer": "USB data blocker"
+  },
+  {
+    "question": "Which digital security measure should remote workers use during virtual meetings?",
+    "options": [
+      "Mute audio",
+      "Disable video",
+      "Lock the meeting",
+      "Change password"
+    ],
+    "answer": "Lock the meeting"
+  },
+  {
+    "question": "What is the Microsoft Edge path to enable 'Do Not Track'?",
+    "options": [
+      "Privacy, search, and services",
+      "Cookies and permissions",
+      "Extensions",
+      "Security settings"
+    ],
+    "answer": "Privacy, search, and services"
+  },
+  {
+    "question": "If an IoT gaming console app takes your credit card number to enhance performance, which cyber threat is most likely?",
+    "options": [
+      "Keylogger",
+      "Phishing",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which algorithm encrypts a password without needing a key?",
+    "options": [
+      "MD5",
+      "RSA",
+      "AES",
+      "SHA-256"
+    ],
+    "answer": "MD5"
+  },
+  {
+    "question": "Which term refers to unsolicited emails?",
+    "options": [
+      "Spam",
+      "Phishing",
+      "Spoofing",
+      "Malware"
+    ],
+    "answer": "Spam"
+  },
+  {
+    "question": "Which Windows feature protects users from suspicious websites?",
+    "options": [
+      "Firewall",
+      "Windows Defender SmartScreen",
+      "BitLocker",
+      "EFS"
+    ],
+    "answer": "Windows Defender SmartScreen"
+  },
+  {
+    "question": "When someone uses your internet connection without permission, it is called?",
+    "options": [
+      "Hijacking",
+      "Piggybacking",
+      "Spoofing",
+      "Sniffing"
+    ],
+    "answer": "Piggybacking"
+  },
+  {
+    "question": "Which Facebook feature helps you set trusted people to recover your account?",
+    "options": [
+      "Trusted contacts",
+      "Security questions",
+      "Account lock",
+      "Password reset"
+    ],
+    "answer": "Trusted contacts"
+  },
+  {
+    "question": "Which protocol ensures secure communication over the web?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "Which security feature helps protect IoT devices?",
+    "options": [
+      "MFA",
+      "Cookies",
+      "VPN",
+      "Cache clearing"
+    ],
+    "answer": "MFA"
+  },
+  {
+    "question": "Which type of malware modifies browser security settings?",
+    "options": [
+      "Spyware",
+      "Rootkit",
+      "Worm",
+      "Trojan"
+    ],
     "answer": "Spyware"
   },
   {
-    "question": "Because of the pandemic, Sam was given the option of working remotely. She attended training on ensuring security while working remotely. Which of the following will help her maintain the physical security of her laptop and prevent anyone from copying data from her laptop?",
-    "options": ["Enable a USB data blocker", "Lock meetings with the lock meeting feature", "Do not use public Wi-Fi", "Do not click on suspicious links"],
+    "question": "Horace, a retired accountant, experienced BSOD, pop-ups, and malware on his laptop. Which software should he have installed to prevent this?",
+    "options": [
+      "Skype",
+      "One Drive",
+      "Adobe Reader",
+      "Antivirus software"
+    ],
+    "answer": "Antivirus software"
+  },
+  {
+    "question": "Steven forgot to disable Bluetooth after exchanging data with Paul. Hackers could now connect and steal data from his phone. Which attack is Steven vulnerable to?",
+    "options": [
+      "Bluesnarfing",
+      "Blue Screen of Death",
+      "Denial of Service",
+      "Phishing"
+    ],
+    "answer": "Bluesnarfing"
+  },
+  {
+    "question": "Windy wants to send an encrypted email using a symmetric algorithm for fast and strong encryption/decryption. Which algorithm should she use?",
+    "options": [
+      "Diffie-Hellman",
+      "ElGamal",
+      "CRC-32",
+      "Serpent"
+    ],
+    "answer": "Serpent"
+  },
+  {
+    "question": "James's laptop is infected with malware that cannot be removed because of its stealthy operation. Which malicious software type has infected his laptop?",
+    "options": [
+      "Virus",
+      "Spyware",
+      "Rootkit",
+      "Worm"
+    ],
+    "answer": "Rootkit"
+  },
+  {
+    "question": "Infra Tech Inc. has offices in Dubai, Singapore, and Australia. Which network system is most suitable for communication between all branches?",
+    "options": [
+      "Wide Area Network",
+      "Personal Area Network",
+      "Local Area Network",
+      "Virtual Private Network"
+    ],
+    "answer": "Wide Area Network"
+  },
+  {
+    "question": "As part of his security implementation plan, Glenn was updating his firewall. Which aspect of the security plan was he working on?",
+    "options": [
+      "Reaction",
+      "Maintenance",
+      "Precaution",
+      "Nonrepudiation"
+    ],
+    "answer": "Maintenance"
+  },
+  {
+    "question": "Harry received a ransom note demanding $1000 to unlock his encrypted files, but he still lost all documents. Which malware attack was he a victim of?",
+    "options": [
+      "Worm",
+      "Trojan",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answer": "Ransomware"
+  },
+  {
+    "question": "A new online service calculates and shares roommates’ expenses. This service is an example of which?",
+    "options": [
+      "Software as a Service",
+      "Network as a Service",
+      "Platform as a Service",
+      "Infrastructure as a Service"
+    ],
+    "answer": "Software as a Service"
+  },
+  {
+    "question": "Horace’s laptop frequently crashed, showed BSOD, and pop-ups. Which software should he have installed to prevent malware infection?",
+    "options": [
+      "One Drive",
+      "Skype",
+      "Adobe Reader",
+      "Antivirus software"
+    ],
+    "answer": "Antivirus software"
+  },
+  {
+    "question": "Which security concept refers to an action taken in advance to protect a system against threats or dangers?",
+    "options": [
+      "Precaution",
+      "Nonrepudiation",
+      "Maintenance",
+      "Reaction"
+    ],
+    "answer": "Precaution"
+  },
+  {
+    "question": "Robert’s stolen phone was tracked by police through his service provider. Which identifier was used?",
+    "options": [
+      "Security PIN",
+      "IMEI number",
+      "Social security number",
+      "Screen unlock"
+    ],
+    "answer": "IMEI number"
+  },
+  {
+    "question": "Joseph encrypted his Mac files with FileVault. Which encryption algorithm does FileVault use?",
+    "options": [
+      "Advanced Encryption Standard",
+      "Data Encryption Standard",
+      "RC5",
+      "RC4"
+    ],
+    "answer": "Advanced Encryption Standard"
+  },
+  {
+    "question": "Williams downloaded a free app that modified his browser security settings. Which malware caused this?",
+    "options": [
+      "Worm",
+      "Virus",
+      "Spyware",
+      "Trojan"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Sam attended training on remote work security. Which measure helps maintain physical security of her laptop?",
+    "options": [
+      "Enable a USB data blocker",
+      "Lock meetings with the lock meeting feature",
+      "Do not use public Wi-Fi",
+      "Do not click on suspicious links"
+    ],
     "answer": "Enable a USB data blocker"
   },
   {
-    "question": "Jennifer recently discovered that some websites she visited using the Microsoft Edge browser collected her browsing history. She researched and discovered that she could set up Microsoft Edge to send a Do Not Track request to the website. Where can she locate and activate the Do Not Track setting in Edge?",
-    "options": ["Auto-fill -> Passwords", "Settings -> Advanced", "Settings -> Privacy, search, and services", "Settings -> Privacy & Security"],
+    "question": "Ava wants to filter emails with dangerous attachments in Outlook. Which option under Home -> Delete group -> Junk -> Junk E-mail Options should she use?",
+    "options": [
+      "Safe senders",
+      "International",
+      "Blocked senders",
+      "Safe recipients"
+    ],
+    "answer": "Blocked senders"
+  },
+  {
+    "question": "Jennifer wants to disable geotagging on her iPhone camera. Which setting should she choose?",
+    "options": [
+      "Settings -> Privacy -> Location services -> Maps -> Never",
+      "Settings -> Privacy -> Location services -> App Store -> Never",
+      "Settings -> Privacy -> Location services -> Chrome -> Never",
+      "Settings -> Privacy -> Location services -> Camera -> Never"
+    ],
+    "answer": "Settings -> Privacy -> Location services -> Camera -> Never"
+  },
+  {
+    "question": "Alice wants to back up all Mac system data, including settings, to recover files if her system crashes. Which utility can she use?",
+    "options": [
+      "Time Machine",
+      "NetLogon",
+      "BitLocker",
+      "FileVault"
+    ],
+    "answer": "Time Machine"
+  },
+  {
+    "question": "David wants to secure Chrome browser communication with HTTPS. Which extension should he install?",
+    "options": [
+      "Eraser",
+      "HTTPS Everywhere",
+      "File Shredder",
+      "HTTP Everywhere"
+    ],
+    "answer": "HTTPS Everywhere"
+  },
+  {
+    "question": "Ivan receives unsolicited advertisement emails filling his inbox. Which email threat is this?",
+    "options": [
+      "Hoax mail",
+      "Phishing",
+      "Nigerian scam",
+      "Spamming"
+    ],
+    "answer": "Spamming"
+  },
+  {
+    "question": "Williams seeks a cloud provider with VMs, VLAN, apps, storage, IP addresses, and firewalls. Which cloud service suits best?",
+    "options": [
+      "Application as a Service",
+      "Platform as a Service",
+      "Infrastructure as a Service",
+      "Software as a Service"
+    ],
+    "answer": "Infrastructure as a Service"
+  },
+  {
+    "question": "A full backup was created on August 1 with File A, B, C. On Aug 10, only File B changed. On Aug 20, only File C changed. Which backup type is this?",
+    "options": [
+      "Differential backup",
+      "Incremental backup",
+      "Full backup",
+      "Web-based backup"
+    ],
+    "answer": "Incremental backup"
+  },
+  {
+    "question": "Sarah performs a full backup, and in every subsequent update only changed files after the previous backup are included. Which backup type is this?",
+    "options": [
+      "Web-based backup",
+      "Download and install backup",
+      "Incremental backup",
+      "Differential backup"
+    ],
+    "answer": "Incremental backup"
+  },
+  {
+    "question": "Albert’s parents want to limit his time on Mac game apps. Which feature should they use?",
+    "options": [
+      "Guest Account",
+      "Screen Time App Limit",
+      "User Account Control",
+      "BitLocker"
+    ],
+    "answer": "Screen Time App Limit"
+  },
+  {
+    "question": "Bill plans to launch a website for sharing and commenting on pictures/videos. Which cloud category applies?",
+    "options": [
+      "Community cloud",
+      "Private Cloud",
+      "Multi-Cloud",
+      "Public Cloud"
+    ],
+    "answer": "Public Cloud"
+  },
+  {
+    "question": "Adam wants to disable pop-ups in Microsoft Edge. Where is the Pop-ups and Redirects feature located?",
+    "options": [
+      "Privacy and security -> Cookies and other site data",
+      "Settings -> Cookies and site permissions",
+      "Auto-fill -> Passwords",
+      "Privacy & Security -> History"
+    ],
+    "answer": "Settings -> Cookies and site permissions"
+  },
+  {
+    "question": "Edward wants to pair Bluetooth devices cautiously. Which identifier can help?",
+    "options": [
+      "Social security number",
+      "Phone number",
+      "IMEI number",
+      "Security PIN"
+    ],
+    "answer": "Security PIN"
+  },
+  {
+    "question": "Megan created a list of friends who can verify her Facebook login if she forgets her password. What is this feature?",
+    "options": [
+      "Login alerts",
+      "Who can contact me?",
+      "Trusted contacts",
+      "Who can look me up?"
+    ],
+    "answer": "Trusted contacts"
+  },
+  {
+    "question": "Sandy downloaded a fake antivirus program that gave attackers access to her system. Which malware was it?",
+    "options": [
+      "Worm",
+      "Spyware",
+      "Rootkit",
+      "Trojan"
+    ],
+    "answer": "Trojan"
+  },
+  {
+    "question": "A 'Mozilla maintenance services' process slowed down a PC. What should be done to improve performance and security?",
+    "options": [
+      "Install antivirus",
+      "Terminate unnecessary processes",
+      "Set Screen Time Preferences",
+      "Enable FileVault"
+    ],
+    "answer": "Terminate unnecessary processes"
+  },
+  {
+    "question": "Samuel blocked all traffic from a phishing site domain to protect his network. Which defense mechanism did he use?",
+    "options": [
+      "Encryption",
+      "Virus",
+      "Firewall",
+      "Disk encryption"
+    ],
+    "answer": "Firewall"
+  },
+  {
+    "question": "Jennifer wants to enable 'Do Not Track' in Microsoft Edge. Where can she find this setting?",
+    "options": [
+      "Auto-fill -> Passwords",
+      "Settings -> Advanced",
+      "Settings -> Privacy, search, and services",
+      "Settings -> Privacy & Security"
+    ],
     "answer": "Settings -> Privacy, search, and services"
   },
   {
-    "question": "Robert wants to open a branch of his office in a different area of the same city. In this case, which network type would help Robert connect computers within this geographical radius?",
-    "options": ["Wireless Metropolitan Area Networks (WMAN)", "Wireless Local Area Network (WLAN)", "Wireless Wide Area Network (WWAN)", "Wireless Personal Area Network (WPAN)"],
-    "answer": "Wireless Metropolitan Area Networks (WMAN)"
+    "question": "Keeth wants to prevent his brother from accessing personal files on his D: drive in Windows 10. What should he enable?",
+    "options": [
+      "FileVault",
+      "Disable services",
+      "BitLocker",
+      "EFS"
+    ],
+    "answer": "BitLocker"
   },
   {
-    "question": "Lily got a work-from-home job but needed a broadband connection. She contacted a service provider and obtained one. She started working and was satisfied with the connection. After a few days, she saw that her Internet data usage had randomly gone very high and the Internet became slow. She contacted the service provider and explained her problem. They suggested that someone was using her broadband connection. What problem is Lily facing?",
-    "options": ["Man in the middle", "Backdoor hacking", "Phishing", "Piggybacking"],
+    "question": "Robert wants to connect office branches in the same city. Which network type is most suitable?",
+    "options": [
+      "WMAN",
+      "WLAN",
+      "WWAN",
+      "WPAN"
+    ],
+    "answer": "WMAN"
+  },
+  {
+    "question": "Dr. Carter backs up research papers on remote storage accessible from anywhere online. Which provider did he approach?",
+    "options": [
+      "N-able Mail Assure",
+      "GFI MailEssentials",
+      "Netcraft Extension",
+      "Dropbox"
+    ],
+    "answer": "Dropbox"
+  },
+  {
+    "question": "Lily noticed her broadband usage spiking because others were using her connection. What problem is she facing?",
+    "options": [
+      "Man in the middle",
+      "Backdoor hacking",
+      "Phishing",
+      "Piggybacking"
+    ],
     "answer": "Piggybacking"
+  },
+  {
+    "question": "Fleming observed distractions in Zoom meetings from pop-ups. What should he do?",
+    "options": [
+      "Disable private chat",
+      "Turn off annotations",
+      "Lock the meeting",
+      "Mute participants"
+    ],
+    "answer": "Disable private chat"
+  },
+  {
+    "question": "Sarah’s small business with seven employees shares one printer. Which network suits best?",
+    "options": [
+      "Local Area Network",
+      "Personal Area Network",
+      "Wide Area Network",
+      "Virtual Private Network"
+    ],
+    "answer": "Local Area Network"
+  },
+  {
+    "question": "Linda wants to check websites when downloading files in Edge to prevent attacks. Which option should she enable?",
+    "options": [
+      "Set Master Password",
+      "Disable saving passwords",
+      "Turn on Microsoft Defender SmartScreen",
+      "Disable auto sign-in"
+    ],
+    "answer": "Turn on Microsoft Defender SmartScreen"
+  },
+  {
+    "question": "Ivy wants to encrypt her document password without using keys. Which method should she select?",
+    "options": [
+      "ElGamal",
+      "RSA",
+      "ECDSA",
+      "MD5"
+    ],
+    "answer": "MD5"
+  },
+  {
+    "question": "Steve shops online and fears theft of his credit card info. Which browser setting should he disable?",
+    "options": [
+      "ActiveX software",
+      "Java Browser Plugin",
+      "Cookies",
+      "Extensions"
+    ],
+    "answer": "ActiveX software"
+  },
+  {
+    "question": "Billy is new to remote work. Which measure ensures digital security?",
+    "options": [
+      "Lock meetings with the lock meeting feature",
+      "Enable USB data blocker",
+      "Lock home doors",
+      "Avoid USB devices"
+    ],
+    "answer": "Lock meetings with the lock meeting feature"
+  },
+  {
+    "question": "Emmy is concerned about her daughter’s IoT gaming device collecting sensitive data. Which measure helps prevent unauthorized access?",
+    "options": [
+      "MFA",
+      "FileVault",
+      "EFS",
+      "UAC"
+    ],
+    "answer": "MFA"
+  },
+  {
+    "question": "John uses many IoT devices at home and worries about cyberattacks. Which threat and countermeasure combo is most suitable?",
+    "options": [
+      "MiTM – Security Monitoring and Analysis",
+      "Device Hijacking – Device Identification",
+      "Permanent DOS – Security Life Cycle Management",
+      "Application-level DDoS – Encryption"
+    ],
+    "answer": "Application-level DDoS – Encryption"
+  },
+  {
+    "question": "Kristina worries her Alexa device may compromise browser history. Which measure can protect it?",
+    "options": [
+      "Raise User Account Control",
+      "Change the wake word",
+      "Implement EFS",
+      "Use FileVault"
+    ],
+    "answer": "Raise User Account Control"
+  },
+  {
+    "question": "Imagine getting a letter from the Inland Revenue Authority of Singapore (IRAS) demanding that you pay $5,700 in taxes... What is going on in this scenario?",
+    "options": [
+      "Social engineering",
+      "Phishing",
+      "Nigerian scam",
+      "Identity Theft"
+    ],
+    "answer": "Identity Theft"
+  },
+  {
+    "question": "Certain software applications add or modify a particular feature in a browser. What is this application called?",
+    "options": [
+      "Cookies",
+      "Extensions",
+      "Java",
+      "ActiveX"
+    ],
+    "answer": "Extensions"
+  },
+  {
+    "question": "Andrew lost his iPhone... Using which iOS feature, can Andrew locate his phone?",
+    "options": [
+      "Find my iPhone",
+      "System updates",
+      "iCloud backup",
+      "SIM lock"
+    ],
+    "answer": "Find my iPhone"
+  },
+  {
+    "question": "Ellie decides to encrypt the drive... Which software did Ellie use?",
+    "options": [
+      "Adobe",
+      "BitLocker",
+      "SPAMfighter",
+      "Skype"
+    ],
+    "answer": "BitLocker"
+  },
+  {
+    "question": "Daniel noticed unsolicited emails filling his Gmail inbox... Which of the following tools did Daniel probably enquire about?",
+    "options": [
+      "Kaspersky",
+      "Avast Pro",
+      "Norton",
+      "SPAMfighter"
+    ],
+    "answer": "SPAMfighter"
+  },
+  {
+    "question": "Which of the following terms refers to the process of protecting information, and the infrastructure that stores it?",
+    "options": [
+      "Data security",
+      "Keystroke logging",
+      "Availability",
+      "Maintenance"
+    ],
+    "answer": "Data security"
+  },
+  {
+    "question": "Lucy’s computer started showing BSOD and popups... Which inbuilt Windows software should Lucy have enabled?",
+    "options": [
+      "Jump lists",
+      "Task manager",
+      "Windows Defender",
+      "Simple file sharing"
+    ],
+    "answer": "Windows Defender"
+  },
+  {
+    "question": "Raymond received an email requesting personal details from his bank... Which cyber-attack would this have been?",
+    "options": [
+      "Man in the middle attack",
+      "War driver",
+      "Phishing",
+      "Eavesdropping"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which software programs allow you to access and display web pages?",
+    "options": [
+      "Email",
+      "Extensions",
+      "Web browsers",
+      "Search engine"
+    ],
+    "answer": "Web browsers"
+  },
+  {
+    "question": "Harry saw a message: 'All files encrypted, pay $1000'... Which malware attack was this?",
+    "options": [
+      "Ransomware",
+      "Adware",
+      "Botnet",
+      "Virus"
+    ],
+    "answer": "Ransomware"
+  },
+  {
+    "question": "Luke analyzes statistics but recently got incorrect records. Which term best describes these incorrect statistics?",
+    "options": [
+      "Indicators",
+      "Information",
+      "Archives",
+      "Data"
+    ],
+    "answer": "Data"
+  },
+  {
+    "question": "Hermione disables Facebook notifications to focus on exams. Which feature did she use?",
+    "options": [
+      "Deactivate account",
+      "Login alerts",
+      "Where you’re logged in",
+      "Who can look me up"
+    ],
+    "answer": "Deactivate account"
+  },
+  {
+    "question": "Harold gave remote access to 'Bob from IT'... Which attack was Harold a victim of?",
+    "options": [
+      "Evil twin",
+      "Bluesnarfing",
+      "War driver",
+      "Social engineering"
+    ],
+    "answer": "Social engineering"
+  },
+  {
+    "question": "Which of the following terms refers to a collection of information that defines the user and interests?",
+    "options": [
+      "Profile",
+      "Account settings",
+      "Timeline",
+      "Facebook group"
+    ],
+    "answer": "Profile"
+  },
+  {
+    "question": "Which of the following refers to periodic patching of Windows OS?",
+    "options": [
+      "Windows Firewall",
+      "FileVault",
+      "Task manager",
+      "Windows Updates"
+    ],
+    "answer": "Windows Updates"
+  },
+  {
+    "question": "Which of the following helps to backup data on a Mac?",
+    "options": [
+      "Time Machine",
+      "App Store",
+      "Internet Accounts",
+      "Extensions"
+    ],
+    "answer": "Time Machine"
+  },
+  {
+    "question": "Amy received an email asking her to download an invoice for a gift parcel. What threat is this?",
+    "options": [
+      "Malicious email attachment",
+      "Hoax mail",
+      "Malicious user redirection",
+      "Phishing"
+    ],
+    "answer": "Malicious email attachment"
+  },
+  {
+    "question": "Glenn updated his firewall as part of a security implementation plan. Which aspect was this?",
+    "options": [
+      "Maintenance",
+      "Precaution",
+      "Reaction",
+      "Nonrepudiation"
+    ],
+    "answer": "Maintenance"
+  },
+  {
+    "question": "Which privacy issue of clouds exposes users to risk of data access by providers without consent?",
+    "options": [
+      "Data migration",
+      "Data location",
+      "Data ownership",
+      "Data permanency"
+    ],
+    "answer": "Data ownership"
+  },
+  {
+    "question": "Which term refers to malicious software specifically built to target smartphones?",
+    "options": [
+      "Unmanaged applications",
+      "Mobile malware",
+      "Phishing",
+      "Broken cryptography"
+    ],
+    "answer": "Mobile malware"
+  },
+  {
+    "question": "An ITES company launches a photo/video sharing website. Under which cloud category does this fall?",
+    "options": [
+      "Public Cloud",
+      "Private Cloud",
+      "Community cloud",
+      "Hybrid Cloud"
+    ],
+    "answer": "Public Cloud"
+  },
+  {
+    "question": "InfraTech Inc. needs data communication between its international offices. Which network system is suitable?",
+    "options": [
+      "Wide Area Network",
+      "Local Area Network",
+      "Ethernet",
+      "Virtual Private Network"
+    ],
+    "answer": "Wide Area Network"
+  },
+  {
+    "question": "Susan, a 15-year-old, is glued to her computer, appears depressed, and hides her screen. What could be the reason?",
+    "options": [
+      "Unsolicited emails",
+      "Victim of online child abuse",
+      "Social engineering",
+      "Too much pressure at school"
+    ],
+    "answer": "Victim of online child abuse"
+  },
+  {
+    "question": "A service calculates and splits roommate expenses online. What type of cloud service is this?",
+    "options": [
+      "Network as a Service",
+      "Platform as a Service",
+      "Infrastructure as a Service",
+      "Software as a Service"
+    ],
+    "answer": "Software as a Service"
+  },
+  {
+    "question": "ABC Info Ltd. needs legacy and new products to communicate across clouds. Which platform is suitable?",
+    "options": [
+      "Community cloud",
+      "Hybrid cloud",
+      "Private cloud",
+      "Public cloud"
+    ],
+    "answer": "Hybrid cloud"
+  },
+  {
+    "question": "Sam downloaded pirated movies, then files started vanishing. What type of data loss is this?",
+    "options": [
+      "Human error",
+      "Computer virus",
+      "Software failure",
+      "Natural disaster"
+    ],
+    "answer": "Computer virus"
+  },
+  {
+    "question": "Which part of an email contains sender address, time, date, and subject line?",
+    "options": [
+      "Body",
+      "Header",
+      "Footer",
+      "Signature"
+    ],
+    "answer": "Header"
+  },
+  {
+    "question": "Which antivirus technique compares the current state of programs to a clean recorded state?",
+    "options": [
+      "Scanning",
+      "Heuristics analysis",
+      "Integrity checking",
+      "Bookmarks method"
+    ],
+    "answer": "Integrity checking"
+  },
+  {
+    "question": "Horace’s laptop crashed and showed BSOD due to malware. Which software should he have installed?",
+    "options": [
+      "One Drive",
+      "Adobe Reader",
+      "Skype",
+      "Antivirus software"
+    ],
+    "answer": "Antivirus software"
+  },
+  {
+    "question": "Sally scanned all files on her laptop using antivirus. Which technique did she employ?",
+    "options": [
+      "Heuristics analysis",
+      "Scanning",
+      "Integrity checking",
+      "Bookmarks method"
+    ],
+    "answer": "Scanning"
+  },
+  {
+    "question": "Duke lost his pen drive with all his photos. What type of data loss is this?",
+    "options": [
+      "Hardware theft",
+      "Malware attack",
+      "Natural disaster",
+      "Software theft"
+    ],
+    "answer": "Hardware theft"
+  },
+  {
+    "question": "Sarah started a small business with shared printer and computers. Which network suits best?",
+    "options": [
+      "Wide Area Network",
+      "Local Area Network",
+      "Ethernet Physical Layer",
+      "Virtual Private Network"
+    ],
+    "answer": "Local Area Network"
+  },
+  {
+    "question": "John’s laptop displays BSOD due to malware. Which symptom is this?",
+    "options": [
+      "Laptop screen malfunction",
+      "Unexpected crashes",
+      "Slow system",
+      "Hard drive malfunction"
+    ],
+    "answer": "Unexpected crashes"
+  },
+  {
+    "question": "Janine’s new smartphone has a tile-based setup. Which OS is it?",
+    "options": [
+      "Windows",
+      "Android",
+      "Symbian",
+      "iOS"
+    ],
+    "answer": "Windows"
+  },
+  {
+    "question": "What does a lock icon symbolize besides a website name?",
+    "options": [
+      "The website is not accessible",
+      "The website is a secure website",
+      "The website needs a password",
+      "The website cannot be accessed without admin permission"
+    ],
+    "answer": "The website is a secure website"
+  },
+  {
+    "question": "Which term refers to software attackers install to compromise a victim’s computer?",
+    "options": [
+      "Malware",
+      "Bitlocker",
+      "Dropbox",
+      "Lockbin"
+    ],
+    "answer": "Malware"
+  },
+  {
+    "question": "Fred’s parents limited his Mac usage with an inbuilt feature. Which feature is this?",
+    "options": [
+      "UAC slider bar",
+      "Jump lists",
+      "Parental control",
+      "FileVault"
+    ],
+    "answer": "Parental control"
+  },
+  {
+    "question": "Which fundamental concept of security refers to actions taken in advance to protect systems?",
+    "options": [
+      "Maintenance",
+      "Nonrepudiation",
+      "Precaution",
+      "Reaction"
+    ],
+    "answer": "Precaution"
+  },
+  {
+    "question": "Tom was lured by an adult posing as a child online, who touched him inappropriately. Which attack is this?",
+    "options": [
+      "Phishing",
+      "Pornography",
+      "Social engineering",
+      "Grooming"
+    ],
+    "answer": "Grooming"
+  },
+  {
+    "question": "XYZ Infra Solutions needs VMs, VLANs, firewalls, and storage. Which cloud service suits them?",
+    "options": [
+      "Application as a Service",
+      "Software as a Service",
+      "Platform as a Service",
+      "Infrastructure as a Service"
+    ],
+    "answer": "Infrastructure as a Service"
+  },
+  {
+    "question": "Which of the following is the strongest password?",
+    "options": [
+      "Pa#72tLe",
+      "Donna1992",
+      "Domike*",
+      "donnamike92"
+    ],
+    "answer": "Pa#72tLe"
+  },
+  {
+    "question": "Ruth Cole stores client data remotely to avoid data loss from laptop crashes. Which backup is this?",
+    "options": [
+      "Incremental backup",
+      "Online data backup",
+      "Differential backup",
+      "Full system backup"
+    ],
+    "answer": "Online data backup"
+  },
+  {
+    "question": "Isaac accidentally deleted a file permanently. What type of data loss is this?",
+    "options": [
+      "Hardware theft",
+      "Software failure",
+      "Computer virus",
+      "Human error"
+    ],
+    "answer": "Human error"
+  },
+  {
+    "question": "Which website can Windows Phone users use to locate stolen smartphones?",
+    "options": [
+      "iCloud.com",
+      "symbianguru.com/tracking-mobile",
+      "android.com/devicemanager",
+      "account.microsoft.com/devices"
+    ],
+    "answer": "account.microsoft.com/devices"
+  },
+  {
+    "question": "Which encryption program in Mac helps users protect data?",
+    "options": [
+      "FileVault",
+      "Safari",
+      "SPAMfighter",
+      "Lockbin"
+    ],
+    "answer": "FileVault"
+  },
+  {
+    "question": "An email from ABC Bank asked for personal details. Which type of threat is this?",
+    "options": [
+      "Nigerian scam",
+      "Spy-phishing",
+      "Phishing",
+      "Malicious email attachment"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Alex received a transcript of his private call and was blackmailed for $5000. Which attack was this?",
+    "options": [
+      "Phishing",
+      "Man in the middle attack",
+      "Eavesdropping",
+      "Social engineering"
+    ],
+    "answer": "Eavesdropping"
+  },
+  {
+    "question": "Samuel blocked a phishing site by restricting network traffic. Which defense mechanism is this?",
+    "options": [
+      "Disk encryption",
+      "Encryption",
+      "Virus",
+      "Firewall"
+    ],
+    "answer": "Firewall"
+  },
+  {
+    "question": "Susan installed free movie software and her PC slowed down. What should she do?",
+    "options": [
+      "Choose a suitable encryption method",
+      "Install latest antivirus software and scan",
+      "Stop using wireless internet",
+      "Start using Ethernet"
+    ],
+    "answer": "Install latest antivirus software and scan"
   }
 ]
