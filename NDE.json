@@ -1,0 +1,772 @@
+[
+  {
+    "question": "Peter, a security professional, was hired by an organization and was instructed to secure the application and its content from unauthorized access. In this process, Peter implemented a public-key cryptosystem that uses modular arithmetic and elementary number theory for Internet encryption and user authentication. Which of the following algorithms was employed by Peter in the above scenario?",
+    "options": [
+      "RSA",
+      "MD6",
+      "DSA",
+      "SHA-2"
+    ],
+    "answer": "RSA"
+  },
+  {
+    "question": "Mary was surfing the Internet, and she wanted to hide her details and the content she was surfing over the web. She employed a proxy tool that makes his online activity untraceable. Identify the type of proxy employed by John in the above scenario.",
+    "options": [
+      "SOCKS proxy",
+      "Anonymous proxy",
+      "Reverse proxy",
+      "Explicit proxy"
+    ],
+    "answer": "Anonymous proxy"
+  },
+  {
+    "question": "In an organization, employees are restricted from using their own storage devices, and only the company's portable storage devices are allowed. As employees are carrying the company's portable device outside their premises, the data should be protected from unauthorized access. Which of the following techniques can be used to protect the data in a portable storage device?",
+    "options": [
+      "Data retention",
+      "Data encryption",
+      "Data resilience",
+      "Disk mirroring"
+    ],
+    "answer": "Data encryption"
+  },
+  {
+    "question": "Alice was working on her major project; she saved all her confidential files and locked her laptop. Bob wanted to access Alice's laptop for his personal use but was unable to access the laptop due to biometric authentication. Which of the following network defense approaches was employed by Alice on her laptop?",
+    "options": [
+      "Retrospective approach",
+      "Preventive approach",
+      "Reactive approach",
+      "Proactive approach"
+    ],
+    "answer": "Preventive approach"
+  },
+  {
+    "question": "Sarah was accessing confidential office files from a remote location via her personal computer connected to the public Internet. Accidentally, a malicious file was downloaded onto Sarah's computer without her knowledge. This download might be due to the free Internet access and the absence of network defense solutions. Identify the Internet access policy demonstrated in the above scenario.",
+    "options": [
+      "Permissive policy",
+      "Promiscuous policy",
+      "Paranoid policy",
+      "Prudent policy"
+    ],
+    "answer": "Promiscuous policy"
+  },
+  {
+    "question": "Messy, a network defender, was hired to secure an organization's internal network. He deployed an IDS in which the detection process depends on observing and comparing the observed events with the normal behavior and then detecting any deviation from it. Identify the type of IDS employed by Messy in the above scenario.",
+    "options": [
+      "Signature-based",
+      "Stateful protocol analysis",
+      "Anomaly-based",
+      "Application proxy"
+    ],
+    "answer": "Anomaly-based"
+  },
+  {
+    "question": "Bob, a security professional, was recruited by an organization to ensure that application services are being delivered as expected without any delay. To achieve this, Bob decided to maintain different backup servers for the same resources so that if one backup system fails, another will serve the purpose. Identify the IA principle employed by Bob in the above scenario.",
+    "options": [
+      "Authentication",
+      "Confidentiality",
+      "Integrity",
+      "Availability"
+    ],
+    "answer": "Availability"
+  },
+  {
+    "question": "Which of the following actors in the NIST cloud deployment reference architecture acts as an intermediary for providing connectivity and transport services between cloud consumers and providers?",
+    "options": [
+      "Cloud provider",
+      "Cloud auditor",
+      "Cloud consumer",
+      "Cloud carrier"
+    ],
+    "answer": "Cloud carrier"
+  },
+  {
+    "question": "Clark, a security professional, was instructed to monitor and continue the backup functions without interrupting the system or application services. In this process, Clark implemented a backup mechanism that dynamically backups the data even if the system or application resources are being used. Which of the following types of backup mechanisms has Clark implemented in the above scenario?",
+    "options": [
+      "Full backup",
+      "Offline backup",
+      "Cold backup",
+      "Hot backup"
+    ],
+    "answer": "Hot backup"
+  },
+  {
+    "question": "Which of the following protocols uses TLS/SSL to ensure secure transmission of data over the Internet?",
+    "options": [
+      "HTTPS",
+      "SCTP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "Finch, a security professional, was instructed to strengthen the security at the entrance. At the doorway, he implemented a security mechanism that allows employees to register their retina scan and a unique six- digit code, using which they can enter the office at any time. Which of the following combinations of authentication mechanisms is implemented in the above scenario?",
+    "options": [
+      "Biornetric and password authentication",
+      "Password and two-factor authentication",
+      "Two-factor and smart card authentication",
+      "Smart card and password authentication"
+    ],
+    "answer": "Biornetric and password authentication"
+  },
+  {
+    "question": "Below are various authentication techniques. 1.Retina scanner 2.One-time password 3.DNA 4.Voice recognition Identify the techniques that fall under biometric authentication.",
+    "options": [
+      "1, 3, and 4",
+      "1, 2, and 3",
+      "2, 3, and 4",
+      "1, 2, and 4"
+    ],
+    "answer": "1, 3, and 4"
+  },
+  {
+    "question": "Which of the following ISO standards provides guidance to ensure that cloud service providers offer appropriate information security controls to protect the privacy of their customer's clients by securing personally identifiable information entrusted to them?",
+    "options": [
+      "ISO/IEC 27001",
+      "ISO/IEC 27018",
+      "ISO/IEC 27011",
+      "ISO/IEC 27007"
+    ],
+    "answer": "ISO/IEC 27018"
+  },
+  {
+    "question": "Stephen, a security specialist, was instructed to identify emerging threats on the organization's network. In this process, he employed a computer system on the Internet intended to attract and trap those who attempt unauthorized host system utilization to penetrate the organization's network. Identify the type of security solution employed by Stephen in the above scenario.",
+    "options": [
+      "Firewall",
+      "Honeypot",
+      "IDS",
+      "Proxy server"
+    ],
+    "answer": "Honeypot"
+  },
+  {
+    "question": "George, a professional hacker, targeted a bank employee and tried to crack his password while he was attempting to log on to the remote server to perform his regular banking operations. In thisprocess, George used sniffing tools to capture the password pairwise master key (PMK) associated with the handshake authentication process. Then, using the PMK, he gained unauthorized access to the server to perform malicious activities. Identify the encryption technology on which George performed password cracking.",
+    "options": [
+      "WPA3",
+      "WPA",
+      "WPA2",
+      "WEP"
+    ],
+    "answer": "WPA2"
+  },
+  {
+    "question": "James was recruited as security personnel in an organization and was instructed to secure the organization's infrastructure from physical threats. To achieve this, James installed CCTV systems near gates, reception, hallways, and workplaces to capture illicit activities inside the premises, identify activities that need attention, collect images as evidence, and aid in an alarm system. Identify the type of physical security control implemented by James in the above scenario.",
+    "options": [
+      "Lighting system",
+      "Fire-fighting systems",
+      "Physical barriers",
+      "Video surveillance"
+    ],
+    "answer": "Video surveillance"
+  },
+  {
+    "question": "Daniel, a networking specialist, identifies a glitch in a networking tool and fixes it on a priority using a system. Daniel was authorized to make a copy of computers programs while maintaining or repairing the system. Which of the following acts was demonstrated in the above scenario?",
+    "options": [
+      "Sarbanes-Oxley Act (SOX)",
+      "The Digital Millennium Copyright Act (DMCA)",
+      "Data Protection Act 2018 (DPA)",
+      "Gramm-Leach-Bliley Act (GLBA)"
+    ],
+    "answer": "The Digital Millennium Copyright Act (DMCA)"
+  },
+  {
+    "question": "George, a certified security professional, was hired by an organization to ensure that the server accurately responds to customer requests. In this process, George employed a security solution to monitor the network traffic toward the server. While monitoring the traffic, he identified attack signatures such as SYN flood and ping of death attempts on the server. Which of the following categories of suspicious traffic signature has George identified in the above scenario?",
+    "options": [
+      "Informational",
+      "Reconnaissance",
+      "Unauthorized access",
+      "Denial-of-service (DoS)"
+    ],
+    "answer": "Denial-of-service (DoS)"
+  },
+  {
+    "question": "Finch, a security auditor, was assigned the task of providing devices to all the employees to enable work from remote locations. Finch restricted the devices to work only for organization- relatedtasks, and not for personal use. Which of the following mobile usage policies has Finch implemented in the above scenario?",
+    "options": [
+      "CYOD",
+      "COBO",
+      "COPE",
+      "BYOD"
+    ],
+    "answer": "COBO"
+  },
+  {
+    "question": "Jay, a network administrator, was monitoring traffic flowing through an IDS. Unexpectedly, he received an event triggered as an alarm, although there is no active attack in progress. Identify the type of IDS alert Jay has received in the above scenario.",
+    "options": [
+      "True negative alert",
+      "False positive alert",
+      "True positive alert",
+      "False negative alert"
+    ],
+    "answer": "False positive alert"
+  },
+  {
+    "question": "Which of the following types of network segmentation is an easy approach to divide a network but can be expensive as it occupies more space?",
+    "options": [
+      "VLAN segmentation",
+      "Logical segmentation",
+      "Network virtualization",
+      "Physical segmentation"
+    ],
+    "answer": "Physical segmentation"
+  },
+  {
+    "question": "Which of the following access control models refers to assigning permissions to a user role based on the rules defined for each user role by the administrator?",
+    "options": [
+      "Discretionary rule access control",
+      "Mandatory rule access control",
+      "Rule-based access control",
+      "Role-based access control"
+    ],
+    "answer": "Rule-based access control"
+  },
+  {
+    "question": "Kevin, a security team member, was instructed to share a policy document with the employees. As it was supposed to be shared within the network, he used a simple algorithm to encrypt the document that just rearranges the same characters to produce the ciphertext. Identify the type of cipher employed by Kevin in the above scenario.",
+    "options": [
+      "Substitution cipher",
+      "Streamn cipher",
+      "Transposition cipher",
+      "Block cipher"
+    ],
+    "answer": "Transposition cipher"
+  },
+  {
+    "question": "Jamie wants to send a confidential file to her friend Alice. For this purpose, they installed an application for securely sharing the file. The application employs an encryption algorithm that usesthe same shared secret key for encryption and decryption of data. Identify the type of cryptography employed by the application used by Alice and Jamie for file sharing.",
+    "options": [
+      "Symmetric cryptography",
+      "Public-key cryptography",
+      "RSA cryptosystem",
+      "Asymmetric cryptography"
+    ],
+    "answer": "Symmetric cryptography"
+  },
+  {
+    "question": "Identify the loT communication model that serves as an analyzer for a company to track monthly or yearly energy consumption. Using this analysis, companies can reduce the expenditure on energy.",
+    "options": [
+      "Device-to-device model",
+      "Cloud-to-cloud model",
+      "Device-to-cloud model",
+      "Device-to-gateway model"
+    ],
+    "answer": "Cloud-to-cloud model"
+  },
+  {
+    "question": "Which of the following types of network cable is made up of a single copper conductor at its center and a plastic layer that provides an insulated center conductor with a braided metal shield?",
+    "options": [
+      "Unshielded twisted pair",
+      "Coaxial",
+      "Fiber optic",
+      "Shielded twisted pair"
+    ],
+    "answer": "Coaxial"
+  },
+  {
+    "question": "Johana was working on a confidential project on her laptop. After working for long hours, she wanted to have a coffee break. Johana left the system active with the project file open and went for a coffee break. Soon after Johana left the place, Bob accessed Johana's system and modified the project file. Which of the following security guidelines did Johana fail to comply with?",
+    "options": [
+      "Always log off or lock the system when unattended",
+      "Do not share your computer user account details",
+      "Keep different passwords for the OS and frequently used applications",
+      "Do not keep a common password for all accounts"
+    ],
+    "answer": "Always log off or lock the system when unattended"
+  },
+  {
+    "question": "Kevin logged into a banking application with his registered credentials and tried to transfer someamount from his account to Flora's account. Before transferring the amount to Flora's account, the application sent an OTP to Kevin's mobile for confirmation. Which of the following authentication mechanisms is employed by the banking application in the above scenario?",
+    "options": [
+      "Biometric authentication",
+      "Smart card authentication",
+      "Single sign-on (SSO) authentication",
+      "Two-factor authentication"
+    ],
+    "answer": "Two-factor authentication"
+  },
+  {
+    "question": "Clark, a security team member of an organization, was instructed to secure the premises from unauthorized entries. In this process, Clark implemented security controls that allow employees to enter the office only after scanning their badges or fingerprints. Which of the following security controls has Clark implemented in the above scenario?",
+    "options": [
+      "Administrative security controls",
+      "Technical security controls",
+      "Physical security controls",
+      "System access controls"
+    ],
+    "answer": "Physical security controls"
+  },
+  {
+    "question": "Which of the following techniques is referred to as a messaging feature that originates from a server and enables the delivery of data or a message from an application to a mobile device without any explicit request from the user?",
+    "options": [
+      "Push notification",
+      "PIN feature",
+      "Geofencing",
+      "Containerization"
+    ],
+    "answer": "Push notification"
+  },
+  {
+    "question": "Which of the following environmental controls options saves the hardware from humidity and heat, increases hardware performance, and maintains consistent room temperature?",
+    "options": [
+      "Hot and cold aisles",
+      "Lighting systern",
+      "Temperature indicator",
+      "EMI shielding"
+    ],
+    "answer": "Hot and cold aisles"
+  },
+  {
+    "question": "George, a certified security professional, was hired by an organization to ensure that the server accurately responds to customer requests. In this process, George employed a security solution to monitor the network traffic toward the server. While monitoring the traffic, he identified attack signatures such as SYN flood and ping of death attempts on the server. Which of the following categories of suspicious traffic signature has George identified in the above scenario?",
+    "options": [
+      "Reconnaissance",
+      "Denial-of-service (DoS)",
+      "Informational",
+      "Unauthorized access"
+    ],
+    "answer": "Denial-of-service (DoS)"
+  },
+  {
+    "question": "Jacob, a network defender in an organization, was instructed to improve the physical security measures to prevent unauthorized intrusion attempts. In this process, Jacob implemented certain physical security controls by using warning messages and signs that notify legal consequences to discourage hackers from making intrusion attempts. Which of the following type of physical security controls has Jacob implemented in the above scenario?",
+    "options": [
+      "Recovery controls",
+      "Detective control",
+      "Preventive controls",
+      "Deterrent controls"
+    ],
+    "answer": "Deterrent controls"
+  },
+  {
+    "question": "Below are the various steps involved in establishing a network connection using the shared key authentication process. 1.The AP sends a challenge text to the station. 2.The station connects to the network. 3.The station encrypts the challenge text using its configured 128-bit key and sends the encrypted text to the AP. 4.The station sends an authentication frame to the AP. 5.The AP uses its configured WEP key to decrypt the encrypted text and compares it with the original challenge text. What is the correct sequence of steps involved in establishing a network connection using the shared key authentication process?",
+    "options": [
+      "4 -- >2 -- >1 -- >3 -- >5",
+      "4 -- >1 -- >3 -- >5 -- >2",
+      "2 -- >4 -- >5 -- >1 -- >3",
+      "4 -- >5 -- >3 -- >2 -- >1"
+    ],
+    "answer": "4 -- >1 -- >3 -- >5 -- >2"
+  },
+  {
+    "question": "A major fire broke out in the storeroom of CyberSol Inc. It first gutted the equipment in the storeroom and then started spreading to other areas in the company. The officials of the company informed the fire department. The fire rescue team reached the premises and used a distribution piping system to suppress the fire, thereby preventing any human or asset loss. Identify the type of fire-fighting system used by the rescue team in the above scenario.",
+    "options": [
+      "Wet chemical suppressant",
+      "Sprinkler system",
+      "Fire extinguisher",
+      "Standpipe system"
+    ],
+    "answer": "Standpipe system"
+  },
+  {
+    "question": "Below is the list of encryption modes used in a wireless network. 1.WPA2 Enterprise with RADIUS 2.WPA3 3.WPA2 PSK 4.WPA2 Enterprise Identify the correct order of wireless encryption modes in terms of security from high to low.",
+    "options": [
+      "2 -- >1 -- >4 -- >3",
+      "3 -- >1 -- >4 -- >2",
+      "4 -- >2 -- >3 -- >1",
+      "4 -- >3 -- >2 -- >1"
+    ],
+    "answer": "2 -- >1 -- >4 -- >3"
+  },
+  {
+    "question": "Carol is a new employee at ApTech Sol Inc., and she has been allocated a laptop to fulfill his job activities. Carol tried to install certain applications on the company's laptop but could not complete the installation as she requires administrator privileges to initiate the installation process. The administrator imposed an access policy on the company's laptop that only users with administrator privileges have installation rights. Identify the access control model demonstrated in the above scenario.",
+    "options": [
+      "Rule-based access control {RB-RBAC)",
+      "Mandatory access control {MAC)",
+      "Role-based access control (RBAC)",
+      "Discretionary access control (DAC)"
+    ],
+    "answer": "Role-based access control (RBAC)"
+  },
+  {
+    "question": "Below are the various steps involved in the creation of a data retention policy. 1.Understand and determine the applicable legal requirements of the organization 2.Ensure that all employees understand the organization's data retention policy 3.Build a data retention policy development team 4.ldentify and classify the data to be included in the data retention policy 5.Develop the data retention policy Identify the correct sequence of steps involved.",
+    "options": [
+      "3 -- >2 -- >5 -- >4 -- >1",
+      "3 -- >1 -- >4 -- >5 -- >2",
+      "1 -- >3 -- >4 -- >2 -- >5",
+      "1 -- >5 -- >4 -- >2 -- >3"
+    ],
+    "answer": "3 -- >1 -- >4 -- >5 -- >2"
+  },
+  {
+    "question": "Amber is working as a team lead in an organization. She was instructed to share a policy document with all the employees working from remote locations and collect them after filling. She shared the files from her mobile device to the concerned employees through the public Internet. An unauthorized user accessed the file in transit, modified the file, and forwarded it to the remote employees. Based on the above scenario, identify the security risk associated with mobile usage policies.",
+    "options": [
+      "Lost or stolen devices",
+      "Infrastructure issues",
+      "Improperly disposing of devices",
+      "Sharing confidential data on an unsecured network"
+    ],
+    "answer": "Sharing confidential data on an unsecured network"
+  },
+  {
+    "question": "John is working as a network administrator in an MNC company. He was instructed to connect all the remote offices with the corporate office but at the same time deny communication between the remote offices. In this process, he configured a central hub at the corporate head office, through which all branch offices can communicate. Identify the type of VPN topology implemented by John in the above scenario.",
+    "options": [
+      "Star topology",
+      "Hub-and-spoke topology",
+      "Point-to-point topology",
+      "Mesh topology"
+    ],
+    "answer": "Hub-and-spoke topology"
+  },
+  {
+    "question": "Bob has secretly installed smart CCTV devices (loT devices) outside his home and wants to access the recorded data from a remote location. These smart CCTV devices send sensed data to an intermediate device that carries out pre-processing of data online before transmitting it to the cloud for storage and analysis. The analyzed data is then sent to Bob for initiating actions. Identify the component of loT architecture that collects data from loT devices and performs data pre- processing.",
+    "options": [
+      "Streaming data processor",
+      "Gateway",
+      "Data lakes",
+      "Machine learning"
+    ],
+    "answer": "Gateway"
+  },
+  {
+    "question": "Stella, a mobile user, often ignores the messages received from the manufacturer for updates. One day, she found that files in her device are being replaced, she immediately rushed to the nearest service center for inquiry. They tested the device and identified vulnerabilities in it as it ran with an obsolete OS version. Identify the mobile device security risk raised on Stella's device in the above scenario.",
+    "options": [
+      "Application-based risk",
+      "System-based risk",
+      "Network-based risk",
+      "Physical security risks"
+    ],
+    "answer": "System-based risk"
+  },
+  {
+    "question": "Kalley, a network administrator of an organization, has installed a traffic monitoring system to capture and report suspicious traffic signatures. In this process, she detects traffic containing password cracking, sniffing, and brute-forcing attempts.Which of the following categories of suspicious traffic signature were identified by Kalley through the installed monitoring system?",
+    "options": [
+      "Reconnaissance signatures",
+      "Unauthorized access signatures",
+      "Denial-of-service (DoS) signatures",
+      "Informational signatures"
+    ],
+    "answer": "Unauthorized access signatures"
+  },
+  {
+    "question": "Jessica, a user, wanted to access the Internet from her laptop and therefore sends a connection request to the access point. To identify the wireless client, the access point forwarded that request to a RADIUS server. The RADIUS server transmitted authentication keys to both the access point and Jessica's laptop. This key helps the access point identify a particular wireless client. Identify the authentication method demonstrated in the above scenario.",
+    "options": [
+      "Shared key authentication",
+      "Null authentication",
+      "Open system authentication",
+      "Centralized authentication"
+    ],
+    "answer": "Centralized authentication"
+  },
+  {
+    "question": "Steve was sharing his confidential file with John via an email that was digitally signed and encrypted. The digital signature was made using the \"Diffie-Hellman (X9.42) with DSS\" algorithm, and the email was encrypted using triple DES. Which of the following protocols employs the above features to encrypt an email message?",
+    "options": [
+      "S/MIME",
+      "EAP",
+      "RADIUS",
+      "TACACS+"
+    ],
+    "answer": "S/MIME"
+  },
+  {
+    "question": "Which of the following types of network traffic flow does not provide encryption in the data transfer process, and the data transfer between the sender and receiver is in plain text?",
+    "options": [
+      "SSL traffic",
+      "HTTPS traffic",
+      "SSH traffic",
+      "FTP traffic"
+    ],
+    "answer": "FTP traffic"
+  },
+  {
+    "question": "Kelly, a cloud administrator at TechSol Inc., was instructed to select a cloud deployment model to secure the corporate data and retain full control over the data. Which of the following cloud deployment models helps Kelly in the above scenario?",
+    "options": [
+      "Public cloud",
+      "Multi cloud",
+      "Community cloud",
+      "Private cloud"
+    ],
+    "answer": "Private cloud"
+  },
+  {
+    "question": "Which of the following objects of the container network model (CNM) contains the configuration files of a container's network stack, such as routing table, container's interfaces, and DNS settings?",
+    "options": [
+      "Endpoint",
+      "Sandbox",
+      "Network drivers",
+      "IPAM drivers"
+    ],
+    "answer": "Sandbox"
+  },
+  {
+    "question": "Ben, a computer user, applied for a digital certificate. A component of PKI verifies Ben's identity using the credentials provided and passes that request on behalf of Ben to grant the digital certificate. Which of the following PKI components verified Ben as being legitimate to receive the certificate?",
+    "options": [
+      "Certificate authority (CA)",
+      "Registration authority {RA)",
+      "Certificate directory",
+      "Validation authority (VA)"
+    ],
+    "answer": "Registration authority {RA)"
+  },
+  {
+    "question": "Joseph, a cloud administrator, was recruited for the management and deployment of the software containers. As part of his job, Joseph employed an automated solution that converts images into containers, deploys them to the hosts, and further monitors container workflow from a single location. Identify the solution employed by Joseph in the above scenario.",
+    "options": [
+      "Port scanners",
+      "Orchestrators",
+      "Network monitors",
+      "Sniffers"
+    ],
+    "answer": "Orchestrators"
+  },
+  {
+    "question": "Which of the following IDS components analyzes the traffic and reports if any suspicious activity is detected?",
+    "options": [
+      "Command console",
+      "Network sensor",
+      "Database of attack signatures",
+      "Response system"
+    ],
+    "answer": "Network sensor"
+  },
+  {
+    "question": "An loT sensor in an organization generated an emergency alarm indicating a security breach. The servers hosted in an loT layer accepted, stored, and processed the sensor data received from loT gateways and created dashboards for monitoring, analyzing, and implementing proactive decisions to tackle the issue. Which of the following layers in the loT architecture performed the above activities after receiving an alert from the loT sensor?",
+    "options": [
+      "Device layer",
+      "Cloud layer",
+      "Process layer",
+      "Communication Layer"
+    ],
+    "answer": "Cloud layer"
+  },
+  {
+    "question": "Which of the following layers of loT architecture employs protocols and networks for connecting, sending, and receiving data between devices and network?",
+    "options": [
+      "Device layer",
+      "Cloud layer",
+      "Communication layer",
+      "Process layer"
+    ],
+    "answer": "Communication layer"
+  },
+  {
+    "question": "Which of the following tools is designed to identify and prevent malicious Trojans or malware from infecting computer systems or electronic devices?",
+    "options": [
+      "HOIC",
+      "HitmanPro",
+      "Hulk",
+      "Hashcat"
+    ],
+    "answer": "HitmanPro"
+  },
+  {
+    "question": "Robert, an ISP, was instructed to provide network connectivity to all areas even if some locations are inaccessible to capture direct signals from wireless access points. In this process, Robert used a wireless network component that takes a signal from one access point and boosts its signal strength to create a new network. Identify the component of the wireless network employed by Robert in the above scenario.",
+    "options": [
+      "Mobile hotspot",
+      "Wireless bridge",
+      "Wireless NIC",
+      "Wireless repeater"
+    ],
+    "answer": "Wireless repeater"
+  },
+  {
+    "question": "Joseph, a security professional, was instructed to secure the organization's network. In this process, he began analyzing packet headers to check whether any indications of source and destination IP addresses and port numbers are being changed during transmission. Identify the attack signature analysis technique performed by Joseph in the above scenario.",
+    "options": [
+      "Composite-signature-based analysis",
+      "Context-based signature analysis",
+      "Content-based signature analysis",
+      "Atomic-signature-based analysis"
+    ],
+    "answer": "Atomic-signature-based analysis"
+  },
+  {
+    "question": "John has recently joined an organization and completed his security training. The organization conducted a security campaign on their employees by sending a fake email stating the urgency of password reset. John identified that it was an illegitimate mail and reported it as spam. Identify the type of attack initiated by the organization as part of the security campaign discussed in the above scenario.",
+    "options": [
+      "Phishing",
+      "Tailgating",
+      "Dumpster diving",
+      "Shoulder surfing"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which of the following algorithms uses a sponge construction where message blocks are XORed into the initial bits of the state that the algorithm then invertible permutes?",
+    "options": [
+      "MD5",
+      "SHA-2",
+      "SHA-3",
+      "MD6"
+    ],
+    "answer": "SHA-3"
+  },
+  {
+    "question": "Which of the following components of VPN is used to manage tunnels and encapsulate private data?",
+    "options": [
+      "Remote network",
+      "VPN protocol",
+      "Network access server",
+      "VPN client"
+    ],
+    "answer": "VPN protocol"
+  },
+  {
+    "question": "Which of the following solutions is a software or a hardware device on a network or host that filters the incoming and outgoing traffic to prevent unauthorized access to private networks?",
+    "options": [
+      "Firewall",
+      "Router",
+      "Hub",
+      "Switch"
+    ],
+    "answer": "Firewall"
+  },
+  {
+    "question": "Which of the following practices helps security professionals protect mobile applications from various attacks?",
+    "options": [
+      "Always cache app data",
+      "Use containerization for critical corporate data",
+      "Use query string while handling sensitive data",
+      "Allow apps to save passwords to avoid multiple logins"
+    ],
+    "answer": "Use containerization for critical corporate data"
+  },
+  {
+    "question": "Identify the backup mechanism that is performed within the organization using external devices such as hard disks and requires human interaction to perform the backup operations, thus, making it suspectable to theft or natural disasters.",
+    "options": [
+      "Cloud data backup",
+      "Onsite data backup",
+      "Offsite data backup",
+      "Online data backup"
+    ],
+    "answer": "Onsite data backup"
+  },
+  {
+    "question": "Identify the UBA tool that collects user activity details from multiple sources and uses artificial intelligence and machine learning algorithms to perform user behavior analysis to prevent and detect various threats before the fraud is perpetrated.",
+    "options": [
+      "Nmap",
+      "ClamWin",
+      "Dtex systems",
+      "Wireshark"
+    ],
+    "answer": "Dtex systems"
+  },
+  {
+    "question": "James was recruited as security personnel in an organization and was instructed to secure the organization's infrastructure from physical threats. To achieve this, James installed CCTV systems near gates, reception, hallways, and workplaces to capture illicit activities inside the premises, identify activities that need attention, collect images as evidence, and aid in an alarm system. Identify the type of physical security control implemented by James in the above scenario.",
+    "options": [
+      "Video surveillance",
+      "Fire-fighting systems",
+      "Lighting system",
+      "Physical barriers"
+    ],
+    "answer": "Video surveillance"
+  },
+  {
+    "question": "John is working as a security professional in FinCorp Ltd. He was instructed to deploy a security solution on their corporate network that provides real-time monitoring, correlation of events, threat detection, and security incident response activities. Which of the following security solutions helps John in the above scenario?",
+    "options": [
+      "SIEM",
+      "VPN",
+      "SOCKS",
+      "MDM"
+    ],
+    "answer": "SIEM"
+  },
+  {
+    "question": "John, from a remote location, was monitoring his bedridden grandfather's health condition at his home. John has placed a smart wearable ECG on his grandfather's wrist so that he can receive alerts to his mobile phone and can keep a track over his grandfather's health condition periodically. Which of the following types of loT communication model was demonstrated in the above scenario?",
+    "options": [
+      "Device-to-gateway model",
+      "Device-to-cloud model",
+      "Cloud-to-cloud communication model",
+      "Device-to-device model"
+    ],
+    "answer": "Device-to-cloud model"
+  },
+  {
+    "question": "Peter, a network defender, was instructed to protect the corporate network from unauthorized access. To achieve this, he employed a security solution for wireless communication that uses dragonfly key exchange for authentication, which is the strongest encryption algorithm that protects the network from dictionary and key recovery attacks. Identify the wireless encryption technology implemented in the security solution selected by Peter in the above scenario.",
+    "options": [
+      "WPA",
+      "WPA3",
+      "EAP",
+      "WEP"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "Mark, a network administrator in an organization, was assigned the task of preventing data from falling into the wrong hands. In this process, Mark implemented authentication techniques and performed full memory encryption for the data stored on RAM. In which of the following states has Steve encrypted the data in the above scenario?",
+    "options": [
+      "Data in use",
+      "Data in transit",
+      "Data inactive",
+      "Data in rest"
+    ],
+    "answer": "Data in use"
+  },
+  {
+    "question": "Which of the following algorithms is an iterated block cipher that works by repeating the defined steps multiple times and has a 128-bit block size, having key sizes of 128, 192, and 256 bits?",
+    "options": [
+      "DSA",
+      "MD5",
+      "SHA",
+      "AES"
+    ],
+    "answer": "AES"
+  },
+  {
+    "question": "Barbara, a security professional, was monitoring the loT traffic through a security solution. She identified that one of the infected devices is trying to connect with other loT devices and spread malware onto the network. Identify the port number used by the malware to spread the infection to other loT devices.",
+    "options": [
+      "Port 25",
+      "Port 443",
+      "Port 110",
+      "Port 48101"
+    ],
+    "answer": "Port 48101"
+  },
+  {
+    "question": "Fernandez, a computer user, initiated an action to access a file located on a remote server. In this process, his account went through certain security constraints to check for any restrictions on his account with regard to access to the file. Which of the following terms is referred to as a file in the above scenario?",
+    "options": [
+      "Operation",
+      "Subject",
+      "Reference monitor",
+      "Object"
+    ],
+    "answer": "Object"
+  },
+  {
+    "question": "Identify the technique through which mobile application marketers utilize the user's location to gather sensitive data and know about users' offline activities from the location data.",
+    "options": [
+      "Containerization",
+      "Push notification",
+      "Full device encryption",
+      "Geofencing"
+    ],
+    "answer": "Geofencing"
+  },
+  {
+    "question": "Which of the following acts was enacted in 2002 and aims to protect the public and investors by increasing the accuracy and reliability of corporate disclosures?",
+    "options": [
+      "Sarbanes-Oxley Act (SOX)",
+      "Digital Millennium Copyright Act (DMCA)",
+      "Gramm-Leach-Bliley Act",
+      "Payment Card Industry-Data Security Standard (PCI-DSS)"
+    ],
+    "answer": "Sarbanes-Oxley Act (SOX)"
+  },
+  {
+    "question": "Alice purchased a new zip-based document bag and placed white papers related to the academic project. As it contains confidential information, she locked it with a physical security control that requires a sequence of numbers and letters to unlock. Identify the type of physical locking system used by Alice in the above scenario.",
+    "options": [
+      "Combination lock",
+      "Mechanical lock",
+      "Electromagnetic lock",
+      "Digital lock"
+    ],
+    "answer": "Combination lock"
+  },
+  {
+    "question": "Which of the following techniques protects sensitive data by obscuring specific areas with random characters or codes?",
+    "options": [
+      "Data retention",
+      "Data resilience",
+      "Data backup",
+      "Data masking"
+    ],
+    "answer": "Data masking"
+  },
+  {
+    "question": "Jacob, an attacker, targeted container technology to destroy the reputation of an organization. To achieve this, he initially compromised a single container exploiting weak network defaults,overloaded the rest of the containers in the local domain, and restricted them from providing services to legitimate users. Identify the type of attack initiated by Jacob in the above scenario.",
+    "options": [
+      "Cross-container attack",
+      "Docker registry attack",
+      "Container escaping attack",
+      "Replay attack"
+    ],
+    "answer": "Cross-container attack"
+  },
+  {
+    "question": "Cibel.org, an organization, wanted to develop a web application for marketing its products to the public. In this process, they consulted a cloud service provider and requested provision of development tools, configuration management, and deployment platforms for developing customized applications. Identify the type of cloud service requested by Cibel.org in the above scenario.",
+    "options": [
+      "Security-as-a-service (SECaaS)",
+      "Platform-as-a-service",
+      "Infrastructure-as-a-service {laaS)",
+      "ldentity-as-a-service {IDaaS)"
+    ],
+    "answer": "Platform-as-a-service"
+  }
+]
