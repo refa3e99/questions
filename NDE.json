@@ -557,7 +557,7 @@
       "Content-based signature analysis",
       "Atomic-signature-based analysis"
     ],
-    "answer": "Atomic-signature-based analysis"
+    "answer": "Context-based signature analysis"
   },
   {
     "question": "John has recently joined an organization and completed his security training. The organization conducted a security campaign on their employees by sending a fake email stating the urgency of password reset. John identified that it was an illegitimate mail and reported it as spam. Identify the type of attack initiated by the organization as part of the security campaign discussed in the above scenario.",
