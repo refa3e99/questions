@@ -1,5 +1,255 @@
 [
     {
+        "question": "Kalley, a shopping freak, often visits different e-commerce websites from her office system. One day, she received a free software on her mail with the claim that it is loaded with new clothing offers. Tempted by this, Kalley downloaded the malicious software onto her system. The software infected Kalley's system and began spreading the infection to other systems connected to the network. Identify the threat source through which Kalley unintentionally invited the malware into the network?",
+        "options": [
+            "Portable hardware media",
+            "File sharing services",
+            "Decoy application",
+            "Insecure patch management"
+        ],
+        "answer": "Decoy application"
+    },
+    {
+        "question": "Sam is a hacker who decided to damage the reputation of an organization. He started collecting information about the organization using social engineering techniques. Sam aims to gather critical information such as admin passwords and OS versions to plan for in attack. Identify the target employee in the organization from whom Sam can gather the required information.",
+        "options": [
+            "Helpdesk",
+            "System administrators",
+            "Third-party service provider",
+            "Customer support team"
+        ],
+        "answer": "System administrators"
+    },
+    {
+        "question": "In which of the following levels of the OSI model does an attacker gain control over the HTTP user session by obtaining the session IDs and create new unauthorized sessions by using the stolen data?",
+        "options": [
+            "Presentation level",
+            "Transport level",
+            "Application level",
+            "Network level"
+        ],
+        "answer": "Application level"
+    },
+    {
+        "question": "Identify the algorithm used in the WPA2 protocol for encrypting messages in wireless communication?",
+        "options": [
+            "AES-GCMP 256",
+            "AES-CCMP",
+            "RC4-TKIP",
+            "RSA"
+        ],
+        "answer": "AES-CCMP"
+    },
+    {
+        "question": "Which of the following factors makes a system or network vulnerable to password cracking attacks?",
+        "options": [
+            "Changing credentials provided by the vendor",
+            "Storing credentials without adding random strings",
+            "Using words that are not available in the dictionary",
+            "Encrypting credentials before saving to the disk"
+        ],
+        "answer": "Storing credentials without adding random strings"
+    },
+    {
+        "question": "Robert, a security specialist, was appointed to strengthen the security of the organization's network. To prevent multiple login attempts from unknown sources, Robert implemented a security strategy of issuing alerts or warning messages when multiple failed login attempts are made. Which of the following security risks is addressed by Robert to make attempted break-ins unsuccessful?",
+        "options": [
+            "Absence of account lockout for invalid session IDs",
+            "Indefinite session timeout",
+            "Weak session-ID generation",
+            "Small session-ID generation"
+        ],
+        "answer": "Absence of account lockout for invalid session IDs"
+    },
+    {
+        "question": "Daniel, a professional hacker, targeted Alice and lured her into downloading a malicious app from a third-party app store. Upon installation, the core malicious code inside the application started infecting other legitimate apps in Alice's mobile device. Daniel overloaded Alice's device with irrelevant and fraudulent advertisements through the infected app for financial gain. Identify the type of attack Daniel has launched in the above scenario.",
+        "options": [
+            "Bluebugging attack",
+            "SIM card attack",
+            "Agent Smith attack",
+            "SMiShing attack"
+        ],
+        "answer": "Agent Smith attack"
+    },
+    {
+        "question": "Which of the following entities in the NIST cloud deployment reference architecture manages cloud services in terms of use, performance, and delivery and maintains the relationship between cloud providers and consumers?",
+        "options": [
+            "Cloud carrier",
+            "Cloud provider",
+            "Cloud auditor",
+            "Cloud broker"
+        ],
+        "answer": "Cloud broker"
+    },
+    {
+        "question": "Christian is working as a software developer in a reputed MN. He received a message from XIM bank that claims to be urgent and requests to call a phone number mentioned in the message. Worried by this, he called the number to check on his account, believing it to be an authentic XIM Bank customer service phone number A recorded message asks him to provide his credit or debit card number, as well as his password. Identify the type of social engineering attack being performed on Christian in the above scenario.",
+        "options": [
+            "Phishing",
+            "SMiShing",
+            "Spam mail",
+            "Eavesdropping"
+        ],
+        "answer": "Phishing"
+    },
+    {
+        "question": "Sam recently joined as a network admin in an organization. He failed to comprehend all the security practices during his training but pretended to have acquired adequate skills. With mediocre knowledge, he left a few loopholes in the firewall Implementation that eventually led to unwanted network intrusions. Identify the threat source that led the way to this perimeter breach.",
+        "options": [
+            "Intentional threat",
+            "Unintentional threat",
+            "Natural threat",
+            "External threat"
+        ],
+        "answer": "Unintentional threat"
+    },
+    {
+        "question": "Which of the following types of identity theft does the perpetrator steal a social security number and use it with a combination of a fake name, date of birth, address, and other details required for creating a new identity?",
+        "options": [
+            "Insurance identity theft",
+            "Synthetic identity theft",
+            "Tax identity theft",
+            "Criminal identity theft"
+        ],
+        "answer": "Synthetic identity theft"
+    },
+    {
+        "question": "Stephen, an attacker, decided to gain access to an organization's server. He identified a user with access to the remote server. He used sniffing programs to gain the user's credentials and captured the authentication tokens transmitted by the user. Then, he transmitted the captured tokens back to the server to gain unauthorized access. Identify the technique used by Stephen to gain unauthorized access to the target server.",
+        "options": [
+            "Internal monologue",
+            "SQL injection",
+            "Brute-force attack",
+            "Replay attack"
+        ],
+        "answer": "Replay attack"
+    },
+    {
+        "question": "Steve, an attacker, targeted John to gain control over his machine through a DoS/DDoS attack. In this process, he flooded John's machine with fraudulent hardware updates that appear to be sent by an authorized vendor. Upon clicking on the updates, malicious code was executed on John's machine, allowing Steve to take control over the machine. Identify the type of DoS/DDoS attack Steve launched in the above scenario.",
+        "options": [
+            "Distributed reflection DoS (DRDoS)",
+            "Smurf attack",
+            "Permanent Dos (PDoS)",
+            "Peer-to-peer attack"
+        ],
+        "answer": "Permanent Dos (PDoS)"
+    },
+    {
+        "question": "Michael is an attacker who aims to hack Bob's system. He started collecting data without any active interaction with Bob's system. Using this technique, Michael can extract sensitive information from unencrypted data. Identify the class of attack Michael has launched in the above scenario.",
+        "options": [
+            "Close-in attack",
+            "Active attack",
+            "Insider attack",
+            "Passive attack"
+        ],
+        "answer": "Passive attack"
+    },
+    {
+        "question": "Which of the following cloud computing threats arises from authentication vulnerabilities, user-provisioning and de-provisioning vulnerabilities, hypervisor vulnerabilities, unclear roles and responsibilities, and misconfigurations?",
+        "options": [
+            "Privilege escalation",
+            "Supply-chain failure",
+            "Subpoena and e-discovery",
+            "Isolation failure"
+        ],
+        "answer": "Privilege escalation"
+    },
+    {
+        "question": "Brian, a professional hacker, targeted a web server and attempted to obtain administrative privileges to access it. In this process, he used a predefined file containing various combinations of words along with an automated program to check if any of them match the original credentials. Identify the type of attack Brian has launched on the target web server.",
+        "options": [
+            "Cache poisoning",
+            "Dictionary attack",
+            "DNS amplification",
+            "Directory traversal attack"
+        ],
+        "answer": "Dictionary attack"
+    },
+    {
+        "question": "In which of the following phases of session hijacking does an attacker change the sequence number or acknowledgment number (SEQ/ACK) of the server to halt data transmission to a legitimate user?",
+        "options": [
+            "Packet injection",
+            "Session desynchronization",
+            "Session ID prediction",
+            "Command injection"
+        ],
+        "answer": "Session desynchronization"
+    },
+    {
+        "question": "In which of the following testing approaches does a penetration tester perform security assessments against security standards, frameworks, laws, and acts?",
+        "options": [
+            "Compliance-oriented penetration testing approach",
+            "Adversarial goal-based assessment",
+            "Red-team-oriented penetration testing approach",
+            "Objective-oriented penetration testing approach"
+        ],
+        "answer": "Compliance-oriented penetration testing approach"
+    },
+    {
+        "question": "Which of the following tiers in the container technology architecture stores images and disseminates images to orchestrators based on requests?",
+        "options": [
+            "Tier 3. Registries",
+            "Tier 4. Orchestrators",
+            "Tier 1: Developer machines",
+            "Tier 2 Testing and accreditation systems"
+        ],
+        "answer": "Tier 3. Registries"
+    },
+    {
+        "question": "Cynthia, a professional hacker, is attempting to obtain the target's system passwords from the system's database. In this process, she extracted the target's password hash dump and used pre-computed hashes from the rainbow table to crack the password. Identify the password cracking technique that Cynthia has implemented in the above scenario.",
+        "options": [
+            "Passive online attack",
+            "Non-electric attack",
+            "Offline attack",
+            "Active online attack"
+        ],
+        "answer": "Offline attack"
+    },
+    {
+        "question": "Which of the following countermeasures helps security professionals defend against loT attacks?",
+        "options": [
+            "Enable the UPnP port on routers",
+            "Disable traffic monitoring on port 48101",
+            "Disable Telnet (port 23)",
+            "Enable the \"guest\" and \"demo\" user accounts if disabled"
+        ],
+        "answer": "Disable Telnet (port 23)"
+    },
+    {
+        "question": "Which of the following methods is a network segregation technique used to isolate networks and assets to impose and maintain strong access control mechanisms?",
+        "options": [
+            "Industrial protocols",
+            "Industrial network",
+            "Business network",
+            "Zones and conduits"
+        ],
+        "answer": "Zones and conduits"
+    },
+    {
+        "question": "Bruce, a professional hacker, targeted an OT network He initiated a looping strategy to recover the password of the target system. He started sending one character at a time to check whether the first character entered is correct; if so, he continued the loop for consecutive characters. Using this technique, Bruce identified how much time the device takes to finish one complete password authentication process, through which he determined the correct characters in the target password. Identify the type of attack launched by Bruce on the target OT network.",
+        "options": [
+            "Reconnaissance attack",
+            "Buffer overflow attack",
+            "Code injection attack",
+            "Side-channel attack"
+        ],
+        "answer": "Side-channel attack"
+    },
+    {
+        "question": "Mark, an attacker, aims to access an organization's internal server, but the local firewall implementation restricted him from achieving this objective. To overcome this issue, he started sending specially crafted requests to the public server, through which he gained access to the local server. Identify the type of attack initiated by Mark in the above scenario.",
+        "options": [
+            "HTTP response-splitting attack",
+            "SSH brute-force attack",
+            "SSRF attack",
+            "Web cache poisoning attack"
+        ],
+        "answer": "SSRF attack"
+    },
+    {
+        "question": "John, a professional penetration tester, was hired by an organization for conducting a penetration test on their IT infrastructure. He was assigned the task of identifying risks, rather than finding vulnerabilities. In this process, he defined the goal before initiating the penetration test and performed multiple parallel processes to achieve the goal. Identify the type of penetration assessment performed by John in the above scenario.",
+        "options": [
+            "Red-team-oriented penetration testing approach",
+            "Compliance-oriented penetration testing approach",
+            "Adversarial goal-based assessment",
+            "Objective-oriented penetration testing approach"
+        ],
+        "answer": "Adversarial goal-based assessment"
+    },
+    {
         "question": "Martin, a hacker, aimed to crash a target system. For this purpose, he spoofed the source IP address with the target's IP address and sent many ICMP ECHO request packets to an IP broadcast network, causing all the hosts to respond to the received ICMP ECHO requests and ultimately crashing the target machine. Identify the type of attack performed by Martin in the above scenario.",
         "options": [
             "UDP flood attack",
