@@ -1,255 +1,5 @@
 [
     {
-        "question": "Kalley, a shopping freak, often visits different e-commerce websites from her office system. One day, she received a free software on her mail with the claim that it is loaded with new clothing offers. Tempted by this, Kalley downloaded the malicious software onto her system. The software infected Kalley's system and began spreading the infection to other systems connected to the network. Identify the threat source through which Kalley unintentionally invited the malware into the network?",
-        "options": [
-            "Portable hardware media",
-            "File sharing services",
-            "Decoy application",
-            "Insecure patch management"
-        ],
-        "answer": "Decoy application"
-    },
-    {
-        "question": "Sam is a hacker who decided to damage the reputation of an organization. He started collecting information about the organization using social engineering techniques. Sam aims to gather critical information such as admin passwords and OS versions to plan for in attack. Identify the target employee in the organization from whom Sam can gather the required information.",
-        "options": [
-            "Helpdesk",
-            "System administrators",
-            "Third-party service provider",
-            "Customer support team"
-        ],
-        "answer": "System administrators"
-    },
-    {
-        "question": "In which of the following levels of the OSI model does an attacker gain control over the HTTP user session by obtaining the session IDs and create new unauthorized sessions by using the stolen data?",
-        "options": [
-            "Presentation level",
-            "Transport level",
-            "Application level",
-            "Network level"
-        ],
-        "answer": "Application level"
-    },
-    {
-        "question": "Identify the algorithm used in the WPA2 protocol for encrypting messages in wireless communication?",
-        "options": [
-            "AES-GCMP 256",
-            "AES-CCMP",
-            "RC4-TKIP",
-            "RSA"
-        ],
-        "answer": "AES-CCMP"
-    },
-    {
-        "question": "Which of the following factors makes a system or network vulnerable to password cracking attacks?",
-        "options": [
-            "Changing credentials provided by the vendor",
-            "Storing credentials without adding random strings",
-            "Using words that are not available in the dictionary",
-            "Encrypting credentials before saving to the disk"
-        ],
-        "answer": "Storing credentials without adding random strings"
-    },
-    {
-        "question": "Robert, a security specialist, was appointed to strengthen the security of the organization's network. To prevent multiple login attempts from unknown sources, Robert implemented a security strategy of issuing alerts or warning messages when multiple failed login attempts are made. Which of the following security risks is addressed by Robert to make attempted break-ins unsuccessful?",
-        "options": [
-            "Absence of account lockout for invalid session IDs",
-            "Indefinite session timeout",
-            "Weak session-ID generation",
-            "Small session-ID generation"
-        ],
-        "answer": "Absence of account lockout for invalid session IDs"
-    },
-    {
-        "question": "Daniel, a professional hacker, targeted Alice and lured her into downloading a malicious app from a third-party app store. Upon installation, the core malicious code inside the application started infecting other legitimate apps in Alice's mobile device. Daniel overloaded Alice's device with irrelevant and fraudulent advertisements through the infected app for financial gain. Identify the type of attack Daniel has launched in the above scenario.",
-        "options": [
-            "Bluebugging attack",
-            "SIM card attack",
-            "Agent Smith attack",
-            "SMiShing attack"
-        ],
-        "answer": "Agent Smith attack"
-    },
-    {
-        "question": "Which of the following entities in the NIST cloud deployment reference architecture manages cloud services in terms of use, performance, and delivery and maintains the relationship between cloud providers and consumers?",
-        "options": [
-            "Cloud carrier",
-            "Cloud provider",
-            "Cloud auditor",
-            "Cloud broker"
-        ],
-        "answer": "Cloud broker"
-    },
-    {
-        "question": "Christian is working as a software developer in a reputed MN. He received a message from XIM bank that claims to be urgent and requests to call a phone number mentioned in the message. Worried by this, he called the number to check on his account, believing it to be an authentic XIM Bank customer service phone number A recorded message asks him to provide his credit or debit card number, as well as his password. Identify the type of social engineering attack being performed on Christian in the above scenario.",
-        "options": [
-            "Phishing",
-            "SMiShing",
-            "Spam mail",
-            "Eavesdropping"
-        ],
-        "answer": "Phishing"
-    },
-    {
-        "question": "Sam recently joined as a network admin in an organization. He failed to comprehend all the security practices during his training but pretended to have acquired adequate skills. With mediocre knowledge, he left a few loopholes in the firewall Implementation that eventually led to unwanted network intrusions. Identify the threat source that led the way to this perimeter breach.",
-        "options": [
-            "Intentional threat",
-            "Unintentional threat",
-            "Natural threat",
-            "External threat"
-        ],
-        "answer": "Unintentional threat"
-    },
-    {
-        "question": "Which of the following types of identity theft does the perpetrator steal a social security number and use it with a combination of a fake name, date of birth, address, and other details required for creating a new identity?",
-        "options": [
-            "Insurance identity theft",
-            "Synthetic identity theft",
-            "Tax identity theft",
-            "Criminal identity theft"
-        ],
-        "answer": "Synthetic identity theft"
-    },
-    {
-        "question": "Stephen, an attacker, decided to gain access to an organization's server. He identified a user with access to the remote server. He used sniffing programs to gain the user's credentials and captured the authentication tokens transmitted by the user. Then, he transmitted the captured tokens back to the server to gain unauthorized access. Identify the technique used by Stephen to gain unauthorized access to the target server.",
-        "options": [
-            "Internal monologue",
-            "SQL injection",
-            "Brute-force attack",
-            "Replay attack"
-        ],
-        "answer": "Replay attack"
-    },
-    {
-        "question": "Steve, an attacker, targeted John to gain control over his machine through a DoS/DDoS attack. In this process, he flooded John's machine with fraudulent hardware updates that appear to be sent by an authorized vendor. Upon clicking on the updates, malicious code was executed on John's machine, allowing Steve to take control over the machine. Identify the type of DoS/DDoS attack Steve launched in the above scenario.",
-        "options": [
-            "Distributed reflection DoS (DRDoS)",
-            "Smurf attack",
-            "Permanent Dos (PDoS)",
-            "Peer-to-peer attack"
-        ],
-        "answer": "Permanent Dos (PDoS)"
-    },
-    {
-        "question": "Michael is an attacker who aims to hack Bob's system. He started collecting data without any active interaction with Bob's system. Using this technique, Michael can extract sensitive information from unencrypted data. Identify the class of attack Michael has launched in the above scenario.",
-        "options": [
-            "Close-in attack",
-            "Active attack",
-            "Insider attack",
-            "Passive attack"
-        ],
-        "answer": "Passive attack"
-    },
-    {
-        "question": "Which of the following cloud computing threats arises from authentication vulnerabilities, user-provisioning and de-provisioning vulnerabilities, hypervisor vulnerabilities, unclear roles and responsibilities, and misconfigurations?",
-        "options": [
-            "Privilege escalation",
-            "Supply-chain failure",
-            "Subpoena and e-discovery",
-            "Isolation failure"
-        ],
-        "answer": "Privilege escalation"
-    },
-    {
-        "question": "Brian, a professional hacker, targeted a web server and attempted to obtain administrative privileges to access it. In this process, he used a predefined file containing various combinations of words along with an automated program to check if any of them match the original credentials. Identify the type of attack Brian has launched on the target web server.",
-        "options": [
-            "Cache poisoning",
-            "Dictionary attack",
-            "DNS amplification",
-            "Directory traversal attack"
-        ],
-        "answer": "Dictionary attack"
-    },
-    {
-        "question": "In which of the following phases of session hijacking does an attacker change the sequence number or acknowledgment number (SEQ/ACK) of the server to halt data transmission to a legitimate user?",
-        "options": [
-            "Packet injection",
-            "Session desynchronization",
-            "Session ID prediction",
-            "Command injection"
-        ],
-        "answer": "Session desynchronization"
-    },
-    {
-        "question": "In which of the following testing approaches does a penetration tester perform security assessments against security standards, frameworks, laws, and acts?",
-        "options": [
-            "Compliance-oriented penetration testing approach",
-            "Adversarial goal-based assessment",
-            "Red-team-oriented penetration testing approach",
-            "Objective-oriented penetration testing approach"
-        ],
-        "answer": "Compliance-oriented penetration testing approach"
-    },
-    {
-        "question": "Which of the following tiers in the container technology architecture stores images and disseminates images to orchestrators based on requests?",
-        "options": [
-            "Tier 3. Registries",
-            "Tier 4. Orchestrators",
-            "Tier 1: Developer machines",
-            "Tier 2 Testing and accreditation systems"
-        ],
-        "answer": "Tier 3. Registries"
-    },
-    {
-        "question": "Cynthia, a professional hacker, is attempting to obtain the target's system passwords from the system's database. In this process, she extracted the target's password hash dump and used pre-computed hashes from the rainbow table to crack the password. Identify the password cracking technique that Cynthia has implemented in the above scenario.",
-        "options": [
-            "Passive online attack",
-            "Non-electric attack",
-            "Offline attack",
-            "Active online attack"
-        ],
-        "answer": "Offline attack"
-    },
-    {
-        "question": "Which of the following countermeasures helps security professionals defend against loT attacks?",
-        "options": [
-            "Enable the UPnP port on routers",
-            "Disable traffic monitoring on port 48101",
-            "Disable Telnet (port 23)",
-            "Enable the \"guest\" and \"demo\" user accounts if disabled"
-        ],
-        "answer": "Disable Telnet (port 23)"
-    },
-    {
-        "question": "Which of the following methods is a network segregation technique used to isolate networks and assets to impose and maintain strong access control mechanisms?",
-        "options": [
-            "Industrial protocols",
-            "Industrial network",
-            "Business network",
-            "Zones and conduits"
-        ],
-        "answer": "Zones and conduits"
-    },
-    {
-        "question": "Bruce, a professional hacker, targeted an OT network He initiated a looping strategy to recover the password of the target system. He started sending one character at a time to check whether the first character entered is correct; if so, he continued the loop for consecutive characters. Using this technique, Bruce identified how much time the device takes to finish one complete password authentication process, through which he determined the correct characters in the target password. Identify the type of attack launched by Bruce on the target OT network.",
-        "options": [
-            "Reconnaissance attack",
-            "Buffer overflow attack",
-            "Code injection attack",
-            "Side-channel attack"
-        ],
-        "answer": "Side-channel attack"
-    },
-    {
-        "question": "Mark, an attacker, aims to access an organization's internal server, but the local firewall implementation restricted him from achieving this objective. To overcome this issue, he started sending specially crafted requests to the public server, through which he gained access to the local server. Identify the type of attack initiated by Mark in the above scenario.",
-        "options": [
-            "HTTP response-splitting attack",
-            "SSH brute-force attack",
-            "SSRF attack",
-            "Web cache poisoning attack"
-        ],
-        "answer": "SSRF attack"
-    },
-    {
-        "question": "John, a professional penetration tester, was hired by an organization for conducting a penetration test on their IT infrastructure. He was assigned the task of identifying risks, rather than finding vulnerabilities. In this process, he defined the goal before initiating the penetration test and performed multiple parallel processes to achieve the goal. Identify the type of penetration assessment performed by John in the above scenario.",
-        "options": [
-            "Red-team-oriented penetration testing approach",
-            "Compliance-oriented penetration testing approach",
-            "Adversarial goal-based assessment",
-            "Objective-oriented penetration testing approach"
-        ],
-        "answer": "Adversarial goal-based assessment"
-    },
-    {
         "question": "Martin, a hacker, aimed to crash a target system. For this purpose, he spoofed the source IP address with the target's IP address and sent many ICMP ECHO request packets to an IP broadcast network, causing all the hosts to respond to the received ICMP ECHO requests and ultimately crashing the target machine. Identify the type of attack performed by Martin in the above scenario.",
         "options": [
             "UDP flood attack",
@@ -495,6 +245,756 @@
             "D. session desynchronization"
         ],
         "answer": "D. session desynchronization"
+    },
+    {
+        "question": "Ellie, an 18-year-old student, encrypts her drive with inbuilt Windows software so that her mischievous brother cannot access her assignments. Which software did Ellie use?",
+        "options": [
+            "Adobe",
+            "Skype",
+            "SPAMfighter",
+            "BitLocker"
+        ],
+        "answer": "BitLocker"
+    },
+    {
+        "question": "An attacker initiates a sniffing attack and gets sensitive data while in transition. What element of Information Security was affected?",
+        "options": [
+            "Availability",
+            "Integrity",
+            "Confidentiality",
+            "Authenticity"
+        ],
+        "answer": "Confidentiality"
+    },
+    {
+        "question": "Tampering with a server prior to installation is an example of what type of attack?",
+        "options": [
+            "Insider Attack",
+            "Distribution Attack",
+            "Brute-force Attack",
+            "Denial-of-Service"
+        ],
+        "answer": "Distribution Attack"
+    },
+    {
+        "question": "An attacker intercepted and monitored network traffic without tampering with the data. What type of attack is this?",
+        "options": [
+            "Active Attack",
+            "Insider Attack",
+            "Passive Attack",
+            "Denial-of-Service"
+        ],
+        "answer": "Passive Attack"
+    },
+    {
+        "question": "The 'Electronic Transactions and Code Set Standards' are related to which civil act?",
+        "options": [
+            "SOX",
+            "GLBA",
+            "FISMA",
+            "HIPAA"
+        ],
+        "answer": "HIPAA"
+    },
+    {
+        "question": "Which phase of the Cyber Kill Chain methodology includes creating a deliverable payload?",
+        "options": [
+            "Reconnaissance",
+            "Weaponization",
+            "Delivery",
+            "Exploitation"
+        ],
+        "answer": "Weaponization"
+    },
+    {
+        "question": "What type of hackers aims to bring down critical infrastructure for a 'cause' and isn't worried about facing jail terms or any other punishment?",
+        "options": [
+            "Black Hat Hackers",
+            "Script Kiddies",
+            "Suicide Hackers",
+            "State-Sponsored Hackers"
+        ],
+        "answer": "Suicide Hackers"
+    },
+    {
+        "question": "What is the term for an attacker who aims to gain popularity and uses existing tools to perform an attack?",
+        "options": [
+            "Ethical Hacker",
+            "Script Kiddies",
+            "Grey Hat Hacker",
+            "Suicide Hacker"
+        ],
+        "answer": "Script Kiddies"
+    },
+    {
+        "question": "What is the correct order of the hacking phases?",
+        "options": [
+            "Reconnaissance, scanning, gaining access, maintaining access, clearing tracks",
+            "Scanning, reconnaissance, gaining access, maintaining access, clearing tracks",
+            "Gaining access, reconnaissance, scanning, maintaining access, clearing tracks",
+            "Maintaining access, gaining access, reconnaissance, scanning, clearing tracks"
+        ],
+        "answer": "Reconnaissance, scanning, gaining access, maintaining access, clearing tracks"
+    },
+    {
+        "question": "Using scripts to maintain persistence on a web server refers to which phase of the hacking phases?",
+        "options": [
+            "Scanning",
+            "Gaining access",
+            "Maintaining access",
+            "Clearing tracks"
+        ],
+        "answer": "Maintaining access"
+    },
+    {
+        "question": "An unskilled administrator who did not attend training claims to be an expert and makes configuration mistakes which lead to an attack. This is an example of what type of threat?",
+        "options": [
+            "Intentional Threats",
+            "Unintentional Threats",
+            "External Threats",
+            "Environmental Threats"
+        ],
+        "answer": "Unintentional Threats"
+    },
+    {
+        "question": "A shopping enthusiast receives an email to download a new shopping app, which leads to her data being accessed by an attacker. What is this an example of?",
+        "options": [
+            "Phishing",
+            "Spear Phishing",
+            "Rogue/Decoy Applications",
+            "Vishing"
+        ],
+        "answer": "Rogue/Decoy Applications"
+    },
+    {
+        "question": "Which component of a malware protects it from undergoing reverse engineering or analysis?",
+        "options": [
+            "Downloader",
+            "Dropper",
+            "Crypter",
+            "Infector"
+        ],
+        "answer": "Crypter"
+    },
+    {
+        "question": "What type of malware is activated when a user performs certain predefined actions?",
+        "options": [
+            "Virus",
+            "Worm",
+            "Trojan",
+            "Logic Bomb"
+        ],
+        "answer": "Trojan"
+    },
+    {
+        "question": "What type of Trojan can destroy or change the entire content of a database or physically change the underlying HTML format of websites?",
+        "options": [
+            "Defacement Trojans",
+            "Destructive Trojans",
+            "Remote Access Trojans",
+            "Proxy Trojans"
+        ],
+        "answer": "Defacement Trojans"
+    },
+    {
+        "question": "What is the sole purpose of a destructive Trojan?",
+        "options": [
+            "To steal data",
+            "To delete files",
+            "To record keystrokes",
+            "To create a backdoor"
+        ],
+        "answer": "To delete files"
+    },
+    {
+        "question": "What are the stages of a virus lifecycle?",
+        "options": [
+            "Design, replication, launch, detection, incorporation, execution of the damage routine",
+            "Replication, launch, detection, incorporation, execution of the damage routine",
+            "Design, launch, replication, detection, incorporation, execution of the damage routine",
+            "Replication, launch, detection, incorporation, execution"
+        ],
+        "answer": "Design, replication, launch, detection, incorporation, execution of the damage routine"
+    },
+    {
+        "question": "What type of malware consumes network bandwidth, system memory, etc., excessively overloading servers and computer systems?",
+        "options": [
+            "Virus",
+            "Worm",
+            "Trojan",
+            "Spyware"
+        ],
+        "answer": "Worm"
+    },
+    {
+        "question": "What type of password cracking attack involves creating a list of possible passwords, ranking them from high to low probability, and then entering each password until the correct one is discovered?",
+        "options": [
+            "Brute-force Attack",
+            "Dictionary Attack",
+            "Password Guessing",
+            "Rainbow Table Attack"
+        ],
+        "answer": "Password Guessing"
+    },
+    {
+        "question": "A Rainbow Table Attack is an example of which type of password cracking attack?",
+        "options": [
+            "Online Attacks",
+            "Offline Attacks",
+            "Dictionary Attacks",
+            "Brute-force Attacks"
+        ],
+        "answer": "Offline Attacks"
+    },
+    {
+        "question": "Which of the following is a password cracking tool?",
+        "options": [
+            "Wireshark",
+            "Nmap",
+            "John the Ripper",
+            "Metasploit"
+        ],
+        "answer": "John the Ripper"
+    },
+    {
+        "question": "What is a good countermeasure for password cracking?",
+        "options": [
+            "Use passwords that can be found in a dictionary",
+            "Do not use passwords that can be found in a dictionary",
+            "Use a single password for all accounts",
+            "Do not change passwords frequently"
+        ],
+        "answer": "Do not use passwords that can be found in a dictionary"
+    },
+    {
+        "question": "What is the term for the unauthorized listening to conversations or reading of messages, intercepting audio, video, or written communication?",
+        "options": [
+            "Spoofing",
+            "Phishing",
+            "Eavesdropping",
+            "Social Engineering"
+        ],
+        "answer": "Eavesdropping"
+    },
+    {
+        "question": "An attacker requests an authorized person to unlock a security door, saying they have forgotten their ID badge. What is this an example of?",
+        "options": [
+            "Tailgating",
+            "Pretexting",
+            "Piggybacking",
+            "Baiting"
+        ],
+        "answer": "Piggybacking"
+    },
+    {
+        "question": "Tracy, a software engineer, receives an SMS from what appears to be her bank. It asks her to call a listed number immediately. She calls, and a recorded message asks for her credit card number and password, which she provides. What is this attack called?",
+        "options": [
+            "Phishing",
+            "Vishing",
+            "SMiShing",
+            "Pharming"
+        ],
+        "answer": "SMiShing"
+    },
+    {
+        "question": "What is the term for a disgruntled or terminated employee who steals data or intentionally destroys a company's network by introducing malware?",
+        "options": [
+            "External Attacker",
+            "Malicious Insider",
+            "Script Kiddie",
+            "State-Sponsored Hacker"
+        ],
+        "answer": "Malicious Insider"
+    },
+    {
+        "question": "What type of identity theft occurs when an attacker steals a Social Security Number and uses it with a combination of fake names, dates of birth, addresses, and other details to create a new identity?",
+        "options": [
+            "Financial Identity Theft",
+            "Criminal Identity Theft",
+            "Medical Identity Theft",
+            "Synthetic Identity Theft"
+        ],
+        "answer": "Synthetic Identity Theft"
+    },
+    {
+        "question": "What type of attack makes a switch broadcast traffic to all connected devices?",
+        "options": [
+            "ARP Poisoning",
+            "MAC Flooding",
+            "DHCP Starvation",
+            "Denial of Service"
+        ],
+        "answer": "MAC Flooding"
+    },
+    {
+        "question": "What is the process of inundating DHCP servers with fake DHCP requests, using all the available IP addresses?",
+        "options": [
+            "DHCP Spoofing",
+            "DHCP Starvation Attack",
+            "Man-in-the-Middle Attack",
+            "ARP Spoofing"
+        ],
+        "answer": "DHCP starvation attack"
+    },
+    {
+        "question": "Which of the following is a sniffing countermeasure?",
+        "options": [
+            "Use dynamic IP addresses",
+            "Use static IP addresses and ARP tables",
+            "Disable firewalls",
+            "Use unencrypted communication"
+        ],
+        "answer": "Use static IP addresses and ARP tables"
+    },
+    {
+        "question": "Which sniffer detection technique involves sending a non-broadcast ARP to all the nodes in the network?",
+        "options": [
+            "Ping Method",
+            "ARP Method",
+            "DNS Method",
+            "Latency Method"
+        ],
+        "answer": "ARP Method"
+    },
+    {
+        "question": "What type of DDoS attack involves an attacker spoofing the source IP address with the victim's IP address and sending a large number of ICMP ECHO request packets to an IP broadcast network, causing all hosts to respond to the victim machine?",
+        "options": [
+            "SYN Flood",
+            "UDP Flood",
+            "Smurf DDoS Attack",
+            "Ping of Death"
+        ],
+        "answer": "Smurf DDoS Attack"
+    },
+    {
+        "question": "What type of DDoS attack occurs when an attacker sends fraudulent content via email, IRC chats, tweets, or posts, which then gives the attacker access to the victim's computer?",
+        "options": [
+            "SYN Flood",
+            "Permanent Denial-of-Service Attack",
+            "HTTP Flood",
+            "Smurf Attack"
+        ],
+        "answer": "Permanent Denial-of-Service Attack"
+    },
+    {
+        "question": "What attack is also known as a brute-force attack, where an attacker makes several attempts to connect with varying session IDs until the actual session ID is determined, due to the absence of account lockout for invalid session IDs?",
+        "options": [
+            "Session fixation",
+            "Session hijacking",
+            "Brute-force attack",
+            "Cross-Site Scripting"
+        ],
+        "answer": "Brute-force attack"
+    },
+    {
+        "question": "During which phase of session hijacking must the attacker change the sequence number or acknowledgment number (SEQ/ACK) of the server?",
+        "options": [
+            "Packet sniffing",
+            "Session desynchronization",
+            "Session prediction",
+            "Man-in-the-Middle"
+        ],
+        "answer": "Session Desynchronization"
+    },
+    {
+        "question": "Which component of a web server provides storage on a different machine or disk after the original disk becomes full and can be used to provide object-level security?",
+        "options": [
+            "Virtual Document Tree",
+            "Virtual Hosting",
+            "Web Server",
+            "Web Proxy"
+        ],
+        "answer": "Virtual Document Tree"
+    },
+    {
+        "question": "Using HTTP to perform an attack relates to the security of which layer of the OSI model?",
+        "options": [
+            "Network layer",
+            "Data Link layer",
+            "Transport layer",
+            "Application layer"
+        ],
+        "answer": "Application layer"
+    },
+    {
+        "question": "An attacker couldn't get access to internal resources due to a firewall, so he exploited a vulnerability in the web server to get to the internal resources. What type of attack did he perform?",
+        "options": [
+            "SQL Injection",
+            "Cross-Site Scripting",
+            "SSRF",
+            "CSRF"
+        ],
+        "answer": "SSRF"
+    },
+    {
+        "question": "A misconfiguration in the business flow relates to which layer of the web application architecture?",
+        "options": [
+            "Client-side logic layer",
+            "Web-server logic layer",
+            "Database layer",
+            "Backend API layer"
+        ],
+        "answer": "web-server logic layer"
+    },
+    {
+        "question": "Which of the following web application vulnerabilities allows untrusted data to be interpreted and executed as part of a command or query?",
+        "options": [
+            "Cross-Site Scripting (XSS)",
+            "Injection flaws",
+            "Cross-Site Request Forgery (CSRF)",
+            "Broken Authentication"
+        ],
+        "answer": "Injection flaws"
+    },
+    {
+        "question": "An attack case about sessions and their IDs relates to which type of vulnerability?",
+        "options": [
+            "Injection",
+            "Broken Authentication",
+            "Cross-Site Scripting",
+            "Security Misconfiguration"
+        ],
+        "answer": "Broken Authentication"
+    },
+    {
+        "question": "What type of SQL injection involves an attacker injecting an additional malicious query into the original query?",
+        "options": [
+            "Piggybacked SQL injection",
+            "Tautology-based SQL injection",
+            "Union-based SQL injection",
+            "Error-based SQL injection"
+        ],
+        "answer": "piggybacked SQL injection"
+    },
+    {
+        "question": "Which of the following is a countermeasure for SQL injection attacks?",
+        "options": [
+            "Allow all data types in entries",
+            "Reject entries that contain binary data, escape sequences, and comment characters",
+            "Use dynamic queries",
+            "Do not validate user input"
+        ],
+        "answer": "Reject entries that contain binary data, escape sequences, and comment characters"
+    },
+    {
+        "question": "What type of attack involves an attacker intercepting messages and resending them back to the server?",
+        "options": [
+            "Man-in-the-Middle Attack",
+            "Replay attack",
+            "Denial of Service",
+            "Session Hijacking"
+        ],
+        "answer": "replay attack"
+    },
+    {
+        "question": "A network administrator needs to connect 600 new laptops to a wireless network where the company has a single broadband router. What type of wireless network should he go for?",
+        "options": [
+            "Ad-hoc network",
+            "Infrastructure network",
+            "Extension to a Wired Network",
+            "Wireless Mesh Network"
+        ],
+        "answer": "Extension to a Wired Network"
+    },
+    {
+        "question": "Which IEEE 802 standard is related to WiMAX?",
+        "options": [
+            "802.11",
+            "802.15",
+            "802.16",
+            "802.1X"
+        ],
+        "answer": "802.16"
+    },
+    {
+        "question": "What are the encryption algorithms used in WPA2?",
+        "options": [
+            "WEP",
+            "TKIP",
+            "AES-CCMP",
+            "RC4"
+        ],
+        "answer": "AES-CCMP"
+    },
+    {
+        "question": "What type of wireless attack involves setting up an AP on a company's premises with a spoofed SSID?",
+        "options": [
+            "Eavesdropping",
+            "Rogue AP Attack",
+            "Deauthentication Attack",
+            "Jamming"
+        ],
+        "answer": "Rogue AP Attack"
+    },
+    {
+        "question": "Which type of wireless attack overwhelms the network with traffic?",
+        "options": [
+            "Deauthentication Attack",
+            "Bluesnarfing",
+            "Jamming",
+            "Rogue AP Attack"
+        ],
+        "answer": "jamming"
+    },
+    {
+        "question": "What type of Bluetooth attacks exploits a vulnerability in the Object Exchange (OBEX) protocol?",
+        "options": [
+            "Bluejacking",
+            "Bluesnarfing",
+            "Bluebugging",
+            "War-Driving"
+        ],
+        "answer": "Bluesnarfing"
+    },
+    {
+        "question": "What is the type of Bluetooth attack in which an attacker gains remote access to a target Bluetooth-enabled device and then uses that access for further attacks?",
+        "options": [
+            "Bluejacking",
+            "Bluesnarfing",
+            "Bluebugging",
+            "War-Driving"
+        ],
+        "answer": "Bluebugging"
+    },
+    {
+        "question": "Which of the following mobile threats/attacks helps attackers gain access and retrieve sensitive data?",
+        "options": [
+            "Code Tampering",
+            "Cryptographic Vulnerabilities",
+            "Client Code Quality",
+            "Side-Channel Attacks"
+        ],
+        "answer": "Client Code Quality"
+    },
+    {
+        "question": "What category of mobile threat/attack refers to binary patching, local resource modification, method hooking, method swizzling, and dynamic memory modification?",
+        "options": [
+            "Malicious Applications",
+            "Code Tampering",
+            "Insecure Data Storage",
+            "Side-Channel Attacks"
+        ],
+        "answer": "Code Tampering"
+    },
+    {
+        "question": "What is the name of an attack that is carried out by persuading the victim to install a malicious app designed and published by an attacker?",
+        "options": [
+            "Agent Smith Attack",
+            "Pegasus Attack",
+            "Stagefright Attack",
+            "Smsjacking"
+        ],
+        "answer": "Agent smith attack"
+    },
+    {
+        "question": "An employee working remotely used her laptop in a cafe to check her work email using the cafe's network. What risk is related to this scenario?",
+        "options": [
+            "Using insecure channels",
+            "Physical theft of the device",
+            "Shoulder surfing",
+            "Malicious insider"
+        ],
+        "answer": "using insecure channels"
+    },
+    {
+        "question": "Which of the following is a general guideline for mobile platform security?",
+        "options": [
+            "Use untrusted third-party app stores",
+            "Maintain configuration control and management",
+            "Do not use device encryption",
+            "Disable screen lock"
+        ],
+        "answer": "Maintain configuration control and management"
+    },
+    {
+        "question": "Which IoT architecture layer is responsible for the sensors and hardware?",
+        "options": [
+            "Edge Technology Layer",
+            "Data Aggregation Layer",
+            "Application Layer",
+            "Device Layer"
+        ],
+        "answer": "Edge Technology Layer"
+    },
+    {
+        "question": "Which IoT architecture layer is responsible for the delivery of services to the relevant users from different sectors?",
+        "options": [
+            "Application Layer",
+            "Data Aggregation Layer",
+            "Edge Technology Layer",
+            "Device Layer"
+        ],
+        "answer": "Application Layer"
+    },
+    {
+        "question": "IoT security problems such as insecure API, lack of communication channels encryption, authentication, and lack of storage security relate to which layer?",
+        "options": [
+            "Cloud",
+            "Gateway",
+            "Mobile",
+            "API"
+        ],
+        "answer": "Mobile"
+    },
+    {
+        "question": "Which one of the IoT attacks refers to attackers intercepting legitimate messages from valid communication and continuously sending the intercepted message to the target device to perform a denial-of-service attack?",
+        "options": [
+            "Replay Attack",
+            "Man-in-the-Middle",
+            "Physical Attack",
+            "Jamming"
+        ],
+        "answer": "Replay Attack"
+    },
+    {
+        "question": "What type of attack involves attackers tampering with the operating conditions, modifying the level of the power supply, and/or altering the clock frequency of the chip?",
+        "options": [
+            "Frequency/Voltage Tampering",
+            "Physical Attack",
+            "Software Attack",
+            "Jamming"
+        ],
+        "answer": "Frequency/Voltage Tampering"
+    },
+    {
+        "question": "Which of the following is an IoT attack countermeasure?",
+        "options": [
+            "Enable telnet (port 23)",
+            "Use default passwords",
+            "Disable telnet (port 23)",
+            "Do not update firmware"
+        ],
+        "answer": "Disable telnet (port 23)"
+    },
+    {
+        "question": "What technique is used to isolate networks and assets to impose and maintain strong access control mechanisms?",
+        "options": [
+            "Demilitarized Zone (DMZ)",
+            "Firewall",
+            "Zones and Conduits",
+            "VLAN"
+        ],
+        "answer": "Zones and Conduits"
+    },
+    {
+        "question": "What type of attack involves attackers retrieving critical information from an OT system by observing its physical implementation using techniques like timing analysis and power analysis?",
+        "options": [
+            "Side-Channel Attacks",
+            "Physical Attacks",
+            "DDoS Attacks",
+            "Logic Attacks"
+        ],
+        "answer": "Side-Channel Attacks"
+    },
+    {
+        "question": "What attack involves attackers hijacking the original remote controller and pairing it with the machine using a malicious RF controller disguised as a legitimate one?",
+        "options": [
+            "Re-pairing with Malicious RF controller",
+            "Signal Jamming",
+            "Man-in-the-Middle Attack",
+            "Eavesdropping"
+        ],
+        "answer": "Re-pairing with Malicious RF controller"
+    },
+    {
+        "question": "Which cloud service model offers development tools, configuration management, and deployment platforms on-demand that can be used by subscribers to develop custom applications?",
+        "options": [
+            "IaaS",
+            "SaaS",
+            "PaaS",
+            "FaaS"
+        ],
+        "answer": "PaaS"
+    },
+    {
+        "question": "What type of cloud deployment model allows an organization to retain full control over its corporate data?",
+        "options": [
+            "Public Cloud",
+            "Private Cloud",
+            "Hybrid Cloud",
+            "Community Cloud"
+        ],
+        "answer": "Private Cloud"
+    },
+    {
+        "question": "According to the NIST framework, which cloud entity manages cloud services in terms of use, performance, and delivery, and maintains the relationship between cloud providers and consumers?",
+        "options": [
+            "Cloud Carrier",
+            "Cloud Broker",
+            "Cloud Provider",
+            "Cloud Auditor"
+        ],
+        "answer": "Cloud Broker"
+    },
+    {
+        "question": "Which tier of container technology is responsible for storing images and disseminating images to the orchestrators based on requests?",
+        "options": [
+            "Orchestration",
+            "Runtime",
+            "Registries",
+            "Hosting"
+        ],
+        "answer": "Registries"
+    },
+    {
+        "question": "What is the term for a type of cloud attack where one cloud customer can access the data or resources of another customer, often due to misconfiguration of the cloud environment?",
+        "options": [
+            "Isolation Failure",
+            "Data Breach",
+            "Denial of Service",
+            "Man-in-the-Middle Attack"
+        ],
+        "answer": "Isolation Failure"
+    },
+    {
+        "question": "What type of attack is performed during the translation of the SOAP message in the TLS layer, where attackers duplicate the body of the message and send it to the server as a legitimate user?",
+        "options": [
+            "Man-in-the-Middle Attack",
+            "Replay Attack",
+            "Wrapping attack",
+            "Spoofing"
+        ],
+        "answer": "Wrapping attack"
+    },
+    {
+        "question": "A user receives a fitness report that looks unusual and is asked for credentials. What type of attack is this, related to cloud storage?",
+        "options": [
+            "Phishing",
+            "Cloud storage attack",
+            "Social Engineering",
+            "Man-in-the-Middle Attack"
+        ],
+        "answer": "cloud storage"
+    },
+    {
+        "question": "If the goal of a penetration test is defined before it begins as risk assessment, what type of penetration test is it?",
+        "options": [
+            "Compliance-oriented penetration test",
+            "Red-team-oriented penetration test",
+            "Goal-oriented penetration test",
+            "External penetration test"
+        ],
+        "answer": "Goal-oriented pentation test"
+    },
+    {
+        "question": "What type of penetration test assesses against the compliance requirements of cybersecurity standards, frameworks, laws, and acts?",
+        "options": [
+            "Compliance-oriented penetration test",
+            "Goal-oriented penetration test",
+            "Red-team-oriented penetration test",
+            "Internal penetration test"
+        ],
+        "answer": "Compliance-oriented pentation test"
+    },
+    {
+        "question": "What type of penetration test mimics the behavior of a real attacker to evaluate the overall security of an organization?",
+        "options": [
+            "Goal-oriented penetration test",
+            "Red-team-oriented penetration test",
+            "Compliance-oriented penetration test",
+            "Vulnerability assessment"
+        ],
+        "answer": "Red-team-oriented pentation test"
     },
     {
         "question": "Don, a professional hacker, targeted an organization and decided to disrupt its online services. Don initiated an attack by injecting a malicious query into the original query Which of the following types attack has Don performed in the above scenario?",
