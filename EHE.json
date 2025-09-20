@@ -594,7 +594,7 @@
             "Session prediction",
             "Man-in-the-Middle"
         ],
-        "answer": "Session Desynchronization"
+        "answer": "Session desynchronization"
     },
     {
         "question": "Which component of a web server provides storage on a different machine or disk after the original disk becomes full and can be used to provide object-level security?",
