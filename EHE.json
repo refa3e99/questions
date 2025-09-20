@@ -664,7 +664,7 @@
             "Union-based SQL injection",
             "Error-based SQL injection"
         ],
-        "answer": "piggybacked SQL injection"
+        "answer": "Piggybacked SQL injection"
     },
     {
         "question": "Which of the following is a countermeasure for SQL injection attacks?",
