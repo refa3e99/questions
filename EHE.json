@@ -530,7 +530,7 @@
         "question": "What is the process of inundating DHCP servers with fake DHCP requests, using all the available IP addresses?",
         "options": [
             "DHCP Spoofing",
-            "DHCP Starvation Attack",
+            "DHCP starvation attack",
             "Man-in-the-Middle Attack",
             "ARP Spoofing"
         ],
