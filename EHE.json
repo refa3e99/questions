@@ -684,7 +684,7 @@
             "Denial of Service",
             "Session Hijacking"
         ],
-        "answer": "replay attack"
+        "answer": "Replay attack"
     },
     {
         "question": "A network administrator needs to connect 600 new laptops to a wireless network where the company has a single broadband router. What type of wireless network should he go for?",
