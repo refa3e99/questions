@@ -630,7 +630,7 @@
         "question": "A misconfiguration in the business flow relates to which layer of the web application architecture?",
         "options": [
             "Client-side logic layer",
-            "Web-server logic layer",
+            "web-server logic layer",
             "Database layer",
             "Backend API layer"
         ],
