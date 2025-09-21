@@ -964,7 +964,7 @@
             "Social Engineering",
             "Man-in-the-Middle Attack"
         ],
-        "answer": "cloud storage"
+        "answer": "Cloud storage attack"
     },
     {
         "question": "If the goal of a penetration test is defined before it begins as risk assessment, what type of penetration test is it?",
@@ -974,7 +974,7 @@
             "Goal-oriented penetration test",
             "External penetration test"
         ],
-        "answer": "Goal-oriented pentation test"
+        "answer": "Goal-oriented penetration test"
     },
     {
         "question": "What type of penetration test assesses against the compliance requirements of cybersecurity standards, frameworks, laws, and acts?",
@@ -984,7 +984,7 @@
             "Red-team-oriented penetration test",
             "Internal penetration test"
         ],
-        "answer": "Compliance-oriented pentation test"
+        "answer": "Compliance-oriented penetration test"
     },
     {
         "question": "What type of penetration test mimics the behavior of a real attacker to evaluate the overall security of an organization?",
@@ -994,7 +994,7 @@
             "Compliance-oriented penetration test",
             "Vulnerability assessment"
         ],
-        "answer": "Red-team-oriented pentation test"
+        "answer": "Red-team-oriented penetration test"
     },
     {
         "question": "Don, a professional hacker, targeted an organization and decided to disrupt its online services. Don initiated an attack by injecting a malicious query into the original query Which of the following types attack has Don performed in the above scenario?",
