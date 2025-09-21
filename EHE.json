@@ -734,7 +734,7 @@
             "Jamming",
             "Rogue AP Attack"
         ],
-        "answer": "jamming"
+        "answer": "Jamming"
     },
     {
         "question": "What type of Bluetooth attacks exploits a vulnerability in the Object Exchange (OBEX) protocol?",
