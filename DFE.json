@@ -537,7 +537,7 @@
             "Internet layer",
             "Network Access layer"
         ],
-        "answer": "internet layer"
+        "answer": "Internet layer"
     },
     {
         "question": "Colson, a forensic officer, was attempting to track a cybercriminal who had performed an online attack by gaining remote access to a Windows system of an organization. In this process, Colson executed an nbtstat command that displays the contents of the NetBIOS name cache as well as NetBIOS name-to-IP address mappings, which will help him in tracking the perpetrator. Which of the following nbtstat parameters helps Colson view the contents of the NetBIOS name cache?",
