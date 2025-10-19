@@ -637,7 +637,7 @@
             "C C:\\WINDOWS\\Prefetch",
             "D /var/log/apache2/access.log"
         ],
-        "answer": "Option A"
+        "answer": "A HKEY_USERS\\<SID>\\SOFTWARE\\Firefox\\Launcher"
     },
     {
         "question": "Identify the functionality of Autopsy, which extracts history, bookmarks, and cookies from Firefox, Chrome, and Internet Explorer.",
