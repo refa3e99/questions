@@ -2,7 +2,7 @@
     {
         "question": "Identify the tool that lists all the related modules within an executable file and builds a hierarchical tree diagram as well as records all the functions exported and called by each module.",
         "options": [
-            "Dependency Walker",
+            "Dependency Walker \n ",
             "Process Explorer",
             "Wireshark",
             "Nmap"
