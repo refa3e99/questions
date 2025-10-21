@@ -837,7 +837,7 @@
             "ss",
             "ps"
         ],
-        "answer": "Isof"
+        "answer": "lsof"
     },
     {
         "question": "Freddy, a professional hacker, was attempting to bypass the security measures of a target organization by keenly analyzing the vulnerabilities in their web application. He identified that employee login IDs were stored in cookies; therefore, he can tamper with the URL, HTTP requests, headers, hidden fields, form fields, and query strings. Identify the type of threat demonstrated in the above scenario.",
