@@ -1,5 +1,750 @@
 [
     {
+        "question": "Sam is working as a loan agent for a financial institution. He frequently receives a number of emails from clients providing their personal details for loan approval. As these emails contain sensitive data, Sam had set up a feature that directly downloads the emails on his device without storing a copy on the mail server. Which of the following protocols provides the above-discussed email features?",
+        "options": [
+            "POP3",
+            "ICMP",
+            "SHA-7",
+            "SNMP74."
+        ],
+        "answer": "POP3"
+    },
+    {
+        "question": "Clark, a security professional, identified that one of the systems in the organization is infected with malware and was used for creating a backdoor. Clark employed an automated tool to analyze the system's memory and detect malicious activities performed on the system. In the above scenario, which of the following tools did Clark employ to detect malicious activities performed on the system?",
+        "options": [
+            "Medusa",
+            "Wireshark",
+            "Redline",
+            "Shodan73."
+        ],
+        "answer": "Redline"
+    },
+    {
+        "question": "A government organization decided ło establish a computer forensics lab to perform transparent investigation processes on highly sensitive cases. The organization also decided to establish strong physical security around the premises of the forensics lab. Which of the following security measures helps the organization in providing strong physical security to the forensics lab?",
+        "options": [
+            "Never keep the lab under surveillance",
+            "Never place fire extinguishers in and outside the lak",
+            "Shield workstations from transmitting electromagnetic signals",
+            "Do not maintain a log register at the entrance of the lab72"
+        ],
+        "answer": "Shield workstations from transmitting electromagnetic signals"
+    },
+    {
+        "question": "Kevin, a forensic investigator at FinCorp Ltd., was investigating a cybercrime against the company. As part of the investigation process, he needs to recover corrupted and deleted files from a Windows system. Kevin decided to use an automated tool to recover the damaged, corrupted, or deleted files. Which of the following forensic tools can help Kevin in recovering deleted files?",
+        "options": [
+            "Cain & Abel",
+            "R-Studio",
+            "Ophcrack",
+            "Rohos Mini Drive"
+        ],
+        "answer": "R-Studio"
+    },
+    {
+        "question": "Which of the following network protocols creates secure tunneling through which content obfuscation can be achieved?",
+        "options": [
+            "SSH",
+            "UDP",
+            "ARP",
+            "SNMP"
+        ],
+        "answer": "SSH"
+    },
+    {
+        "question": "Jack, a forensic investigator, was appointed to investigate a Windows-based security incident. In this process, he employed an Autopsy tool to recover the deleted files from unallocated space, which helps in gathering potential evidence. Which of the following functions of Autopsy helped Jack recover the deleted files?",
+        "options": [
+            "Data carving",
+            "Multimedia",
+            "Timeline analysis",
+            "Web artifacts"
+        ],
+        "answer": "Data carving"
+    },
+    {
+        "question": "Philip, a forensic officer, was tasked with investigating a crime scene. In this process, he created bit-by copies of the suspect drive and retrieved all the disk images using the dd command. Which of the following data acquisition image formats is extracted by Philip in the above scenario?",
+        "options": [
+            "Raw Format",
+            "Advanced Forensic Framework 4 (AFF4)",
+            "Proprietary Format",
+            "Advanced Forensics Format (AFF)"
+        ],
+        "answer": "Raw Format"
+    },
+    {
+        "question": "Which of the following tools can be used by an investigator to analyze the metadata of files in a Windows-based system?",
+        "options": [
+            "IECacheView",
+            "Bulk Extractor",
+            "Tor browser",
+            "Paraben P2 Commander"
+        ],
+        "answer": "Bulk Extractor"
+    },
+    {
+        "question": "A system that a cybercriminal was suspected to have used for performing an anti-social activity through the Tor browser. James reviewed the active network connections established using specific ports via Tor. Which of the following port numbers does Tor use for establishing a connection via Tor nodes?",
+        "options": [
+            "9150/9151",
+            "3024/4092",
+            "31/456",
+            "1026/64666"
+        ],
+        "answer": "9150/9151"
+    },
+    {
+        "question": "Which of the following layers of the TCP/IP model includes protocols such as Frame Relay, SMDS, Fast Ethernet, SLIP, PPP, FDDI, ATM, Ethernet, and ARP to enable a machine to deliver the desired data to other hosts in the same network?",
+        "options": [
+            "Network access layer",
+            "Transport layer",
+            "Internet layer",
+            "Application layer"
+        ],
+        "answer": "Network access layer"
+    },
+    {
+        "question": "Wesley, a professional hacker, deleted a confidential file in a compromised system using the '/bin/rm/' command to deny access to forensic specialists. Identify the operating system on which Don has performed the file carving activity.",
+        "options": [
+            "Linux",
+            "Windows",
+            "Mac OS",
+            "Android"
+        ],
+        "answer": "Linux"
+    },
+    {
+        "question": "Steve, a professional hacker, attempted to hack Alice's banking account. To accomplish his goal, Steve used an automated tool to guess Alice's login credentials. The tool uses a trial-and-error method by attempting all possible combinations of usernames and passwords to determine the valid credentials. Identify the type of attack initiated by Steve in the above scenario.",
+        "options": [
+            "Brute-force attack",
+            "Phishing attack",
+            "Data manipulation attack",
+            "Trojan horse attack"
+        ],
+        "answer": "Brute-force attack"
+    },
+    {
+        "question": "Bob, a professional hacker, targeted an organization to launch attacks. Bob gathered information such as network topology and a list of live hosts. Based on the collected information, he launched further attacks over the organization's network. Identify the type of network attack Bob initiated or the target organization in the above scenario.",
+        "options": [
+            "Enumeration",
+            "Buffer overflow",
+            "Data modification",
+            "Session hijacking"
+        ],
+        "answer": "Enumeration"
+    },
+    {
+        "question": "Which of the following titles of The Electronic Communications Privacy Act protects the privacy of the contents of files stored by service providers and records held about the subscriber by service providers, such as subscriber name, billing records, and IP addresses?",
+        "options": [
+            "Title /",
+            "Title 1l",
+            "Title /V",
+            "Title 11/"
+        ],
+        "answer": "Title 11"
+    },
+    {
+        "question": "Which of the following NTFS system files contains a record of every file present in the system?",
+        "options": [
+            "$mft",
+            "Slogfile",
+            "$quota",
+            "§volume"
+        ],
+        "answer": "$mft"
+    },
+    {
+        "question": "Bob, a security specialist at an organization, extracted the following IIS log from a Windows-based server: 2019-12-12 06:11:47 192.168.0.10 GET /images/content/bg_body_1.jpg- 80 - 192.168.0.27 Mozilla/S.O+ (Windows+NT+6.3;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://www.moviescope.com/css/style.css 200 0 0 365\" Identify the element in the above IIS log entry that indicates the request was fulfilled without error.",
+        "options": [
+            "200",
+            "537",
+            "192",
+            "80"
+        ],
+        "answer": "200"
+    },
+    {
+        "question": "Bob, a forensic specialist at a newly established NGO, discovered a security loophole in the NGO's web application, which unintentionally reveals early enrolled NGO members' biodata to attackers. Bob immediately employed a content filtering mechanism to protect all the NGO's data sources and prevent further damage. Identify the web application threat identified by Bob in the above scenario.",
+        "options": [
+            "Buffer overflow",
+            "Information leakage",
+            "Authentication hijacking",
+            "Cookie poisoning"
+        ],
+        "answer": "Information leakage"
+    },
+    {
+        "question": "Below is the syntax of a command-line utility that displays active TCP connections and ports on which the computer is listening. netstat [-a] [-e] [-n] [-o] [-p Protocol] [-r] [-s] [interval] Identify the netstat parameter that displays active TCP connections and includes the process ID (PID) for each connection.",
+        "options": [
+            "I-s)",
+            "1-o]"
+        ],
+        "answer": "1-o]"
+    },
+    {
+        "question": "Below are the various steps involved in forensic readiness planning. 1.Keep an incident response team ready to review the incident and preserve the evidence. 2.Create a process for documenting the procedure. 3.Identify the potential evidence required for an incident. 4.Determine the sources of evidence. 5.Establish a legal advisory board to guide the investigation process. 6.Identify if the incident requires full or formal investigation. 7.Establish a policy for securely handling and storing the collected evidence. 8.Define a policy that determines the pathway to legally extract electronic evidence with minimal disruption. Identify the correct sequence of steps involved in forensic readiness planning.",
+        "options": [
+            "3-->4-->8-->7-->6-->2-->5-->1",
+            "2-->3-->-->4-->6-->5-->7-_>8",
+            "3-->7->4-->5-->8-->2-->6-->7"
+        ],
+        "answer": "3-->4-->8-->7-->6-->2-->5-->1"
+    },
+    {
+        "question": "A disk drive has 16,384 cylinders, 80 heads, and 63 sectors per track, and each sector can store 512 bytes of data. What is the total size of the disk?",
+        "options": [
+            "42,279,584,320 bytes",
+            "43,278,584,320 bytes",
+            "42,278,584,340 bytes",
+            "42,278,584,320 bytes"
+        ],
+        "answer": "42,278,584,320 bytes"
+    },
+    {
+        "question": "Sam, a digital forensic expert, is working on a case related to file tampering in a system at the administrative department of an organization. In this process, Sam started performing the following steps to analyze the acquired data to draw conclusions related to the case. 1.Analyze the file content for data usage. 2.Analyze the date and time of file creation and modification. 3.Find the users associated with file creation, access, and file modification. 4.Determine the physical storage location of the file. 5.Generate a timeline. 6.Identify the root cause of the incident. Identify the type of analysis performed by Sam in the above scenario.",
+        "options": [
+            "Reporting",
+            "Case analysis",
+            "Data analysis54."
+        ],
+        "answer": "Data analysis"
+    },
+    {
+        "question": "Below are the various steps involved in an email crime investigation. 1. Acquiring the email data 2.Analyzing email headers 3.Examining email messages 4. Recovering deleted email messages 5.Seizing the computer and email accounts 6.Retrieving email headers What is the correct sequence of steps involved in the investigation of an email crime?",
+        "options": [
+            "7-->3-->6-->4-->5-->2",
+            "7->3-->4-->2-->5-->6",
+            "5-->1-3-->6-->2-->4",
+            "2-->4-->3-->6-->5-->1"
+        ],
+        "answer": "5-->1-->3-->6-->2-->4"
+    },
+    {
+        "question": "Given below are different steps involved in event correlation. 1.Event masking 2.Event aggregation 3.Root cause analysis 4.Event filtering Identify the correct sequence of steps involved in event correlation.",
+        "options": [
+            "1-->3-->4-->2",
+            "7-3-2-->4",
+            "2-->4-->3-->7",
+            "2-->1-->4-->3"
+        ],
+        "answer": "2-->4-->1-->3"
+    },
+    {
+        "question": "Harry, a security professional, was hired to identify the details of an attack that was initiated on a Windows system. In this process, Harry decided to check the logs of currently running applications and the information related to previously uninstalled or removed applications for suspicious events. Which of the following folders in a Windows system stores information on applications run on the system?",
+        "options": [
+            "C:\\Windows\\Book",
+            "C:\\Windows\\Prefetch",
+            "C:\\subdir",
+            "C\\Windows\\debug"
+        ],
+        "answer": "C:\\Windows\\Prefetch"
+    },
+    {
+        "question": "Which of the following file systems of Windows replaces the first letter of a deleted file name with the hex byte code \"Eh5\"?",
+        "options": [
+            "FAT",
+            "NTFS",
+            "EFS",
+            "FHS"
+        ],
+        "answer": "FAT"
+    },
+    {
+        "question": "Which of the following tools helps forensic experts analyze user activity in the Microsoft Edge browser?",
+        "options": [
+            "MZCacheView",
+            "MZHistoryView",
+            "ChromeHistoryView",
+            "BrowsingHistoryView"
+        ],
+        "answer": "BrowsingHistoryView"
+    },
+    {
+        "question": "Which of the following acts was passed by the U.S. Congress in 2002 to protect investors from the possibility of fraudulent accounting activities by corporations?",
+        "options": [
+            "Information Privacy Act 2014",
+            "Sarbanes-Oxley Act (SOX)",
+            "General Data Protection Regulation (GDPR)",
+            "The Electronic Communications Privacy Act"
+        ],
+        "answer": "Sarbanes-Oxley Act (SOX)"
+    },
+    {
+        "question": "Which of the following MAC forensic data components saves file information and related events using a token with a binary structure?",
+        "options": [
+            "Command-line inputs",
+            "Kexts",
+            "User account",
+            "Basic Security Module"
+        ],
+        "answer": "Basic Security Module"
+    },
+    {
+        "question": "Which of the following commands can an investigator use to parse GPTs of both types of hard disks, including those formatted with either UEFI or MR?",
+        "options": [
+            "Get-ForensicPartitionTable",
+            "Get-BootSector",
+            "Get-PartitionTable",
+            "Get-GPT"
+        ],
+        "answer": "Get-ForensicPartitionTable"
+    },
+    {
+        "question": "While investigating a web attack on a Windows-based server, Jessy executed the following command on her system: C:|> net view <10.10.10.77> What was Jessy's objective in running the above command?",
+        "options": [
+            "Check whether sessions have been opened with other systems",
+            "Verify the users using open sessions",
+            "Review file shares to ensure their purpose",
+            "Check file space usage to look for a sudden decrease in free space"
+        ],
+        "answer": "Review file shares to ensure their purpose"
+    },
+    {
+        "question": "A forensic investigator is collecting volatile data such as system information and network information present in the registries, cache, DLLs, and RAM of digital devices through its normal interface. Identify the data acquisition method the investigator is performing.",
+        "options": [
+            "Live acquisition",
+            "Non-volatile data acquisition",
+            "Dead acquisition",
+            "Static acquisition"
+        ],
+        "answer": "Live acquisition"
+    },
+    {
+        "question": "Which of the following Tor relay nodes in the Tor circuit is designed to transfer data in an encrypted format?",
+        "options": [
+            "Middle relay",
+            "Guard relay",
+            "Exit relay",
+            "Entry relay"
+        ],
+        "answer": "Middle relay"
+    },
+    {
+        "question": "John, a forensic officer, was working on a criminal case. He employed imaging software to create a copy of data from the suspect device on a storage medium for further investigation. For developing an image of the original data, John used a software application that does not allow an unauthorized user to alter the image content on storage media, thereby retaining an unaltered image copy. Identify the data acquisition step performed by John in the above scenario.",
+        "options": [
+            "COSanitized the target media",
+            "Enabled write protection on the evidence media",
+            "Validated data acquisition",
+            "Planned for contingency"
+        ],
+        "answer": "Enabled write protection on the evidence media"
+    },
+    {
+        "question": "Which of the following techniques is defined as the art of hiding data \"behind\" other data without the target's knowledge, thereby hiding the existence of the message itself?",
+        "options": [
+            "Artifact wiping",
+            "Program packer",
+            "Steganography",
+            "Password cracking"
+        ],
+        "answer": "Steganography"
+    },
+    {
+        "question": "Below are the elements included in the order of volatility for a typical computing system as per the RFC 3227 guidelines for evidence collection and archiving. 1.Archival media 2.Remote logging and monitoring data related to the target system 3.Routing table, process table, kernel statistics, and memory 4.Registers and processor cache 5.Physical configuration and network topology 6.Disk or other storage media 7.Temporary system files Identify the correct sequence of order of volatility from the most to least volatile for a typical system.",
+        "options": [
+            "4->3-->7-->6-->2-->5-->1",
+            "4-->3-->7-->1-->2-->5-->6",
+            "7-->5-->4-->3-->2-->6-->1"
+        ],
+        "answer": "4-->3-->7-->6-->2-->5-->1"
+    },
+    {
+        "question": "Which of the following types of phishing attacks allows an attacker to exploit instant messaging platforms by employing IM as a tool to spread spam?",
+        "options": [
+            "Spear phishing",
+            "Spimming",
+            "Whaling",
+            "Pharming"
+        ],
+        "answer": "Spimming"
+    },
+    {
+        "question": "Which of the following Windows system files is created in the system drive after OS installation to support the internal functions and system service dispatch stubs to executive functions?",
+        "options": [
+            "Kernel32.dll",
+            "Win32k.sys",
+            "Ntdll.dil",
+            "Ntoskrnlexe"
+        ],
+        "answer": "Ntdll.dll"
+    },
+    {
+        "question": "David, a cybercriminal, targeted a community and initiated anti-social campaigns online. In this process, he used a layer of the web that allowed him to maintain anonymity during the campaign. Which of the following layers of the web allowed David to hide his presence during the anti-social campaign?",
+        "options": [
+            "World Wide Web",
+            "Deep Web",
+            "Surface Web",
+            "Dark Web"
+        ],
+        "answer": "Dark Web"
+    },
+    {
+        "question": "Which of the following layers of the TCP/IP model serves as the backbone for data flow between two devices in a network and enables peer entities on the source and destination devices to communicate with each other?",
+        "options": [
+            "Network access layer",
+            "Transport layer",
+            "Application layer",
+            "Internet layer"
+        ],
+        "answer": "Transport layer"
+    },
+    {
+        "question": "Clark, a digital forensic expert, was assigned to investigate a malicious activity performed on an organization's network. The organization provided Clark with all the information related to the incident. In this process, he assessed the impact of the incident on the organization, reasons for and source of the incident, steps required to tackle the incident, investigating team required to handle the case, investigative procedures, and possible outcome of the forensic process. Identify the type of analysis performed by Clark in the above scenario.",
+        "options": [
+            "Traffic analysis",
+            "Case analysis",
+            "Data analysis",
+            "Log analysis"
+        ],
+        "answer": "Case analysis"
+    },
+    {
+        "question": "Which of the following steps in forensic readiness planning provides a backup for future reference and assists in presenting evidence in a court of law?",
+        "options": [
+            "Keeping an incident response team ready to review the incident",
+            "Identifying the potential evidence required for an incident",
+            "Creating a process for documenting the procedure",
+            "Determining the sources of evidence"
+        ],
+        "answer": "Creating a process for documenting the procedure"
+    },
+    {
+        "question": "Alice and John are close college friends. Alice frequently sends emails to John attaching her pics with friends. One day, Alice sent an email to John describing all the details related to the final year project without specifying the actual purpose. John missed the message as he frequently receives emails from her and did not arrive for a project seminar. Which of the following email fields could Alice have used in the above scenario to highlight the importance o the email?",
+        "options": [
+            "Subject",
+            "Bcc",
+            "Cc",
+            "Date"
+        ],
+        "answer": "Subject"
+    },
+    {
+        "question": "Which of the following standards and criteria version of SWGDE mandates that any action with the potential to alter, damage, or destroy any aspect of original evidence must be performed by qualified persons in a forensically sound manner?",
+        "options": [
+            "Standards and Criteria 1.3",
+            "Standards and Criteria 1.7",
+            "Standards and Criteria 1.5",
+            "Standards and Criteria 1.7"
+        ],
+        "answer": "Standards and Criteria 1.5"
+    },
+    {
+        "question": "Bob, a network specialist in an organization, is attempting to identify malicious activities in the network. In this process, Bob analyzed specific data that provided him a summary of a conversation between two network devices, including a source IP and source port, a destination IP and destination port, the duration of the conversation, and the information shared during the conversation. Which of the following types of network-based evidence was collected by Bob in the above scenario?",
+        "options": [
+            "Session data",
+            "Full content data",
+            "Statistical data",
+            "Alert data"
+        ],
+        "answer": "Session data"
+    },
+    {
+        "question": "Which of the following tools helps a forensics investigator develop and test across multiple operating systems in a virtual machine for Mac and allows access to Microsoft Office for Windows?",
+        "options": [
+            "Parallels Desktop 16",
+            "Riverbed Modeler",
+            "NetSim",
+            "Camtasia"
+        ],
+        "answer": "Parallels Desktop 16"
+    },
+    {
+        "question": "An organization decided to strengthen the security of its network by studying and analyzing the behavior of attackers. For this purpose, Steven, a security analyst, was instructed to deploy a device to bait attackers. Steven selected a solution that appears to contain very useful information to lure attackers and find their locations and techniques. Identify the type of device deployed by Steven in the above scenario.",
+        "options": [
+            "Intrusion detection system",
+            "Router",
+            "Firewall",
+            "Honeypot"
+        ],
+        "answer": "Honeypot"
+    },
+    {
+        "question": "Below is an extracted Apache error log entry. \"[Wed Aug 28 13:35:38.878945 2020] [core:error] [pid 12356:tid 8689896234] [client 10.0.0.8] File not found: /images/folder/pic.jpg\" Identify the element in the Apache error log entry above that represents the IP address from which the request was made.",
+        "options": [
+            "12356",
+            "10.0.0.8",
+            "8689896234",
+            "13:35:38.878945"
+        ],
+        "answer": "10.0.0.8"
+    },
+    {
+        "question": "Which of the following file systems is developed by Apple to support MacOS in its proprietary Macintosh system and replace the Macintosh File System (MFS)?",
+        "options": [
+            "Hierarchical File System",
+            "Apple File System",
+            "New Technology File System",
+            "Filesystem Hierarchy Standard"
+        ],
+        "answer": "Apple File System"
+    },
+    {
+        "question": "Identify the malware analysis technique in which the investigators must take a snapshot of the baseline state of the forensic workstation before malware execution.",
+        "options": [
+            "File fingerprinting,",
+            "Monitoring host integrity",
+            "Online malware scanning",
+            "String search"
+        ],
+        "answer": "Monitoring host integrity"
+    },
+    {
+        "question": "Which of the following techniques is used to compute the hash value for a given binary code to uniquely identity malware or periodically verify changes made to the binary code during analysis?",
+        "options": [
+            "Strings search",
+            "Local and online malware scanning",
+            "File fingerprinting",
+            "Malware disassembly"
+        ],
+        "answer": "File fingerprinting"
+    },
+    {
+        "question": "Identify the investigation team member who is responsible for evidence gathered at the crime scene and maintains a record of the evidence, making it admissible in a court of law.",
+        "options": [
+            "Incident responder",
+            "Incident analyzer",
+            "Evidence manager",
+            "Evidence examiner"
+        ],
+        "answer": "Evidence manager"
+    },
+    {
+        "question": "Sandra, a hacker, targeted Johana, a software professional, to steal her banking details. She started sending frequent, random pop-up messages with malicious links to her social media page. Johana accidentally clicked on a link, causing a malicious program to get installed in her system. Subsequently, when Johana attempted to access her banking website, the URL directed her to a malicious website controlled by Sandra. Johana entered her banking credentials on the fake website, which Sandra then captured. Identify the type of attack performed by Sandra on Johana.",
+        "options": [
+            "Pharming",
+            "Shoulder surfing",
+            "Dumpster diving",
+            "Tailgating"
+        ],
+        "answer": "Pharming"
+    },
+    {
+        "question": "An investigator wants to extract information about the status of the network interface cards (NICs) in an organization's Windows-based systems. Identify the command-line utility that can help the investigator detect the network status.",
+        "options": [
+            "COPsList",
+            "ifconfig",
+            "PsLoggedOn",
+            "ipconfig"
+        ],
+        "answer": "ipconfig"
+    },
+    {
+        "question": "Michael, a forensic expert, was assigned to investigate an incident that involved unauthorized intrusion attempts. In this process, Michael identified all the open ports on a system and disabled them because these open ports can allow attackers to install malicious services and compromise the security of the system or network. Which of the following commands assisted Michael in identifying open ports in the above scenario?",
+        "options": [
+            "netstat-rn",
+            "ifconfig < interface > -promisc",
+            "netstat -i",
+            "nmap -sT localhost"
+        ],
+        "answer": "nmap -sT localhost"
+    },
+    {
+        "question": "In which of the following malware distribution techniques does the attacker use tactics such as keyword stuffing, doorway pages, page swapping, and adding unrelated keywords to improve the search-engine ranking of their malware pages?",
+        "options": [
+            "Spearphishing sites",
+            "Social-engineered clickjacking",
+            "Drive-by downloads",
+            "Blac-khat search-engine optimization"
+        ],
+        "answer": "Black-hat search-engine optimization"
+    },
+    {
+        "question": "Kane, an investigation specialist, was appointed to investigate an incident in an organization's network. In this process, Kane executed a command and identified that a network interface is running in the promiscuous mode and is allowing all incoming packets without any restriction. In the above scenario, which of the following commands did Kane use to check whether the network interface is set to the promiscuous mode?",
+        "options": [
+            "netstat -i",
+            "nmap -sT localhost",
+            "ipconfig < interface name»",
+            "ifconfig < interface name >"
+        ],
+        "answer": "ifconfig < interface name >"
+    },
+    {
+        "question": "Given below is a regex signature used by security professionals for detecting an XSS attack: /((\\%3C)/<)[^\\n]+((\\%3E)|>)/// Which of the following types of XSS attack does the above regex expression detect?",
+        "options": [
+            "CHTML tags-based XSS attempt",
+            "In-line comment XSS attack",
+            "CSS attack",
+            "Simple XSS attack"
+        ],
+        "answer": "HTML tags-based XSS attempt"
+    },
+    {
+        "question": "Which of the following hives in the Windows Registry hierarchical database is volatile in nature and contains file-extension association information and programmatic identifier (ProgID), Class ID (CLSID), and Interface ID (ID) data?",
+        "options": [
+            "SOHKEY_LOCAL_MACHINE",
+            "HKEY_CURRENT_CONFIC",
+            "HKEY_CURRENT_USER",
+            "HEY_CLASSES_ROOT"
+        ],
+        "answer": "HKEY_CLASSES_ROOT"
+    },
+    {
+        "question": "Cooper, a forensic analyst, was examining a RAM dump extracted from a Linux system. In this process, he employed an automated tool, Volatility Framework, to identify any malicious code hidden inside the memory. Which of the following plugins of the Volatility Framework helps Cooper detect hidden or injected files in the memory?",
+        "options": [
+            "linux_malfind",
+            "nmap -sU localhost",
+            "linux_netstat",
+            "ip addr show"
+        ],
+        "answer": "linux_malfind"
+    },
+    {
+        "question": "Which of the following folders of macos stores all the files, documents, applications, library folders, etc. pertaining to a particular user?",
+        "options": [
+            "Finder",
+            "Spotlight",
+            "Home Directory",
+            "Time Machine"
+        ],
+        "answer": "Home Directory"
+    },
+    {
+        "question": "Which of the following measures is defined as the time to move read or write disc heads from one point to another on the disk?",
+        "options": [
+            "Delay time",
+            "Seek time",
+            "Mean time",
+            "Access time"
+        ],
+        "answer": "Seek time"
+    },
+    {
+        "question": "Which of the following data acquisition formats supports the Lempel-Ziv-Markov chain (LZMA) algorithm for compression?",
+        "options": [
+            "Proprietary Format",
+            "Advanced Forensic Framework 4",
+            "Advanced Forensics Format",
+            "Raw Format"
+        ],
+        "answer": "Advanced Forensics Format"
+    },
+    {
+        "question": "Sarah, a forensic investigator, is working on a criminal case. She was provided with all the suspect devices. Sarah employs an imaging software tool for duplicating the original data from the suspect devices. However, the tool she employed failed to image the data as the suspect version of the drive was very old and incompatible with imaging software.] Hence, Sarah used an alternative data acquisition technique and succeeded in imaging the data. Which of the following types of data acquisition techniques did Sarah employ in the above scenario?",
+        "options": [
+            "Bit-stream disk-to-image-file",
+            "Bit-stream disk-to-disk",
+            "Sparse acquisition",
+            "Logical acquisition"
+        ],
+        "answer": "Bit-stream disk-to-disk"
+    },
+    {
+        "question": "Kelly, a professional hacker, used her laptop to perform illegal cyber activities for monetary gain on many victims. She securely locked her laptop using BitLocker software. Using this tool, she locked an entire volume using a secret key to deny access to the system. Identify the anti-forensic technique used by Don in the above scenario.",
+        "options": [
+            "File carving",
+            "Trail obfuscation",
+            "Artifact wiping",
+            "Encryption"
+        ],
+        "answer": "Encryption"
+    },
+    {
+        "question": "Jack, a forensic investigator, was appointed by an organization to perform a security audit on a Linux system. In this process, Jack collected information about the present status of the system and listed all the applications running on various ports to detect malicious programs. Which of the following commands can help Jack determine any programs/processes associated with open ports?",
+        "options": [
+            "netstat -i",
+            "netstat -tulpn",
+            "ip r",
+            "netstat -٢n3."
+        ],
+        "answer": "netstat -tulpn"
+    },
+    {
+        "question": "Jennifer, a forensics Investigation team member, was inspecting a compromised system. After gathering all the evidence related to the compromised system, she disconnected the system from the network to stop the spread of the incident to other systems. Identify the role played by Jennifer in the forensics investigation.",
+        "options": [
+            "Expert witness",
+            "Evidence manager",
+            "Incident responder",
+            "Incident analyzer"
+        ],
+        "answer": "Incident responder"
+    },
+    {
+        "question": "Cheryl, a forensic expert, was recruited to investigate a malicious activity performed by an anonymous hackers' group on an organization's systems. Using an automated tool, Cheryl was able to extract the malware file and analyze the assembly code instructions, which helped him understand the malware's purpose. Which of the following tools helped Cheryl extract and analyze the assembly code of the malware?",
+        "options": [
+            "Virtual Box",
+            "QualNet",
+            "VMware Sphere",
+            "OllyDbg5."
+        ],
+        "answer": "OllyDbg"
+    },
+    {
+        "question": "James, a forensic specialist, was appointed to investigate an incident in an organization. As part of the investigation, James is attempting to identify whether any external storage devices are connected to the internal systems. For this purpose, he employed a utility to capture the list of all devices connected to the local machine and removed suspicious devices. Identify the tool employed by James in the above scenario.",
+        "options": [
+            "ESEDatabaseView",
+            "PromiscDetect",
+            "ProcDump",
+            "DriveLetterView"
+        ],
+        "answer": "DriveLetterView"
+    },
+    {
+        "question": "Benoy, a security professional at an organization, extracted Apache access log entries to view critical information about all the operations performed on a web server. The Apache access log extracted by Benoy is given below: \"10.10.10.10 - Jason [17/Aug/2019:00:12:34 +0300] \"GET/images/content/bg_body_1.jpg HTTP/1.0\" 500 1458\" Identify the HTTP status code in the Apache access log entry above that indicates the response was successful.",
+        "options": [
+            "1.0",
+            "2019",
+            "+0300",
+            "5007."
+        ],
+        "answer": "500"
+    },
+    {
+        "question": "Which of the following files belonging to the Extensible Storage Engine (ESE) stores the mail data in Microsoft Exchange Server?",
+        "options": [
+            "WLCalendarStore.edb",
+            "DataStore.edb",
+            "Mail.MSMessageStore",
+            "Database.edb"
+        ],
+        "answer": "DataStore.edb"
+    },
+    {
+        "question": "Andrew, a system administrator, is performing a UEFI boot process. The current phase of the UEFI boot process consists of the initialization code that the system executes after powering on the EFl system. This phase also manages platform reset events and sets up the system so that it can find, validate, install, and run the PEI. Which of the following UEF! boot phases is the process currently in?",
+        "options": [
+            "Driver execution environment phase",
+            "Security phase",
+            "Boot device selection phase",
+            "Pre-EFl initialization phase"
+        ],
+        "answer": "Pre-EFl initialization phase"
+    },
+    {
+        "question": "Bob, a forensic investigator, was instructed to review a Windows machine and identify any anonymous activities performed using it. In this process, Bob used the command \"netstat -ano\" to view all the active connections in the system and determined that the connections established by the Tor browser were closed. Which of the following states of the connections established by Tor indicates that the Tor browser is closed?",
+        "options": [
+            "LISTENING",
+            "ESTABLISHED",
+            "CLOSE_WAIT",
+            "TIME_WAIT"
+        ],
+        "answer": "TIME_WAIT"
+    },
+    {
+        "question": "In which of the following attacks does an attacker trick high-profile executives such as CEOs, CFOS, politicians, and celebrities to reveal critical corporate and personal information through email or website spoofing?",
+        "options": [
+            "Identity fraud",
+            "Whaling",
+            "Spimming",
+            "Smishing"
+        ],
+        "answer": "Whaling"
+    },
+    {
+        "question": "Bob, a forensic investigator, is investigating a live Windows system found at a crime scene. In this process, Bob extracted subkeys containing information such as SAM, Security, and software using an automated tool called FTK Imager. Which of the following Windows Registry hives' subkeys provide the above intormation to bob?",
+        "options": [
+            "HKEY_CURRENT_USER",
+            "HKEY_CURRENT_CONFIC",
+            "HKEY_CLASSES_ROOT",
+            "HKEY_LOCAL_MACHINE"
+        ],
+        "answer": "HKEY_LOCAL_MACHINE"
+    },
+    {
+        "question": "Williams, a forensic specialist, was tasked with performing a static malware analysis on a suspect system in an organization. For this purpose, Williams used an automated tool to perform a string search and saved all the identified strings in a text file. Aftğr analyzing the strings, he determined all the harmful actions that were performed by malware. Identify the tool employed by Williams in the above scenario.",
+        "options": [
+            "Snagit",
+            "ResourcesExtract",
+            "Ezvid",
+            "R-Drive Image"
+        ],
+        "answer": "ResourcesExtract"
+    },
+    {
         "question": "Identify the tool that lists all the related modules within an executable file and builds a hierarchical tree diagram as well as records all the functions exported and called by each module.",
         "options": [
             "Dependency Walker",
