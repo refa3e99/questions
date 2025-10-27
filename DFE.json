@@ -77,7 +77,7 @@
             "Tor browser",
             "Paraben P2 Commander"
         ],
-        "answer": "Bulk Extractor"
+        "answer": "Paraben P2 Commander"
     },
     {
         "question": "A system that a cybercriminal was suspected to have used for performing an anti-social activity through the Tor browser. James reviewed the active network connections established using specific ports via Tor. Which of the following port numbers does Tor use for establishing a connection via Tor nodes?",
@@ -132,20 +132,20 @@
     {
         "question": "Which of the following titles of The Electronic Communications Privacy Act protects the privacy of the contents of files stored by service providers and records held about the subscriber by service providers, such as subscriber name, billing records, and IP addresses?",
         "options": [
-            "Title /",
-            "Title 1l",
-            "Title /V",
-            "Title 11/"
+            "Title I",
+            "Title II",
+            "Title IV",
+            "Title III"
         ],
-        "answer": "Title 11"
+        "answer": "Title II"
     },
     {
         "question": "Which of the following NTFS system files contains a record of every file present in the system?",
         "options": [
             "$mft",
-            "Slogfile",
+            "$logfile",
             "$quota",
-            "§volume"
+            "$volume"
         ],
         "answer": "$mft"
     },
@@ -172,16 +172,18 @@
     {
         "question": "Below is the syntax of a command-line utility that displays active TCP connections and ports on which the computer is listening. netstat [-a] [-e] [-n] [-o] [-p Protocol] [-r] [-s] [interval] Identify the netstat parameter that displays active TCP connections and includes the process ID (PID) for each connection.",
         "options": [
-            "I-s)",
-            "1-o]"
+            "[-n]",
+            "[-s]",
+            "[-a]",
+            "[-o]"
         ],
-        "answer": "1-o]"
+        "answer": "[-a]"
     },
     {
         "question": "Below are the various steps involved in forensic readiness planning. 1.Keep an incident response team ready to review the incident and preserve the evidence. 2.Create a process for documenting the procedure. 3.Identify the potential evidence required for an incident. 4.Determine the sources of evidence. 5.Establish a legal advisory board to guide the investigation process. 6.Identify if the incident requires full or formal investigation. 7.Establish a policy for securely handling and storing the collected evidence. 8.Define a policy that determines the pathway to legally extract electronic evidence with minimal disruption. Identify the correct sequence of steps involved in forensic readiness planning.",
         "options": [
             "3-->4-->8-->7-->6-->2-->5-->1",
-            "2-->3-->-->4-->6-->5-->7-_>8",
+            "2-->3-->-->4-->6-->5-->7-->8",
             "3-->7->4-->5-->8-->2-->6-->7"
         ],
         "answer": "3-->4-->8-->7-->6-->2-->5-->1"
@@ -201,7 +203,7 @@
         "options": [
             "Reporting",
             "Case analysis",
-            "Data analysis54."
+            "Data analysis"
         ],
         "answer": "Data analysis"
     },
@@ -219,8 +221,8 @@
         "question": "Given below are different steps involved in event correlation. 1.Event masking 2.Event aggregation 3.Root cause analysis 4.Event filtering Identify the correct sequence of steps involved in event correlation.",
         "options": [
             "1-->3-->4-->2",
-            "7-3-2-->4",
-            "2-->4-->3-->7",
+            "1-->3-->2-->4",
+            "2-->4-->3-->1",
             "2-->1-->4-->3"
         ],
         "answer": "2-->4-->1-->3"
