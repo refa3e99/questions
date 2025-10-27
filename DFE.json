@@ -177,7 +177,7 @@
             "[-a]",
             "[-o]"
         ],
-        "answer": "[-a]"
+        "answer": "[-o]"
     },
     {
         "question": "Below are the various steps involved in forensic readiness planning. 1.Keep an incident response team ready to review the incident and preserve the evidence. 2.Create a process for documenting the procedure. 3.Identify the potential evidence required for an incident. 4.Determine the sources of evidence. 5.Establish a legal advisory board to guide the investigation process. 6.Identify if the incident requires full or formal investigation. 7.Establish a policy for securely handling and storing the collected evidence. 8.Define a policy that determines the pathway to legally extract electronic evidence with minimal disruption. Identify the correct sequence of steps involved in forensic readiness planning.",
