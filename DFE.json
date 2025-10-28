@@ -285,7 +285,7 @@
             "Get-PartitionTable",
             "Get-GPT"
         ],
-        "answer": "Get-ForensicPartitionTable"
+        "answer": "Get-BootSector"
     },
     {
         "question": "While investigating a web attack on a Windows-based server, Jessy executed the following command on her system: C:|> net view <10.10.10.77> What was Jessy's objective in running the above command?",
@@ -361,7 +361,7 @@
         "options": [
             "Kernel32.dll",
             "Win32k.sys",
-            "Ntdll.dil",
+            "Ntdll.dll",
             "Ntoskrnlexe"
         ],
         "answer": "Ntdll.dll"
