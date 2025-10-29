@@ -420,11 +420,11 @@
         "question": "Which of the following standards and criteria version of SWGDE mandates that any action with the potential to alter, damage, or destroy any aspect of original evidence must be performed by qualified persons in a forensically sound manner?",
         "options": [
             "Standards and Criteria 1.3",
-            "Standards and Criteria 1.7",
+            "Standards and Criteria 1.4",
             "Standards and Criteria 1.5",
             "Standards and Criteria 1.7"
         ],
-        "answer": "Standards and Criteria 1.5"
+        "answer": "Standards and Criteria 1.7"
     },
     {
         "question": "Bob, a network specialist in an organization, is attempting to identify malicious activities in the network. In this process, Bob analyzed specific data that provided him a summary of a conversation between two network devices, including a source IP and source port, a destination IP and destination port, the duration of the conversation, and the information shared during the conversation. Which of the following types of network-based evidence was collected by Bob in the above scenario?",
@@ -474,7 +474,7 @@
             "New Technology File System",
             "Filesystem Hierarchy Standard"
         ],
-        "answer": "Apple File System"
+        "answer": "Hierarchical File System"
     },
     {
         "question": "Identify the malware analysis technique in which the investigators must take a snapshot of the baseline state of the forensic workstation before malware execution.",
@@ -542,7 +542,7 @@
             "Spearphishing sites",
             "Social-engineered clickjacking",
             "Drive-by downloads",
-            "Blac-khat search-engine optimization"
+            "Black-hat search-engine optimization"
         ],
         "answer": "Black-hat search-engine optimization"
     },
@@ -559,12 +559,12 @@
     {
         "question": "Given below is a regex signature used by security professionals for detecting an XSS attack: /((\\%3C)/<)[^\\n]+((\\%3E)|>)/// Which of the following types of XSS attack does the above regex expression detect?",
         "options": [
-            "CHTML tags-based XSS attempt",
+            "HTML tags-based XSS attempt",
             "In-line comment XSS attack",
             "CSS attack",
             "Simple XSS attack"
         ],
-        "answer": "HTML tags-based XSS attempt"
+        "answer": "CSS attack"
     },
     {
         "question": "Which of the following hives in the Windows Registry hierarchical database is volatile in nature and contains file-extension association information and programmatic identifier (ProgID), Class ID (CLSID), and Interface ID (ID) data?",
@@ -572,7 +572,7 @@
             "SOHKEY_LOCAL_MACHINE",
             "HKEY_CURRENT_CONFIC",
             "HKEY_CURRENT_USER",
-            "HEY_CLASSES_ROOT"
+            "HKEY_CLASSES_ROOT"
         ],
         "answer": "HKEY_CLASSES_ROOT"
     },
@@ -662,7 +662,7 @@
             "Virtual Box",
             "QualNet",
             "VMware Sphere",
-            "OllyDbg5."
+            "OllyDbg5"
         ],
         "answer": "OllyDbg"
     },
