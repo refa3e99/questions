@@ -704,7 +704,7 @@
             "Boot device selection phase",
             "Pre-EFl initialization phase"
         ],
-        "answer": "Pre-EFl initialization phase"
+        "answer": "Security phase"
     },
     {
         "question": "Bob, a forensic investigator, was instructed to review a Windows machine and identify any anonymous activities performed using it. In this process, Bob used the command \"netstat -ano\" to view all the active connections in the system and determined that the connections established by the Tor browser were closed. Which of the following states of the connections established by Tor indicates that the Tor browser is closed?",
