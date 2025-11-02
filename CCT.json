@@ -110,16 +110,6 @@
         "answer": "Implement robust encryption protocols like IPsec for all SCADA network communications."
     },
     {
-        "question": "Conduct a vulnerability assessment of the web server hosting the www.luxurytreats.com site. Determine the location of the FTP Writeable Directories vulnerability and provide it as the answer.(Practical)",
-        "options": [
-            "443/tcp",
-            "8081/tcp",
-            "3389/tcp",
-            "2968/tcp"
-        ],
-        "answer": "2968/tcp"
-    },
-    {
         "question": "A multinational financial institution detects that unauthorized transactions are taking place in its trading systems at irregular intervals. These transactions are small enough to avoid triggering threshold-based alerts but accumulate significant losses over time. Forensic analysis reveals that malicious code was injected into the system, which activates only when specific market conditions are met. The attackers have deep understanding of the institution's operations and have evaded traditional security measures. Which type of attack is the institution facing and what action should the cybersecurity team take to stop it at the earliest?",
         "options": [
             "Phishing attack; conduct mandatory security training to prevent credential compromise.",
@@ -200,16 +190,6 @@
         "answer": "Implement strict access control lists (ACLs) to databases based on data classification levels, and clearly define roles such as Data Owners, Data Controllers, and Data Custodians."
     },
     {
-        "question": "As a security professional, you are tasked with analyzing the company’s access control policies. The policy reports have been extracted and saved as Acc-Policies.rar in the Documents folder of Attacker Machine-1. Your objective is to analyze these files and determine the maximum lifetime for a service ticket assigned by the organization, expressed in hours.(Practical)",
-        "options": [
-            "1",
-            "3",
-            "2",
-            "5"
-        ],
-        "answer": "1"
-    },
-    {
         "question": "A cybersecurity firm managing the infrastructure of a large healthcare provider discovers that encrypted patient data has been stolen and sent to an external server. The attackers are using advanced techniques to avoid detection, including custom malware that operates in memory and leaves no traces on disk. Traditional antivirus solutions have failed to detect the threat. The firm needs to uncover the vulnerability that allowed this breach and prevent further data loss. Which approach should the firm prioritize to identify the vulnerability and strengthen the security posture?",
         "options": [
             "Increase network firewall rules to block all outbound traffic except essential services.",
@@ -230,16 +210,6 @@
         "answer": "Transition to WPA2-Enterprise with 802.1X authentication and implement Management Frame Protection (MFP)."
     },
     {
-        "question": "A security professional has implemented network-based firewall restrictions to protect employees from phishing and insider attacks. Your task is to identify the blocked websites based on these firewall rules and determine the IP address of the vulnerable site from the provided list.(Practical)",
-        "options": [
-            "44.228.249.12",
-            "44.228.249.45",
-            "44.228.249.3",
-            "44.228.249.101"
-        ],
-        "answer": "44.228.249.45"
-    },
-    {
         "question": "An international law firm has implemented a wireless network across its offices to provide mobility for attorneys and staff. The network uses WPA2-Enterprise security with 802.1X authentication and PEAP (Protected EAP) protocol, relying on internal certificate authorities and RADIUS servers. Recently, unauthorized devices have been detected accessing sensitive legal documents over the wireless network. The security team discovers that attackers are successfully authenticating to the network without valid credentials. Upon investigation, they suspect a vulnerability in the authentication process is being exploited. Which security enhancement should the firm implement to address the vulnerability and prevent unauthorized access to the wireless network?",
         "options": [
             "Implement EAP-TLS authentication method requiring client-side certificates for all devices.",
@@ -258,16 +228,6 @@
             "Implement Access Control Lists (ACLs) on network devices and use fire-resistant materials in construction."
         ],
         "answer": "Deploy mantraps at entry points and integrate environmental monitoring systems with automated responses."
-    },
-    {
-        "question": "You are a forensic inspector assigned to investigate a suspicious incident at an IT firm. You have been provided with an initial evidence file named evid4443.img, located in the C:\\Users\\Admin\\Downloads\\Evidence folder on Attacker Machine-1. Your task is to analyze this image file and determine the operating system it contains. Note: check for Distrib_description value.(Practical)",
-        "options": [
-            "Ubuntu 20.04 LTS",
-            "Windows Server 2019",
-            "CentOS Linux 8",
-            "Debian GNU/Linux 10 (buster)"
-        ],
-        "answer": "Ubuntu 20.04 LTS"
     },
     {
         "question": "SecureData Corp., a leading healthcare provider, discovered unauthorized access to their patient database via a compromised employee workstation, allowing data exfiltration over weeks. Forensics revealed encrypted files and traces of a previously unknown Remote Access Tool (RAT), with metadata showing file modifications after business hours. To determine the breach’s extent and identify the perpetrators, SecureData Corp. needs advanced forensic techniques to uncover hidden activities and trace the intrusion source. Which forensic technique should the team prioritize to uncover the hidden RAT and trace the intrusion source?",
@@ -308,16 +268,6 @@
             "Malware attack; deploy advanced antivirus solutions across all employee devices."
         ],
         "answer": "SIM swapping attack; switch to app-based authentication methods that don't use SMS."
-    },
-    {
-        "question": "Perform a security scan on the target subnet 192.168.10.0/24 using nmap. Identify the IP address of the machine with the cardax security management service open.(Practical)",
-        "options": [
-            "192.168.10.99",
-            "192.168.10.45",
-            "192.168.10.77",
-            "192.168.10.12"
-        ],
-        "answer": "192.168.10.45"
     },
     {
         "question": "An international consulting firm permits consultants to use personal devices for corporate emails and data. Recently, a security breach leaked confidential client data. The investigation showed that devices were compromised by malicious apps from third-party stores, gaining elevated permissions to access sensitive data. To protect corporate data on personal devices without affecting consultants' ability to work remotely, which action should the security team take?",
@@ -440,16 +390,6 @@
         "answer": "Detect and Respond"
     },
     {
-        "question": "You have been tasked with analyzing the logs of a target Linux machine. The log files are stored in the Lin_logs.tar.xz file located in the Documents folder of Attacker Machine-2. Your goal is to verify the log files and identify the username whose FTP credentials were successfully used to log in.(Practical)",
-        "options": [
-            "John",
-            "Alice",
-            "Steve",
-            "David"
-        ],
-        "answer": "Steve"
-    },
-    {
         "question": "A multinational e-commerce firm integrated cloud services and third-party apps but faced sophisticated cyber-attacks that bypassed traditional security, causing data breaches and disruptions. Attackers exploited zero-day vulnerabilities and encrypted traffic. To counter these threats, which technical control should the team implement to gain deep visibility into both encrypted and unencrypted traffic without impacting performance?",
         "options": [
             "Install Next-Generation Intrusion Prevention Systems (NGIPS) with SSL/TLS decryption capabilities.",
@@ -550,16 +490,6 @@
         "answer": "Buffer overflow attack; apply input validation and deploy web application firewalls with virtual patching."
     },
     {
-        "question": "An IT company has deployed an extensive IoT network to manage various facilities within the office. A recent fire incident has triggered an alert, causing a complete evacuation of the building. The Security Operations Center (SOC) captured the network traffic during the incident and stored it as AlertIoT.pcaping in the Downloads folder of Attacker Machine-1. Analyze the capture file and identify the topic of the alert sent to the IoT devices over the network.(Practical)",
-        "options": [
-            "Motion_Detected",
-            "Low_Battery",
-            "High_dBs",
-            "Temperature_Rise"
-        ],
-        "answer": "High_dBs"
-    },
-    {
         "question": "TechWave Solutions experienced a sudden drop in network performance, with high response times and timeouts in application services. Monitoring tools showed irregular traffic spikes and numerous ARP requests/replies from unknown devices, suggesting possible ARP spoofing or broadcast storms. To restore performance and secure the network, administrators need an in-depth troubleshooting process to identify and mitigate the root cause. Which diagnostic step should TechWave Solutions undertake first to address the network performance issues?",
         "options": [
             "Isolate and segment affected network areas to contain traffic irregularities.",
@@ -598,5 +528,75 @@
             "36/Male"
         ],
         "answer": "33/Female"
+    },
+    {
+        "question": "Conduct a vulnerability assessment of the web server hosting the www.luxurytreats.com site. Determine the location of the FTP Writeable Directories vulnerability and provide it as the answer.(Practical)",
+        "options": [
+            "443/tcp",
+            "8081/tcp",
+            "3389/tcp",
+            "2968/tcp"
+        ],
+        "answer": "2968/tcp"
+    },
+    {
+        "question": "As a security professional, you are tasked with analyzing the company’s access control policies. The policy reports have been extracted and saved as Acc-Policies.rar in the Documents folder of Attacker Machine-1. Your objective is to analyze these files and determine the maximum lifetime for a service ticket assigned by the organization, expressed in hours.(Practical)",
+        "options": [
+            "1",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "A security professional has implemented network-based firewall restrictions to protect employees from phishing and insider attacks. Your task is to identify the blocked websites based on these firewall rules and determine the IP address of the vulnerable site from the provided list.(Practical)",
+        "options": [
+            "44.228.249.12",
+            "44.228.249.45",
+            "44.228.249.3",
+            "44.228.249.101"
+        ],
+        "answer": "44.228.249.45"
+    },
+    {
+        "question": "You are a forensic inspector assigned to investigate a suspicious incident at an IT firm. You have been provided with an initial evidence file named evid4443.img, located in the C:\\Users\\Admin\\Downloads\\Evidence folder on Attacker Machine-1. Your task is to analyze this image file and determine the operating system it contains. Note: check for Distrib_description value.(Practical)",
+        "options": [
+            "Ubuntu 20.04 LTS",
+            "Windows Server 2019",
+            "CentOS Linux 8",
+            "Debian GNU/Linux 10 (buster)"
+        ],
+        "answer": "Ubuntu 20.04 LTS"
+    },
+    {
+        "question": "Perform a security scan on the target subnet 192.168.10.0/24 using nmap. Identify the IP address of the machine with the cardax security management service open.(Practical)",
+        "options": [
+            "192.168.10.99",
+            "192.168.10.45",
+            "192.168.10.77",
+            "192.168.10.12"
+        ],
+        "answer": "192.168.10.45"
+    },
+    {
+        "question": "You have been tasked with analyzing the logs of a target Linux machine. The log files are stored in the Lin_logs.tar.xz file located in the Documents folder of Attacker Machine-2. Your goal is to verify the log files and identify the username whose FTP credentials were successfully used to log in.(Practical)",
+        "options": [
+            "John",
+            "Alice",
+            "Steve",
+            "David"
+        ],
+        "answer": "Steve"
+    },
+    {
+        "question": "An IT company has deployed an extensive IoT network to manage various facilities within the office. A recent fire incident has triggered an alert, causing a complete evacuation of the building. The Security Operations Center (SOC) captured the network traffic during the incident and stored it as AlertIoT.pcaping in the Downloads folder of Attacker Machine-1. Analyze the capture file and identify the topic of the alert sent to the IoT devices over the network.(Practical)",
+        "options": [
+            "Motion_Detected",
+            "Low_Battery",
+            "High_dBs",
+            "Temperature_Rise"
+        ],
+        "answer": "High_dBs"
     }
 ]
