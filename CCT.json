@@ -1,0 +1,602 @@
+[
+    {
+        "question": "An international financial services company provides a web-based platform for clients to upload documents in various formats for processing. The platform uses an XML parser to handle incoming XML files. Recently, the company detected unauthorized access to sensitive internal files and increased network traffic to unknown external servers. The security team suspects that attackers are exploiting a vulnerability in the XML parsing process to perform malicious actions. They need to implement an effective solution to eliminate the vulnerability without disrupting the document processing functionality. Which measure should the security team implement to secure the application against this attack vector?",
+        "options": [
+            "Encrypt all incoming XML files using client-side encryption before uploading.",
+            "Move the XML parsing process to a sandboxed environment isolated from the main system.",
+            "Disable external entity processing and configure the XML parser to use secure parsing settings.",
+            "Implement input validation to reject any XML files that contain suspicious content."
+        ],
+        "answer": "Disable external entity processing and configure the XML parser to use secure parsing settings."
+    },
+    {
+        "question": "MegaCorp International integrated a new IoT platform into its enterprise network to streamline manufacturing operations. Post-deployment, unusual traffic patterns emerged, including high UDP traffic and bandwidth spikes during off-hours. Analysis showed IoT devices communicating with unknown external IPs, suggesting potential botnet or data exfiltration activities. Traditional monitoring tools could not correlate these anomalies with specific device behaviors, complicating root cause identification. To secure the network and ensure IoT integrity, MegaCorp needs an advanced network traffic monitoring solution to detect and analyze suspicious IoT activities. Which solution should MegaCorp prioritize to effectively monitor and secure its IoT-integrated network?",
+        "options": [
+            "Implement a Network Behavior Analysis (NBA) system that leverages machine learning to detect abnormal traffic patterns from IoT devices.",
+            "Increase network segmentation to isolate IoT devices from the main enterprise network, reducing potential attack surfaces.",
+            "Deploy a traditional signature-based Intrusion Detection System (IDS) to identify known threats in network traffic.",
+            "Utilize Deep Packet Inspection (DPI) to scrutinize the payload of all IoT device communications for malicious content."
+        ],
+        "answer": "Implement a Network Behavior Analysis (NBA) system that leverages machine learning to detect abnormal traffic patterns from IoT devices."
+    },
+    {
+        "question": "An international bank is concerned about unauthorized data exfiltration and insider threats within its highly secure network environment. The existing security infrastructure includes firewalls, intrusion detection systems, and strict access controls. Despite these measures, suspicious data transfers to external destinations have been detected during non-business hours. The security team needs to implement a technical control that can monitor and analyze network traffic in real time to detect and prevent data leakage without disrupting legitimate business operations. Which technical control should the bank deploy to address this security concern?",
+        "options": [
+            "Virtual Private Network (VPN) solutions to encrypt all outbound traffic.",
+            "Data Loss Prevention (DLP) solutions integrated at network gateways to inspect data flows.",
+            "Security Information and Event Management (SIEM) systems for centralized log management.",
+            "Network Access Control (NAC) systems to enforce device compliance before network access."
+        ],
+        "answer": "Data Loss Prevention (DLP) solutions integrated at network gateways to inspect data flows."
+    },
+    {
+        "question": "A technology company has discovered that its private source code has been leaked, and it is appearing on underground forums. The cybersecurity team discovered that the code was exfiltrated over several months through encrypted channels that looked like normal HTTPS traffic. The attackers utilized a covert channel in legitimate protocols to avoid detection by security appliances that monitors anomalous data patterns and volumes. Which attack method did the attackers employ, and what should the company do to prevent future occurrences?",
+        "options": [
+            "Supply chain attack; audit third-party vendors for security compliance.",
+            "Social engineering attack; strengthen employee authentication procedures.",
+            "Data exfiltration via protocol tunneling; utilize network traffic analysis to detect irregular channel usage.",
+            "Steganography-based attack; deploy deep packet inspection tools to analyze encrypted traffic content."
+        ],
+        "answer": "Data exfiltration via protocol tunneling; utilize network traffic analysis to detect irregular channel usage."
+    },
+    {
+        "question": "A global financial organization is adopting a proactive cybersecurity approach to defend against Advanced Persistent Threats (APTs). They currently conduct regular penetration tests, use vulnerability scanning tools, and leverage open-source intelligence (OSINT) feeds, but they still experience undetected intrusions lasting weeks or months. To better anticipate threats and actively discover attackers within their network, the cybersecurity team wants to integrate a hybrid threat-hunting model using intelligence-driven, data-driven, and TTP-driven approaches simultaneously. Which combination of strategies and tools would be most appropriate for achieving effective hybrid threat hunting?",
+        "options": [
+            "Deploy a Qualys vulnerability management system for active scanning, pair it with STIX-formatted operational intelligence feeds, and conduct periodic ethical hacking assessments.",
+            "Combine regular vulnerability scanning with human intelligence (HUMINT) and configuration audits using Network Configuration Manager tools.",
+            "Use the MVISION EDR tool for endpoint visibility, integrate real-time strategic and tactical threat intelligence feeds, and employ AI-driven predictive analytics.",
+            "Establish asset identification and inventory using xAssets ITAM, leverage passive scanning with OpenVAS, and integrate deep web searching tools for Dark Web intelligence."
+        ],
+        "answer": "Use the MVISION EDR tool for endpoint visibility, integrate real-time strategic and tactical threat intelligence feeds, and employ AI-driven predictive analytics."
+    },
+    {
+        "question": "A multinational pharmaceutical company’s research facility holds confidential data and critical infrastructure. Recently, unauthorized access and data leaks occurred. The investigation found that the attackers exploited physical security weaknesses by planting devices to intercept traffic. Keycard access systems were cloned or stolen. To prevent unauthorized access and protect the network, which physical security measure should the company implement?",
+        "options": [
+            "Implement RFID-based keycards with encrypted communication to prevent cloning.",
+            "Employ security personnel to conduct manual identity verification at access points.",
+            "Install additional surveillance cameras to monitor all entrances and sensitive areas.",
+            "Upgrade to biometric access controls with multifactor authentication at all entry points."
+        ],
+        "answer": "Upgrade to biometric access controls with multifactor authentication at all entry points."
+    },
+    {
+        "question": "A multinational software development firm has integrated several open-source libraries into its core application to accelerate development. Recently, clients reported unusual behavior in the application, including unauthorized data access and erratic system responses. The security team discovers that an attacker has exploited a vulnerability in one of the third-party libraries, allowing remote code execution within the application environment. The team must identify the most effective immediate action to mitigate the threat and prevent future occurrences, considering the complexity and dependencies of the application. Which action should the security team take to address the vulnerability and secure the application?",
+        "options": [
+            "Remove the vulnerable library and rewrite the affected functionalities using in-house code.",
+            "Enable a web application firewall to block malicious payloads targeting the known vulnerability.",
+            "Isolate the application from the network to prevent further attacks and monitor for anomalous activities.",
+            "Apply a security patch from the library’s maintainers and implement a software composition analysis tool."
+        ],
+        "answer": "Apply a security patch from the library’s maintainers and implement a software composition analysis tool."
+    },
+    {
+        "question": "SecureHealth Systems integrated numerous IoMT devices to enhance patient care but detected unusual network log patterns, including frequent authentication failures and unexpected access to patient records outside normal hours. Investigations showed several IoMT devices communicating with unauthorized external IPs. The current log monitoring system could not correlate device behavior with access anomalies, allowing potential data breaches to go unnoticed. To protect patient information and comply with healthcare regulations, SecureHealth must upgrade its network log monitoring and analysis strategy to detect and respond to these sophisticated threats effectively. Which action should they prioritize to mitigate unauthorized IoMT access?",
+        "options": [
+            "Restrict IoMT device access to only essential network segments through enhanced firewall rules.",
+            "Upgrade all IoMT devices with the latest firmware to eliminate vulnerabilities.",
+            "Conduct regular manual reviews of network logs to identify and address anomalies.",
+            "Implement a Security Information and Event Management (SIEM) system with advanced correlation capabilities to analyze log data for suspicious activities."
+        ],
+        "answer": "Implement a Security Information and Event Management (SIEM) system with advanced correlation capabilities to analyze log data for suspicious activities."
+    },
+    {
+        "question": "FinSecure Bank implemented an advanced Data Loss Prevention (DLP) system to protect proprietary financial data and customer information. Recently, anomalous data access patterns indicated an insider threat exploiting legitimate privileges and using encrypted channels to exfiltrate sensitive data without triggering DLP alerts. To enhance its data security and prevent similar incidents, FinSecure Bank needs to refine its DLP strategy. Which enhancement to the DLP strategy would most effectively mitigate the risk posed by such insider threats?",
+        "options": [
+            "Increase the sensitivity of DLP rules to detect more types of data exfiltration attempts, including encrypted channels.",
+            "Implement User Behavior Analytics (UBA) to monitor and identify deviations from normal access patterns indicative of insider threats.",
+            "Deploy additional encryption layers for all outbound traffic to ensure that any data exfiltration attempts remain undetectable.",
+            "Restrict all employees' access privileges to the minimum necessary for their roles, following the principle of least privilege."
+        ],
+        "answer": "Implement User Behavior Analytics (UBA) to monitor and identify deviations from normal access patterns indicative of insider threats."
+    },
+    {
+        "question": "FinSecure Bank detected unusual transactions that bypassed their automated fraud detection systems. Upon deeper investigation, the forensic team discovered that an insider had manipulated transaction logs to cover fraudulent activities. The logs showed discrepancies in the timestamps and user access records, suggesting deliberate tampering. To build a solid case against the perpetrator and ensure the integrity of evidence, FinSecure Bank needs to employ specialized forensic methods that can validate log authenticity and identify unauthorized modifications. Which forensic method should the team utilize to verify the integrity of the transaction logs and detect tampering?",
+        "options": [
+            "Disk imaging to create a complete copy of the affected systems for offline analysis",
+            "Steganalysis to detect hidden data within the log files",
+            "Hash analysis to compare current logs with known good copies and identify alterations",
+            "Registry forensics to examine changes in system configurations related to log management"
+        ],
+        "answer": "Hash analysis to compare current logs with known good copies and identify alterations"
+    },
+    {
+        "question": "An energy company’s critical infrastructure relies on Supervisory Control and Data Acquisition (SCADA) systems connected to its corporate network for remote monitoring and control. Recently, there have been attempts to manipulate control commands, indicating that attackers are trying to breach the SCADA systems. The security team needs to implement a technical control that can secure communication between control centers and remote units, ensuring data integrity and verifying command authenticity. Which technical control should the team implement to protect the SCADA systems effectively?",
+        "options": [
+            "Deploy anti-malware software on SCADA devices to detect and remove threats.",
+            "Implement robust encryption protocols like IPsec for all SCADA network communications.",
+            "Install traditional firewalls between the corporate network and SCADA systems.",
+            "Use network segmentation to isolate SCADA systems from other network segments."
+        ],
+        "answer": "Implement robust encryption protocols like IPsec for all SCADA network communications."
+    },
+    {
+        "question": "Conduct a vulnerability assessment of the web server hosting the www.luxurytreats.com site. Determine the location of the FTP Writeable Directories vulnerability and provide it as the answer.(Practical)",
+        "options": [
+            "443/tcp",
+            "8081/tcp",
+            "3389/tcp",
+            "2968/tcp"
+        ],
+        "answer": "2968/tcp"
+    },
+    {
+        "question": "A multinational financial institution detects that unauthorized transactions are taking place in its trading systems at irregular intervals. These transactions are small enough to avoid triggering threshold-based alerts but accumulate significant losses over time. Forensic analysis reveals that malicious code was injected into the system, which activates only when specific market conditions are met. The attackers have deep understanding of the institution's operations and have evaded traditional security measures. Which type of attack is the institution facing and what action should the cybersecurity team take to stop it at the earliest?",
+        "options": [
+            "Phishing attack; conduct mandatory security training to prevent credential compromise.",
+            "Logic bomb attack; implement behavior-based intrusion detection systems to monitor unusual activities.",
+            "Zero-day exploit; apply the latest security patches to all affected systems.",
+            "Ransomware attack; isolate infected systems and initiate data recovery procedures."
+        ],
+        "answer": "Logic bomb attack; implement behavior-based intrusion detection systems to monitor unusual activities."
+    },
+    {
+        "question": "CyberSecure Inc., a global e-commerce platform, detected unusual encrypted outbound traffic from servers holding customer payment data late at night. Initial scans found no known malware, indicating a sophisticated threat actor using custom encryption for data exfiltration. Logs showed the breach persisted for over two weeks before detection. To contain the breach and prevent further data loss, CyberSecure Inc. must adopt a targeted incident response strategy addressing immediate containment and long-term remediation. Which action should they prioritize to respond effectively to this sophisticated data exfiltration?",
+        "options": [
+            "Deploy additional signature-based antivirus solutions to identify the custom malware used.",
+            "Immediately disconnect the affected servers from the network to halt data transmission.",
+            "Initiate a comprehensive forensic analysis to determine the breach extent and identify the entry point.",
+            "Notify all affected customers about the potential data exposure to comply with regulatory requirements."
+        ],
+        "answer": "Immediately disconnect the affected servers from the network to halt data transmission."
+    },
+    {
+        "question": "SecureTrans Global, a multinational corporation, switched its internal communications to end-to-end encryption using Elliptic Curve Cryptography (ECC) for its efficiency and smaller keys. During a routine security assessment, they found that legacy systems struggled with ECC’s computational demands, causing intermittent communication failures. To maintain robust security and system compatibility, SecureTrans Global needs a cryptographic strategy that balances performance with security. Which cryptographic solution should they implement to address compatibility and performance issues while maintaining strong encryption standards?",
+        "options": [
+            "Deploy a hybrid encryption model using ECC for new systems and RSA for legacy systems.",
+            "Implement a post-quantum cryptographic algorithm to future-proof their encryption infrastructure.",
+            "Transition back to RSA with larger key sizes to ensure compatibility with legacy systems.",
+            "Utilize a symmetric encryption algorithm like AES for all communications to eliminate asymmetric encryption overhead."
+        ],
+        "answer": "Deploy a hybrid encryption model using ECC for new systems and RSA for legacy systems."
+    },
+    {
+        "question": "A government defense contractor manages a highly sensitive research network isolated from external connections. Recently, they discovered malware that seems to have been introduced via USB drives used by employees. The malware is designed to exfiltrate data once the network connects to an external source, which could occur during maintenance. The security team must implement technical control to prevent unauthorized devices from introducing malware into the secure network while allowing necessary file transfers for operational purposes. Which technical control should be implemented to mitigate this threat?",
+        "options": [
+            "Enforce strict physical security measures to control access to the facility.",
+            "Use application whitelisting to allow only approved software to execute on systems.",
+            "Implement an endpoint security solution with removable media control features.",
+            "Install air-gap mechanisms to completely isolate the network from all external connections."
+        ],
+        "answer": "Implement an endpoint security solution with removable media control features."
+    },
+    {
+        "question": "A company is setting up a web service that processes sensitive customer data. To comply with industry regulations and defend against application-level threats like SQL injection and XSS, the security team must implement a technical control that provides robust security for the application layer. The solution should be capable of analyzing HTTP/HTTPS traffic, apply filtering rules, and block threats without slowing down the service. Which technical control best meets these requirements?",
+        "options": [
+            "Use Intrusion Detection Systems (IDS) to monitor network traffic for malicious patterns.",
+            "Use existing firewalls with stateful inspection to examine traffic sessions.",
+            "Deploy a Web Application Firewall (WAF) to protect the web application from attacks.",
+            "Install antivirus software on the web servers to detect and remove malware."
+        ],
+        "answer": "Deploy a Web Application Firewall (WAF) to protect the web application from attacks."
+    },
+    {
+        "question": "A multinational corporation provides corporate-owned mobile devices to its sales team that require constant access to sensitive customer data and proprietary applications while on the move. The devices are configured with strong authentication and encrypted storage. Recently, several devices were reported lost or stolen during international travel, and unauthorized access attempts were detected. The security team is concerned that sensitive data may be exposed if devices fall into the wrong hands. They need to implement a security measure that ensures data protection, even if devices are lost or stolen, without affecting the sales team’s productivity. Which measure should the security team implement to enhance mobile device security in this scenario?",
+        "options": [
+            "Install mobile antivirus software to detect and prevent malware infections.",
+            "Enable remote wipe capabilities and ensure that devices can be erased if lost or stolen.",
+            "Require biometric authentication in addition to existing security measures on the devices.",
+            "Limit the amount of sensitive data stored on the devices by requiring constant online access."
+        ],
+        "answer": "Enable remote wipe capabilities and ensure that devices can be erased if lost or stolen."
+    },
+    {
+        "question": "A global insurance firm migrated critical applications to a hybrid cloud with extensive virtualization using VMs and containers. Recently, unauthorized access to sensitive customer data in the private cloud was detected. Attackers exploited a vulnerability to escape a compromised VM, access the hypervisor, and infiltrate other VMs. To prevent cross-VM attacks without hindering efficiency, which security measure should the team prioritize?",
+        "options": [
+            "Implement strict network segmentation between VMs using Virtual LANs (VLANs) to isolate network traffic.",
+            "Apply security patches promptly to the hypervisor and employ hardware-assisted virtualization features.",
+            "Utilize encryption for data at rest and in transit within the virtualized environment to protect sensitive information.",
+            "Deploy Host-Based Intrusion Detection Systems (HIDS) on each VM to monitor for malicious activities."
+        ],
+        "answer": "Apply security patches promptly to the hypervisor and employ hardware-assisted virtualization features."
+    },
+    {
+        "question": "A large healthcare provider handles sensitive patient data, including medical histories, billing information, and personal identification details. The cybersecurity team identified a risk where sensitive patient data stored in databases could potentially be exposed internally due to inappropriate user permissions and a lack of clear data ownership. The organization wants to implement comprehensive data security controls to ensure confidentiality, proper data handling, and clear accountability. Which of the following combined approaches should the organization prioritize to effectively address these data security concerns?",
+        "options": [
+            "Deploy a full backup strategy with RAID Level 5 storage for fault tolerance, and perform cold backups weekly to minimize risks.",
+            "Perform database encryption using Transparent Data Encryption (TDE) and regularly update antivirus software to protect databases from malware.",
+            "Introduce Rights Management Services (RMS) to protect documents, and apply data masking methods such as hashing and tokenization on databases.",
+            "Implement strict access control lists (ACLs) to databases based on data classification levels, and clearly define roles such as Data Owners, Data Controllers, and Data Custodians."
+        ],
+        "answer": "Implement strict access control lists (ACLs) to databases based on data classification levels, and clearly define roles such as Data Owners, Data Controllers, and Data Custodians."
+    },
+    {
+        "question": "As a security professional, you are tasked with analyzing the company’s access control policies. The policy reports have been extracted and saved as Acc-Policies.rar in the Documents folder of Attacker Machine-1. Your objective is to analyze these files and determine the maximum lifetime for a service ticket assigned by the organization, expressed in hours.(Practical)",
+        "options": [
+            "1",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "A cybersecurity firm managing the infrastructure of a large healthcare provider discovers that encrypted patient data has been stolen and sent to an external server. The attackers are using advanced techniques to avoid detection, including custom malware that operates in memory and leaves no traces on disk. Traditional antivirus solutions have failed to detect the threat. The firm needs to uncover the vulnerability that allowed this breach and prevent further data loss. Which approach should the firm prioritize to identify the vulnerability and strengthen the security posture?",
+        "options": [
+            "Increase network firewall rules to block all outbound traffic except essential services.",
+            "Conduct employee training sessions on phishing and social engineering awareness.",
+            "Deploy endpoint detection and response tools that specialize in memory analysis.",
+            "Install host-based intrusion prevention systems relying on known malware signatures."
+        ],
+        "answer": "Deploy endpoint detection and response tools that specialize in memory analysis."
+    },
+    {
+        "question": "A healthcare organization utilizes a wireless network to support medical devices and staff communication throughout its facilities. The network is secured using WPA2 with a pre-shared key (PSK). Recently, there have been incidents of network disruptions and unauthorized access to patient records. The security team suspects that attackers are leveraging weaknesses in the wireless network to perform deauthentication attacks and intercept sensitive data. They need to implement a comprehensive solution to protect against these threats while ensuring compliance with strict healthcare regulations. Which action should the security team take to secure the wireless network against these attacks?",
+        "options": [
+            "Transition to WPA2-Enterprise with 802.1X authentication and implement Management Frame Protection (MFP).",
+            "Reduce the wireless signal strength to limit coverage to the physical boundaries of the facility.",
+            "Change the pre-shared key regularly and distribute it securely to all authorized users.",
+            "Install directional antennas to focus the wireless signal and minimize external interception."
+        ],
+        "answer": "Transition to WPA2-Enterprise with 802.1X authentication and implement Management Frame Protection (MFP)."
+    },
+    {
+        "question": "A security professional has implemented network-based firewall restrictions to protect employees from phishing and insider attacks. Your task is to identify the blocked websites based on these firewall rules and determine the IP address of the vulnerable site from the provided list.(Practical)",
+        "options": [
+            "44.228.249.12",
+            "44.228.249.45",
+            "44.228.249.3",
+            "44.228.249.101"
+        ],
+        "answer": "44.228.249.45"
+    },
+    {
+        "question": "An international law firm has implemented a wireless network across its offices to provide mobility for attorneys and staff. The network uses WPA2-Enterprise security with 802.1X authentication and PEAP (Protected EAP) protocol, relying on internal certificate authorities and RADIUS servers. Recently, unauthorized devices have been detected accessing sensitive legal documents over the wireless network. The security team discovers that attackers are successfully authenticating to the network without valid credentials. Upon investigation, they suspect a vulnerability in the authentication process is being exploited. Which security enhancement should the firm implement to address the vulnerability and prevent unauthorized access to the wireless network?",
+        "options": [
+            "Implement EAP-TLS authentication method requiring client-side certificates for all devices.",
+            "Upgrade the wireless encryption protocol to WPA3-Personal to strengthen encryption.",
+            "Deploy a wireless intrusion prevention system (WIPS) to detect and block rogue devices.",
+            "Enable MAC address filtering on all access points to restrict network access to known devices."
+        ],
+        "answer": "Implement EAP-TLS authentication method requiring client-side certificates for all devices."
+    },
+    {
+        "question": "An international data center hosts critical servers for multiple financial institutions. The facility is located in an area prone to natural disasters and has recently experienced power fluctuations and temperature spikes, leading to hardware failures and network outages. Additionally, unauthorized individuals have attempted to enter the server rooms by tailgating authorized personnel. The data center must strengthen its physical controls to protect the network infrastructure from environmental threats and unauthorized access. Which combination of physical controls should the data center prioritize to mitigate these risks?",
+        "options": [
+            "Deploy mantraps at entry points and integrate environmental monitoring systems with automated responses.",
+            "Increase the frequency of security patrols and conduct regular equipment maintenance checks.",
+            "Install Uninterruptible Power Supplies (UPS) and implement strict visitor escort policies.",
+            "Implement Access Control Lists (ACLs) on network devices and use fire-resistant materials in construction."
+        ],
+        "answer": "Deploy mantraps at entry points and integrate environmental monitoring systems with automated responses."
+    },
+    {
+        "question": "You are a forensic inspector assigned to investigate a suspicious incident at an IT firm. You have been provided with an initial evidence file named evid4443.img, located in the C:\\Users\\Admin\\Downloads\\Evidence folder on Attacker Machine-1. Your task is to analyze this image file and determine the operating system it contains. Note: check for Distrib_description value.(Practical)",
+        "options": [
+            "Ubuntu 20.04 LTS",
+            "Windows Server 2019",
+            "CentOS Linux 8",
+            "Debian GNU/Linux 10 (buster)"
+        ],
+        "answer": "Ubuntu 20.04 LTS"
+    },
+    {
+        "question": "SecureData Corp., a leading healthcare provider, discovered unauthorized access to their patient database via a compromised employee workstation, allowing data exfiltration over weeks. Forensics revealed encrypted files and traces of a previously unknown Remote Access Tool (RAT), with metadata showing file modifications after business hours. To determine the breach’s extent and identify the perpetrators, SecureData Corp. needs advanced forensic techniques to uncover hidden activities and trace the intrusion source. Which forensic technique should the team prioritize to uncover the hidden RAT and trace the intrusion source?",
+        "options": [
+            "Timeline analysis to reconstruct the sequence of file modifications and access events.",
+            "Memory forensics to analyze volatile data and detect in-memory artifacts of the RAT.",
+            "Network forensics to examine traffic logs for communication patterns associated with the RAT.",
+            "File signature analysis to identify and classify the RAT based on known signatures."
+        ],
+        "answer": "Memory forensics to analyze volatile data and detect in-memory artifacts of the RAT."
+    },
+    {
+        "question": "A global manufacturing company has recently added IoT devices to its production facilities to make operations more efficient. After deployment, the cybersecurity team found intermittent disruptions in the manufacturing process and unauthorized access attempts to the corporate network. After analysis, it was found that some IoT devices were connecting to unknown external IP addresses, unrelated to the company's operations. The team suspects that vulnerabilities in the IoT ecosystem were exploited. Which action should the cybersecurity team take first to identify and mitigate the vulnerabilities exploited by the attackers?",
+        "options": [
+            "Perform a thorough code review of the IoT applications to find and fix security flaws.",
+            "Implement a network-wide intrusion detection system focusing on signature-based threats.",
+            "Disable all remote access capabilities on the IoT devices to prevent external communication.",
+            "Isolate the IoT devices from the corporate network and conduct firmware updates."
+        ],
+        "answer": "Isolate the IoT devices from the corporate network and conduct firmware updates."
+    },
+    {
+        "question": "A multinational corporation has implemented a federated identity management system to streamline authentication across its various business units and partner organizations. The system uses Security Assertion Markup Language (SAML) for Single Sign-On (SSO) capabilities. Recently, unauthorized access to sensitive data was detected, originating from authenticated sessions that appeared legitimate. Upon investigation, the security team suspects that attackers are exploiting weaknesses in the authentication process without stealing user credentials. Which security measure should the team use to fix this issue?",
+        "options": [
+            "Transition from SAML to OAuth 2.0 protocol to enhance authentication security.",
+            "Deploy anomaly detection algorithms to identify and terminate suspicious SSO sessions.",
+            "Implement strict password complexity requirements and regular password expiration policies.",
+            "Enforce multi-factor authentication using time-based one-time passwords for all user logins."
+        ],
+        "answer": "Deploy anomaly detection algorithms to identify and terminate suspicious SSO sessions."
+    },
+    {
+        "question": "A government agency discovers that highly sensitive documents were accessed by unauthorized individuals. Further investigation reveals that attackers gained access by exploiting a weakness in the agency's multifactor authentication process. They intercepted authentication codes sent via SMS and used advanced voice phishing techniques to trick employees into revealing additional credentials. The security team must act swiftly to prevent further breaches. Which attack vector did the attackers primarily use, and what should be the team's priority to enhance security?",
+        "options": [
+            "Brute-force attack; implement account lockout policies after a certain number of failed login attempts.",
+            "Man-in-the-middle attack; enforce the use of encrypted communication channels for all data transmission.",
+            "SIM swapping attack; switch to app-based authentication methods that don't use SMS.",
+            "Malware attack; deploy advanced antivirus solutions across all employee devices."
+        ],
+        "answer": "SIM swapping attack; switch to app-based authentication methods that don't use SMS."
+    },
+    {
+        "question": "Perform a security scan on the target subnet 192.168.10.0/24 using nmap. Identify the IP address of the machine with the cardax security management service open.(Practical)",
+        "options": [
+            "192.168.10.99",
+            "192.168.10.45",
+            "192.168.10.77",
+            "192.168.10.12"
+        ],
+        "answer": "192.168.10.45"
+    },
+    {
+        "question": "An international consulting firm permits consultants to use personal devices for corporate emails and data. Recently, a security breach leaked confidential client data. The investigation showed that devices were compromised by malicious apps from third-party stores, gaining elevated permissions to access sensitive data. To protect corporate data on personal devices without affecting consultants' ability to work remotely, which action should the security team take?",
+        "options": [
+            "Enforce a policy requiring consultants to install antivirus software on their devices.",
+            "Restrict access to corporate data to devices owned and managed by the company only.",
+            "Implement a Mobile Device Management (MDM) solution enforcing device encryption and app whitelisting.",
+            "Instruct consultants to use VPN connections when accessing corporate resources."
+        ],
+        "answer": "Implement a Mobile Device Management (MDM) solution enforcing device encryption and app whitelisting."
+    },
+    {
+        "question": "TechNova Solutions faced a sophisticated cyber espionage attack where attackers infiltrated their network and accessed proprietary research data. The forensic investigation revealed that the attackers used a combination of spear-phishing and Advanced Persistent Threats (APTs) to maintain stealthy access over several months. The team found indicators of lateral movement and privilege escalation within the network. To fully understand the breach and secure its infrastructure, TechNova needs to employ comprehensive forensic techniques that can map the attackers' actions and identify all compromised assets. Which forensic technique should TechNova prioritize to map the attackers' lateral movements and identify compromised systems?",
+        "options": [
+            "Registry forensics to identify changes in system configurations and user privileges",
+            "Timeline analysis to reconstruct the sequence of attacker activities across the network",
+            "Network forensics to trace the flow of data and identify points of lateral movement",
+            "File carving to recover deleted or hidden files related to the attack"
+        ],
+        "answer": "Network forensics to trace the flow of data and identify points of lateral movement"
+    },
+    {
+        "question": "An international energy provider manages a smart grid with IoT devices like smart meters, distribution controllers, and RTUs communicating via various wireless protocols. Recently, a cyber-attack allowed attackers to control several RTUs, causing erratic power distribution and outages. Investigation showed that attackers exploited weak encryption and used man-in-the-middle attacks to intercept and manipulate data between devices and control centers. To secure wireless communications and ensure smart grid integrity and availability, which technical control should the security team implement?",
+        "options": [
+            "Utilize strong encryption standards such as AES-256 for all wireless communications between IoT devices.",
+            "Implement wireless intrusion detection systems to monitor and alert suspicious communication patterns.",
+            "Switch to a proprietary wireless communication protocol with non-standard encryption.",
+            "Deploy physical security measures to protect IoT devices from tampering."
+        ],
+        "answer": "Utilize strong encryption standards such as AES-256 for all wireless communications between IoT devices."
+    },
+    {
+        "question": "TechShield Inc., a cybersecurity firm, uses Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) for encrypting sensitive client data. They encountered nonce reuse issues in AES-GCM, risking data integrity and confidentiality. To prevent nonce reuse without adding complexity or high resource use, the security team is evaluating alternative cryptographic practices. Which approach should TechShield Inc. adopt to ensure nonce uniqueness in AES-GCM and enhance encryption security?",
+        "options": [
+            "Increase the nonce size to reduce the probability of reuse without changing the generation method.",
+            "Use a deterministic nonce derived from a combination of a unique identifier and a counter for each encryption operation.",
+            "Switch to Counter (CTR) mode, which does not require unique nonces.",
+            "Implement a centralized nonce generator to ensure all nonces are unique across the system."
+        ],
+        "answer": "Use a deterministic nonce derived from a combination of a unique identifier and a counter for each encryption operation."
+    },
+    {
+        "question": "A multinational corporation has recently expanded its operations and integrated multiple subsidiary networks into its central infrastructure. After the integration, the security team noticed increased security issues due to inconsistent security policies across the merged networks. To address this, the Chief Information Security Officer (CISO) mandates a comprehensive network security assessment to identify and remediate vulnerabilities before they can be exploited. The team must select the most effective assessment technique and tool to thoroughly evaluate the security posture of the complex, multi-vendor environment, which includes both legacy systems and cutting-edge technologies. Which approach should the security team prioritize to effectively assess the network's vulnerabilities?",
+        "options": [
+            "Execute a tailored penetration test using advanced tools that simulate real-world attack scenarios on the integrated network.",
+            "Deploy a combination of network-based intrusion detection systems to monitor for suspicious activities.",
+            "Perform manual code reviews on all applications used within the network infrastructure.",
+            "Conduct automated vulnerability scanning using a generic scanning tool across all network segments."
+        ],
+        "answer": "Execute a tailored penetration test using advanced tools that simulate real-world attack scenarios on the integrated network."
+    },
+    {
+        "question": "GlobalTech Industries faced a ransomware attack encrypting critical data across multiple servers. The incident response team secured systems and started a forensic investigation to understand the attack vector and assess the damage. Analysis showed the ransomware used a zero-day exploit in their custom application, and encrypted logs revealed exfiltration of sensitive configuration files before encryption. To prevent future attacks and recover, GlobalTech needs effective forensic strategies to gather actionable intelligence. Which forensic approach should they adopt first to identify the zero-day exploit and understand the ransomware’s behavior?",
+        "options": [
+            "Disk forensics to recover and analyze encrypted files and deleted data",
+            "Log analysis to trace the sequence of events leading up to the ransomware deployment",
+            "Mobile device forensics to check for any related malicious activities on employee devices",
+            "Reverse engineering the ransomware binary to understand its encryption mechanism and exploit usage"
+        ],
+        "answer": "Reverse engineering the ransomware binary to understand its encryption mechanism and exploit usage"
+    },
+    {
+        "question": "An international software firm uses cloud-based PaaS and container orchestration for deploying applications. Recently, unauthorized modifications introduced malicious code into production. Attackers exploited misconfigurations in the orchestration system to gain admin privileges. To secure the container environment against such threats while maintaining developer flexibility, which action should the security team take?",
+        "options": [
+            "Install antivirus software within each container to detect and remove malicious code.",
+            "Enforce the principle of least privilege by configuring Role-Based Access Control (RBAC) within the orchestration platform.",
+            "Restrict the use of open-source containers and require all containers to be built from scratch internally.",
+            "Implement network firewalls to monitor and control traffic between containers in the cluster."
+        ],
+        "answer": "Enforce the principle of least privilege by configuring Role-Based Access Control (RBAC) within the orchestration platform."
+    },
+    {
+        "question": "An international corporation migrated to a hybrid cloud with multiple VLANs, VPNs, and both IPv4 and IPv6. Recently, their cybersecurity team detected unauthorized access and unusual activity from unfamiliar IPs, suspecting exploitation of network security weaknesses. To prevent further unauthorized access, which network security measure should they prioritize?",
+        "options": [
+            "Enable MAC address filtering on network switches to restrict device connections.",
+            "Deploy a Next-Generation Firewall with deep packet inspection capabilities.",
+            "Implement network segmentation by reorganizing VLANs to isolate sensitive resources.",
+            "Enforce strict Access Control Lists (ACLs) on all network devices to limit traffic."
+        ],
+        "answer": "Deploy a Next-Generation Firewall with deep packet inspection capabilities."
+    },
+    {
+        "question": "A global financial services company has suffered multiple security incidents due to employees mishandling confidential client information. Investigations reveal that staff members are unaware of the proper procedures for handling sensitive data, leading to accidental exposure and compliance violations. The company lacks a formal framework outlining security responsibilities and acceptable behaviors for employees at all levels. The Chief Information Security Officer (CISO) decides to implement administrative controls to rectify this issue. Which administrative control should the company focus on to improve awareness and ensure proper handling of sensitive information?",
+        "options": [
+            "Install monitoring software to track and log all employee activities on the network.",
+            "Develop and enforce a clear and comprehensive security policies with mandatory employee acknowledgment.",
+            "Conduct background checks on all employees to identify potential insider threats.",
+            "Implement technical solutions like encryption to protect data at rest and in transit."
+        ],
+        "answer": "Develop and enforce a clear and comprehensive security policies with mandatory employee acknowledgment."
+    },
+    {
+        "question": "GlobalFinance Solutions, a multinational bank, is conducting a risk assessment to enhance cybersecurity. The assessment identified critical risks: data breaches from outdated legacy systems, vulnerabilities in third-party vendor integrations, non-compliance with new international financial regulations, and insider threats due to increased remote work. Additionally, operational risks from potential downtime during system upgrades were noted. To safeguard assets and ensure regulatory compliance, GlobalFinance Solutions must prioritize these risks and implement robust mitigation strategies aligning with their strategic objectives and operational capabilities. Which risk management approach should they adopt to effectively prioritize and mitigate these risks while ensuring compliance and operational continuity?",
+        "options": [
+            "Focus exclusively on mitigating the highest impact risks first, irrespective of their probability or specific characteristics.",
+            "Utilize qualitative risk analysis to evaluate and rank risks based on their potential impact and likelihood.",
+            "Employ quantitative risk analysis to assign monetary values to each risk and prioritize accordingly.",
+            "Adopt a hybrid risk management approach, integrating both qualitative and quantitative analyses for comprehensive risk prioritization."
+        ],
+        "answer": "Adopt a hybrid risk management approach, integrating both qualitative and quantitative analyses for comprehensive risk prioritization."
+    },
+    {
+        "question": "GlobalHealth Solutions, a leading telemedicine provider, expanded to multiple countries with varying data protection laws. Handling vast sensitive patient data, they failed to uniformly comply with GDPR in Europe and HIPAA in the USA, particularly in encryption, access controls, and data residency. To mitigate compliance risks and enhance data security across regions, GlobalHealth Solutions needs a comprehensive strategy aligning with international regulations and protecting patient information. Which strategy should they adopt to effectively address these compliance and security challenges?",
+        "options": [
+            "Outsource data storage and management to a third-party provider that guarantees compliance with both GDPR and HIPAA.",
+            "Centralize all data storage in a single secure location to simplify compliance management and enhance security monitoring.",
+            "Implement a single global encryption standard and apply uniform access controls across all regions regardless of local regulations.",
+            "Utilize a region-specific data segmentation approach, enforcing local encryption standards and access controls tailored to each jurisdiction's regulations."
+        ],
+        "answer": "Utilize a region-specific data segmentation approach, enforcing local encryption standards and access controls tailored to each jurisdiction's regulations."
+    },
+    {
+        "question": "A cybersecurity team at a mid-sized company wants to improve the company's ability to quickly identify and reduce the impact of network security incidents. They currently rely mainly on preventive controls but have limited ability to detect and respond effectively once an attack occurs. According to the Continual/Adaptive Security Strategy, which two network defense approaches should the team focus on to enhance their overall security posture?",
+        "options": [
+            "Reactive and Preventive",
+            "Retrospective and Reactive",
+            "Proactive and Predictive",
+            "Detect and Respond"
+        ],
+        "answer": "Detect and Respond"
+    },
+    {
+        "question": "You have been tasked with analyzing the logs of a target Linux machine. The log files are stored in the Lin_logs.tar.xz file located in the Documents folder of Attacker Machine-2. Your goal is to verify the log files and identify the username whose FTP credentials were successfully used to log in.(Practical)",
+        "options": [
+            "John",
+            "Alice",
+            "Steve",
+            "David"
+        ],
+        "answer": "Steve"
+    },
+    {
+        "question": "A multinational e-commerce firm integrated cloud services and third-party apps but faced sophisticated cyber-attacks that bypassed traditional security, causing data breaches and disruptions. Attackers exploited zero-day vulnerabilities and encrypted traffic. To counter these threats, which technical control should the team implement to gain deep visibility into both encrypted and unencrypted traffic without impacting performance?",
+        "options": [
+            "Install Next-Generation Intrusion Prevention Systems (NGIPS) with SSL/TLS decryption capabilities.",
+            "Utilize traditional firewalls with updated access control lists to block unauthorized access.",
+            "Implement endpoint security solutions on all devices connected to the network.",
+            "Deploy a Unified Threat Management (UTM) system to consolidate security functions."
+        ],
+        "answer": "Install Next-Generation Intrusion Prevention Systems (NGIPS) with SSL/TLS decryption capabilities."
+    },
+    {
+        "question": "GlobalFinance Ltd., a multinational bank, faced a coordinated DDoS attack on its online services, coinciding with an intrusion using stolen employee credentials to access sensitive financial systems. The incident response team found the DDoS was a diversion for the intrusion, which went undetected for hours despite DDoS mitigation tools. To improve incident response and prevent similar multi-faceted attacks, GlobalFinance Ltd. needs to refine its response strategies. Which strategy should they implement to more effectively detect and respond to simultaneous DDoS and credential-based intrusions?",
+        "options": [
+            "Strengthen perimeter defenses by increasing bandwidth and deploying more robust firewalls to absorb DDoS traffic.",
+            "Conduct regular employee training on recognizing phishing attempts to prevent credential theft.",
+            "Enforce Multi-Factor Authentication (MFA) for all employee access to reduce the risk of credential-based intrusions.",
+            "Integrate threat intelligence feeds with their SIEM to correlate DDoS activities with potential intrusion attempts in real time."
+        ],
+        "answer": "Integrate threat intelligence feeds with their SIEM to correlate DDoS activities with potential intrusion attempts in real time."
+    },
+    {
+        "question": "FinSecure International migrated its data center to a hybrid cloud environment to improve scalability and disaster recovery. Post-migration, users globally reported intermittent connectivity and high latency when accessing cloud-hosted financial applications. The NOC team found sporadic packet loss on VPN connections and suspected network congestion, suboptimal routing, or misconfigurations. To identify and resolve these issues, FinSecure needs an effective troubleshooting strategy that isolates the root causes. Which approach should the NOC team prioritize to diagnose and resolve the connectivity and latency issues?",
+        "options": [
+            "Review firewall rules and Access Control Lists (ACLs) to ensure that no traffic is blocked.",
+            "Increase VPN bandwidth allocation to handle higher traffic and mitigate congestion.",
+            "Use traceroutes and network performance monitoring tools to analyze traffic paths and identify bottlenecks.",
+            "Reconfigure VPN settings to a different encryption protocol to reduce latency and packet loss."
+        ],
+        "answer": "Use traceroutes and network performance monitoring tools to analyze traffic paths and identify bottlenecks."
+    },
+    {
+        "question": "A disgruntled employee has transferred highly confidential tender data for upcoming projects as an encoded text. Your task is to decode the text file Sniffed.txt located in the Documents folder of Attacker Machine-1 and determine the value of the Smart meter project in dollars. Note: use sniffer@123 as the password to decode the text file.",
+        "options": [
+            "36000",
+            "8080",
+            "443",
+            "65535"
+        ],
+        "answer": "36000"
+    },
+    {
+        "question": "TechGlobal Corp, a multinational company, faced a prolonged data breach where attackers used legitimate credentials to exfiltrate sensitive project files over weeks. Network logs showed normal logins and standard data access, making the breach hard to detect with conventional tools. To prevent future incidents and ensure timely detection, TechGlobal must enhance its network log monitoring and analysis to uncover subtle signs of malicious activities. Which enhancement should TechGlobal implement to effectively detect such covert data exfiltration attempts?",
+        "options": [
+            "Enforce stricter password policies and regular credential rotations for all users.",
+            "Deploy machine learning-based analytics within the log monitoring system to identify anomalous user behavior and data access patterns.",
+            "Increase the frequency of log backups to ensure comprehensive data retention for future analysis.",
+            "Isolate critical project files in a separate, highly secure network segment to limit access."
+        ],
+        "answer": "Deploy machine learning-based analytics within the log monitoring system to identify anomalous user behavior and data access patterns."
+    },
+    {
+        "question": "An international bank has implemented a new online banking platform and needs to ensure that its network infrastructure is secure against sophisticated cyber threats. The bank's network includes encrypted communications, multi-tiered applications, and compliance with strict financial regulations. The security team is tasked with assessing the network to identify hidden vulnerabilities, including zero-day exploits and Advanced persistent threats (APTs), without disrupting critical banking services. They must choose the most appropriate assessment technique and tool to meet these requirements. Which method should the security team employ to achieve a thorough security assessment under these constraints?",
+        "options": [
+            "Conduct a red team exercise simulating adversarial attack techniques against the network.",
+            "Rely on compliance audits to ensure adherence to financial security regulations.",
+            "Implement continuous automated vulnerability assessments scheduled during off-peak hours.",
+            "Use passive network monitoring tools to analyze traffic without affecting network performance."
+        ],
+        "answer": "Conduct a red team exercise simulating adversarial attack techniques against the network."
+    },
+    {
+        "question": "GlobalBank, operating globally with multiple data centers, detected irregular encrypted traffic patterns like inconsistent SSL/TLS handshakes and unexpected certificate renewals, indicating a sophisticated MitM attack on sensitive financial transactions. Standard monitoring tools could not adequately inspect encrypted traffic, complicating threat mitigation. To protect customer data and maintain trust, GlobalBank must enhance network traffic monitoring to detect and respond to encrypted MitM attacks effectively. Which strategy should they adopt to improve the detection of sophisticated MitM attacks within encrypted traffic?",
+        "options": [
+            "Deploy certificate pinning across all client applications to prevent unauthorized certificate usage.",
+            "Increase the frequency of certificate renewals to reduce the window of opportunity for attackers to exploit compromised certificates.",
+            "Implement SSL/TLS termination at the network perimeter to decrypt and inspect all incoming and outgoing traffic.",
+            "Utilize Traffic Decryption and Analysis (TDA) tools integrated with advanced anomaly detection algorithms to monitor encrypted traffic patterns."
+        ],
+        "answer": "Utilize Traffic Decryption and Analysis (TDA) tools integrated with advanced anomaly detection algorithms to monitor encrypted traffic patterns."
+    },
+    {
+        "question": "An international manufacturing firm has recently expanded through multiple acquisitions, resulting in a complex network of disparate IT systems and security practices. The lack of standardized procedures has led to vulnerabilities and inconsistent responses to security incidents. The Chief Security Officer (CSO) recognizes the need for unified administrative controls to manage security risks effectively across all divisions. Which administrative control should the CSO implement first to standardize security practices and enhance the organization's overall security posture?",
+        "options": [
+            "Establish a centralized incident response team to handle all security incidents uniformly.",
+            "Deploy advanced intrusion detection systems across all network segments.",
+            "Require all divisions to use a single, organization-wide antivirus solution.",
+            "Publish a single set of security standards and procedures for all teams."
+        ],
+        "answer": "Publish a single set of security standards and procedures for all teams."
+    },
+    {
+        "question": "GlobalTech Manufacturing, a leading automotive component producer, relies on its central data center for real-time production monitoring and supply chain management. A major earthquake caused a complete shutdown of the data center, leading to extended global downtime. Their Disaster Recovery (DR) plan was hindered by outdated backups that failed to sync recent data, resulting in partial data loss, production delays, and financial losses. To strengthen business continuity and ensure swift recovery in future disasters, GlobalTech needs a more effective DR solution, ensuring data integrity and minimizing downtime. Which solution should they prioritize to enhance their disaster recovery capabilities and ensure uninterrupted operations?",
+        "options": [
+            "Implement a cloud-based backup system with continuous data replication to maintain up-to-date data availability.",
+            "Increase physical security measures at the primary data center to prevent future outages.",
+            "Develop a manual failover process to switch to backup systems, reducing dependence on automated solutions.",
+            "Upgrade existing backup tapes to higher-capacity storage media to improve data retention."
+        ],
+        "answer": "Implement a cloud-based backup system with continuous data replication to maintain up-to-date data availability."
+    },
+    {
+        "question": "An international airline's reservation system is experiencing frequent failures, causing disruption of flight bookings. The IT department has found that the system is being flooded with malformed input requests that exploit a vulnerability in the input validation mechanism, leading to buffer overflows and system crashes. The attackers are changing their attack methods frequently to avoid detection by the existing security tools. What type of attack is being executed, and what is the most effective immediate response to mitigate it?",
+        "options": [
+            "Cross-site scripting attack; encode output data to protect against script injections.",
+            "Buffer overflow attack; apply input validation and deploy web application firewalls with virtual patching.",
+            "Denial-of-service attack; increase bandwidth and server capacity to handle excessive traffic.",
+            "SQL injection attack; sanitize database queries to prevent unauthorized access."
+        ],
+        "answer": "Buffer overflow attack; apply input validation and deploy web application firewalls with virtual patching."
+    },
+    {
+        "question": "An IT company has deployed an extensive IoT network to manage various facilities within the office. A recent fire incident has triggered an alert, causing a complete evacuation of the building. The Security Operations Center (SOC) captured the network traffic during the incident and stored it as AlertIoT.pcaping in the Downloads folder of Attacker Machine-1. Analyze the capture file and identify the topic of the alert sent to the IoT devices over the network.(Practical)",
+        "options": [
+            "Motion_Detected",
+            "Low_Battery",
+            "High_dBs",
+            "Temperature_Rise"
+        ],
+        "answer": "High_dBs"
+    },
+    {
+        "question": "TechWave Solutions experienced a sudden drop in network performance, with high response times and timeouts in application services. Monitoring tools showed irregular traffic spikes and numerous ARP requests/replies from unknown devices, suggesting possible ARP spoofing or broadcast storms. To restore performance and secure the network, administrators need an in-depth troubleshooting process to identify and mitigate the root cause. Which diagnostic step should TechWave Solutions undertake first to address the network performance issues?",
+        "options": [
+            "Isolate and segment affected network areas to contain traffic irregularities.",
+            "Implement static ARP entries for critical devices to prevent unauthorized ARP responses.",
+            "Deploy an Intrusion Detection System (IDS) to monitor and analyze suspicious traffic.",
+            "Analyze network switch configurations to identify and fix misconfigurations or faulty devices."
+        ],
+        "answer": "Analyze network switch configurations to identify and fix misconfigurations or faulty devices."
+    },
+    {
+        "question": "A global manufacturing firm operates facilities with numerous IoT devices like PLCs, sensors, and actuators on wired and wireless networks. Recently, unusual production patterns revealed malware in PLCs that manipulated operations, causing defects and downtime. The malware exploited firmware and communication protocol vulnerabilities, spreading undetected by traditional security. To secure the IoT and OT environment against such threats, which technical control should the security team prioritize?",
+        "options": [
+            "Deploy network segmentation with strict access controls to isolate OT networks from IT and other networks.",
+            "Use strong password policies and multi-factor authentication for accessing IoT device management interfaces.",
+            "Enable default firewall settings on all IoT devices to block unauthorized incoming traffic.",
+            "Implement antivirus solutions on all IoT devices to detect and remove malware."
+        ],
+        "answer": "Deploy network segmentation with strict access controls to isolate OT networks from IT and other networks."
+    },
+    {
+        "question": "Perform vulnerability analysis of a web application, www.moviescope.com, and determine the WASC ID of the alert with CWE ID 200.(Practical)",
+        "options": [
+            "15",
+            "17",
+            "13",
+            "11"
+        ],
+        "answer": "13"
+    },
+    {
+        "question": "A web application, www.moviescope.com, was found to be prone to SQL injection attacks. You are tasked to exploit the web application and fetch the user data. Identify the age & gender of a user, key, in the moviescope database. Note: You already have an account on the web application, and your credentials are sam/test. Determine the answer in age/Gender format.(Practical)",
+        "options": [
+            "41/Female",
+            "29/Male",
+            "33/Female",
+            "36/Male"
+        ],
+        "answer": "33/Female"
+    }
+]
