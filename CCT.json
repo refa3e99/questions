@@ -420,16 +420,6 @@
         "answer": "Use traceroutes and network performance monitoring tools to analyze traffic paths and identify bottlenecks."
     },
     {
-        "question": "A disgruntled employee has transferred highly confidential tender data for upcoming projects as an encoded text. Your task is to decode the text file Sniffed.txt located in the Documents folder of Attacker Machine-1 and determine the value of the Smart meter project in dollars. Note: use sniffer@123 as the password to decode the text file.",
-        "options": [
-            "36000",
-            "8080",
-            "443",
-            "65535"
-        ],
-        "answer": "36000"
-    },
-    {
         "question": "TechGlobal Corp, a multinational company, faced a prolonged data breach where attackers used legitimate credentials to exfiltrate sensitive project files over weeks. Network logs showed normal logins and standard data access, making the breach hard to detect with conventional tools. To prevent future incidents and ensure timely detection, TechGlobal must enhance its network log monitoring and analysis to uncover subtle signs of malicious activities. Which enhancement should TechGlobal implement to effectively detect such covert data exfiltration attempts?",
         "options": [
             "Enforce stricter password policies and regular credential rotations for all users.",
@@ -598,5 +588,16 @@
             "Temperature_Rise"
         ],
         "answer": "High_dBs"
+    },
+    {
+        "question": "A disgruntled employee has transferred highly confidential tender data for upcoming projects as an encoded text. Your task is to decode the text file Sniffed.txt located in the Documents folder of Attacker Machine-1 and determine the value of the Smart meter project in dollars. Note: use sniffer@123 as the password to decode the text file.(Practical)",
+        "options": [
+            "36000",
+            "8080",
+            "443",
+            "65535"
+        ],
+        "answer": "36000"
     }
 ]
+
