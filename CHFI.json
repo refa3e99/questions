@@ -1,5 +1,1485 @@
 [
     {
+        "question": "Martha, a CHFI professional, is assigned a significant case involving a cyberattack on a multinational retail company. She must gather and examine digital evidence. The company has servers located in different countries. Considering the ACPO Principles of Digital Evidence, what should Martha primarily consider in this multi-jurisdictional case?",
+        "options": [
+            "Forego the need for consent and start investigating all servers immediately",
+            "Focus solely on the servers located in her jurisdiction",
+            "Store all gathered evidence on her local workstation",
+            "Coordinate with local authorities in each jurisdiction to gather evidence"
+        ],
+        "answer": "Coordinate with local authorities in each jurisdiction to gather evidence"
+    },
+    {
+        "question": "During the analysis of a suspicious PDF file in an investigation, JavaScript code with a known vulnerability is identified. The investigator is unsure about the behavior and potential impact of the JavaScript code. What is the most appropriate course of action the investigator should take next to ensure a comprehensive analysis of the threat?",
+        "options": [
+            "Use an exploit scanning tool to check for known signature vulnerabilities",
+            "Run the JavaScript in a secure sandbox environment to observe its behavior and potential impact",
+            "Look for hidden or obfuscated content within the PDF that may exploit the vulnerability",
+            "Open the file in a different tool to examine its contents more clearly"
+        ],
+        "answer": "Run the JavaScript in a secure sandbox environment to observe its behavior and potential impact"
+    },
+    {
+        "question": "During a forensic investigation, an examiner is analyzing a suspicious system and needs to examine the Windows shortcut files (LNK files) that might provide information about recently accessed files. Which directory location should the examiner examine to find these LNK files?",
+        "options": [
+            "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\INetCache",
+            "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\History",
+            "C:\\Users\\Admin\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles",
+            "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+        ],
+        "answer": "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+    },
+    {
+        "question": "A forensic investigator is assigned to analyze a large volume of digital evidence related to a sophisticated cyberattack targeting a company’s internal network. The attack, which affected several systems across the enterprise, involved the exploitation of multiple vulnerabilities. Due to the complexity and scale of the case, the investigator decides to implement computerized forensic tools to streamline the investigation process. These tools are used to create bit-by-bit copies of several suspect drives, ensuring the integrity of the evidence and enabling further analysis without altering the original data. In addition to creating forensic images, the investigator uses advanced hash algorithms to identify potentially malicious files by comparing file hashes against known threat databases. The investigator also manages a large volume of event logs generated during the attack, analyzes timestamps, and generates a detailed timeline of activities. This timeline helps identify critical moments of the attack, such as the initial breach and lateral movement within the network, allowing the investigator to focus on the most critical analysis required to understand the scope of the attack. Which forensic process is being described in this scenario?",
+        "options": [
+            "Forensic automation providing manual analysis assistance",
+            "Forensic orchestration integrating data storage management",
+            "Forensic orchestration managing multiple tasks in parallel",
+            "Forensic automation performing repetitive tasks efficiently"
+        ],
+        "answer": "Forensic automation performing repetitive tasks efficiently"
+    },
+    {
+        "question": "In a corporate investigation involving suspected data theft from Google Workspace accounts, an examiner needs to analyze email communications to gather evidence. Which approach aligns best with Google Workspace forensics principles?",
+        "options": [
+            "The examiner consults with Google Workspace experts to explore alternative methods to access email communications without directly accessing the suspect’s account, ensuring data integrity.",
+            "The examiner decides to bypass legal procedures and uses unauthorized means to access the suspect’s Google Workspace account, believing it necessary to expedite the investigation.",
+            "The examiner follows proper legal procedures to obtain a warrant or authorization to access the suspect’s Google Workspace account, ensuring compliance with Google’s terms of service.",
+            "The examiner requests access to the suspect’s Google Workspace account from the company’s IT department, aiming to quickly retrieve relevant emails without legal implications."
+        ],
+        "answer": "The examiner follows proper legal procedures to obtain a warrant or authorization to access the suspect’s Google Workspace account, ensuring compliance with Google’s terms of service."
+    },
+    {
+        "question": "Evelyn, a forensic investigator, an examiner is tasked with analyzing a Linux machine suspected of running malicious activity. She needs to examine open files and identify which processes are associated with those files .Which Volatility Framework Plugin should evelyn use to list the open files and their associated processes from a raw image ?",
+        "options": [
+            "linuxmount",
+            "linuxmalfind",
+            "linux_lsof",
+            "Linux.pslist"
+        ],
+        "answer": "linux_lsof"
+    },
+    {
+        "question": "Your team has identified unusual traffic patterns from a server in the corporate network. Upon investigation, you find multiple established connections to unfamiliar foreign IP addresses. After capturing the network traffic for analysis, you notice that the traffic content seems random and does not conform to any known protocol. What might this suggest?",
+        "options": [
+            "The server is part of a botnet",
+            "The server is under a DDoS attack",
+            "The server is infected with ransomware",
+            "The server is communicating with a Command-and-Control server"
+        ],
+        "answer": "The server is communicating with a Command-and-Control server"
+    },
+    {
+        "question": "As a forensic analyst in a cybersecurity firm, you’ve been tasked with investigating a breach at a client’s office. The breach involves multiple servers, each having its own set of logs and events. To make the investigation more efficient and identify the root cause of the breach, which type of event correlation should you employ?",
+        "options": [
+            "Log-based correlation",
+            "Alert-based correlation",
+            "Rule-based correlation",
+            "Time-based correlation"
+        ],
+        "answer": "Time-based correlation"
+    },
+    {
+        "question": "You are a forensic analyst at a large corporation where a major cyberattack has occurred. The investigation has led you to an image of a Linux-based system that is suspected to be the origin of the attack. You are required to analyze this image on your Windows forensic workstation. The image seems intact and you need to ensure that the process of viewing the image does not lead to any alteration of evidence. What is the most effective tool or method to achieve this?",
+        "options": [
+            "Convert the image to a Windows-compatible format",
+            "Use a live boot disk to view the image",
+            "Deploy a specialized forensic tool designed to view Linux images on Windows",
+            "Use a Linux emulator to view the image"
+        ],
+        "answer": "Deploy a specialized forensic tool designed to view Linux images on Windows"
+    },
+    {
+        "question": "As a computer forensic analyst at a major IT corporation, you are investigating a severe ransomware attack that has resulted in the encryption of significant data, impacting business operations. While analyzing the infected systems, you identify a specific ransomware strain known for its strong encryption. Furthermore, it is discovered that the attacker gained initial access through a phishing email opened by an employee. What should be the primary focus of the forensic investigation process in this case?",
+        "options": [
+            "Acquire the disk image of the infected systems to identify the ransomware’s encryption methods",
+            "Prioritize the acquisition of backup systems to check for possible data restoration",
+            "Focus on the mailbox of the employee who opened the phishing email to trace the source of the ransomware",
+            "Collect all data from systems showing symptoms of ransomware infection for further analysis"
+        ],
+        "answer": "Focus on the mailbox of the employee who opened the phishing email to trace the source of the ransomware"
+    },
+    {
+        "question": "The legal team of a financial institution is tasked with collecting, preserving, reviewing, and producing relevant Electronically Stored Information (ESI) in response to litigation. The ESI includes a vast array of financial records, emails, and documents stored across multiple servers and databases. To manage eDiscovery effectively and meet legal obligations, the organization must adopt a comprehensive strategy aligned with the Electronic Discovery Reference Model (EDRM). Which approach best supports efficient and compliant eDiscovery management?",
+        "options": [
+            "Outsource eDiscovery to a vendor for data management and legal services, ensuring compliance externally.",
+            "Conduct early case assessment (ECA) to pinpoint key custodians and data sources, enabling targeted collection and streamlining eDiscovery.",
+            "Enforce strict data retention policies to reduce discoverable ESI volume, simplifying discovery and lowering resource needs.",
+            "Prioritize quick ESI collection, overlooking metadata preservation to expedite discovery production stages."
+        ],
+        "answer": "Conduct early case assessment (ECA) to pinpoint key custodians and data sources, enabling targeted collection and streamlining eDiscovery."
+    },
+    {
+        "question": "A forensic investigator is performing an eDiscovery process within an organization, following the Electronic Discovery Reference Model (EDRM) framework. The investigator focuses on narrowing down the volumes of electronically stored information (ESI) by eliminating unnecessary data and converting it into a more manageable format that can be easily reviewed or examined. The investigator is ensuring that the data is prepared appropriately for the next phase of eDiscovery. Which EDRM stage is the investigator executing in the above scenario?",
+        "options": [
+            "The investigator is performing the analysis phase to interpret the data’s significance.",
+            "The investigator is executing the production phase to finalize the data for legal use.",
+            "The investigator is handling the processing phase to streamline the data for easier review.",
+            "The investigator is conducting the review phase to assess the data."
+        ],
+        "answer": "The investigator is handling the processing phase to streamline the data for easier review."
+    },
+    {
+        "question": "A forensic investigator has been assigned to extract data from several IoT devices involved in an investigation. The devices include drones, smart TVs, and wearables that are crucial to the case. These devices may contain valuable evidence, including video footage, sensor data, and usage histories. The investigator needs a tool that can handle a variety of IoT devices and supports both physical and logical acquisitions to ensure that no evidence is missed. Given the complexity of IoT forensics, which of the following tools should the investigator use to collect evidence from these devices effectively?",
+        "options": [
+            "F-Response",
+            "MD-NEXT",
+            "Gephi",
+            "Promqry"
+        ],
+        "answer": "MD-NEXT"
+    },
+    {
+        "question": "Liam, a digital forensic investigator, is examining evidence from a cyber-attack that occurred on a Linux system. While analyzing the system, he discovers that several files are missing. Upon further investigation, he notices that a particular executable file, which had been running at the time of the attack, was deleted. The file’s content is no longer present, making recovery more challenging. To recover the lost file, Liam needs to identify a command in Linux that would help him retrieve the file. Which of the following commands would he use to recover the lost file on the Linux system?",
+        "options": [
+            "D>",
+            "$R>",
+            "cp /proc/$PID/exe /tmp/file",
+            "cd ~/.RECYCLE/<User SID>"
+        ],
+        "answer": "cp /proc/$PID/exe /tmp/file"
+    },
+    {
+        "question": "A forensic team at a multinational corporation is investigating an alleged data breach. While reviewing the system logs, the team discovers consistent outbound traffic from an internal workstation to suspicious IP addresses linked with dark web activity. Upon inspecting the compromised system, investigators suspect that the user had been using TOR for unauthorized activities. To gather further evidence and confirm TOR usage, which of the following forensic techniques is most likely to yield substantial results?",
+        "options": [
+            "Analyzing Command Prompt history for TOR-related commands",
+            "Monitoring real-time network traffic to trace TOR usage",
+            "Inspecting the Windows Registry for TOR-related entries",
+            "Scanning Prefetch files for instances of TOR execution"
+        ],
+        "answer": "Scanning Prefetch files for instances of TOR execution"
+    },
+    {
+        "question": "A suspected cyber-criminal was captured, and his computer was seized while it was still active. Investigators found that the Tor Browser was open and some dark web sites were active. They want to extract as much information as possible from this active session. The investigator needs to decide whether to perform a memory dump or power down the machine for hard drive analysis. Which approach would provide the most valuable information in this situation?",
+        "options": [
+            "Shutting down the computer and analyzing the hard drive",
+            "Restarting the machine in safe mode and conducting a system scan",
+            "Leaving the computer running and collecting a memory dump",
+            "Unplugging the machine immediately to preserve the hardware integrity"
+        ],
+        "answer": "Leaving the computer running and collecting a memory dump"
+    },
+    {
+        "question": "During an investigation into a suspected data breach at a multinational organization, forensic analysts have seized multiple devices, including Windows PCs, Linux servers, and network appliances. Additionally, a few macOS computers have been identified as potential sources of evidence. To gather comprehensive insights into the activities leading up to the breach, which of the following methods would be most effective for viewing log messages on macOS devices?",
+        "options": [
+            "Using the Terminal application to navigate to the log directory and review system.log and secure.log",
+            "Accessing the Event Viewer utility in the Control Panel to retrieve system event logs",
+            "Installing third-party forensic software specifically designed for macOS log analysis and visualization tools",
+            "Employing the Windows Subsystem for Linux (WSL) to run Linux MSG tools for seamless integration with macOS systems"
+        ],
+        "answer": "Using the Terminal application to navigate to the log directory and review system.log and secure.log"
+    },
+    {
+        "question": "Zachary, a digital forensic analyst, is working on a cyber-espionage case involving a workstation that used an Integrated Drive Electronics (IDE) hard disk drive. The drive is not functioning correctly and is suspected to be damaged, rendering it unreadable. Zachary believes the drive contains crucial evidence related to the investigation. However, the workstation’s motherboard is also damaged. The forensic lab systems are modern and equipped only with SATA connectors. What should Zachary do in this scenario to retrieve the data from the IDE drive?",
+        "options": [
+            "Zachary should send the IDE drive to a specialized data recovery service",
+            "Zachary should use a SATA-to-IDE adapter to connect the IDE hard drive to modern systems",
+            "Zachary should attempt to extract the platters from the IDE drive manually",
+            "Zachary should try to repair the damaged workstation’s motherboard"
+        ],
+        "answer": "Zachary should use a SATA-to-IDE adapter to connect the IDE hard drive to modern systems"
+    },
+    {
+        "question": "Sophia, a forensic investigator, has been working on a significant corporate data theft case. The suspect, an IT employee, allegedly downloaded hundreds of confidential files. During the investigation, Sophia obtained a search and seizure warrant and, while executing it, found the suspect’s desktop computer and several storage devices. To ensure she maintains the chain of custody and follows the ACPO principles of digital evidence, what should be her next step?",
+        "options": [
+            "She should ask the suspect for the passwords to the devices to expedite the investigation",
+            "She should seize all the devices and send them to a forensic lab for analysis",
+            "She should only seize the personal laptop as per the information on the warrant",
+            "She should immediately begin analyzing the digital devices on-site"
+        ],
+        "answer": "She should seize all the devices and send them to a forensic lab for analysis"
+    },
+    {
+        "question": "James, a highly skilled digital forensics expert, is working on a case involving a suspect believed to have conducted fraudulent activities through a network of compromised devices. The evidence is digital, leaving behind a complex web of data across various systems, including system and application timestamps. James focuses his investigation on examining multiple devices, scrutinizing system and application logs, and analyzing timestamps to determine activities during the suspected time of the crime. As James sifts through this digital trail, he is attempting to find data that can either confirm the events related to the crime or provide supporting evidence. Metadata and logs can reveal actions such as file access, document creation, and user activity, all of which could help piece together the timeline of the suspect’s actions. What role does this type of evidence serve in the investigation?",
+        "options": [
+            "Corroborative evidence",
+            "Exculpatory evidence",
+            "Identity verification",
+            "Proof of the suspect’s actions"
+        ],
+        "answer": "Corroborative evidence"
+    },
+    {
+        "question": "Alex, a cybersecurity analyst in a tech firm, has intercepted a suspicious Word document that was sent to the company’s CEO via email. Upon preliminary inspection, the document seems benign, but considering the firm’s recent threats of cyberattacks, Alex decides to investigate further. He needs a tool that can help perform static analysis on the document to determine if there is any hidden malware. From the following options, which tool would be most effective for Alex’s needs?",
+        "options": [
+            "FireEye’s Floss",
+            "PEStudio",
+            "Cuckoo Sandbox",
+            "Olevba"
+        ],
+        "answer": "Olevba"
+    },
+    {
+        "question": "An investigator has been assigned to analyze network activity and IIS logs on a Windows server after a suspected security breach. The task requires the investigator to examine large volumes of log data, focusing on identifying suspicious traffic trends, user access, and potential anomalies. The tool used must allow for efficient log parsing, anomaly detection, and the generation of detailed reports to help reconstruct the event timeline. Given these requirements, which tool should the investigator use to analyze the IIS logs effectively ?",
+        "options": [
+            "Sawmill",
+            "DSInternals PowerShell",
+            "Hunchly",
+            "Jatheon"
+        ],
+        "answer": "Sawmill"
+    },
+    {
+        "question": "David, a network security analyst, is tasked with investigating a possible breach involving a web server. After reviewing the logs, he notices several failed login attempts and HTTP error messages related to unavailable files. Which of the following Apache log entries will provide the most useful information to help David determine whether these failed attempts were part of a larger security issue?",
+        "options": [
+            "[Mon Dec 11 14:53:58 878945 2023] [core:error] [pid 1256:tid 668398524] /images/folder/pic.jpg",
+            "[Mon Dec 11 14:53:58 878945 2023] connection closed gracefully",
+            "[Mon Dec 11 14:53:58 878945 2023] [authdebug] [pid 1256:tid 668398524] user login attempt",
+            "[Mon Dec 11 14:53:58 878945 2023] [mod_security] [pid 1256:tid 668398524] triggered: possible SQL injection attempt"
+        ],
+        "answer": "[Mon Dec 11 14:53:58 878945 2023] [mod_security] [pid 1256:tid 668398524] triggered: possible SQL injection attempt"
+    },
+    {
+        "question": "An investigator is conducting a forensic analysis on a suspect’s Microsoft Outlook usage. The investigator identifies that the suspect’s emails are stored in both .pst (Personal Storage Table) and .ost (Offline Storage Table) files. Since the .ost file is primarily used for offline access to emails in Microsoft Exchange environments, the investigator needs to decide on the appropriate method for acquiring and analyzing the data contained in these files. The investigator is particularly focused on analyzing the .ost file for email evidence. Which of the following steps should the investigator take to properly acquire the email data from the .ost file?",
+        "options": [
+            "Only analyze the .pst file, as the .ost file is not used for email storage",
+            "Directly extract the email messages from the .ost file using SysTools MailXtract",
+            "Open the .ost file with a text editor to view the raw data",
+            "Convert the .ost file to a .pst file using Kernel for OST to PST or similar tools"
+        ],
+        "answer": "Convert the .ost file to a .pst file using Kernel for OST to PST or similar tools"
+    },
+    {
+        "question": "Olivia, a forensic investigator, is analyzing the behavior of malware that was detected on a compromised Windows system. During her investigation, she discovers that the malware has used changes in the system registry to ensure its persistence. Olivia wants to focus on the areas of the registry most likely to have been targeted by the malware to automatically execute upon system startup. During the investigation, she notices that the malware made several changes to the system registry to ensure its persistence. Which registry keys should Olivia focus on to track malware persistence through auto-start functionality?",
+        "options": [
+            "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+            "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+            "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+            "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Services"
+        ],
+        "answer": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "question": "Tom, a digital forensics investigator, is assigned to investigate a possible insider threat at an organization. Upon arrival at the scene, he finds that a workstation has been compromised. The suspect is believed to have allegedly used a malicious USB device to access sensitive files before being caught. During the investigation, and after isolating the workstation from the network, Tom gathers the digital evidence from the system environment. His first task is to collect data stored in the system’s memory, including active network connections and clipboard content. Tom knows that this type of data can provide critical insights into the actions of the suspect during the time of the attack. Why is Tom prioritizing this type of data as evidence in this case?",
+        "options": [
+            "Non-volatile data is easier to recover than volatile data",
+            "Volatile data is time-sensitive and can be lost once the system is powered off",
+            "Non-volatile data is most relevant to the case",
+            "Volatile data provides the most stable evidence"
+        ],
+        "answer": "Volatile data is time-sensitive and can be lost once the system is powered off"
+    },
+    {
+        "question": "An organization has successfully defined its eDiscovery strategy, focusing on collecting data efficiently for a legal investigation. As part of this strategy, the legal team ensures that relevant data is gathered from the appropriate sources. The legal team is responsible for identifying the sources that contain electronically stored information (ESI) necessary for the investigation. Which eDiscovery step is the legal team following in this case?",
+        "options": [
+            "Rely on self-collection by custodians without providing clear guidelines",
+            "Use directed collection to obtain all available data from custodians, including backups",
+            "Collect data only from one source to minimize collection time and resources",
+            "Map the data to identify custodians and determine the location of the relevant information"
+        ],
+        "answer": "Map the data to identify custodians and determine the location of the relevant information"
+    },
+    {
+        "question": "An investigator is assigned to review dark web chat room communications as part of a cybercrime investigation. The chat logs span several weeks, containing a vast amount of messages with obscured language, coded references, and misleading statements designed to evade detection. Analyzing this extensive volume of messages to extract meaningful intelligence becomes a time-consuming and labor-intensive task, requiring advanced analysis tools to separate the noise and focus on the crucial details. Which dark web forensics challenge does this scenario best represent?",
+        "options": [
+            "The challenge of processing extensive chat room communications",
+            "The difficulty in distinguishing between genuine and deceptive communications",
+            "The challenge of correlating chat room communications with real-world identities",
+            "The legal challenges in gathering evidence from global anonymous networks"
+        ],
+        "answer": "The challenge of processing extensive chat room communications"
+    },
+    {
+        "question": "In the course of a criminal investigation involving a suspect, mobile devices are seized. The forensic team needs to analyze digital evidence from both Android and iOS devices, each of which presents unique challenges and methodologies for forensic analysis. To effectively extract and examine digital evidence from these devices, which of the following statements regarding Android and iOS forensic analysis is most accurate?",
+        "options": [
+            "Android: Single partition aids forensic analysis; iOS: Sandbox encryption complicates extraction.",
+            "iOS offers robust open-source forensic tools for comprehensive data extraction.",
+            "Android relies on manual extraction due to limited forensic software support.",
+            "Android devices use EXT4 for straightforward forensic analysis with widely available tools; however, iOS devices require specialized techniques due to APFS and secure enclave protections."
+        ],
+        "answer": "Android devices use EXT4 for straightforward forensic analysis with widely available tools; however, iOS devices require specialized techniques due to APFS and secure enclave protections."
+    },
+    {
+        "question": "As a forensic investigator, you’re working on a case involving corporate espionage. An insider is suspected of stealing proprietary CAD designs. The suspect’s workstation, running a Windows operating system, has been isolated. The company’s IT team accidentally shut down the system, resulting in the loss of volatile data. In this context, which would be the best approach for data acquisition?",
+        "options": [
+            "Boot the computer using the normal OS and then use acquisition tools",
+            "Boot the computer using a forensic boot disk, then proceed with data acquisition",
+            "Use network-based acquisition tools to remotely acquire data",
+            "Remove the hard drive and connect it to a forensic workstation without write blockers"
+        ],
+        "answer": "Boot the computer using a forensic boot disk, then proceed with data acquisition"
+    },
+    {
+        "question": "A rising tech startup suffered a severe blow when its RAID 5 array crashed, rendering critical data inaccessible. Nick, a digital forensic expert, has been appointed to salvage as much data as possible from the damaged RAID. Upon examination, he found that two out of the four hard drives in the array were physically damaged. Given the importance and the sheer volume of lost data, it is imperative that Nick recovers as much information as possible. The RAID controller was not salvageable, and no documentation was available on the configuration of the disks in the RAID array. What should be Nick’s course of action to maximize data recovery?",
+        "options": [
+            "Nick should send the damaged hard drives for hardware recovery.",
+            "Nick should use a RAID-rebuilding software to automatically detect and rebuild the RAID configuration.",
+            "Nick should perform a file carving operation on each of the remaining accessible drives.",
+            "Nick should reconstruct the RAID array manually by determining the order of disks and data distribution."
+        ],
+        "answer": "Nick should send the damaged hard drives for hardware recovery."
+    },
+    {
+        "question": "A seasoned forensic investigator is assigned a case involving an international drug trafficking operation. The main suspect in the case allegedly uses the dark web to communicate with his network. While analyzing the suspect’s computer, the investigator found a string “LC_CTYPE=en_US.UTF-8”. In which artifact is the investigator most likely to encounter this string?",
+        "options": [
+            "Malware binary",
+            "TOR Windows Registry key",
+            "TOR Command Prompt history",
+            "TOR Prefetch file"
+        ],
+        "answer": "TOR Command Prompt history"
+    },
+    {
+        "question": "A seasoned forensic investigator is working on a case involving an advanced persistent threat (APT) that affected a multinational corporation. The complexity of the attack, involving multiple stages and evasion techniques, requires sophisticated analysis. However, the investigator struggles with the organization’s unstructured log data, as it impedes his ability to identify the origin of the attack and its subsequent activities. What aspect of the forensic readiness planning did the corporation overlook?",
+        "options": [
+            "The requirement for a larger team of forensic investigators",
+            "The need for advanced forensic tools to handle APTs",
+            "The importance of keeping log data structured and readily accessible",
+            "The necessity to have regular audits of network security"
+        ],
+        "answer": "The importance of keeping log data structured and readily accessible"
+    },
+    {
+        "question": "Lucas, a forensic investigator, encounters a laptop during his investigation that is locked with a BIOS password. The laptop’s owner does not remember the BIOS password, and Lucas needs to access the system to continue the forensic analysis. He decides to use a method that involves removing the CMOS battery. What is the purpose of removing the CMOS battery in this scenario?",
+        "options": [
+            "To reset the BIOS password",
+            "To remove encryption from the hard drive",
+            "To reset the system password in BIOS",
+            "To bypass user account passwords"
+        ],
+        "answer": "To reset the BIOS password"
+    },
+    {
+        "question": "You are a leading forensic investigator at a global cybersecurity firm handling a critical case involving the compromise of a vast network infrastructure. While investigating, you discover a peculiar piece of code on a server, which your initial analysis suggests is malicious. The malware has a low detection rate across multiple antivirus platforms. To safely assess the malware’s behavior without risking further damage, you need to set up a controlled environment. Which approach should you adopt?",
+        "options": [
+            "Use the infected server as a honeypot to attract other threat actors",
+            "Set up a dedicated network segment, disconnect it from the main network, and use monitoring tools to assess the malware’s behavior",
+            "Connect the infected server to a public network for faster malware analysis",
+            "Analyze the malware on a live system within the organization’s main network"
+        ],
+        "answer": "Set up a dedicated network segment, disconnect it from the main network, and use monitoring tools to assess the malware’s behavior"
+    },
+    {
+        "question": "Henry, a forensic investigator, is analyzing the system suspected of being compromised by the rootkit. The rootkit appears to be sophisticated, hiding its files and processes conduct a memory and registry analysis. Which technique is most likely the best choice for Henry's task?",
+        "options": [
+            "Dumpit",
+            "Autopsy",
+            "Volatility",
+            "RegRepper"
+        ],
+        "answer": "Volatility"
+    },
+    {
+        "question": "Jessica is conducting a forensic analysis on a Windows machine suspected of data exfiltration. She wants to identify any suspicious login attempts and track user account activity to see if a brute-force attack was attempted. Which of the following event IDs would she most likely examine?",
+        "options": [
+            "4727",
+            "4758",
+            "4625",
+            "4732"
+        ],
+        "answer": "4625"
+    },
+    {
+        "question": "Evelyn, a forensic investigator, is setting up a secure storage system in her office. She purchases a new storage system that can support large disk sizes and ensures data integrity through the use of CRCs (Cyclic Redundancy Checks) and 64-bit Logical Block Addressing (LBA). The system allows partitions as large as 8 ZiB and can handle up to 128 partitions. After checking the specifications, Evelyn confirms that the partitioning scheme used by her system supports these capabilities. Which partitioning scheme is Evelyn using for her storage system?",
+        "options": [
+            "Clusters",
+            "MBR",
+            "GPT",
+            "BPB"
+        ],
+        "answer": "GPT"
+    },
+    {
+        "question": "An organization with a web application was compromised, and the attacker was able to download the entire database. During the initial review of the logs, the forensic investigator finds evidence of the following string “%2e%2e%2f”. What type of attack could have led to this breach?",
+        "options": [
+            "Brute Force attack",
+            "Directory Traversal attack",
+            "Cross-Site Scripting (XSS) attack",
+            "SQL Injection attack"
+        ],
+        "answer": "Directory Traversal attack"
+    },
+    {
+        "question": "In a multinational corporation, there have been increased reports of system failures across the intranet. Forensic investigators discovered a highly polymorphic worm spreading across the network. The worm quickly changes its structure, making it difficult to analyze using traditional signature-based methods. A cybersecurity analyst needs to conduct a behavioral analysis of the worm in a secure and isolated environment. Which of the following tools should she use for this purpose?",
+        "options": [
+            "Wireshark",
+            "Process Monitor",
+            "Cuckoo Sandbox",
+            "IDA Pro"
+        ],
+        "answer": "Cuckoo Sandbox"
+    },
+    {
+        "question": "Jennifer, an experienced CHFI investigator, is working on a case involving a transnational cybercrime ring that has launched numerous attacks on multiple corporations across the globe. One of the attackers is suspected of breaching a large bank’s security system and transferring millions of dollars into overseas offshore accounts. The investigation has spanned several months and across multiple jurisdictions. Jennifer is considering accessing digital evidence at a local suspect’s home, where she believes crucial digital evidence may be stored. However, the suspect is a citizen of another country, and his home is protected under diplomatic immunity laws. The case is further complicated by the bank’s impatient demand for resolution and the suspect’s residence being in a foreign jurisdiction. Jennifer needs to balance her respect for legal boundaries with the urgency of securing the digital evidence. What should she do?",
+        "options": [
+            "She should use a decryption tool to remotely access the suspect’s computer systems",
+            "She should wait until the suspect leaves the country and then seize his computer",
+            "She should sneak into the suspect’s home while he is away and extract the data",
+            "She should consult legal counsel and try to obtain a warrant under international laws"
+        ],
+        "answer": "She should consult legal counsel and try to obtain a warrant under international laws"
+    },
+    {
+        "question": "Sarah, a forensic investigator, is conducting an investigation on a macOS system that has been compromised. She is tasked with gathering evidence of unauthorized access to the system. During her investigation, she needs to locate information related to login and user account activity. Instead of reviewing general system logs, Sarah knows she must focus on a specific area that contains detailed data on unauthorized activities. Which area of the macOS file system should she examine to find information regarding login attempts and other authentication events?",
+        "options": [
+            "The LaunchDaemons directory",
+            "The Home folder",
+            "The User Account data",
+            "The Safari history"
+        ],
+        "answer": "The User Account data"
+    },
+    {
+        "question": "Mark, a forensic investigator, is examining a suspicious executable file for signs of malicious activity. He needs to search the file for embedded strings that could indicate the file’s malicious behavior, such as URLs, file paths, or registry keys. Which of the following tools can Mark use to extract strings from the executable for further analysis?",
+        "options": [
+            "HashMyFiles",
+            "Dependency Walker",
+            "PE Explorer",
+            "BinText"
+        ],
+        "answer": "BinText"
+    },
+    {
+        "question": "Roberto, a certified CHFI professional, is faced with a complex case. A suspect apprehended in a sting operation possesses several encrypted hard drives. Roberto’s job is to investigate the suspect’s digital assets, which includes accessing the data stored on the encrypted drives. He must not only decrypt the data but also comply with the Federal Rules of Evidence and the best evidence rule to prevent the evidence from being discarded in court. Given the encrypted nature of the drives, what is the most appropriate initial step for Roberto to undertake this daunting task?",
+        "options": [
+            "Force-crack the encryption of the hard drives and extract the data",
+            "Connect the drives to the network to use cloud-based decryption tools",
+            "Format the drives and use data recovery tools to extract the encrypted data",
+            "Make bit-by-bit copies of the encrypted drives and work on the copies"
+        ],
+        "answer": "Make bit-by-bit copies of the encrypted drives and work on the copies"
+    },
+    {
+        "question": "A regional bank, operating across several cities, recently discovered discrepancies in account balances following routine audits. The issues were noticed across various branches, raising internal concerns. Upon deeper analysis, it was revealed that someone with prior authorization had altered financial records. The investigation uncovered that a former employee, whose credentials had not been deactivated after leaving the company, had retained full control over critical systems. This oversight allowed the individual to manipulate transactional data, leading to inaccurate financial reports and potential harm to the bank’s reputation. The adjustments made by the former employee were intentional and impacted customer accounts, despite the employee no longer being part of the organization. The lack of action to revoke the permissions after the employee’s departure allowed these actions to occur without any barriers. What classification of cybercrime best fits this scenario?",
+        "options": [
+            "An authentication flaw due to expired password policies",
+            "An abuse of role-based access from within the network",
+            "A breach caused by external actors bypassing firewalls",
+            "An impersonation attempt using credential stuffing techniques"
+        ],
+        "answer": "An abuse of role-based access from within the network"
+    },
+    {
+        "question": "In the aftermath of a sophisticated cyberattack, a digital forensic investigator is tasked with retrieving critical evidence from a compromised system. However, the attacker has employed strong anti-forensic techniques, including encrypted files and password-protected directories, to obscure potential evidence. To counter these anti-forensic measures effectively, which of the following approaches would be the most appropriate?",
+        "options": [
+            "Deploying a targeted phishing campaign to obtain credentials for the encrypted files and directories.",
+            "Conducting a brute-force attack to systematically guess passwords for the protected directories.",
+            "Utilizing a dictionary attack to systematically test common passwords against the encrypted directories.",
+            "Utilizing rainbow tables to expedite the decryption mechanisms."
+        ],
+        "answer": "Utilizing rainbow tables to expedite the decryption mechanisms."
+    },
+    {
+        "question": "Linda, a network security analyst, is reviewing the firewall logs after noticing suspicious activity on the company’s network. The firewall logs show multiple inbound connection attempts that were blocked, and Linda notices that the source IP addresses in these logs originate from outside the organization’s normal network range. This unfamiliar IP raises a red flag and could potentially be an attempt to breach the network. Given the suspicious nature of the traffic and the company’s need to maintain secure operations, Linda must take the next step in her investigation to determine whether this activity represents a genuine attack attempt or if it is a legitimate request that was mistakenly flagged. At this point, Linda considers several options. Which of the following actions would be the most appropriate to investigate the potential security breach caused by this suspicious activity?",
+        "options": [
+            "Ensure that all external traffic is logged for future analysis.",
+            "Investigate the service status of the firewall to ensure it is functioning properly.",
+            "Check the timestamps for the last successful login from the suspicious IP address.",
+            "Verify if the IP address is associated with any known malicious activity or threat intelligence sources."
+        ],
+        "answer": "Verify if the IP address is associated with any known malicious activity or threat intelligence sources."
+    },
+    {
+        "question": "Chris, a digital forensics expert, is investigating a compromised Windows system using the BIOS-MBR boot method. Upon reviewing the system’s boot process, he confirms that the Power-On Self-Test (POST) has successfully completed. The BIOS has checked the hardware and verified the integrity of essential components like the CPU, memory, and storage devices. After this, the BIOS loads the Master Boot Record (MBR) from the bootable device. At this point in the process, the system’s boot manager is expected to take over. The boot manager is responsible for locating and triggering the appropriate boot loader. The boot manager will locate a system file that is integral for starting the Windows operating system. This step involves loading a critical system file that helps the OS load into memory. Given that the system is using the BIOS-MBR method, Chris knows that after the BIOS completes its tasks and the MBR is loaded, the next task is the loading of this essential file, which is key to the boot process. What should Chris expect to happen next in the boot sequence?",
+        "options": [
+            "The system runs a kernel integrity check.",
+            "The system initializes HAL.dll.",
+            "The system loads Winload.exe.",
+            "The system passes control to Winlogon.exe."
+        ],
+        "answer": "The system loads Winload.exe."
+    },
+    {
+        "question": "James is a seasoned digital forensic investigator who is involved in a complex case of industrial espionage. The attacker is believed to be a sophisticated threat actor who has infiltrated a network of compromised internal and external systems across multiple jurisdictions and regulations. Given the complexity of the case, James is concerned about the rules of evidence and obtaining the necessary legal permissions under different legal systems. To make matters more complex, some of the affected systems belong to external organizations, requiring legal authorization for James to access and investigate their systems. In such a complex scenario, what should James’s initial approach be?",
+        "options": [
+            "Forego the search warrants and start the investigation immediately to prevent further damage.",
+            "Proceed to access the clients’ systems remotely to gather evidence before it is altered.",
+            "Work with the legal team to understand and secure the necessary legal permissions and warrants.",
+            "Limit the investigation to the firm’s internal systems to avoid legal complications."
+        ],
+        "answer": "Work with the legal team to understand and secure the necessary legal permissions and warrants."
+    },
+    {
+        "question": "Camila, a forensic investigator, is working on a Linux machine that has been suspected of running malicious software. She wants to analyze the interactions between the running processes and the system. Such interactions could provide important clues about the behavior of the malware. To track these interactions in real time, she decides to use a tool that can intercept and record these system-level interactions. Which tool should Camila use to monitor the system calls generated by processes in real time?",
+        "options": [
+            "Process Explorer",
+            "strace",
+            "Wireshark",
+            "tcpdump"
+        ],
+        "answer": "strace"
+    },
+    {
+        "question": "Sarah, a CHFI investigator, is assigned to a case involving illegal activities conducted through a private network. A concerned citizen discovered the network and reported it to authorities. Sarah’s job is to investigate and gather evidence from this network while ensuring the investigation follows proper legal procedures. Given the sensitivity of the case and the potential for severe penalties in court, Sarah must ensure that the evidence she collects will hold up in court. What should Sarah’s first step be in this investigation?",
+        "options": [
+            "Obtain a search warrant based on the initial report to legally collect evidence from the network.",
+            "Leverage social engineering tactics to infiltrate the network and identify the main suspects.",
+            "Monitor network traffic to identify potential suspects without notifying authorities.",
+            "Access the network covertly to gather evidence without raising suspicion."
+        ],
+        "answer": "Obtain a search warrant based on the initial report to legally collect evidence from the network."
+    },
+    {
+        "question": "Frank, a forensic analyst, is working on a case involving a Linux system. The system has been compromised, and Frank suspects the attacker manipulated the file system to hide traces of their malicious activities. To uncover hidden, deleted, or altered files, Frank needs a tool capable of performing in-depth file system analysis on a Linux system. Which tool should Frank use?",
+        "options": [
+            "Autopsy",
+            "Sleuth Kit",
+            "Extundelete",
+            "DiskExplorer"
+        ],
+        "answer": "Sleuth Kit"
+    },
+    {
+        "question": "A renowned global retail corporation recently experienced a sophisticated cyberattack that resulted in a significant loss of data. The company had invested heavily in its Security Operations Center (SOC), which was expected to act as the first line of defense against such cyber threats. However, the attack went undetected until it was too late. In retrospect, what aspect of the SOC’s role was most likely overlooked in this scenario?",
+        "options": [
+            "SOC’s role in maintaining and securing log data.",
+            "SOC’s role in conducting a forensic investigation.",
+            "SOC’s role in continuously monitoring and analyzing security events.",
+            "SOC’s role in preserving evidence for forensic analysis."
+        ],
+        "answer": "SOC’s role in continuously monitoring and analyzing security events."
+    },
+    {
+        "question": "A company is conducting a large-scale eDiscovery process to gather, preserve, and analyze electronic evidence for an ongoing investigation. The legal and IT teams are tasked with managing the process to ensure data integrity and accuracy. They also need to manage the substantial costs associated with the discovery process. Given the complexity and scale of the eDiscovery process, which step should the company prioritize to achieve these objectives?",
+        "options": [
+            "Define key performance indicators (KPIs) and measure the volume of data collected during the eDiscovery process.",
+            "Establish a cross-functional team to oversee the coordination between legal, IT, and compliance teams during the eDiscovery process.",
+            "Develop a comprehensive training program for staff involved in the eDiscovery process.",
+            "Implement a centralized data repository to streamline access, review, and management of electronic evidence."
+        ],
+        "answer": "Establish a cross-functional team to oversee the coordination between legal, IT, and compliance teams during the eDiscovery process."
+    },
+    {
+        "question": "As an experienced forensic analyst, you have been called upon to examine a Linux server that has been compromised. You are performing file system analysis using The Sleuth Kit (TSK). While conducting the analysis, you notice that there is a large amount of data to be reviewed, making manual examination impractical. What feature of TSK should you use to examine the suspect file system evidence more effectively?",
+        "options": [
+            "File system timeline",
+            "File carving",
+            "Hash database lookup",
+            "Disk imaging"
+        ],
+        "answer": "File system timeline"
+    },
+    {
+        "question": "Taylor, a forensic expert, has been assigned to investigate a compromised server. During the investigation, Taylor analyzes network traffic using Wireshark to identify the attacker’s point of entry. Taylor notices an unusual pattern of repeated login failure attempts over the FTP protocol, indicating a possible brute-force attack targeting the FTP service. Taylor later determines that after these failed attempts, the attacker was able to successfully log in to the FTP server. Taylor now needs to identify the specific FTP response code that would indicate a successful login. Which of the following Wireshark filters will help Taylor confirm a successful FTP login?",
+        "options": [
+            "ftp.response.code == 230",
+            "ftp.response.code == 550",
+            "ftp.response.code == 215",
+            "ftp.response.code == 530"
+        ],
+        "answer": "ftp.response.code == 230"
+    },
+    {
+        "question": "Alex, a forensic investigator, has been assigned to investigate a damaged mobile device that contains critical evidence related to a cybercrime. The device has physical damage and is unresponsive to normal recovery procedures. Alex needs to determine the best way to extract data from the device. Given the situation, Alex must decide on the first step to take during the mobile forensics process to ensure the data is properly extracted. Which of the following procedures must Alex perform first when the evidentiary device is damaged?",
+        "options": [
+            "Perform physical acquisition using the USB connection.",
+            "Perform JTAG forensics.",
+            "Connect the device to a forensic workstation using a USB cable.",
+            "Root the device."
+        ],
+        "answer": "Perform JTAG forensics."
+    },
+    {
+        "question": "Following a data breach at a global financial institution, the company’s incident response team is working tirelessly to identify the breach’s origin. The database administrator noticed that several entries in the company’s SQL Server database were altered. She found that there were changes made to the account history, financials, and customer details. The transaction logs showed modification timestamps that were quite uncommon. It appeared that the attacker gained access via remote means, and the login credentials might have been compromised. As a forensic investigator, what would be the most appropriate step to identify the source of the breach?",
+        "options": [
+            "You would need to evaluate the server logs for unusual login patterns.",
+            "You would need to identify the source IP from where the connection was initiated.",
+            "You would need to perform a complete system scan.",
+            "You would need to assess the most recently accessed files."
+        ],
+        "answer": "You would need to identify the source IP from where the connection was initiated."
+    },
+    {
+        "question": "Jessica, a forensic investigator, was called to investigate a cyber incident where suspicious activity was traced back to a user’s desktop computer. She needed to perform a thorough forensic examination and understood the importance of maintaining the integrity of the data. Jessica chose a specific data acquisition method that would capture the complete data without altering the original storage medium. Which method of data acquisition did Jessica choose?",
+        "options": [
+            "Differential Data Acquisition",
+            "Sparse Data Acquisition",
+            "Live Data Acquisition",
+            "Raw Data Acquisition"
+        ],
+        "answer": "Raw Data Acquisition"
+    },
+    {
+        "question": "Greg, a seasoned CHFI professional, has been contracted to investigate a case of intellectual property theft at a major software company. While working on the case, he discovered that an email server may hold crucial evidence. However, the server is shared with a different company, and accessing it directly could violate that company’s privacy rights. To respect the rules and regulations governing digital evidence, what should Greg’s initial approach be in this scenario?",
+        "options": [
+            "Ignore potential privacy violations and seize the server immediately.",
+            "Immediately obtain a warrant to search and seize the server.",
+            "Avoid the email server and focus on other potential sources of evidence.",
+            "Consult with legal experts and the company’s management to determine the proper legal course of action."
+        ],
+        "answer": "Consult with legal experts and the company’s management to determine the proper legal course of action."
+    },
+    {
+        "question": "61. An organization is preparing to establish an in-house eDiscovery team to manage the identification, collection, and preservation of electronic evidence for a significant investigation. The team includes experts from both the legal and IT departments, ensuring that the process is compliant with legal standards. The legal team is tasked with defining the scope of discovery and the legal guidelines under which evidence can be collected, ensuring that the work aligns with applicable laws and regulations. Meanwhile, the IT team is responsible for managing the technical aspects of the collection process, ensuring that evidence is gathered in a secure and forensically sound manner with minimal risk of data alteration or loss. By bringing together both legal and IT professionals, the organization aims to ensure that both the technical and legal facets of eDiscovery are handled appropriately. In this context, which statement best describes the responsibilities of the legal and IT teams in the eDiscovery process?",
+        "options": [
+            "The IT team is solely responsible for ensuring the process and focuses only on documentation.",
+            "Both teams are responsible for the initial analysis of evidence, and the legal team focuses on case review.",
+            "The legal team focuses on legal guidelines and compliance, while the IT team handles technical issues during evidence collection.",
+            "The IT team ensures the integrity of collected evidence in court."
+        ],
+        "answer": "The legal team focuses on legal guidelines and compliance, while the IT team handles technical issues during evidence collection."
+    },
+    {
+        "question": "62. After a recent security incident at a popular online retail store, an incident response team began an investigation. They found that an attacker was able to make thousands of attempts using different combinations of credit card information within just a few minutes. The same source IP address was responsible for all these transactions. As a computer hacking forensic investigator, what type of attack are you most likely dealing with?",
+        "options": [
+            "Cookie Poisoning attack",
+            "XML External Entity (XXE) attack",
+            "Brute Force attack",
+            "Parameter Tampering attack"
+        ],
+        "answer": "Brute Force attack"
+    },
+    {
+        "question": "63. Laura, a CHFI-certified investigator, has been brought in to investigate a rogue insider incident at a software development company. A disgruntled employee injected malicious code into the source code repository, causing significant damage to the company’s reputation and finances. Laura needs to gather evidence from the suspect’s heavily used workstation, which has been running continuously and may contain critical evidence in RAM. What data acquisition strategy should Laura use to ensure the most relevant evidence is gathered?",
+        "options": [
+            "Dead acquisition after shutting down the workstation.",
+            "Remote acquisition over the network.",
+            "Live acquisition from the running workstation.",
+            "Copying key files to an external storage device."
+        ],
+        "answer": "Live acquisition from the running workstation."
+    },
+    {
+        "question": "64. Mason, a network forensic expert, is investigating a recent security incident in an organization’s network. While analyzing the network traffic, Mason suspects a stealthy scanning or attack technique based on unusual traffic patterns. To gain deeper insight into the traffic behavior, Mason uses the Wireshark tool and applies specific filters to identify any anomalous activity. Which of the following results does Mason expect to Wireshark filters ?",
+        "options": [
+            "Detect packets moving without flags",
+            "Detect RST packets",
+            "Detect a SYN/FIN flooding attempt",
+            "Detect SYN packets"
+        ],
+        "answer": "Detect packets moving without flags"
+    },
+    {
+        "question": "65. During a forensic investigation, an examiner is analyzing a bitmap image to understand its file structure. The examiner notices the first section of the file contains key information such as the image’s format, overall size, and how the data is arranged. What is the name of this data structure?",
+        "options": [
+            "Image data",
+            "Information header",
+            "File header",
+            "RGBQUAD array"
+        ],
+        "answer": "File header"
+    },
+    {
+        "question": "66. During a forensic investigation, an investigator opens a file using a hex editor and examines its raw data. While analyzing the content, the investigator observes the presence of byte values that appear random and uniformly distributed across different sections of the file. These byte sequences appear repetitive and lack any recognizable pattern. What might these values signify in the context of file analysis?",
+        "options": [
+            "File padding or unused data, often used to ensure the file reaches a fixed size.",
+            "Encrypted data, where these byte values represent encoded content that cannot be read without the proper key.",
+            "File compression, indicating the presence of compressed data blocks within the file.",
+            "Data corruption, suggesting the file may be damaged or incomplete."
+        ],
+        "answer": "Encrypted data, where these byte values represent encoded content that cannot be read without the proper key."
+    },
+    {
+        "question": "67. A security research team is creating a dedicated testbed for malware analysis. The test environment is isolated from the functional network, preventing the malware from impacting production operations. The testbed includes virtual machines, victim machines with different configurations (patched and unpatched), and necessary tools such as imaging tools, file analysis tools, and network monitoring tools. What is the primary benefit of using a sandbox environment in the malware analysis process?",
+        "options": [
+            "The sandbox isolates malware from the external network but does not allow execution.",
+            "The sandbox allows malware to execute in a controlled and isolated environment.",
+            "The sandbox ensures all virtual machines are updated with the latest security patches.",
+            "The sandbox enables malware to access the functional network for testing purposes."
+        ],
+        "answer": "The sandbox allows malware to execute in a controlled and isolated environment."
+    },
+    {
+        "question": "68. A system administrator is configuring a new storage array for a critical application and selects a RAID level that uses data striping and dedicated parity. The RAID setup requires a minimum of three disks and ensures data is striped at the byte level across multiple drives, with one drive used to store parity information for fault tolerance. After configuring the RAID system, the administrator tests the setup by simulating a single drive failure and confirms that the system can still function without data loss. Which RAID level is the system administrator using in this scenario?",
+        "options": [
+            "RAID 10",
+            "RAID 0",
+            "RAID 3",
+            "RAID 1"
+        ],
+        "answer": "RAID 3"
+    },
+    {
+        "question": "69. An investigator is assigned to a complex cybercrime case involving unauthorized access to sensitive and confidential data stored on a corporate server. The investigation is being conducted in one jurisdiction with strict privacy laws and digital evidence guidelines, while the suspect is located in a different jurisdiction with its own set of privacy and evidence laws. The investigator must seize and analyze evidence from the suspect’s devices using specialized digital forensic tools. However, the investigator faces challenges while navigating the different legal frameworks governing the collection and handling of digital evidence across the two jurisdictions. As part of the investigation, the investigator uses forensic tools to create forensic images of suspect devices and to gather data from the breached systems. Due to the differences in legal requirements, the investigator is unsure how to ensure compliance with both jurisdictions’ laws while collecting and preserving evidence. Which legal challenge might the investigator face in this case when collecting digital evidence?",
+        "options": [
+            "The challenge of using outdated forensic tools that are not compatible with modern devices.",
+            "The need for forensic tools to have encryption capabilities to secure the evidence.",
+            "The requirement to use the same forensic tools across all devices involved in evidence handling.",
+            "The need to ensure that the forensic tools used during the investigation comply with the regulations of both regions involved."
+        ],
+        "answer": "The need to ensure that the forensic tools used during the investigation comply with the regulations of both regions involved."
+    },
+    {
+        "question": "70. An attacker, seeking to anonymize their internet activity, utilizes the Tor network, which routes traffic through a series of relays to obscure the original source and location. However, despite these measures, the attacker’s traffic is still tracked, potentially exposing them to legal consequences. In response, the attacker attempts to circumvent stringent network censorship in a region where access to the Tor network is restricted. By doing so, the attacker aims to regain access to Tor while preserving anonymity. Which mechanism allows the attacker to bypass censorship in this scenario?",
+        "options": [
+            "It hides the exit relay’s IP address to prevent detection.",
+            "It serves as an undetectable entry point, helping bypass local network restrictions.",
+            "It decrypts the encrypted traffic and forwards it to the next Tor relay.",
+            "It encrypts the data before sending it to the middle relay."
+        ],
+        "answer": "It serves as an undetectable entry point, helping bypass local network restrictions."
+    },
+    {
+        "question": "71. You’re working as a computer forensic investigator at an organization that suspects an internal employee of investigating a potential breach of confidential data. The prime suspect is an employee who has resigned. The company has seized the suspect’s work laptop, which contains crucial evidence. Your responsibility is to acquire the necessary data for the investigation. Since the integrity of the evidence must be preserved, the system is still running and data in memory is an immediate priority. What is the most accurate sequence to collect volatile data?",
+        "options": [
+            "Network connections, running processes, list of open ports, system state",
+            "List of open ports, running processes, network connections, system state",
+            "Running processes, system state, network connections, and list of open ports",
+            "System state, list of open ports, running processes, and network connections"
+        ],
+        "answer": "Network connections, running processes, list of open ports, system state"
+    },
+    {
+        "question": "72. Cynthia, a CHFI specialist, is working on a high-stakes case involving a database server. She has narrowed down her investigation to a particular server believed to be compromised. However, the server is integral to the company’s operations and cannot be taken offline without significant business impact. Cynthia considers the order of volatility and realizes that some critical evidence must be properly captured. What should be Cynthia’s next step to effectively collect evidence for the investigation?",
+        "options": [
+            "Use network sniffing to gather data passively",
+            "Conduct a live acquisition immediately",
+            "Conduct a dead acquisition during non-working hours",
+            "Ask the IT department to create a server backup for analysis"
+        ],
+        "answer": "Conduct a live acquisition immediately"
+    },
+    {
+        "question": "73. As a forensic analyst for a law enforcement agency, you are investigating a case involving an illegal marketplace. The suspect’s computer has been seized, and you are tasked with acquiring data from the suspect’s hard disk. You understand that write protection must be enabled to prevent any alteration of the original evidence. However, the computer’s operating system is Linux, and the available write-protection mechanism is incompatible with it. How should you proceed?",
+        "options": [
+            "Connect the hard disk to a Windows machine and apply the write-blocker",
+            "Transfer the data from the Linux machine to a Windows machine",
+            "Proceed with data acquisition without write-blocking, as long as changes are minimal",
+            "Use a Linux-compatible command to manually set the hard disk to read-only mode"
+        ],
+        "answer": "Connect the hard disk to a Windows machine and apply the write-blocker"
+    },
+    {
+        "question": "74. As a Computer Hacking Forensic Investigator, you are working on a case involving the alteration of financial records within a major bank. The network administrators have identified a specific terminal where they believe the alterations originated. You arrive at the scene and are informed that the machine has been powered down at the time of discovery. In this scenario, which of the following would be your first step?",
+        "options": [
+            "Leave the system powered down and initiate the forensic imaging process",
+            "Create a bootable copy of the hard drive to analyze on a separate secure system",
+            "Connect the machine to a separate network and monitor ongoing traffic",
+            "Power up the machine and perform a live analysis to identify any processes involved in the unauthorized alterations"
+        ],
+        "answer": "Leave the system powered down and initiate the forensic imaging process"
+    },
+    {
+        "question": "75. Thomas, a cybersecurity analyst, is investigating a website breach after a web server generated an alert for suspicious activity. Upon reviewing the IIS logs, he notices an unusually high number of requests coming from the same IP address within a short time period. These requests occur throughout the day and appear to target multiple resources on the server. Thomas suspects this activity may be part of a larger attempt to scan for vulnerabilities or exploit specific weaknesses. Which of the following IIS log fields should Thomas focus on to better understand the nature of these requests?",
+        "options": [
+            "cs-uri-stem (Requested URI)",
+            "sc-status (Status code)",
+            "cs-user-agent (User-Agent string)",
+            "cs-ip (Client IP address)"
+        ],
+        "answer": "cs-uri-stem (Requested URI)"
+    },
+    {
+        "question": "76. During a high-stakes malware investigation, your team discovers a suspicious device driver on a compromised server. Upon analyzing the driver’s behavior in a sandboxed environment, you observe that it is frequently accessing low-level system resources that are not typically accessed by legitimate drivers. You suspect that this driver might be used as a rootkit. What technique might this rootkit be employing to evade detection?",
+        "options": [
+            "It might be hooking into a legitimate driver",
+            "It might be using a zero-day vulnerability",
+            "It might be cloaking its processes within a legitimate system process",
+            "It could be using kernel patching"
+        ],
+        "answer": "It could be using kernel patching"
+    },
+    {
+        "question": "77. An organization investigates a series of cyberattacks that seem to implicate a specific threat actor collective. The attacks appear highly coordinated and use advanced malware, with command-and-control infrastructure resembling that of an organization with a specific geopolitical agenda. However, investigators suspect the attackers might be using tools to mimic the collective’s established tactics and infrastructure, creating confusion around attribution and identity. Which attribution challenge is the organization most likely facing?",
+        "options": [
+            "The inability to access technical indicators such as malware signatures or command-and-control infrastructure",
+            "The attackers using false-flag methods to impersonate those of a known groups",
+            "The difficulty in identifying geopolitical motivations behind the attacks",
+            "The lack of cooperation from the attacker’s country, making it difficult to investigate activities"
+        ],
+        "answer": "The attackers using false-flag methods to impersonate those of a known groups"
+    },
+    {
+        "question": "78. A company experiences a major data breach within its cloud infrastructure, attributed to a vulnerability in the cloud service provider (CSP). The breach occurs because the CSP’s infrastructure fails to properly segregate and safeguard the data of different customers in a multi-tenant environment. Attackers exploit this weakness to gain unauthorized access to sensitive data from multiple clients across shared systems. As a result, customer data is exposed across several accounts, attackers are able to move laterally, escalate privileges, and access sensitive information. The breach remains undetected for an extended period, allowing the attackers to exfiltrate large volumes of data. What threat is most likely to be the cause of this issue?",
+        "options": [
+            "Insufficient resource isolation causing cross-tenant data exposure",
+            "Failure in due diligence during the cloud service selection",
+            "Loss of client control over cloud infrastructure and data",
+            "Lack of monitoring leading to unnoticed data breaches"
+        ],
+        "answer": "Insufficient resource isolation causing cross-tenant data exposure"
+    },
+    {
+        "question": "79. A company’s online banking platform has recently been experiencing security breaches involving unauthorized access to customer accounts. Upon investigation, it is suspected that a brute-force attack is being used to gain entry. In the scenario described, what does the term “brute-force attack” likely refer to?",
+        "options": [
+            "A method of exploiting vulnerabilities in the company’s network infrastructure",
+            "A technique where attackers systematically guess passwords or encryption keys to gain unauthorized access",
+            "An attack where hackers manipulate user interface elements to gain access to sensitive data",
+            "A social engineering tactic involving tricking employees into revealing credentials"
+        ],
+        "answer": "A technique where attackers systematically guess passwords or encryption keys to gain unauthorized access"
+    },
+    {
+        "question": "80. As the lead of the forensic department in a well-known multinational bank, John has been tasked with updating the company’s forensic readiness plan. The bank has faced several minor cyber incidents in the past year but managed to address them promptly without significant impact. Senior management has emphasized the need for more robust preparedness. John already has an incident response plan in place and has ensured that the SOC is adequately equipped with the necessary resources. In this situation, what could be a valuable addition to John’s forensic readiness plan to further strengthen the organization’s ability to deal with future cyber incidents?",
+        "options": [
+            "Organizing a monthly review of the bank’s network infrastructure",
+            "Integrating the SOC with an AI-based threat detection system",
+            "Establishing a detailed procedure for evidence collection and analysis",
+            "Implementing a zero-trust network architecture"
+        ],
+        "answer": "Establishing a detailed procedure for evidence collection and analysis"
+    },
+    {
+        "question": "81. A well-known e-commerce company is under investigation after a series of suspicious activities were reported by multiple users. One user reported unauthorized purchases, while another reported account access from different geographic locations. The company’s internal security team discovered that some sessions were hijacked, showing that the same user was using the same session from different geographical locations. The team concluded that the user’s session cookies might have been intercepted and used by an attacker. As a forensic investigator, what is the most probable cause of this security incident?",
+        "options": [
+            "Brute-force attack",
+            "SQL injection attack",
+            "Cross-Site Scripting (XSS) attack",
+            "Parameter tampering attack"
+        ],
+        "answer": "Cross-Site Scripting (XSS) attack"
+    },
+    {
+        "question": "82. Following a cyber incident in an organization where most evidence is log-based, a forensic analyst named Alex is tasked with analyzing one of the hacked user systems. Alex requires a forensic tool capable of analyzing system logs, artifacts, and evidence efficiently. Which forensic tool is the best choice?",
+        "options": [
+            "Wireshark",
+            "Magnet AXIOM",
+            "Metasploit",
+            "IDA Pro"
+        ],
+        "answer": "Magnet AXIOM"
+    },
+    {
+        "question": "83. Rachel, a computer forensic investigator, is investigating a case that requires her to capture and analyze data present on a specific computer system. However, the computer is continuously being used for critical tasks and cannot be shut down without disrupting operations. Given the urgency of the situation, which type of data acquisition should Rachel perform?",
+        "options": [
+            "Differential Acquisition",
+            "Static Acquisition",
+            "Remote Acquisition",
+            "Live Acquisition"
+        ],
+        "answer": "Live Acquisition"
+    },
+    {
+        "question": "84. Ryan, a computer forensic investigator, was tasked with a case involving the theft of confidential data within a large corporation. The suspected employee worked in a department that had access to a Network Attached Storage (NAS) device, making it a major source of evidence due to its complex filesystem. A recent upgrade led to a complete wipe and restoration of the data, complicating forensic matters. Additionally, the corporation also used a Storage Area Network (SAN), which was suspected to be involved in the confidential data leakage. Understanding the idiosyncrasies of NAS and SAN storage systems, what is the best initial approach for Ryan to begin his investigation?",
+        "options": [
+            "Ryan should recover deleted files from the NAS device using a forensic recovery tool",
+            "Ryan should focus on the SAN first, as it is likely the source of leaked data",
+            "Ryan should immediately create a physical image of both NAS and SAN devices",
+            "Ryan should aim to reconstruct the RAID configurations of any of the NAS and SAN attempting data recovery"
+        ],
+        "answer": "Ryan should aim to reconstruct the RAID configurations of any of the NAS and SAN attempting data recovery"
+    },
+    {
+        "question": "85. In a large multinational organization, an advanced persistent threat (APT) has been detected. A Linux server within the company appears to be communicating with a known malicious IP address. Alice, a cybersecurity analyst, has been assigned to analyze the situation. She decides to collect volatile data from the server to examine active network connections and running processes. Alice is familiar with forensic tools such as Volatility, Rekall, and Redline. Which tool should Alice use to perform the analysis most effectively?",
+        "options": [
+            "Volatility",
+            "Redline",
+            "OSForensics",
+            "Rekall"
+        ],
+        "answer": "Volatility"
+    },
+    {
+        "question": "86. Allison, a CHFI investigator, was brought into a case by a law firm investigating a potential breach involving its clients. She needs to investigate the firm’s digital assets for evidence of the breach and related activities. Before starting her investigation, Allison seeks consent from the firm’s partners, but they refuse consent due to concerns about client confidentiality. In line with professional ethics and legal requirements, what should Allison’s approach be?",
+        "options": [
+            "Withdraw from the case due to the lack of consent",
+            "Use her authority as a CHFI investigator to access the required data without consent",
+            "Proceed with the investigation covertly to identify the origin quickly",
+            "Respect the firm’s concerns and seek other means of gathering evidence without violating confidentiality"
+        ],
+        "answer": "Withdraw from the case due to the lack of consent"
+    },
+    {
+        "question": "87. Emma, a seasoned forensic investigator, is assigned to a case involving a mobile device used in criminal activity. The device is an Android smartphone, and Emma needs to extract and analyze data for the investigation. She must recover both existing and deleted data, including artifacts that could help provide comprehensive evidence. Which of the following acquisition methods will allow Emma to access the most extensive data from the device?",
+        "options": [
+            "Logical acquisition",
+            "Physical acquisition",
+            "File system acquisition",
+            "Cloud data acquisition"
+        ],
+        "answer": "Physical acquisition"
+    },
+    {
+        "question": "88. Emily, a seasoned digital forensics investigator, has been tasked with investigating a compromised Linux system running the ext4 file system. The system was involved in suspicious data manipulation, and Emily needs to gather detailed information about the metadata of specific files that were accessed or modified during the attack. After reviewing the system’s file system structure, Emily wants to identify the best source that contains file metadata, such as timestamps, permissions, and file size, to aid in the investigation. Which of the following would be the best source for this critical information?",
+        "options": [
+            "The dentry cache",
+            "The file’s data blocks",
+            "The inode table",
+            "The superblock"
+        ],
+        "answer": "The inode table"
+    },
+    {
+        "question": "89. An international organization suffered a significant breach of its database containing sensitive customer data. In the aftermath, the organization decided to hire an external forensic investigator. However, the company’s board is uncertain about the selection criteria for choosing the external investigator and seeks advice. Given the sensitive nature of the breached data and the scale of the attack, what is the most important factor to consider when hiring an external forensic investigator?",
+        "options": [
+            "Experience in dealing with similar cases",
+            "Adherence to professional codes of ethics in forensics",
+            "Knowledge about the company’s internal systems",
+            "Reputation in the industry"
+        ],
+        "answer": "Adherence to professional codes of ethics in forensics"
+    },
+    {
+        "question": "90. James, a compliance officer at a financial institution, is tasked with reviewing the organization’s information protection policies to ensure they meet regulatory requirements. The company offers a range of financial products and services, including loans, investment advice, and insurance. Which of the following laws is James ensuring compliance with?",
+        "options": [
+            "PCI DSS",
+            "HIPAA",
+            "GLBA (Gramm–Leach–Bliley Act)",
+            "GDPR"
+        ],
+        "answer": "GLBA (Gramm–Leach–Bliley Act)"
+    },
+    {
+        "question": "As part of a corporate investigation, Melissa, a forensic investigator, has been tasked with analyzing web browser history, cookies, and cache on a suspect’s laptop. The laptop was used with multiple web browsers, including Google Chrome, Firefox, and Safari. Melissa needs a tool that can comprehensively extract and analyze browser-related digital artifacts from multiple web browsers. Which tool should be used?",
+        "options": [
+            "EnCase",
+            "Sleuth Kit",
+            "DiskExplorer",
+            "NetAnalysis"
+        ],
+        "answer": "NetAnalysis"
+    },
+    {
+        "question": "During a forensic investigation into a recent cyberattack, analysts discovered that a piece of malware had been deliberately disguised to avoid detection. The malware was wrapped in a layer that made its contents unreadable to typical security software. Once this layer was removed during forensic analysis, the true malicious functionality of the malware became visible. Which of the following components is responsible for this type of obfuscation?",
+        "options": [
+            "Dropper",
+            "Exploit",
+            "Payload",
+            "Packer"
+        ],
+        "answer": "Packer"
+    },
+    {
+        "question": "A cyber attacker is suspected of using program packers as an anti-analysis technique during a breach incident. As the lead cybersecurity investigator, you have been tasked to deal with this situation. Which of the following actions would be most effective in defeating this anti-analysis technique?",
+        "options": [
+            "Regularly update anti-virus software on all systems",
+            "Use unpacking tools to reverse the packing process and reveal the original code",
+            "Implement secure coding practices",
+            "Increase the frequency of network vulnerability scanning"
+        ],
+        "answer": "Use unpacking tools to reverse the packing process and reveal the original code"
+    },
+    {
+        "question": "During an investigation of a high-profile cybercrime case, a law enforcement agency realized it lacked specialized computer forensic investigators. Their general forensic investigation team struggled with the specific demands of computer forensics. Although they considered hiring external forensic investigators, they decided against it due to budget constraints. What could be a potential solution to this problem?",
+        "options": [
+            "Collaborating with international law enforcement agencies for assistance",
+            "Investing in advanced forensic tools to assist their current investigators",
+            "Outsourcing the investigations to a private firm",
+            "Training their current investigators in computer forensics"
+        ],
+        "answer": "Training their current investigators in computer forensics"
+    },
+    {
+        "question": "Andrew, a system administrator, is examining the UEFI boot process on a system and notices that the system is verifying the integrity of the firmware and drivers before proceeding to load the operating system. The system performs compliance checks to ensure that only trusted software can be loaded. Andrew realizes this phase ensures the system boots in a secure state, adhering to policies. Identify the UEFI boot process phase being described.",
+        "options": [
+            "Driver execution environment phase",
+            "Pre-EFI initialization phase",
+            "Boot device selection phase",
+            "Security phase"
+        ],
+        "answer": "Security phase"
+    },
+    {
+        "question": "Edward, an experienced CHFI professional, was conducting an investigation into intellectual property theft at a major corporation. The company had identified a suspect user, and Edward was tasked with collecting data. Given the high-stakes nature of the investigation, Edward needed to ensure that the collected data was forensically sound, maintained its integrity, and could withstand scrutiny in a court of law. To accomplish this, which rule of thumb for data acquisition should Edward prioritize?",
+        "options": [
+            "Edward should focus on non-volatile data as it remains consistent",
+            "Edward should opt for live data acquisition, irrespective of the system state",
+            "Edward should avoid making changes to the original data",
+            "Edward should rely on network-based acquisition as it is less intrusive"
+        ],
+        "answer": "Edward should avoid making changes to the original data"
+    },
+    {
+        "question": "A cybersecurity analyst named John is working in an organization that has been experiencing suspicious activity. John noticed some unusual behavior on one of the servers running the Windows operating system. The server was repeatedly making attempts to connect to a random IP address. Upon investigation, John discovered that an administrator account had been compromised and was being used to make these connections. He decided to use pwdump to extract the password hashes from the system, but the plaintext credentials could not be extracted. The extracted hash was:8846f7eaee8fb117ad06bdd830b7586c. Which of the following password cracking tools is best suited to crack this hash?",
+        "options": [
+            "L0phtCrack",
+            "Hashcat",
+            "RainbowCrack",
+            "John the Ripper"
+        ],
+        "answer": "RainbowCrack"
+    },
+    {
+        "question": "A cybersecurity analyst at a leading technology firm has discovered a suspicious file on the company’s network. Concerned that it may be malware, the analyst decides to conduct static analysis on the file to assess the potential threat posed by the file. In the scenario described, what would be the primary purpose of conducting static analysis on the suspicious file?",
+        "options": [
+            "To analyze the code of the file without running it to identify patterns and characteristics",
+            "To gather initial information about the file’s behavior through dynamic execution",
+            "To manually reverse-engineer the code to understand the functionality in detail",
+            "To execute the file in a controlled environment to observe its behavior"
+        ],
+        "answer": "To analyze the code of the file without running it to identify patterns and characteristics"
+    },
+    {
+        "question": "In your capacity as a cybersecurity expert, you have been asked to investigate a security breach at an international organization. You notice that the attacker employed trail-obfuscation techniques, making it difficult to trace their activity. What approach should you take to overcome these obfuscation techniques and identify the potential breach source?",
+        "options": [
+            "Use advanced log analysis tools to piece together the obscured trail",
+            "Monitor real-time network traffic",
+            "Increase password complexity throughout the network",
+            "Implement a two-factor authentication system"
+        ],
+        "answer": "Use advanced log analysis tools to piece together the obscured trail"
+    },
+    {
+        "question": "An international airline recently discovered a cyber intrusion in their reservation system. The attack was intricately planned and executed, leaving very few traces behind. The threat actors utilized sophisticated anti-forensics techniques, including data obfuscation and log manipulation, making it challenging for the cybersecurity team to trace the attack’s origin and understand its full impact. Faced with this complex investigation, which of the following should be the first course of action for the cybersecurity team?",
+        "options": [
+            "Focus on identifying the exact data that has been compromised",
+            "Reverse engineer the methods employed by the threat actors",
+            "Implement strict access controls across all the systems",
+            "Roll out system updates across all devices to patch any potential vulnerabilities"
+        ],
+        "answer": "Reverse engineer the methods employed by the threat actors"
+    },
+    {
+        "question": "A company’s network has been compromised by a malware attack that originates from a website seemingly offering a legitimate service. The user unknowingly visited the site, and soon after, their system began exhibiting unusual behavior. The company discovered that the malware was automatically installed as soon as the user visited the site, without any need for further interaction. Which technique best describes this attack?",
+        "options": [
+            "Leveraging Black Hat SEO techniques to implant malware in the target network",
+            "Installing malware on the target system via the drive-by download method",
+            "Distributing malware to the target network through malvertising",
+            "Using spear-phishing sites to trigger the installation of malware in the target system"
+        ],
+        "answer": "Installing malware on the target system via the drive-by download method"
+    },
+    {
+        "question": "During a forensic investigation, the investigator needs to collect data from a mobile device. The investigator is aware of the need to follow proper procedures to ensure the data’s admissibility in court. The investigator must also take into account legal and ethical issues, particularly the handling of data that may contain personal and sensitive information. What should the investigator do to comply with legal requirements while collecting data from the mobile device?",
+        "options": [
+            "Disconnect the device from the internet to avoid any external interference and do not document this action",
+            "Use any available forensic tool without checking for compatibility or legal approval",
+            "Collect data from the mobile device without documenting the steps of the investigation",
+            "Obtain permission from the device owner and ensure that the investigation complies with applicable regulations"
+        ],
+        "answer": "Obtain permission from the device owner and ensure that the investigation complies with applicable regulations"
+    },
+    {
+        "question": "As the senior forensic analyst for an international software development firm, you are involved in an ongoing investigation into a suspected insider threat. Several sensitive files were removed from the company’s secured servers. In one instance, a junior team member received an email seemingly from his manager, instructing him to move specific files to a secure remote location. After complying, the files disappeared. As part of your investigation, you have established that email communication was involved. What should be your next step?",
+        "options": [
+            "Interview the team member who moved the files to determine if any policy was violated",
+            "Perform an immediate analysis of the disk images, focusing on identifying any potential malware",
+            "Conduct a detailed analysis of the email headers and server logs associated with the email",
+            "Prioritize the retrieval of deleted files from the disk images and determine the sequence of events that may have led to their deletion"
+        ],
+        "answer": "Conduct a detailed analysis of the email headers and server logs associated with the email"
+    },
+    {
+        "question": "You are a forensic analyst working on a case of a possible cyberattack on a bank’s network. You have been provided an image of the suspected machine for examination. To ensure a thorough investigation, you decide to use Autopsy for file system analysis. However, the image is huge, and manually going through the data could take weeks. What Autopsy feature can be utilized to expedite the analysis process?",
+        "options": [
+            "Timeline analysis",
+            "Keyword search",
+            "File carving",
+            "Image mounting"
+        ],
+        "answer": "Keyword search"
+    },
+    {
+        "question": "As a cybersecurity analyst, recently, you detected unusual behavior on a network that disrupted multiple workstations within the organization’s network. Upon further investigation, you discovered that employees received phishing emails containing seemingly innocuous attachments. However, these attachments were suspected to be part of a well-crafted campaign involving malicious attachments. What could be concluded for the attachments?",
+        "options": [
+            "The attachments may contain ransomware capable of encrypting sensitive data",
+            "The attachments could be exploiting zero-day vulnerabilities to gain unauthorized access to the network",
+            "The attachments might be delivering files staged for a distributed computing network",
+            "The attachments may contain spyware designed to steal confidential information from user organizations"
+        ],
+        "answer": "The attachments may contain spyware designed to steal confidential information from user organizations"
+    },
+    {
+        "question": "Liam, a forensic investigator, was examining an unusual financial transaction that had occurred on the system of a financial manager. The manager suspected that the breach was not due to unauthorized individuals physically, leading Liam to suspect remote access by an external perpetrator. Liam captured the network traffic to analyze the wireless data exchanged during the transaction. Which phase of the wireless network forensic investigation is being performed?",
+        "options": [
+            "Detect rogue/malicious access points",
+            "Discover wireless access points",
+            "Sniff and analyze packets",
+            "Identify active connections"
+        ],
+        "answer": "Sniff and analyze packets"
+    },
+    {
+        "question": "Jenny, a CHFI specialist, is assigned to a case involving leaked data from a financial institution. A whistleblower from the bank has leaked terabytes of data, which may serve as critical evidence. The sheer volume of the data, combined with the requirement to maintain proper forensic procedures and ensure that her findings can be used in court, makes her task extremely challenging. A wrong approach could jeopardize the case, so she must choose the most appropriate strategy to effectively deal with this monumental digital evidence. Which strategy should she use?",
+        "options": [
+            "Create hash values for all leaked files before the commencement of the chain of custody",
+            "Prioritize the leaked data based on the investigation requirements before examination",
+            "Download the leaked data and distribute it among multiple investigators",
+            "Start examining the leaked data directly from the source"
+        ],
+        "answer": "Prioritize the leaked data based on the investigation requirements before examination"
+    },
+    {
+        "question": "Megan, a CHFI investigator, is examining a compromised breach at a company that designs systems for smart homes. The company’s IoT devices have experienced a massive data leak, with numerous devices sending unauthorized data to an external server. The company uses a cloud-based model to manage IoT devices. The unique problem Megan faces is that there are no traditional IoT vulnerabilities, as the devices have been designed with state-of-the-art security measures. Despite this, the attacker has managed to bypass all security measures. Which of the following is the most likely method the attacker could have used to compromise the IoT devices?",
+        "options": [
+            "Hacked into the TOR Bridge Node used by the company",
+            "Used a botnet to flood the network with traffic",
+            "Exploited weak encryption protocols in the company’s IoT devices",
+            "Manipulated the Cloud API to gain unauthorized access"
+        ],
+        "answer": "Manipulated the Cloud API to gain unauthorized access"
+    },
+    {
+        "question": "Ethan, a forensic investigator, has been assigned to investigate a storage device that was used for malicious online activities. As part of his investigation, he needs to determine which applications have been executed on the system. By reviewing this data, he can identify whether any malicious software was installed. To gather this information, Ethan needs to examine the correct system artifact that records executed applications. Which of the following artifacts should Ethan examine to identify applications that have been run on the system?",
+        "options": [
+            "Prefetch",
+            "Process Dumper",
+            "Change.log.x",
+            "Rp.log"
+        ],
+        "answer": "Prefetch"
+    },
+    {
+        "question": "Liam, a cybersecurity expert, has been assigned to sanitize multiple hard drives containing sensitive corporate data. In order to ensure that no residual data remains on the drives, Liam must adhere to a specific media sanitization standard. He must choose a wiping method that first writes zeros over the entire disk and then writes random bytes in the next pass, ensuring the highest level of data removal with verification. Which of the following media sanitization standards should Liam use to meet this requirements ?",
+        "options": [
+            "(Germany) VSITR (7 passes)",
+            "(American) NAVSO P-5239-26 (RLL) (5 passes)",
+            "(American) NAVSO P-5239-26 (MFM) (3 passes)",
+            "(Russian) GOST R 50739-95 (2 passes)"
+        ],
+        "answer": "(Russian) GOST R 50739-95 (2 passes)"
+    },
+    {
+        "question": "Sophia, a forensic expert, is analyzing a system for signs of malware. She observes that the malware has been modifying Windows services and running processes to ensure its operation while evading detection. She needs to determine which services are automatically starting when the system boots. Which tool should Sophia use to examine the Windows services that are set to start automatically?",
+        "options": [
+            "Autoruns",
+            "Process Explorer",
+            "Task Manager",
+            "Event Viewer"
+        ],
+        "answer": "Autoruns"
+    },
+    {
+        "question": "In the course of a detailed investigation into a potential breach, forensic analysts monitor an organization’s security devices and uncover an unexpected pattern of activity originating from an internal system and communicating with an external server at a foreign IP address. These activities involve frequent communication with an external server and data transfers that were previously not associated with any authorized business function. The volume of transferred data is significantly higher than what is typically seen in standard operations for this particular system, and it consists of an unusual type of data—large binary files—that are atypical for this kind of process. Upon further analysis, the data exchanges appear to be irregular, not aligning with any known workflows, and the destination server is outside the organization’s usual network scope. Which indicator of compromise (IoC) does this behavior most likely signify?",
+        "options": [
+            "Multiple failed attempts to connect to unauthorized external IPs",
+            "Unusual internal system reboots causing disruption in normal operations",
+            "Abnormal outbound traffic suggesting data exfiltration",
+            "Unusual login behavior from internal systems during non-business hours"
+        ],
+        "answer": "Abnormal outbound traffic suggesting data exfiltration"
+    },
+    {
+        "question": "During an investigation, an examiner opens an email file with a size anomaly, suspecting that the document is capable of containing malicious code. Upon closer inspection, the investigator determines that the file poses a threat. What should the investigator focus on to identify potential malicious content?",
+        "options": [
+            "Inspect the file to see if any external resources, such as links or embedded objects, are referenced in the document",
+            "Check the file size to determine if it is unusually large or small compared to similar documents",
+            "Check if any streams in the file are labeled as containing macros",
+            "Inspect the metadata of the file for details about its access, creation, and modification"
+        ],
+        "answer": "Check if any streams in the file are labeled as containing macros"
+    },
+    {
+        "question": "Working as an investigator at a digital forensic firm, Alex has been asked to examine a computer suspected of being used for illegal activities. Alex must scan through numerous files to look for any signs of illicit activity. He is considering different forensic tools such as OSForensics, ExifTool, and EnCase. Which tool should Alex use to extract and analyze metadata?",
+        "options": [
+            "FTK Imager",
+            "OSForensics",
+            "ExifTool",
+            "EnCase"
+        ],
+        "answer": "ExifTool"
+    },
+    {
+        "question": "A company has been sending promotional emails to its customers as part of a marketing campaign. However, the company begins to receive multiple complaints from customers stating that they are unable to unsubscribe from future emails. Customers express frustration as the unsubscribe link, which is legally required to be included in every commercial email, is either missing or not functioning as intended. This prevents recipients from easily opting out of receiving future communications, which directly violates the provisions of the CAN-SPAM Act. The unsubscribe feature has caused significant dissatisfaction among customers and raised concern for the company. The company is now under investigation by the Federal Trade Commission (FTC), which enforces the CAN-SPAM Act and sets rules for commercial email practices. The authorities are examining whether the company failed to comply with key provisions of the CAN-SPAM Act, including the requirement for clear and accessible unsubscribe options and truthful subject lines. Under the CAN-SPAM Act, what is the company most likely being investigated for?",
+        "options": [
+            "The company did not include the necessary email signature, which led to a violation of the CAN-SPAM Act",
+            "The company allowed a hacker to access their email system and send spam emails",
+            "The company used false or misleading header information in the emails",
+            "The company failed to honor opt-out (unsubscribe) requests in violation of CAN-SPAM Act provisions"
+        ],
+        "answer": "The company failed to honor opt-out (unsubscribe) requests in violation of CAN-SPAM Act provisions"
+    },
+    {
+        "question": "An online banking system fell victim to a significant security breach. The attacker managed to access confidential customer data and the bank’s internal communications. During the investigation, analysts noticed a pattern of unusual queries containing “' OR 1=1 --” in the system logs. This activity suggests that the attacker exploited an input validation weakness to bypass security filters and manipulate backend database queries. Which type of attack was most likely used?",
+        "options": [
+            "Command Injection attack",
+            "Directory Traversal attack",
+            "XML External Entity (XXE) attack",
+            "SQL Injection attack"
+        ],
+        "answer": "SQL Injection attack"
+    },
+    {
+        "question": "In a corporate environment, a senior executive’s smartphone has been identified as a potential source of evidence and requires forensic analysis due to suspicions of unauthorized data access and potential corporate espionage. However, the device is secured with a passcode, preventing access to critical evidence. To proceed with the internal investigation while maintaining the integrity of the evidence, which of the following methods should be used?",
+        "options": [
+            "Request management approval for physical device acquisition using specialized tools to gain access without compromising evidence integrity",
+            "Seek employee’s cooperation for voluntary passcode disclosure, ensuring no data alteration and maintaining investigation integrity",
+            "Use remote MDM software to reset the device passcode, enabling access while preserving data integrity",
+            "Utilize Android-specific forensic software for a compliant brute-force passcode guessing process"
+        ],
+        "answer": "Request management approval for physical device acquisition using specialized tools to gain access without compromising evidence integrity"
+    },
+    {
+        "question": "Mark, a forensic investigator, is tasked with investigating a disk image obtained from a seized device. He needs to access the files and directories within the disk image to gather evidence. To achieve this, Mark plans to use a Python-based tool that integrates with Sleuth Kit, allowing him to access and analyze the contents of the disk image programmatically. Which Python-based tool should Mark use to examine the disk image and access its files and directories?",
+        "options": [
+            "Autopsy",
+            "FTK Imager",
+            "PyTSK",
+            "py-apipkg"
+        ],
+        "answer": "PyTSK"
+    },
+    {
+        "question": "Sophia, a forensic analyst, is examining the event log files on a compromised system during an investigation. She identifies an entry in the event log header that seems unusual. The ELF_LOGFILE_HEADER value indicates that records have been written to the log, but the log was not properly closed. Based on this information, which ELF_LOGFILE_HEADER status value most likely indicates this condition?",
+        "options": [
+            "ELF_LOGFILE_HEADER_WRAP0X0002",
+            "ELF_LOGFILE_HEADER_DIRTY0X0001",
+            "ELF_LOGFILE_ARCHIVE_SET0X0008",
+            "ELF_LOGFILE_LOGFULL_WRITTEN0X0004"
+        ],
+        "answer": "ELF_LOGFILE_HEADER_DIRTY0X0001"
+    },
+    {
+        "question": "Jackson, a seasoned mobile forensics investigator, is tasked with analyzing an iPhone that may contain critical evidence for an ongoing investigation. He is under a tight deadline and cannot afford to extract any user data or bypass the device’s security features through conventional means such as passcode bypassing. Jackson needs to retrieve essential system-level information from the device for forensic analysis, such as the device’s IMEI number, serial number, and other hardware details. He also needs to ensure that the device’s data is not compromised or exposed during the analysis. Which mode should Jackson utilize to obtain the required information while adhering to forensic standards?",
+        "options": [
+            "Safe Mode",
+            "Jailbreak Mode",
+            "Recovery Mode",
+            "DFU Mode"
+        ],
+        "answer": "Recovery Mode"
+    },
+    {
+        "question": "While reviewing Cisco IOS logs for suspicious network traffic, an administrator encounters a log entry with the mnemonic %SEC-6-IPACCESSLOGP. The message indicates that a packet matching a specific access control list (ACL) rule has been detected. What does this log entry indicate?",
+        "options": [
+            "A failed connection attempt was detected on the network",
+            "A packet matching the criteria defined in an access list has been logged for monitoring",
+            "A system-level error has occurred related to excessive network traffic",
+            "A packet has been dropped due to an access control list (ACL) rule"
+        ],
+        "answer": "A packet matching the criteria defined in an access list has been logged for monitoring"
+    },
+    {
+        "question": "An investigator is reviewing the Apache access logs for suspicious activity. She notices multiple requests for /admin.php coming from an IP address that is not normally associated with administrative access. She wants to determine whether this activity represents an unauthorized access attempt. What should she do next to determine whether this is an unauthorized access attempt?",
+        "options": [
+            "Review the timestamps of the requests to determine if they occurred during business hours",
+            "Cross-reference the IP address with the server’s DNS logs to see if it resolves to a trusted source",
+            "Analyze the user-agent strings associated with the requests to identify potential automated or malicious tools",
+            "Check the HTTP status codes in the log entries for these requests to see if access was successful"
+        ],
+        "answer": "Check the HTTP status codes in the log entries for these requests to see if access was successful"
+    },
+    {
+        "question": "Michael, a forensic examiner, is conducting a forensic analysis of an image file found on a suspect’s machine. While examining the file using a hex editor, he discovers that the file starts with the hex sequence 89 50 4E. The file appears to be suspicious, so Michael needs to identify its type to better understand its structure and determine whether it contains any malicious content. What type of file is Michael looking at?",
+        "options": [
+            "JPEG",
+            "BMP",
+            "PDF",
+            "PNG"
+        ],
+        "answer": "PNG"
+    },
+    {
+        "question": "A forensic investigator is assigned to a cybercrime investigation where they must collect evidence from a powered-on computer located at the crime scene. The computer is suspected to contain important files or programs that are part of the ongoing investigation. Upon arrival, the investigator observes that the monitor is displaying a screen with active programs or open files. The forensic team is under pressure to preserve the integrity of the evidence without modifying or tampering with any data on the machine. The investigator needs to capture a clear image of the programs running on the screen as evidence but is uncertain about how to proceed without altering any information on the computer. What should the investigator do to capture the active programs of the screen and document the evidence effectively?",
+        "options": [
+            "Reboot the machine to force the system to show the programs running at startup",
+            "Disconnect the network cable to prevent any remote access to the computer",
+            "Move the mouse slightly and slowly to wake up the screen from any power-saving mode and document the active programs",
+            "Unplug the computer’s main power cord to reset the system and clear any running programs"
+        ],
+        "answer": "Move the mouse slightly and slowly to wake up the screen from any power-saving mode and document the active programs"
+    },
+    {
+        "question": "A multinational technology corporation believes a former executive may have leaked sensitive company information. The executive is being investigated and is suspected of switching from an Android to an iOS smartphone. The forensic investigator must analyze mobile digital data in order to support their allegations. Which of the following claims about the file systems of iOS and Android is most accurate?",
+        "options": [
+            "Android file systems rely on Ext4, while iOS file systems utilize APFS.",
+            "Android file systems permit direct access to user data without the need for root access, facilitating easier forensic analysis compared to iOS.",
+            "iOS file systems incorporate encryption mechanisms such as FileVault, significantly complicating forensic examination.",
+            "Both Android and iOS file systems employ journaling mechanisms to enhance data integrity and facilitate recovery."
+        ],
+        "answer": "Android file systems rely on Ext4, while iOS file systems utilize APFS."
+    },
+    {
+        "question": "Emily, a cyber forensic investigator, has been called upon to investigate a case involving mobile digital evidence. The primary devices are an Android and an iOS phone. Emily decides to perform logical acquisition on both devices to gather evidence. From the given choices, which tool would be the most appropriate for performing a thorough logical acquisition of both Android and iOS devices?",
+        "options": [
+            "FTK Imager",
+            "UFED Cellebrite",
+            "iPhone Backup Extractor",
+            "ADB (Android Debug Bridge)"
+        ],
+        "answer": "UFED Cellebrite"
+    },
+    {
+        "question": "You are conducting a forensic investigation into a multinational corporation. During the investigation, you need access to data from multiple systems located in different parts of the world to establish a clear timeline and connection between events. What approach should you employ?",
+        "options": [
+            "Conducting a separate investigation for each system",
+            "Redoing the entire investigation from scratch",
+            "Performing a deep dive analysis of each individual system",
+            "Using event correlation to find a linking pattern across systems"
+        ],
+        "answer": "Using event correlation to find a linking pattern across systems"
+    },
+    {
+        "question": "Your company has been hit by an Emotet malware attack. During forensic analysis of the affected environment, you notice that the malware payload is not present on disk and exists only in system memory. What makes this form of malware particularly challenging to detect and analyze?",
+        "options": [
+            "It utilizes a botnet for propagation.",
+            "It employs polymorphic code.",
+            "It is a form of fileless malware.",
+            "It uses ransomware as a secondary payload."
+        ],
+        "answer": "It is a form of fileless malware."
+    },
+    {
+        "question": "A medium-sized company’s IT department noticed a sudden surge in network traffic, with suspicious requests originating from their internal servers. Realizing it could be a malware-related incident, they called in a seasoned forensic investigator to probe into the situation. The investigator decided to analyze network behavior, with a particular focus on monitoring DNS requests. Which tool would be most appropriate for this task?",
+        "options": [
+            "Wireshark",
+            "Nessus",
+            "Nmap",
+            "Snort"
+        ],
+        "answer": "Wireshark"
+    },
+    {
+        "question": "William, a forensic specialist, was assigned to investigate a system breach suspected to involve the Tor Browser. During the investigation, he analyzed a memory dump obtained from the victim’s machine and discovered that it contained numerous artifacts related to the Tor Browser. William understood that to fully understand the extent of the investigation, it was important to identify the condition that would result in the maximum number of Tor-related artifacts being present in memory. Which of the following conditions would provide William with the maximum possible number of artifacts in the memory dump?",
+        "options": [
+            "Tor Browser opened",
+            "Tor Browser uninstalled",
+            "Tor Browser closed",
+            "Tor Browser installed"
+        ],
+        "answer": "Tor Browser opened"
+    },
+    {
+        "question": "An investigator has been assigned to analyze extensive network logs following a security incident within a large enterprise. The task requires a tool that not only collects and analyzes logs from multiple network devices, but also allows for real-time alert management, detection of anomalous traffic patterns, and correlation of network events to understand the full scope of the attack. Which of the following tools would be most appropriate for this task?",
+        "options": [
+            "Intella Pro",
+            "Security Onion",
+            "Tableau",
+            "OSForensics"
+        ],
+        "answer": "Security Onion"
+    },
+    {
+        "question": "You are the leading forensic analyst at a digital forensic firm. One of your significant clients, a government agency, has suffered a security breach resulting in an unauthorized leak of classified documents. Investigations have shown that the attacker, suspected to be an employee, used an anonymous email service to send these documents to multiple unknown recipients. As part of the investigation, you obtained disk images from the suspect’s workstation. Your task is to extract and analyze data that could lead to identifying the unknown recipients. What should be your first step?",
+        "options": [
+            "Execute a full search of the disk image for file artifacts related to the anonymous email service.",
+            "Inspect the email client on the disk image for any unencrypted data that could reveal recipient information.",
+            "Analyze internet history files for potential traces of the anonymous encrypted email service.",
+            "Review the disk image for any signs of a trojan or other malware that could have caused the data breach."
+        ],
+        "answer": "Analyze internet history files for potential traces of the anonymous encrypted email service."
+    },
+    {
+        "question": "A multinational corporation utilizes Google Cloud Storage (GCS) to store critical business data, including financial records and customer information. Recently, the corporation discovered unauthorized access to sensitive documents within their GCS environment, raising concerns about potential data breaches. Which type of information can be found in access logs and metadata within Google Cloud Storage?",
+        "options": [
+            "Details of network infrastructure configuration.",
+            "Employee login credentials.",
+            "Encryption keys for stored files.",
+            "Timestamps of file access and modification."
+        ],
+        "answer": "Timestamps of file access and modification."
+    },
+    {
+        "question": "Emily, a system administrator, is tasked with automating the deployment of a custom service across Windows servers in her organization. She has developed a script that will be installed on each server. The service will run a custom executable file that provides specific functionality to various applications. To ensure that the service is created correctly, Emily needs to know which srvman command she should use to deploy the service to the system. Which of the following srvman commands should be used to create the new service?",
+        "options": [
+            "srvman.exe stop [/nowait] [/delay]",
+            "srvman.exe run [service name] [/copyes] [/overwrite] [/stopafter]",
+            "srvman.exe add [service name] [/display name] [/type] [/start] [/errorcontrol] [/path]",
+            "srvman.exe delete"
+        ],
+        "answer": "srvman.exe add [service name] [/display name] [/type] [/start] [/errorcontrol] [/path]"
+    },
+    {
+        "question": "You work as a forensic analyst for a prominent tech company that suspects one of its former employees has been selling proprietary source code. The suspect’s computer, a macOS machine, has been seized and awaits examination. You have been tasked with obtaining a forensically sound copy of the hard drive for analysis. Given the situation and the potential for macOS-specific malware on the suspect’s computer, which method would be the best approach to obtain a forensically sound copy of the data?",
+        "options": [
+            "Conduct a live acquisition using a software write-blocker.",
+            "Remotely acquire the data via network-based acquisition.",
+            "Disconnect the suspect’s hard drive and connect it to a forensic workstation using a hardware write-blocker.",
+            "Use a forensic boot disk to bypass the macOS and directly access the disk for acquisition."
+        ],
+        "answer": "Disconnect the suspect’s hard drive and connect it to a forensic workstation using a hardware write-blocker."
+    },
+    {
+        "question": "Charlotte, a cloud administrator, is responsible for managing the cloud infrastructure in a production environment. While monitoring the logs of an Amazon EC2 instance, she notices unusual activity that may indicate a security breach. The logs show abnormal behavior such as multiple failed login attempts, unusual traffic patterns, and unauthorized access to sensitive data on the instance. Concerned about the potential impact of the attack on other instances in the environment, Charlotte wants to limit the spread of the incident and prevent the breach from escalating further. She also wants to ensure that other resources in the environment remain unaffected. In this situation, what should Charlotte do first during the forensic acquisition of the EC2 instance?",
+        "options": [
+            "Isolate the compromised EC2 instance",
+            "Provision and launch a forensic workstation",
+            "Take a snapshot of the EC2 instance",
+            "Attach the evidence volume to the forensic workstation"
+        ],
+        "answer": "Isolate the compromised EC2 instance"
+    },
+    {
+        "question": "David, a digital forensics investigator, is analyzing a suspicious file while investigating a cybersecurity incident. After opening the file, he notices that it begins with the hexadecimal sequence “FF D8”. Based on this observation, David suspects that the file might be a specific type of image file. What does this sequence indicate about the file type, and how should David proceed with the analysis?",
+        "options": [
+            "The file is a GIF image, and David should check for any embedded malicious scripts within the image.",
+            "The file is a Word document, and David should look for embedded macros or malicious code.",
+            "The file is an XML document, and David should proceed by checking the file for malicious tags.",
+            "The file is a JPEG image, and David should check for any hidden or embedded malicious content within the image."
+        ],
+        "answer": "The file is a JPEG image, and David should check for any hidden or embedded malicious content within the image."
+    },
+    {
+        "question": "A cybersecurity firm has recently discovered a new strain of ransomware circulating on the internet, posing a significant threat to organizations worldwide. This ransomware is highly sophisticated and capable of evading traditional antivirus software. To effectively combat this threat, the cybersecurity team decides to use a malware sandbox for detailed analysis. Given the scenario described, what would be the primary objective of using a malware sandbox in this situation?",
+        "options": [
+            "To encrypt sensitive data on the host systems to prevent ransomware infection.",
+            "To permanently remove the ransomware from infected systems.",
+            "To execute and observe the behavior of the ransomware in a controlled environment.",
+            "To distribute the ransomware to other systems for further analysis."
+        ],
+        "answer": "To execute and observe the behavior of the ransomware in a controlled environment."
+    },
+    {
+        "question": "The cybersecurity team of a leading software company is investigating a malware outbreak affecting systems in their infrastructure. Their research leads to a single file suspected to be the source of the infection. The malware in question is thought to be novel, and no prior information or known signatures exist. What would be the most viable initial step to understanding its potential capabilities and behavior?",
+        "options": [
+            "Code Analysis",
+            "Static Analysis",
+            "Behavioral Analysis",
+            "Signature Analysis"
+        ],
+        "answer": "Behavioral Analysis"
+    },
+    {
+        "question": "David, a network forensic investigator, is reviewing the firewall logs after the security team reports a potential security incident. The company has recently experienced unusual traffic patterns originating from external sources, and the IT department is concerned that a targeted attack may be underway. While reviewing the firewall logs, David spots several denied inbound connection attempts from an external IP address. These attempts seem to originate from outside the expected network range and are consistently denied by the firewall, but they are occurring at unusual times which raises concern. Given the heightened state of alert, David must determine whether these suspicious connection attempts are part of a broader intrusion attempt or simply harmless scanning activity. To assess the seriousness of the situation, David examines several factors. Which one will provide the most critical information to help David determine if this is a potential intrusion attempt?",
+        "options": [
+            "Firewall Action Taken",
+            "Source Port Number",
+            "Destination IP Address",
+            "Time of the Connection Attempt"
+        ],
+        "answer": "Time of the Connection Attempt"
+    },
+    {
+        "question": "After a significant malware attack on a corporation, Bob, a forensic analyst, discovers that the malware has made numerous modifications in files and folders across the system. To better understand the malware’s behavior, Bob decides to closely monitor and log all the changes happening in the system’s files and folders. Which tool should Bob use to monitor and log all file and folder changes?",
+        "options": [
+            "FTK Imager",
+            "Sysmon",
+            "EnCase",
+            "IDA Pro"
+        ],
+        "answer": "Sysmon"
+    },
+    {
+        "question": "Jason, a forensic investigator, is investigating a large-scale cyberattack on an organization’s network infrastructure. The attacker deployed a sophisticated malware variant that was able to propagate through the network and infect numerous systems. Jason needs to analyze the malware’s behavior to design effective countermeasures. He decides to use a tool to mimic a live network environment and observe the malware’s network behavior. Which tool should Jason use?",
+        "options": [
+            "Autopsy",
+            "Sysinternals Suite",
+            "Cuckoo Sandbox",
+            "IDA Pro"
+        ],
+        "answer": "Cuckoo Sandbox"
+    },
+    {
+        "question": "Liam, a forensic investigator, is tasked with extracting information from a suspect’s Sticky Notes application on a Windows system. He needs to examine any relevant data from the Sticky Notes application that may provide clues about the suspect’s activities. To accomplish this, Liam decides to locate the Sticky Notes database file and extract the data for analysis. Which of the following paths contains the Sticky Notes database file on the suspect’s Windows system?",
+        "options": [
+            "C:\\Program Files\\Microsoft Sticky Notes\\plum.sqlite",
+            "C:\\Windows\\System32\\plum.sqlite",
+            "C:\\Users\\<username>\\AppData\\Local\\Packages\\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\\LocalState\\plum.sqlite",
+            "C:\\Users\\<username>\\Documents\\StickyNotes.db"
+        ],
+        "answer": "C:\\Users\\<username>\\AppData\\Local\\Packages\\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\\LocalState\\plum.sqlite"
+    },
+    {
+        "question": "Alice decides to make a purchase on a popular e-commerce website. After adding items to her cart and proceeding to checkout, she notices that she is already logged into her account due to a “remember me” feature enabled by the website. However, Alice becomes concerned after remembering she had been previously warned about the risks of cookie poisoning attacks. Which of the following actions is most advisable for Alice to take next?",
+        "options": [
+            "Clear cookies, log out, and proceed with caution.",
+            "Create a new account to avoid cookie risks.",
+            "Proceed with a VPN and privacy extension, assuming safety.",
+            "Implement MFA for cookie protection."
+        ],
+        "answer": "Clear cookies, log out, and proceed with caution."
+    },
+    {
+        "question": "Robert, who is a CHFI investigator, is dealing with a complex case of corporate fraud. He has collected multiple digital devices as evidence from different locations and at different times. While preparing the case for presentation, he must ensure that the evidence was not tampered with or modified from the time it was seized to the time of presentation. What key component will help Robert achieve this?",
+        "options": [
+            "A thorough sanitization of the target media",
+            "A robust Chain of Custody",
+            "Relying on the ACPO principles of digital evidence",
+            "Seeking consent from all involved parties"
+        ],
+        "answer": "A robust Chain of Custody"
+    },
+    {
+        "question": "Oliver, a skilled hacker, was hired by a competitor to gather confidential information from a corporate organization. Sarah’s email account, which contained sensitive business documents and private financial data, was the target. Oliver attempted to gain unauthorized access to Sarah’s email account by trying to crack the password. He obtained a text file containing a large list of common passwords, including some simple combinations that he believed Sarah might have used. Using this file, he tested each combination against the login page until he successfully gained access to Sarah’s account and retrieved her private information. Which of the following techniques was employed by Oliver in the above scenario?",
+        "options": [
+            "Dictionary attack",
+            "Keylogger attack",
+            "Brute-force attack",
+            "Cryptanalytic attack"
+        ],
+        "answer": "Dictionary attack"
+    },
+    {
+        "question": "Rebecca, a seasoned forensic investigator, has been called in to investigate a potential data leak at a high-tech firm. The leak appears to involve confidential blueprints, and the files, which are highly sensitive, are stored on the company’s network. The network has been breached, and the leak appears to be ongoing. A joint decision was made to shut down the server to prevent further leakage. However, Rebecca knows this action could impact potential evidence. In digital forensics, which principle is it?",
+        "options": [
+            "The Principle of Sanitizing Target Media",
+            "The Principle of Data Preservation",
+            "The Best Evidence Rule",
+            "The Federal Rules of Evidence"
+        ],
+        "answer": "The Principle of Data Preservation"
+    },
+    {
+        "question": "On the heels of a massive coordinated cyberattack, a multinational corporation calls upon a veteran forensic investigator, Lisa. The attack infiltrated their MSSQL servers, and Lisa suspects the breach was the result of a sophisticated SQL injection attack that was executed from multiple sources simultaneously. To determine the origin of the attack, Lisa needs to not only collect but also analyze evidence from multiple sources, including database-related artifacts and logs from the MSSQL server. To cope with the breach’s scale and sophistication, which tool should Lisa rely on?",
+        "options": [
+            "Sqlmap",
+            "SQLsus",
+            "Nessus",
+            "EnCase"
+        ],
+        "answer": "EnCase"
+    },
+    {
         "question": "Matthew has been assigned the task of analyzing a suspicious MS Office document via static analysis over an Ubuntu-based forensic machine. He wants to see what type of document it is, whether it is encrypted, or contains any flash objects/VBA macros. Which of the following python-based script should he run to get relevant information?",
         "options": [
             "oledir.py",
@@ -1489,4 +2969,5 @@
         ],
         "answer": "Wireshark capture shows multiple SYN requests and RST responses from single/multiple IP address(es)"
     }
+
 ]
