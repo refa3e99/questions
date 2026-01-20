@@ -967,7 +967,7 @@
             "RainbowCrack",
             "John the Ripper"
         ],
-        "answer": "RainbowCrack"
+        "answer": "Hashcat"
     },
     {
         "question": "A cybersecurity analyst at a leading technology firm has discovered a suspicious file on the company’s network. Concerned that it may be malware, the analyst decides to conduct static analysis on the file to assess the potential threat posed by the file. In the scenario described, what would be the primary purpose of conducting static analysis on the suspicious file?",
@@ -2971,3 +2971,4 @@
     }
 
 ]
+
