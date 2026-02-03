@@ -727,7 +727,7 @@
             "Proceed with data acquisition without write-blocking, as long as changes are minimal",
             "Use a Linux-compatible command to manually set the hard disk to read-only mode"
         ],
-        "answer": "Connect the hard disk to a Windows machine and apply the write-blocker"
+        "answer": "Use a Linux-compatible command to manually set the hard disk to read-only mode"
     },
     {
         "question": "74. As a Computer Hacking Forensic Investigator, you are working on a case involving the alteration of financial records within a major bank. The network administrators have identified a specific terminal where they believe the alterations originated. You arrive at the scene and are informed that the machine has been powered down at the time of discovery. In this scenario, which of the following would be your first step?",
@@ -2971,4 +2971,5 @@
     }
 
 ]
+
 
