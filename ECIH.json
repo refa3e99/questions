@@ -1,2205 +1,1001 @@
-{
-    "success": true,
-    "attempt_id": "75",
-    "questions": [
-        {
-            "id": 551,
-            "question_text": "Rose is an incident-handling person and she is responsible for detecting and eliminating any kind of scanning attempts over the network by any malicious threat actors. Rose uses Wireshark tool to sniff the network and detect any malicious activities going on. Which of the following Wireshark filters can be used by her to detect TCP Xmas scan attempt by the attacker?",
-            "options": [
-                {
-                    "text": "tcp.dstport==7",
-                    "is_correct": 0
-                },
-                {
-                    "text": "tcp.flags==0X000",
-                    "is_correct": 0
-                },
-                {
-                    "text": "tcp.flags.reset==1",
-                    "is_correct": 0
-                },
-                {
-                    "text": "tcp.flags==0X029",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 625,
-            "question_text": "Which of the following is not called volatile data?",
-            "options": [
-                {
-                    "text": "Open sockets er open ports",
-                    "is_correct": 0
-                },
-                {
-                    "text": "The dale a no Lime of the system",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Creation dates of files",
-                    "is_correct": 1
-                },
-                {
-                    "text": "State of the network interface",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 654,
-            "question_text": "Which of the following is not the responsibility of first responders?",
-            "options": [
-                {
-                    "text": "Protecting the crime scene",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Identifying the crime scene",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Packaging and transporting the electronic evidence",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Preserving temporary and fragile evidence and then shut down or reboot the victim\u2019s computer",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 512,
-            "question_text": "Your manager hands you several items of digital evidence and asks you to investigate them in the order of volatility. Which of the following is the MOST volatile?",
-            "options": [
-                {
-                    "text": "Cache",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Disk",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Emails",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Temp files",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 519,
-            "question_text": "Which of the following information security personnel handles incidents from management and technical point of view?",
-            "options": [
-                {
-                    "text": "Network administrators",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident manager (IM)",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Threat researchers",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Forensic investigators",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 536,
-            "question_text": "Stanley is an incident handler working for Texa Corp. located in the United States. With the growing concern of increasing emails from outside the organization, Stanley was asked to take appropriate actions to keep the security of the organization intact. In the process of detecting and containing malicious emails, Stanley was asked to check the validity of the emails received by employees. Identify the tools he can use to accomplish the given task.",
-            "options": [
-                {
-                    "text": "PointofMail",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Email Dossier",
-                    "is_correct": 1
-                },
-                {
-                    "text": "PoliteMail",
-                    "is_correct": 0
-                },
-                {
-                    "text": "EventLog Analyzer",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 561,
-            "question_text": "Which of the following is not a countermeasure to eradicate inappropriate usage incidents?",
-            "options": [
-                {
-                    "text": "Avoid VPN and other secure network channels",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Register the user activity logs and keep monitoring them regularly",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Install firewall and IDS\/IPS to block services that violate the organization\u2019s policy",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Always store the sensitive data in far located servers and restrict its access",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 578,
-            "question_text": "Alexis works as an incident responder at XYZ organization. She was asked to identify and attribute the actors behind an attack that occurred recently. For this purpose, she is performing a type of threat attribution that deals with the identification of a specific person, society, or country sponsoring a well-planned and executed intrusion or attack on its target. Which of the following types of threat attributions is Alexis performing?",
-            "options": [
-                {
-                    "text": "Campaign attribution",
-                    "is_correct": 0
-                },
-                {
-                    "text": "True attribution",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Nation-state attribution",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Intrusion set attribution",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 543,
-            "question_text": "Clark is investigating a cybercrime at TechSoft Solutions. While investigating the case, he needs to collect volatile information such as running services, their process IDs, startmode, state, and status. Which of the following commands will help Clark to collect such information from running services?",
-            "options": [
-                {
-                    "text": "Openfiles",
-                    "is_correct": 0
-                },
-                {
-                    "text": "netstat \u2013ab",
-                    "is_correct": 0
-                },
-                {
-                    "text": "wmic",
-                    "is_correct": 1
-                },
-                {
-                    "text": "net file",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 584,
-            "question_text": "A colleague wants to minimize their security responsibility because they are in a small organization. They are evaluating a new application that is offered in different forms. Which form would result in the least amount of responsibility for the colleague?",
-            "options": [
-                {
-                    "text": "On-prom installation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "SaaS",
-                    "is_correct": 1
-                },
-                {
-                    "text": "IaaS",
-                    "is_correct": 0
-                },
-                {
-                    "text": "PaaS",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 591,
-            "question_text": "Allan performed a reconnaissance attack on his corporate network as part of a red-team activity. He scanned the IP range to find live host IP addresses. What type of technique did he use to exploit the network?",
-            "options": [
-                {
-                    "text": "DNS foot printing",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Social engineering",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Port scanning",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Ping sweeping",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 542,
-            "question_text": "Otis is an incident handler working in an organization called Delmont. Recently, the organization faced several setbacks in business, whereby its revenues are decreasing. Otis was asked to take charge and look into the matter. While auditing the enterprise security, he found traces of an attack through which proprietary information was stolen from the enterprise network and passed onto their competitors. Which of the following information security incidents did Delmont face?",
-            "options": [
-                {
-                    "text": "Network and resource abuses",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Espionage",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Email-based abuse",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Unauthorized access",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 560,
-            "question_text": "Eric works as a system administrator in ABC organization. He granted privileged users with unlimited permissions to access the systems. These privileged users can misuse their rights unintentionally or maliciously or attackers can trick them to perform malicious activities. Which of the following guidelines helps incident handlers to eradicate insider attacks by privileged users?",
-            "options": [
-                {
-                    "text": "Do not use encryption methods to prevent administrators and privileged users from accessing backup tapes and sensitive information",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Do not control the access to administrators and privileged users",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Do not enable the default administrative accounts to ensure accountability",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Do not allow administrators to use unique accounts during the installation process",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 618,
-            "question_text": "Which of the following are malicious software programs that infect computers and corrupt or delete the data on them?",
-            "options": [
-                {
-                    "text": "Worms",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Trojans",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Spyware",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Virus",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 647,
-            "question_text": "An organization named Sam Morison Inc. decided to use cloud-based services to reduce the cost of their maintenance. They first identified various risks and threats associated with cloud ... adoption and migrating critical business data to third-party systems. Hence, the organization decided to deploy cloud-based security tools to prevent upcoming threats. Which of the following tools would help the organization to secure cloud resources and services?",
-            "options": [
-                {
-                    "text": "Nmap",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Alert Logic",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Burp Suite",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Wireshark",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 602,
-            "question_text": "BadGuy Bob hid files in the slack space, changed the file headers, hid suspicious files in executables, and changed the metadata for all types of files on his hacker laptop. What has he committed?",
-            "options": [
-                {
-                    "text": "Anti-forensics",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Adversarial mechanics",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Felony",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Legal hostility",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 577,
-            "question_text": "Richard is analyzing a corporate network. After an alert in the network\u2019s IPS, he identified that all the servers are sending huge amounts of traffic to the website abc.xyz. What type of information security attack vectors have affected the network?",
-            "options": [
-                {
-                    "text": "Botnet",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Advance persistent three Is",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Ransomware",
-                    "is_correct": 0
-                },
-                {
-                    "text": "IOT threats",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 547,
-            "question_text": "Nervous Nat often sends emails with screenshots of what he thinks are serious incidents, but they always turn out to be false positives. Today, he sends another screenshot, suspecting a nation-state attack. As usual, you go through your list of questions, check your resources for information to determine whether the screenshot shows a real attack, and determine the condition of your network. Which step of IR did you just perform?",
-            "options": [
-                {
-                    "text": "Recovery",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Preparation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Remediation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Detection and analysis (or identification)",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 523,
-            "question_text": "John is performing memory dump analysis in order to find out the traces of malware. He has employed volatility tool in order to achieve his objective. Which of the following volatility framework commands he will use in order to analyze running process from the memory dump?",
-            "options": [
-                {
-                    "text": "python vol.py svcscan --profile=Win2008SP1x86 -f \/root\/Desktop\/memdump.mem | more",
-                    "is_correct": 0
-                },
-                {
-                    "text": "python vol.py pslist --profile=Win2008SP1x86 -f \/root\/Desktop\/memdump.mem",
-                    "is_correct": 1
-                },
-                {
-                    "text": "python vol.py hivellst --profile=Win2008SP1x86 -f \/root\/Desktop\/memdump.mem",
-                    "is_correct": 0
-                },
-                {
-                    "text": "python vol.py imageinfo -f \/root\/Desktop\/memdump.mem",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 597,
-            "question_text": "Francis is an incident handler and security expert. He works at MorisonTech Solutions based in Sydney, Australia. He was assigned a task to detect phishing\/spam mails for the client organization. Which of the following tools can assist Francis to perform the required task?",
-            "options": [
-                {
-                    "text": "Netcraft",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Nessus",
-                    "is_correct": 0
-                },
-                {
-                    "text": "BTCrack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cain and Abel",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 503,
-            "question_text": "Stanley works as an incident responder at a top MNC based out of Singapore. He was asked to investigate a cybersecurity incident that recently occurred in the company. While investigating the crime, he collected the evidence from the victim systems. He must present this evidence in a clear and comprehensible manner to the members of jury so that the evidence explains the facts clearly and further helps in obtaining an expert opinion on the same to confirm the investigation process. In the above scenario, what is the characteristic of the digital evidence Stanley tried to preserve?",
-            "options": [
-                {
-                    "text": "Believable",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Complete",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Authentic",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Admissible",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 590,
-            "question_text": "In which of the following types of fuzz testing strategies the new data will be generated from scratch and the amount of data to be generated are predefined based on the testing model?",
-            "options": [
-                {
-                    "text": "Log-based fuzz testing",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Generation-based fuzz testing",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Mutation-based fuzz testing",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Protocol-based fuzz testing",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 633,
-            "question_text": "John is a professional hacker who is performing an attack on the target organization where he tries to redirect the connection between the IP address and its target server such that when the users type in the Internet address, it redirects them to a rogue website that resembles the original website. He tries this attack using cache poisoning technique. Identify the type of attack John is performing on the target organization.",
-            "options": [
-                {
-                    "text": "War driving",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Pharming",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Skimming",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Pretexting",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 505,
-            "question_text": "Which of the following types of digital evidence is temporarily stored in a digital device that requires constant power supply and is deleted if the power supply is interrupted?",
-            "options": [
-                {
-                    "text": "Slack space",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Process memory",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Event logs",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Swap file",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 576,
-            "question_text": "Otis is an incident handler working in Delmont organization. Recently, the organization is facing several setbacks in the business and thereby its revenues are going down. Otis was asked to take the charge and look into the matter. While auditing the enterprise security, he found the traces of an attack, where the proprietary information was stolen from the enterprise network and was passed onto the competitors. Which of the following information security incidents Delmont organization faced?",
-            "options": [
-                {
-                    "text": "Network and resource abuses",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Unauthorized access",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Espionage",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Email-based abuse",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 504,
-            "question_text": "An incident handler is analyzing email headers to find out suspicious emails. Which of the following tools he\/she must use in order to accomplish the task?",
-            "options": [
-                {
-                    "text": "Barracuda Email Security Gateway",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Gophish",
-                    "is_correct": 0
-                },
-                {
-                    "text": "SPAMfighter",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 670,
-            "question_text": "During the process of detecting and containing malicious emails, incident responders should examine the originating IP address of the emails. The steps to examine the originating IP address are as follow: * 1. Search for the IP in the WHOIS database * 2. Open the email to trace and find its header * 3. Collect the IP address of the sender from the header of the received mail * 4. Look for the geographic address of the sender in the WHOIS database. Identify the correct sequence of steps to be performed by the incident responders to examine originating IP address of the emails.",
-            "options": [
-                {
-                    "text": "4 \u2192 1 \u2192 2 \u2192 3",
-                    "is_correct": 0
-                },
-                {
-                    "text": "2 \u2192 1 \u2192 4 \u2192 3",
-                    "is_correct": 0
-                },
-                {
-                    "text": "1 \u2192 3 \u2192 2 \u2192 4",
-                    "is_correct": 0
-                },
-                {
-                    "text": "2 \u2192 3 \u2192 1 \u2192 4",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 640,
-            "question_text": "SWA Cloud Services added PKI as one of their cloud security controls. What does PKI stand for?",
-            "options": [
-                {
-                    "text": "Private key infrastructure",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Private key in for ma lion",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Public key information",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Public key infrastructure",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 564,
-            "question_text": "Which of the following is an attack that occurs when a malicious program causes a user\u2019s browser to perform an unwanted action on a trusted site for which the user is currently authenticated?",
-            "options": [
-                {
-                    "text": "Cross-site scripting",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Insecure direct object references",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cross-site request forgery",
-                    "is_correct": 1
-                },
-                {
-                    "text": "SQL injection",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 600,
-            "question_text": "Bran is an incident handler who is assessing the network of the organization. In the process, he wants to detect ping sweep attempts on the network using Wireshark tool. Which of the following Wireshark filter he must use to accomplish this task?",
-            "options": [
-                {
-                    "text": "icmp.seq",
-                    "is_correct": 0
-                },
-                {
-                    "text": "icmp.redir_gw",
-                    "is_correct": 0
-                },
-                {
-                    "text": "icmp.type==8",
-                    "is_correct": 1
-                },
-                {
-                    "text": "icmp.ident",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 643,
-            "question_text": "Alex is an incident handler in QWERTY Company. He identified that an attacker created a backdoor inside the company's network by installing a fake AP inside a firewall. Which of the following attack types did the attacker use?",
-            "options": [
-                {
-                    "text": "AP misconfiguration",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Wardriving",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Rogue access point",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Ad hoc associations",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 645,
-            "question_text": "Which one of the following is Inappropriate Usage Incidents?",
-            "options": [
-                {
-                    "text": "Insider Threat",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Reconnaissance Attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Access Control Attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Denial of Service Attack",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 537,
-            "question_text": "Shiela is working at night as an incident handler. During a shift, servers were affected by a massive cyberattack. After she classified and prioritized the incident, she must report the incident, obtain necessary permissions, and perform other incident response functions. What list should she check to notify other responsible personnel?",
-            "options": [
-                {
-                    "text": "HR log book",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Point of contact",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Email list",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Phone number list",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 569,
-            "question_text": "Which of the following is defined as the identification of the boundaries of an IT system along with the resources and information that constitute the system?",
-            "options": [
-                {
-                    "text": "System characterization",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Vulnerability identification",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Threat identification",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Control analysis",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 623,
-            "question_text": "Miko was hired as an incident handler in XYZ company. His first task was to identify the PING sweep attempts inside the network. For this purpose, he used Wireshark to analyze the traffic. What filter did he use to identify ICMP ping sweep attempts?",
-            "options": [
-                {
-                    "text": "tcp.type == icmp",
-                    "is_correct": 0
-                },
-                {
-                    "text": "icrrip.type == icmp",
-                    "is_correct": 0
-                },
-                {
-                    "text": "icmp.type == 8 or icmp.type ==0",
-                    "is_correct": 1
-                },
-                {
-                    "text": "udp.type \u2014 7",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 533,
-            "question_text": "Which of the following techniques helps incident handlers to detect man-in-the-middle attack by finding the new APs and trying to connect an already established channel, even if the spoofed AP consists similar IP and MAC addresses as of the original AP?",
-            "options": [
-                {
-                    "text": "Wireless client monitoring",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Network traffic monitoring",
-                    "is_correct": 0
-                },
-                {
-                    "text": "General wireless traffic monitoring",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Access point monitoring",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 603,
-            "question_text": "What is the most recent NIST standard for incident response?",
-            "options": [
-                {
-                    "text": "800-6112",
-                    "is_correct": 1
-                },
-                {
-                    "text": "800-6113",
-                    "is_correct": 0
-                },
-                {
-                    "text": "800-5313",
-                    "is_correct": 0
-                },
-                {
-                    "text": "800-17112",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 553,
-            "question_text": "Alexis is working as an incident responder in XYZ organization. She was asked to identify and attribute the actors behind an attack that took place recently. In order to do so, she is performing threat attribution that deals with the identification of the specific person, society, or a country sponsoring a well-planned and executed intrusion or attack over its target. Which of the following types of threat attributions Alexis performed?",
-            "options": [
-                {
-                    "text": "Nation-state attribution",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Intrusion-set attribution",
-                    "is_correct": 0
-                },
-                {
-                    "text": "True attribution",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Campaign attribution",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 554,
-            "question_text": "Which of the following does NOT reduce the success rate of SQL injection?",
-            "options": [
-                {
-                    "text": "Close unnecessary application services and ports on the server.",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Automatically lock a user account after a predefined number of invalid login attempts within a predefined interval.",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Constrain legitimate characters to exclude special characters.",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Limit the length of the input field.",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 508,
-            "question_text": "Khai was tasked with examining the logs from a Linux email server. The server uses Sendmail to execute the command to send emailsand Syslog to maintain logs. To validate the data within email headers, which of the following directories should Khai check for information such as source and destination IP addresses, dates, and timestamps?",
-            "options": [
-                {
-                    "text": "\/Var\/log\/mailog",
-                    "is_correct": 1
-                },
-                {
-                    "text": "\/ar\/log\/sendmail",
-                    "is_correct": 0
-                },
-                {
-                    "text": "\/va r\/log\/mai11og",
-                    "is_correct": 0
-                },
-                {
-                    "text": "\/va r\/log\/sendmail\/mailog",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 527,
-            "question_text": "Matt is an incident handler working for one of the largest social network companies, which was affected by malware. According to the company's reporting timeframe guidelines, a malware incident should be reported within 1 h of discovery\/detection after its spread across the company. Which category does this incident belong to?",
-            "options": [
-                {
-                    "text": "CAT 1",
-                    "is_correct": 1
-                },
-                {
-                    "text": "CAT 4",
-                    "is_correct": 0
-                },
-                {
-                    "text": "CAT 2",
-                    "is_correct": 0
-                },
-                {
-                    "text": "CAT 3",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 669,
-            "question_text": "During the vulnerability assessment phase, the incident responders perform various steps as below: * 1. Run vulnerability scans using tools * 2. Identify and prioritize vulnerabilities * 3. Examine and evaluate physical security * 4. Perform OSINT information gathering to validate the vulnerabilities * 5. Apply business and technology context to scanner results * 6. Check for misconfigurations and human errors * 7. Create a vulnerability scan report. Identify the correct sequence of vulnerability assessment steps performed by the incident responders.",
-            "options": [
-                {
-                    "text": "3-->6-->1-->2-->5-->4-->7",
-                    "is_correct": 0
-                },
-                {
-                    "text": "1-->3-->2-->4-->5-->6-->7",
-                    "is_correct": 0
-                },
-                {
-                    "text": "4-->1-->2-->3-->6-->5-->7",
-                    "is_correct": 1
-                },
-                {
-                    "text": "2-->1-->4-->7-->5-->6-->3",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 614,
-            "question_text": "Robert is an incident handler working for Xsecurity Inc. One day, his organization faced a massive cyberattack and all the websites related to the organization went offline. Robert was on duty during the incident and he was responsible to handle the incident and maintain business continuity. He immediately restored the web application service with the help of the existing backups. According to the scenario, which of the following stages of incident handling and response (IH&R) process does Robert performed?",
-            "options": [
-                {
-                    "text": "Evidence gathering and forensics analysis",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Eradication",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Notification",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Recovery",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 663,
-            "question_text": "Mike is an incident handler for PNP Infosystems Inc. One day, there was a ticket submitted regarding a critical incident and Mike was assigned to handle the incident. During the process of incident handling, at one stage, he performed incident analysis and validation to check whether the incident is a genuine incident or a false positive. Identify the stage he is currently in.",
-            "options": [
-                {
-                    "text": "Post-incident activities",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident disclosure",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident recording and assignment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident triage",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 601,
-            "question_text": "Andrew, an incident responder, is performing risk assessment of the client organization. As a part of risk assessment process, he identified the boundaries of the IT systems, along with the resources and the information that constitute the systems. Identify the risk assessment step Andrew is performing.",
-            "options": [
-                {
-                    "text": "Control analysis",
-                    "is_correct": 0
-                },
-                {
-                    "text": "System characterization",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Likelihood determination",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Control recommendations",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 596,
-            "question_text": "Which of the following digital evidence temporarily stored on a digital device that requires a constant power supply and is deleted if the power supply is interrupted?",
-            "options": [
-                {
-                    "text": "Swap file",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Event logs",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Slack space",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Process memory",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 632,
-            "question_text": "Which of the following is NOT part of the static data collection process?",
-            "options": [
-                {
-                    "text": "Evidence oxa mi nation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "System preservation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Password protection",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Evidence acquisition",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 579,
-            "question_text": "In which of the following phases of the incident handling and response (IH&R) process is the identified security incidents analyzed, validated, categorized, and prioritized?",
-            "options": [
-                {
-                    "text": "Incident triage",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Incident recording and assignment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Containment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Notification",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 613,
-            "question_text": "Raven is a part of an IH&R team and was informed by her manager to handle and lead the removal of the root cause for an incident and to close all attack vectors to prevent similar incidents in the future. Raven notifies the service providers and developers of affected resources. Which of the following steps of the incident handling and response process does Raven need to implement to remove the root cause of the incident?",
-            "options": [
-                {
-                    "text": "Evidence gathering and forensic analysis",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Eradication",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Containment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident triage",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 574,
-            "question_text": "For analyzing the system, the browser data can be used to access various credentials. Which of the following tools is used to analyze the history data files in Microsoft Edge browser?",
-            "options": [
-                {
-                    "text": "ChromethistoryView",
-                    "is_correct": 0
-                },
-                {
-                    "text": "BrowsingHistoryView",
-                    "is_correct": 1
-                },
-                {
-                    "text": "MZCacheView",
-                    "is_correct": 0
-                },
-                {
-                    "text": "MZHistoryView",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 520,
-            "question_text": "Eric who is an incident responder is working on developing incident-handling plans and procedures. As part of this process, he is performing analysis on the organizational network to generate a report and to develop policies based on the acquired results. Which of the following tools will help him in analyzing network and its related traffic?",
-            "options": [
-                {
-                    "text": "FaceNiff",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Wireshark",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Burp Suite",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Whois",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 566,
-            "question_text": "Bran is an incident handler who is assessing the network of the organization. He wants to detect ping sweep attempts on the network using Wireshark. Which of the following Wireshark filters would Bran use to accomplish this task?",
-            "options": [
-                {
-                    "text": "icmp.scq",
-                    "is_correct": 0
-                },
-                {
-                    "text": "icmp.type==8",
-                    "is_correct": 1
-                },
-                {
-                    "text": "icmp.ident",
-                    "is_correct": 0
-                },
-                {
-                    "text": "icmp.redir_gw",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 606,
-            "question_text": "Eric is an incident responder and is working on developing incident-handling plans and procedures. As part of this process, he is performing an analysis on the organizational network to generate a report and develop policies based on the acquired results. Which of the following tools will help him in analyzing his network and the related traffic?",
-            "options": [
-                {
-                    "text": "Whois",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Burp Suite",
-                    "is_correct": 0
-                },
-                {
-                    "text": "FaceNiff",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Wireshark",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 620,
-            "question_text": "An attacker traced out and found the kind of websites a target company\/individual is frequently surfing and tested those particular websites to identify any possible vulnerabilities. When the attacker detected vulnerabilities in the website, the attacker started injecting malicious script\/code into the web application that can redirect the webpage and download the malware onto the victim\u2019s machine. After infecting the vulnerable web application, the attacker waited for the victim to access the infected web application. Identify the type of attack performed by the attacker.",
-            "options": [
-                {
-                    "text": "Watering hole",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Obfuscation application",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Directory traversal",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cookie\/Session poisoning",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 641,
-            "question_text": "Eric works as an incident handler at Erinol software systems. He was assigned a task to protect the organization from any kind of DoS\/DDoS attacks. Which of the following tools can be used by Eric to achieve his objective?",
-            "options": [
-                {
-                    "text": "Incapsula",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Hydra",
-                    "is_correct": 0
-                },
-                {
-                    "text": "IDA",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Wireshark",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 646,
-            "question_text": "Which of the following email security tools can be used by an incident handler to prevent the organization against evolving email threats?",
-            "options": [
-                {
-                    "text": "Email Header Analyzer",
-                    "is_correct": 0
-                },
-                {
-                    "text": "G Suite Toolbox",
-                    "is_correct": 0
-                },
-                {
-                    "text": "MxToolbox",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Gpg4win",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 615,
-            "question_text": "Johnson an incident handler is working on a recent web application attack faced by the organization. As part of this process, he performed data preprocessing in order to analyzing and detecting the watering hole attack. He preprocessed the outbound network traffic data collected from firewalls and proxy servers and started analyzing the user activities within a certain time period to create time-ordered domain sequences to perform further analysis on sequential patterns. Identify the data-preprocessing step performed by Johnson.",
-            "options": [
-                {
-                    "text": "Filtering invalid host names",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Identifying unpopular domains",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Host name normalization",
-                    "is_correct": 0
-                },
-                {
-                    "text": "User-specific sessionization",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 567,
-            "question_text": "You are talking to a colleague who is deciding what information they should include in their organization\u2019s logs to help with security auditing. Which of the following items should you tell them to NOT log?",
-            "options": [
-                {
-                    "text": "Timestamp",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Session ID",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Source IP address",
-                    "is_correct": 0
-                },
-                {
-                    "text": "userid",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 610,
-            "question_text": "Drake is an incident handler in Dark C.Loud Inc. He is intended to perform log analysis in order to detect traces of malicious activities within the network infrastructure. Which of the following tools Drake must employ in order to view logs in real time and identify malware propagation within the network?",
-            "options": [
-                {
-                    "text": "Splunk",
-                    "is_correct": 1
-                },
-                {
-                    "text": "HULK",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Hydra",
-                    "is_correct": 0
-                },
-                {
-                    "text": "LOIC",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 605,
-            "question_text": "Attackers or insiders create a backdoor into a trusted network by installing an unsecured access point inside a firewall. They then use any software or hardware access point to perform an attack. Which of the following is this type of attack?",
-            "options": [
-                {
-                    "text": "Rogue- access point attack",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Password-based attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Malware attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Email infection",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 514,
-            "question_text": "Rinni is an incident handler and she is performing memory dump analysis. Which of following tools she can use in order to perform memory dump analysis?",
-            "options": [
-                {
-                    "text": "OllyDbg and IDA Pro",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Scylla and OllyDumpEx",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Proemon and ProcessExplorer",
-                    "is_correct": 0
-                },
-                {
-                    "text": "iNetSim",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 634,
-            "question_text": "Sam. an employee of a multinational company, sends emails to third-party organizations with a spoofed email address of his organization. How can you categorize this type of incident?",
-            "options": [
-                {
-                    "text": "Network intrusion incident",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Inappropriate usage incident",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Unauthorized access incident.",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Denial-of-service incident",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 563,
-            "question_text": "Your company holds a large amount of customer PH, and you want to protect those data from theft or unauthorized modification. Among other actions, you classify and encrypt the data. In this process, which of the following OWASP security risks are you guarding against?",
-            "options": [
-                {
-                    "text": "Insecure deserialization",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Security misconfiguration",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Broken authentication",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Sensitive data exposure",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 599,
-            "question_text": "Dash wants to perform a DoS attack over 256 target URLs simultaneously. Which of the following tools can Dash employ to achieve his objective?",
-            "options": [
-                {
-                    "text": "HOIC",
-                    "is_correct": 1
-                },
-                {
-                    "text": "IDAPro",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Ollydbg",
-                    "is_correct": 0
-                },
-                {
-                    "text": "OpenVAS",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 516,
-            "question_text": "Bob, an incident responder at CyberTech Solutions, is investigating a cybercrime attack occurred in the client company. He acquired the evidence data, preserved it, and started performing analysis on acquired evidentiary data to identify the source of the crime and the culprit behind the incident. Identify the forensic investigation phase in which Bob is currently in.",
-            "options": [
-                {
-                    "text": "Vulnerability assessment phase",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Post-investigation phase",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Pre-investigation phase",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Investigation phase",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 522,
-            "question_text": "Alex is an incident handler for Tech-o-Tech Inc. and is tasked to identify any possible insider threats within his organization. Which of the following insider threat detection techniques can be used by Alex to detect insider threats based on the behavior of a suspicious employee, both individually and in a group?",
-            "options": [
-                {
-                    "text": "behavioral analysis",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Physical detection",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Profiling",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Mole detection",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 665,
-            "question_text": "Which of the following is an inappropriate usage incident?",
-            "options": [
-                {
-                    "text": "Access-control attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Reconnaissance attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Insider threat",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Denial-of-service attack",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 552,
-            "question_text": "An insider threat response plan helps an organization minimize the damage caused by malicious insiders. One of the approaches to mitigate these threats is setting up controls from the human resources department. Which of the following guidelines can the human resources department use?",
-            "options": [
-                {
-                    "text": "Access granted to users should be documented and vetted by a supervisor.",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Disable the default administrative account to ensure accountability.",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Implement a person-to-person rule to secure the backup process and physical media.",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Monitor and secure the organization's physical environment.",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 513,
-            "question_text": "Finn is working in the eradication phase, wherein he is eliminating the root cause of an incident that occurred in the Windows operating system installed in a system. He ran a tool that can detect missing security patches and install the latest patches on the system and networks. Which of the following tools did he use to detect the missing security patches?",
-            "options": [
-                {
-                    "text": "Microsoft Cloud App Security",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Office360 Advanced Threat Protection",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Microsoft Advanced Threat Analytics",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Microsoft Baseline Security Analyzer",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 529,
-            "question_text": "Dan is a newly appointed information security professional in a renowned organization. He is supposed to follow multiple security strategies to eradicate malware incidents. Which of the following is not considered as a good practice for maintaining information security and eradicating malware incidents?",
-            "options": [
-                {
-                    "text": "Do not download or execute applications from third-party sources",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Do not click on web browser pop-up windows",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Do not open files with file extensions such as .bat, .com, .exe, .pif, .vbs, and so on",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Do not download or execute applications from trusted sources",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 507,
-            "question_text": "Which of the following is a volatile evidence collecting tool?",
-            "options": [
-                {
-                    "text": "Netstat",
-                    "is_correct": 1
-                },
-                {
-                    "text": "HashTool",
-                    "is_correct": 0
-                },
-                {
-                    "text": "FTK Images",
-                    "is_correct": 0
-                },
-                {
-                    "text": "ProDiscover Forensics",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 607,
-            "question_text": "Ross is an incident manager (IM) at an organization, and his team provides support to all users in the organization who are affected by threats or attacks. David, who is the organization\u2019s internal auditor, is also part of Ross\u2019s incident response team. Which of the following is David\u2019s responsibility?",
-            "options": [
-                {
-                    "text": "Configure information security controls.",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Identify and report security loopholes to the management for necessary action.",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Coordinate incident containment activities with the information security officer (ISO).",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Perform the- necessary action to block the network traffic from the suspected intruder.",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 626,
-            "question_text": "An organization implemented an encoding technique to eradicate SQL injection attacks. In this technique, if a user submits a request using single-quote and some values, then the encoding technique will convert it into numeric digits and letters ranging from a to f. This prevents the user request from performing SQL injection attempt on the web application. Identify the encoding technique used by the organization.",
-            "options": [
-                {
-                    "text": "Unicode encoding",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Base64 encoding",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Hex encoding",
-                    "is_correct": 1
-                },
-                {
-                    "text": "URL encoding",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 586,
-            "question_text": "Malicious Micky has moved from the delivery stage to the exploitation stage of the kill chain. This malware wants to find and report to the command center any useful services on the system. Which of the following recon attacks is the MOST LIKELY to provide this information?",
-            "options": [
-                {
-                    "text": "IP range sweep",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Packet sniffing",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Session hijack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Port scan",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 631,
-            "question_text": "An organization\u2019s customers are experiencing either slower network communication or unavailability of services. In addition, network administrators are receiving alerts from security tools such as IDS\/IPS and firewalls about a possible DoS\/DDoS attack. In result, the organization requests the incident handling and response (IH&R) team further investigates the incident. The IH&R team decides to use manual techniques to detect DoS\/DDoS attack. Which of the following commands helps the IH&R team to manually detect DoS\/DDoS attack?",
-            "options": [
-                {
-                    "text": "netstat -r",
-                    "is_correct": 0
-                },
-                {
-                    "text": "nbtstat \/c",
-                    "is_correct": 0
-                },
-                {
-                    "text": "netstat an",
-                    "is_correct": 1
-                },
-                {
-                    "text": "nbtstat\/S",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 621,
-            "question_text": "John, a professional hacker, is attacking an organization, where he is trying to destroy the connectivity between an AP and client to make the target unavailable to other wireless devices. Which of the following attacks is John performing in this case?",
-            "options": [
-                {
-                    "text": "Routing attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "EAP failure",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Disassociation attack",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Denial-of-service",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 661,
-            "question_text": "Jason is an incident handler dealing with malware incidents. He was asked to perform memory dump analysis in order to collect the information about the basic functionality of any program. As a part of his assignment, he needs to perform string search analysis to search for the malicious string that could determine harmful actions that a program can perform. Which of the following string-searching tools Jason needs to use to do the intended task?",
-            "options": [
-                {
-                    "text": "PEView",
-                    "is_correct": 0
-                },
-                {
-                    "text": "BinText",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Dependency Walker",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Process Explorer",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 585,
-            "question_text": "Which of the following terms refers to vulnerable account management functions, including account update, recovery of forgotten or lost passwords, and password reset, that might weaken valid authentication schemes?",
-            "options": [
-                {
-                    "text": "SQL injection",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Broken account management",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Directory traversal",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cross-site scripting",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 515,
-            "question_text": "In which of the following confidentiality attacks attackers try to lure users by posing themselves as authorized AP by beaconing the WLAN\u2019s SSID?",
-            "options": [
-                {
-                    "text": "Evil twin AP",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Session hijacking",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Honeypot AP",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Masqueradin",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 538,
-            "question_text": "In which of the following stages of the incident handling and response (IH&R) process do the incident handlers try to find the root cause of the incident along with the threat actors behind the incidents, threat vectors, etc.?",
-            "options": [
-                {
-                    "text": "Evidence gathering and forensics analysis",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Incident triage",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident recording and assignment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Post-incident activities",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 588,
-            "question_text": "Which stage of the incident response and handling process involves auditing the system and network log files?",
-            "options": [
-                {
-                    "text": "Containment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident triage",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Incident disclosure",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident eradication",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 540,
-            "question_text": "James has been appointed as an incident handling and response (IH&R) team lead and he was assigned to build an IH&R plan along with his own team in the company. Identify the IH&R process step James is currently working on.",
-            "options": [
-                {
-                    "text": "Eradication",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Recovery",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Preparation",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Notification",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 562,
-            "question_text": "In which of the following phases of incident handling and response (IH&R) process the identified security incidents are analyzed, validated, categorized, and prioritized?",
-            "options": [
-                {
-                    "text": "Incident recording and assignment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Containment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Notification",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident triage",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 544,
-            "question_text": "Zaimasoft, a prominent IT organization, was attacked by perpetrators who directly targeted the hardware and caused irreversible damage to the hardware. In result, replacing or reinstalling the hardware was the only solution. Identify the type of denial-of-service attack performed on Zaimasoft.",
-            "options": [
-                {
-                    "text": "ddos",
-                    "is_correct": 0
-                },
-                {
-                    "text": "DoS",
-                    "is_correct": 0
-                },
-                {
-                    "text": "PDoS",
-                    "is_correct": 1
-                },
-                {
-                    "text": "DRDoS",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 510,
-            "question_text": "Alice is an incident handler and she has been informed by her lead that the data on affected systems must be backed up so that it can be retrieved if it is damaged during the incident response process. She was also told that the system backup can also be used for further investigation of the incident. In which of the following stages of the incident handling and response (IH&R) process does Alice need to do a complete backup of the infected system?",
-            "options": [
-                {
-                    "text": "Containment",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Incident recording",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Incident triage",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Eradication",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 548,
-            "question_text": "Which of the following tools helps incident handlers to view the file system, retrieve deleted data, perform timeline analysis, web artifacts, etc., during an incident response process?",
-            "options": [
-                {
-                    "text": "Autopsy",
-                    "is_correct": 1
-                },
-                {
-                    "text": "netstat",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Process Explorer",
-                    "is_correct": 0
-                },
-                {
-                    "text": "nbislal",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 594,
-            "question_text": "Mr. Smith is a lead incident responder of a small financial enterprise having few branches in Australia. Recently, the company suffered a massive attack losing USD 5 million through an inter-banking system. After in-depth investigation on the case, it was found out that the incident occurred because 6 months ago the attackers penetrated the network through a minor vulnerability and maintained the access without any user being aware of it. Then, he tried to delete users\u2019 fingerprints and performed a lateral movement to the computer of a person with privileges in the inter-banking system. Finally, the attacker gained access and did fraudulent transactions. Based on the above scenario, identify the most accurate kind of attack.",
-            "options": [
-                {
-                    "text": "Ransomware attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Denial-of-service attack",
-                    "is_correct": 0
-                },
-                {
-                    "text": "APT attack",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Phishing",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 604,
-            "question_text": "Oscar receives an email from an unknown source containing his domain name oscar.com. Upon checking the link, he found that it contains a malicious URL that redirects to the website evilsite.org. What type of vulnerability is this?",
-            "options": [
-                {
-                    "text": "Malware",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Bolen",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Unvalidated redirects and forwards",
-                    "is_correct": 1
-                },
-                {
-                    "text": "SQL injection",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 630,
-            "question_text": "Rica works as an incident handler for an international company. As part of her role, she must review the present security policy implemented. Upon inspection, Rica finds that the policy is wide open, and only known dangerous services\/attacks or behaviors are blocked. Which of the following is the current policy that Rica identified?",
-            "options": [
-                {
-                    "text": "Prudent policy",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Paranoic policy",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Permissive policy",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Promiscuous policy",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 628,
-            "question_text": "Who is mainly responsible for providing proper network services and handling network- related incidents in all the cloud service models?",
-            "options": [
-                {
-                    "text": "Cloud consumer",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cloud auditor",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cloud brokers",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cloud service provider",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 639,
-            "question_text": "Which of the following best describes an email issued as an attack medium, in which several messages are sent to a mailbox to cause overflow?",
-            "options": [
-                {
-                    "text": "Email-bombing",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Masquerading",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Spoofing",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Smurf attack",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 546,
-            "question_text": "An organization named Sam Morison Inc. decided to use cloud-based services to reduce the cost of maintenance. The organization identified various risks and threats associated with cloud service adoption and migrating business-critical data to thirdparty systems. Hence, the organization decided to deploy cloud-based security tools to prevent upcoming threats. Which of the following tools help the organization to secure the cloud resources and services?",
-            "options": [
-                {
-                    "text": "Nmap",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Burp Suite",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Wireshark",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Alert Logic",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 528,
-            "question_text": "Identify Sarbanes\u2013Oxley Act (SOX) Title, which consists of only one section, that includes measures designed to help restore investor confidence in the reporting of securities analysts.",
-            "options": [
-                {
-                    "text": "Title VIII: Corporate and Criminal Fraud Accountability",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Title V: Analyst Conflicts of Interest",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Title VII: Studies and Reports",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Title IX: White-Collar-Crime Penalty Enhancement",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 511,
-            "question_text": "Clark, a professional hacker, exploited the web application of a target organization by tampering the form and parameter values. He successfully exploited the web application and gained access to the information assets of the organization. Identify the vulnerability in the web application exploited by the attacker.",
-            "options": [
-                {
-                    "text": "Broken access control",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Security misconfiguration",
-                    "is_correct": 0
-                },
-                {
-                    "text": "SQL injection",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Sensitive data exposure",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 655,
-            "question_text": "James is working as an incident responder at CyberSol Inc. The management instructed James to investigate a cybersecurity incident that recently happened in the company. As a part of the investigation process, James started collecting volatile information from a system running on Windows operating system. Which of the following commands helps James in determining all the executable files for running processes?",
-            "options": [
-                {
-                    "text": "cate A & time .\/t",
-                    "is_correct": 0
-                },
-                {
-                    "text": "netstat -ab",
-                    "is_correct": 1
-                },
-                {
-                    "text": "top",
-                    "is_correct": 0
-                },
-                {
-                    "text": "doskey\/history",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 580,
-            "question_text": "Which of the following is a term that describes the combination of strategies and services intended to restore data, applications, and other resources to the public cloud or dedicated service providers?",
-            "options": [
-                {
-                    "text": "Mitigation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Analysis",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Eradication",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Cloud recovery",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 539,
-            "question_text": "Ren is assigned to handle a security incident of an organization. He is tasked with forensics investigation to find the evidence needed by the management. Which of the following steps falls under the investigation phase of the computer forensics investigation process?",
-            "options": [
-                {
-                    "text": "Secure the evidence",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Risk assessment",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Setup a computer forensics lab",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Evidence assessment",
-                    "is_correct": 1
-                }
-            ]
-        },
-        {
-            "id": 524,
-            "question_text": "Marley was asked by his incident handling and response (IH&R) team lead to collect volatile data such as system information and network information present in the registries, cache, and RAM of victim\u2019s system. Identify the data acquisition method Marley must employ to collect volatile data.",
-            "options": [
-                {
-                    "text": "Validate data acquisition",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Static data acquisition",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Live data acquisition",
-                    "is_correct": 1
-                },
-                {
-                    "text": "Remote data acquisition",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 506,
-            "question_text": "Chandler is a professional hacker who is targeting Technote organization. He wants to obtain important organizational information that is being transmitted between different hierarchies. In the process, he is sniffing the data packets transmitted through the network and then analyzing them to gather packet details such as network, ports, protocols, devices, issues in network transmission, and other network specifications. Which of the following tools Chandler must employ to perform packet analysis?",
-            "options": [
-                {
-                    "text": "BeEf",
-                    "is_correct": 0
-                },
-                {
-                    "text": "IDAPro",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Omnipeek",
-                    "is_correct": 1
-                },
-                {
-                    "text": "shARP",
-                    "is_correct": 0
-                }
-            ]
-        },
-        {
-            "id": 572,
-            "question_text": "Malicious downloads that result from malicious office documents being manipulated are caused by which of the following?",
-            "options": [
-                {
-                    "text": "Clickjacking",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Impersonation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Registry key manipulation",
-                    "is_correct": 0
-                },
-                {
-                    "text": "Macro abuse",
-                    "is_correct": 1
-                }
-            ]
-        }
-    ],
-    "test_duration": 180,
-    "total_questions": 100,
-    "test_name": "ECIH"
-}
+[
+    {
+        "question": "Rose is an incident-handling person and she is responsible for detecting and eliminating any kind of scanning attempts over the network by any malicious threat actors. Rose uses Wireshark tool to sniff the network and detect any malicious activities going on. Which of the following Wireshark filters can be used by her to detect TCP Xmas scan attempt by the attacker?",
+        "options": [
+            "tcp.dstport==7",
+            "tcp.flags==0X000",
+            "tcp.flags.reset==1",
+            "tcp.flags==0X029"
+        ],
+        "answer": "tcp.flags==0X029"
+    },
+    {
+        "question": "Which of the following is not called volatile data?",
+        "options": [
+            "Open sockets er open ports",
+            "The dale a no Lime of the system",
+            "Creation dates of files",
+            "State of the network interface"
+        ],
+        "answer": "Creation dates of files"
+    },
+    {
+        "question": "Which of the following is not the responsibility of first responders?",
+        "options": [
+            "Protecting the crime scene",
+            "Identifying the crime scene",
+            "Packaging and transporting the electronic evidence",
+            "Preserving temporary and fragile evidence and then shut down or reboot the victim’s computer"
+        ],
+        "answer": "Identifying the crime scene"
+    },
+    {
+        "question": "Your manager hands you several items of digital evidence and asks you to investigate them in the order of volatility. Which of the following is the MOST volatile?",
+        "options": [
+            "Cache",
+            "Disk",
+            "Emails",
+            "Temp files"
+        ],
+        "answer": "Cache"
+    },
+    {
+        "question": "Which of the following information security personnel handles incidents from management and technical point of view?",
+        "options": [
+            "Network administrators",
+            "Incident manager (IM)",
+            "Threat researchers",
+            "Forensic investigators"
+        ],
+        "answer": "Incident manager (IM)"
+    },
+    {
+        "question": "Stanley is an incident handler working for Texa Corp. located in the United States. With the growing concern of increasing emails from outside the organization, Stanley was asked to take appropriate actions to keep the security of the organization intact. In the process of detecting and containing malicious emails, Stanley was asked to check the validity of the emails received by employees. Identify the tools he can use to accomplish the given task.",
+        "options": [
+            "PointofMail",
+            "Email Dossier",
+            "PoliteMail",
+            "EventLog Analyzer"
+        ],
+        "answer": "Email Dossier"
+    },
+    {
+        "question": "Which of the following is not a countermeasure to eradicate inappropriate usage incidents?",
+        "options": [
+            "Avoid VPN and other secure network channels",
+            "Register the user activity logs and keep monitoring them regularly",
+            "Install firewall and IDS/IPS to block services that violate the organization’s policy",
+            "Always store the sensitive data in far located servers and restrict its access"
+        ],
+        "answer": "Avoid VPN and other secure network channels"
+    },
+    {
+        "question": "Alexis works as an incident responder at XYZ organization. She was asked to identify and attribute the actors behind an attack that occurred recently. For this purpose, she is performing a type of threat attribution that deals with the identification of a specific person, society, or country sponsoring a well-planned and executed intrusion or attack on its target. Which of the following types of threat attributions is Alexis performing?",
+        "options": [
+            "Campaign attribution",
+            "True attribution",
+            "Nation-state attribution",
+            "Intrusion set attribution"
+        ],
+        "answer": "Nation-state attribution"
+    },
+    {
+        "question": "Clark is investigating a cybercrime at TechSoft Solutions. While investigating the case, he needs to collect volatile information such as running services, their process IDs, startmode, state, and status. Which of the following commands will help Clark to collect such information from running services?",
+        "options": [
+            "Openfiles",
+            "netstat –ab",
+            "wmic",
+            "net file"
+        ],
+        "answer": "wmic"
+    },
+    {
+        "question": "A colleague wants to minimize their security responsibility because they are in a small organization. They are evaluating a new application that is offered in different forms. Which form would result in the least amount of responsibility for the colleague?",
+        "options": [
+            "On-prom installation",
+            "SaaS",
+            "IaaS",
+            "PaaS"
+        ],
+        "answer": "SaaS"
+    },
+    {
+        "question": "Allan performed a reconnaissance attack on his corporate network as part of a red-team activity. He scanned the IP range to find live host IP addresses. What type of technique did he use to exploit the network?",
+        "options": [
+            "DNS foot printing",
+            "Social engineering",
+            "Port scanning",
+            "Ping sweeping"
+        ],
+        "answer": "Ping sweeping"
+    },
+    {
+        "question": "Otis is an incident handler working in an organization called Delmont. Recently, the organization faced several setbacks in business, whereby its revenues are decreasing. Otis was asked to take charge and look into the matter. While auditing the enterprise security, he found traces of an attack through which proprietary information was stolen from the enterprise network and passed onto their competitors. Which of the following information security incidents did Delmont face?",
+        "options": [
+            "Network and resource abuses",
+            "Espionage",
+            "Email-based abuse",
+            "Unauthorized access"
+        ],
+        "answer": "Espionage"
+    },
+    {
+        "question": "Eric works as a system administrator in ABC organization. He granted privileged users with unlimited permissions to access the systems. These privileged users can misuse their rights unintentionally or maliciously or attackers can trick them to perform malicious activities. Which of the following guidelines helps incident handlers to eradicate insider attacks by privileged users?",
+        "options": [
+            "Do not use encryption methods to prevent administrators and privileged users from accessing backup tapes and sensitive information",
+            "Do not control the access to administrators and privileged users",
+            "Do not enable the default administrative accounts to ensure accountability",
+            "Do not allow administrators to use unique accounts during the installation process"
+        ],
+        "answer": "Do not enable the default administrative accounts to ensure accountability"
+    },
+    {
+        "question": "Which of the following are malicious software programs that infect computers and corrupt or delete the data on them?",
+        "options": [
+            "Worms",
+            "Trojans",
+            "Spyware",
+            "Virus"
+        ],
+        "answer": "Virus"
+    },
+    {
+        "question": "An organization named Sam Morison Inc. decided to use cloud-based services to reduce the cost of their maintenance. They first identified various risks and threats associated with cloud ... adoption and migrating critical business data to third-party systems. Hence, the organization decided to deploy cloud-based security tools to prevent upcoming threats. Which of the following tools would help the organization to secure cloud resources and services?",
+        "options": [
+            "Nmap",
+            "Alert Logic",
+            "Burp Suite",
+            "Wireshark"
+        ],
+        "answer": "Alert Logic"
+    },
+    {
+        "question": "BadGuy Bob hid files in the slack space, changed the file headers, hid suspicious files in executables, and changed the metadata for all types of files on his hacker laptop. What has he committed?",
+        "options": [
+            "Anti-forensics",
+            "Adversarial mechanics",
+            "Felony",
+            "Legal hostility"
+        ],
+        "answer": "Anti-forensics"
+    },
+    {
+        "question": "Richard is analyzing a corporate network. After an alert in the network’s IPS, he identified that all the servers are sending huge amounts of traffic to the website abc.xyz. What type of information security attack vectors have affected the network?",
+        "options": [
+            "Botnet",
+            "Advance persistent three Is",
+            "Ransomware",
+            "IOT threats"
+        ],
+        "answer": "Botnet"
+    },
+    {
+        "question": "Nervous Nat often sends emails with screenshots of what he thinks are serious incidents, but they always turn out to be false positives. Today, he sends another screenshot, suspecting a nation-state attack. As usual, you go through your list of questions, check your resources for information to determine whether the screenshot shows a real attack, and determine the condition of your network. Which step of IR did you just perform?",
+        "options": [
+            "Recovery",
+            "Preparation",
+            "Remediation",
+            "Detection and analysis (or identification)"
+        ],
+        "answer": "Detection and analysis (or identification)"
+    },
+    {
+        "question": "John is performing memory dump analysis in order to find out the traces of malware. He has employed volatility tool in order to achieve his objective. Which of the following volatility framework commands he will use in order to analyze running process from the memory dump?",
+        "options": [
+            "python vol.py svcscan --profile=Win2008SP1x86 -f /root/Desktop/memdump.mem | more",
+            "python vol.py pslist --profile=Win2008SP1x86 -f /root/Desktop/memdump.mem",
+            "python vol.py hivellst --profile=Win2008SP1x86 -f /root/Desktop/memdump.mem",
+            "python vol.py imageinfo -f /root/Desktop/memdump.mem"
+        ],
+        "answer": "python vol.py pslist --profile=Win2008SP1x86 -f /root/Desktop/memdump.mem"
+    },
+    {
+        "question": "Francis is an incident handler and security expert. He works at MorisonTech Solutions based in Sydney, Australia. He was assigned a task to detect phishing/spam mails for the client organization. Which of the following tools can assist Francis to perform the required task?",
+        "options": [
+            "Netcraft",
+            "Nessus",
+            "BTCrack",
+            "Cain and Abel"
+        ],
+        "answer": "Netcraft"
+    },
+    {
+        "question": "Stanley works as an incident responder at a top MNC based out of Singapore. He was asked to investigate a cybersecurity incident that recently occurred in the company. While investigating the crime, he collected the evidence from the victim systems. He must present this evidence in a clear and comprehensible manner to the members of jury so that the evidence explains the facts clearly and further helps in obtaining an expert opinion on the same to confirm the investigation process. In the above scenario, what is the characteristic of the digital evidence Stanley tried to preserve?",
+        "options": [
+            "Believable",
+            "Complete",
+            "Authentic",
+            "Admissible"
+        ],
+        "answer": "Admissible"
+    },
+    {
+        "question": "In which of the following types of fuzz testing strategies the new data will be generated from scratch and the amount of data to be generated are predefined based on the testing model?",
+        "options": [
+            "Log-based fuzz testing",
+            "Generation-based fuzz testing",
+            "Mutation-based fuzz testing",
+            "Protocol-based fuzz testing"
+        ],
+        "answer": "Generation-based fuzz testing"
+    },
+    {
+        "question": "John is a professional hacker who is performing an attack on the target organization where he tries to redirect the connection between the IP address and its target server such that when the users type in the Internet address, it redirects them to a rogue website that resembles the original website. He tries this attack using cache poisoning technique. Identify the type of attack John is performing on the target organization.",
+        "options": [
+            "War driving",
+            "Pharming",
+            "Skimming",
+            "Pretexting"
+        ],
+        "answer": "Pharming"
+    },
+    {
+        "question": "Which of the following types of digital evidence is temporarily stored in a digital device that requires constant power supply and is deleted if the power supply is interrupted?",
+        "options": [
+            "Slack space",
+            "Process memory",
+            "Event logs",
+            "Swap file"
+        ],
+        "answer": "Process memory"
+    },
+    {
+        "question": "Otis is an incident handler working in Delmont organization. Recently, the organization is facing several setbacks in the business and thereby its revenues are going down. Otis was asked to take the charge and look into the matter. While auditing the enterprise security, he found the traces of an attack, where the proprietary information was stolen from the enterprise network and was passed onto the competitors. Which of the following information security incidents Delmont organization faced?",
+        "options": [
+            "Network and resource abuses",
+            "Unauthorized access",
+            "Espionage",
+            "Email-based abuse"
+        ],
+        "answer": "Espionage"
+    },
+    {
+        "question": "An incident handler is analyzing email headers to find out suspicious emails. Which of the following tools he/she must use in order to accomplish the task?",
+        "options": [
+            "Barracuda Email Security Gateway",
+            "Gophish",
+            "SPAMfighter"
+        ],
+        "answer": "Barracuda Email Security Gateway"
+    },
+    {
+        "question": "During the process of detecting and containing malicious emails, incident responders should examine the originating IP address of the emails. The steps to examine the originating IP address are as follow: * 1. Search for the IP in the WHOIS database * 2. Open the email to trace and find its header * 3. Collect the IP address of the sender from the header of the received mail * 4. Look for the geographic address of the sender in the WHOIS database. Identify the correct sequence of steps to be performed by the incident responders to examine originating IP address of the emails.",
+        "options": [
+            "4 → 1 → 2 → 3",
+            "2 → 1 → 4 → 3",
+            "1 → 3 → 2 → 4",
+            "2 → 3 → 1 → 4"
+        ],
+        "answer": "2 → 3 → 1 → 4"
+    },
+    {
+        "question": "SWA Cloud Services added PKI as one of their cloud security controls. What does PKI stand for?",
+        "options": [
+            "Private key infrastructure",
+            "Private key in for ma lion",
+            "Public key information",
+            "Public key infrastructure"
+        ],
+        "answer": "Public key infrastructure"
+    },
+    {
+        "question": "Which of the following is an attack that occurs when a malicious program causes a user’s browser to perform an unwanted action on a trusted site for which the user is currently authenticated?",
+        "options": [
+            "Cross-site scripting",
+            "Insecure direct object references",
+            "Cross-site request forgery",
+            "SQL injection"
+        ],
+        "answer": "Cross-site request forgery"
+    },
+    {
+        "question": "Bran is an incident handler who is assessing the network of the organization. In the process, he wants to detect ping sweep attempts on the network using Wireshark tool. Which of the following Wireshark filter he must use to accomplish this task?",
+        "options": [
+            "icmp.seq",
+            "icmp.redir_gw",
+            "icmp.type==8",
+            "icmp.ident"
+        ],
+        "answer": "icmp.type==8"
+    },
+    {
+        "question": "Alex is an incident handler in QWERTY Company. He identified that an attacker created a backdoor inside the company's network by installing a fake AP inside a firewall. Which of the following attack types did the attacker use?",
+        "options": [
+            "AP misconfiguration",
+            "Wardriving",
+            "Rogue access point",
+            "Ad hoc associations"
+        ],
+        "answer": "Rogue access point"
+    },
+    {
+        "question": "Which one of the following is Inappropriate Usage Incidents?",
+        "options": [
+            "Insider Threat",
+            "Reconnaissance Attack",
+            "Access Control Attack",
+            "Denial of Service Attack"
+        ],
+        "answer": "Insider Threat"
+    },
+    {
+        "question": "Shiela is working at night as an incident handler. During a shift, servers were affected by a massive cyberattack. After she classified and prioritized the incident, she must report the incident, obtain necessary permissions, and perform other incident response functions. What list should she check to notify other responsible personnel?",
+        "options": [
+            "HR log book",
+            "Point of contact",
+            "Email list",
+            "Phone number list"
+        ],
+        "answer": "Point of contact"
+    },
+    {
+        "question": "Which of the following is defined as the identification of the boundaries of an IT system along with the resources and information that constitute the system?",
+        "options": [
+            "System characterization",
+            "Vulnerability identification",
+            "Threat identification",
+            "Control analysis"
+        ],
+        "answer": "System characterization"
+    },
+    {
+        "question": "Miko was hired as an incident handler in XYZ company. His first task was to identify the PING sweep attempts inside the network. For this purpose, he used Wireshark to analyze the traffic. What filter did he use to identify ICMP ping sweep attempts?",
+        "options": [
+            "tcp.type == icmp",
+            "icrrip.type == icmp",
+            "icmp.type == 8 or icmp.type ==0",
+            "udp.type — 7"
+        ],
+        "answer": "icmp.type == 8 or icmp.type ==0"
+    },
+    {
+        "question": "Which of the following techniques helps incident handlers to detect man-in-the-middle attack by finding the new APs and trying to connect an already established channel, even if the spoofed AP consists similar IP and MAC addresses as of the original AP?",
+        "options": [
+            "Wireless client monitoring",
+            "Network traffic monitoring",
+            "General wireless traffic monitoring",
+            "Access point monitoring"
+        ],
+        "answer": "Access point monitoring"
+    },
+    {
+        "question": "What is the most recent NIST standard for incident response?",
+        "options": [
+            "800-6112",
+            "800-6113",
+            "800-5313",
+            "800-17112"
+        ],
+        "answer": "800-6112"
+    },
+    {
+        "question": "Alexis is working as an incident responder in XYZ organization. She was asked to identify and attribute the actors behind an attack that took place recently. In order to do so, she is performing threat attribution that deals with the identification of the specific person, society, or a country sponsoring a well-planned and executed intrusion or attack over its target. Which of the following types of threat attributions Alexis performed?",
+        "options": [
+            "Nation-state attribution",
+            "Intrusion-set attribution",
+            "True attribution",
+            "Campaign attribution"
+        ],
+        "answer": "True attribution"
+    },
+    {
+        "question": "Which of the following does NOT reduce the success rate of SQL injection?",
+        "options": [
+            "Close unnecessary application services and ports on the server.",
+            "Automatically lock a user account after a predefined number of invalid login attempts within a predefined interval.",
+            "Constrain legitimate characters to exclude special characters.",
+            "Limit the length of the input field."
+        ],
+        "answer": "Close unnecessary application services and ports on the server."
+    },
+    {
+        "question": "Khai was tasked with examining the logs from a Linux email server. The server uses Sendmail to execute the command to send emailsand Syslog to maintain logs. To validate the data within email headers, which of the following directories should Khai check for information such as source and destination IP addresses, dates, and timestamps?",
+        "options": [
+            "/Var/log/mailog",
+            "/ar/log/sendmail",
+            "/va r/log/mai11og",
+            "/va r/log/sendmail/mailog"
+        ],
+        "answer": "/Var/log/mailog"
+    },
+    {
+        "question": "Matt is an incident handler working for one of the largest social network companies, which was affected by malware. According to the company's reporting timeframe guidelines, a malware incident should be reported within 1 h of discovery/detection after its spread across the company. Which category does this incident belong to?",
+        "options": [
+            "CAT 1",
+            "CAT 4",
+            "CAT 2",
+            "CAT 3"
+        ],
+        "answer": "CAT 1"
+    },
+    {
+        "question": "During the vulnerability assessment phase, the incident responders perform various steps as below: * 1. Run vulnerability scans using tools * 2. Identify and prioritize vulnerabilities * 3. Examine and evaluate physical security * 4. Perform OSINT information gathering to validate the vulnerabilities * 5. Apply business and technology context to scanner results * 6. Check for misconfigurations and human errors * 7. Create a vulnerability scan report. Identify the correct sequence of vulnerability assessment steps performed by the incident responders.",
+        "options": [
+            "3-->6-->1-->2-->5-->4-->7",
+            "1-->3-->2-->4-->5-->6-->7",
+            "4-->1-->2-->3-->6-->5-->7",
+            "2-->1-->4-->7-->5-->6-->3"
+        ],
+        "answer": "4-->1-->2-->3-->6-->5-->7"
+    },
+    {
+        "question": "Robert is an incident handler working for Xsecurity Inc. One day, his organization faced a massive cyberattack and all the websites related to the organization went offline. Robert was on duty during the incident and he was responsible to handle the incident and maintain business continuity. He immediately restored the web application service with the help of the existing backups. According to the scenario, which of the following stages of incident handling and response (IH&R) process does Robert performed?",
+        "options": [
+            "Evidence gathering and forensics analysis",
+            "Eradication",
+            "Notification",
+            "Recovery"
+        ],
+        "answer": "Recovery"
+    },
+    {
+        "question": "Mike is an incident handler for PNP Infosystems Inc. One day, there was a ticket submitted regarding a critical incident and Mike was assigned to handle the incident. During the process of incident handling, at one stage, he performed incident analysis and validation to check whether the incident is a genuine incident or a false positive. Identify the stage he is currently in.",
+        "options": [
+            "Post-incident activities",
+            "Incident disclosure",
+            "Incident recording and assignment",
+            "Incident triage"
+        ],
+        "answer": "Incident triage"
+    },
+    {
+        "question": "Andrew, an incident responder, is performing risk assessment of the client organization. As a part of risk assessment process, he identified the boundaries of the IT systems, along with the resources and the information that constitute the systems. Identify the risk assessment step Andrew is performing.",
+        "options": [
+            "Control analysis",
+            "System characterization",
+            "Likelihood determination",
+            "Control recommendations"
+        ],
+        "answer": "System characterization"
+    },
+    {
+        "question": "Which of the following digital evidence temporarily stored on a digital device that requires a constant power supply and is deleted if the power supply is interrupted?",
+        "options": [
+            "Swap file",
+            "Event logs",
+            "Slack space",
+            "Process memory"
+        ],
+        "answer": "Process memory"
+    },
+    {
+        "question": "Which of the following is NOT part of the static data collection process?",
+        "options": [
+            "Evidence oxa mi nation",
+            "System preservation",
+            "Password protection",
+            "Evidence acquisition"
+        ],
+        "answer": "Password protection"
+    },
+    {
+        "question": "In which of the following phases of the incident handling and response (IH&R) process is the identified security incidents analyzed, validated, categorized, and prioritized?",
+        "options": [
+            "Incident triage",
+            "Incident recording and assignment",
+            "Containment",
+            "Notification"
+        ],
+        "answer": "Incident triage"
+    },
+    {
+        "question": "Raven is a part of an IH&R team and was informed by her manager to handle and lead the removal of the root cause for an incident and to close all attack vectors to prevent similar incidents in the future. Raven notifies the service providers and developers of affected resources. Which of the following steps of the incident handling and response process does Raven need to implement to remove the root cause of the incident?",
+        "options": [
+            "Evidence gathering and forensic analysis",
+            "Eradication",
+            "Containment",
+            "Incident triage"
+        ],
+        "answer": "Eradication"
+    },
+    {
+        "question": "For analyzing the system, the browser data can be used to access various credentials. Which of the following tools is used to analyze the history data files in Microsoft Edge browser?",
+        "options": [
+            "ChromethistoryView",
+            "BrowsingHistoryView",
+            "MZCacheView",
+            "MZHistoryView"
+        ],
+        "answer": "BrowsingHistoryView"
+    },
+    {
+        "question": "Eric who is an incident responder is working on developing incident-handling plans and procedures. As part of this process, he is performing analysis on the organizational network to generate a report and to develop policies based on the acquired results. Which of the following tools will help him in analyzing network and its related traffic?",
+        "options": [
+            "FaceNiff",
+            "Wireshark",
+            "Burp Suite",
+            "Whois"
+        ],
+        "answer": "Wireshark"
+    },
+    {
+        "question": "Bran is an incident handler who is assessing the network of the organization. He wants to detect ping sweep attempts on the network using Wireshark. Which of the following Wireshark filters would Bran use to accomplish this task?",
+        "options": [
+            "icmp.scq",
+            "icmp.type==8",
+            "icmp.ident",
+            "icmp.redir_gw"
+        ],
+        "answer": "icmp.type==8"
+    },
+    {
+        "question": "Eric is an incident responder and is working on developing incident-handling plans and procedures. As part of this process, he is performing an analysis on the organizational network to generate a report and develop policies based on the acquired results. Which of the following tools will help him in analyzing his network and the related traffic?",
+        "options": [
+            "Whois",
+            "Burp Suite",
+            "FaceNiff",
+            "Wireshark"
+        ],
+        "answer": "Wireshark"
+    },
+    {
+        "question": "An attacker traced out and found the kind of websites a target company/individual is frequently surfing and tested those particular websites to identify any possible vulnerabilities. When the attacker detected vulnerabilities in the website, the attacker started injecting malicious script/code into the web application that can redirect the webpage and download the malware onto the victim’s machine. After infecting the vulnerable web application, the attacker waited for the victim to access the infected web application. Identify the type of attack performed by the attacker.",
+        "options": [
+            "Watering hole",
+            "Obfuscation application",
+            "Directory traversal",
+            "Cookie/Session poisoning"
+        ],
+        "answer": "Watering hole"
+    },
+    {
+        "question": "Eric works as an incident handler at Erinol software systems. He was assigned a task to protect the organization from any kind of DoS/DDoS attacks. Which of the following tools can be used by Eric to achieve his objective?",
+        "options": [
+            "Incapsula",
+            "Hydra",
+            "IDA",
+            "Wireshark"
+        ],
+        "answer": "Incapsula"
+    },
+    {
+        "question": "Which of the following email security tools can be used by an incident handler to prevent the organization against evolving email threats?",
+        "options": [
+            "Email Header Analyzer",
+            "G Suite Toolbox",
+            "MxToolbox",
+            "Gpg4win"
+        ],
+        "answer": "MxToolbox"
+    },
+    {
+        "question": "Johnson an incident handler is working on a recent web application attack faced by the organization. As part of this process, he performed data preprocessing in order to analyzing and detecting the watering hole attack. He preprocessed the outbound network traffic data collected from firewalls and proxy servers and started analyzing the user activities within a certain time period to create time-ordered domain sequences to perform further analysis on sequential patterns. Identify the data-preprocessing step performed by Johnson.",
+        "options": [
+            "Filtering invalid host names",
+            "Identifying unpopular domains",
+            "Host name normalization",
+            "User-specific sessionization"
+        ],
+        "answer": "User-specific sessionization"
+    },
+    {
+        "question": "You are talking to a colleague who is deciding what information they should include in their organization’s logs to help with security auditing. Which of the following items should you tell them to NOT log?",
+        "options": [
+            "Timestamp",
+            "Session ID",
+            "Source IP address",
+            "userid"
+        ],
+        "answer": "Session ID"
+    },
+    {
+        "question": "Drake is an incident handler in Dark C.Loud Inc. He is intended to perform log analysis in order to detect traces of malicious activities within the network infrastructure. Which of the following tools Drake must employ in order to view logs in real time and identify malware propagation within the network?",
+        "options": [
+            "Splunk",
+            "HULK",
+            "Hydra",
+            "LOIC"
+        ],
+        "answer": "Splunk"
+    },
+    {
+        "question": "Attackers or insiders create a backdoor into a trusted network by installing an unsecured access point inside a firewall. They then use any software or hardware access point to perform an attack. Which of the following is this type of attack?",
+        "options": [
+            "Rogue- access point attack",
+            "Password-based attack",
+            "Malware attack",
+            "Email infection"
+        ],
+        "answer": "Rogue- access point attack"
+    },
+    {
+        "question": "Rinni is an incident handler and she is performing memory dump analysis. Which of following tools she can use in order to perform memory dump analysis?",
+        "options": [
+            "OllyDbg and IDA Pro",
+            "Scylla and OllyDumpEx",
+            "Proemon and ProcessExplorer",
+            "iNetSim"
+        ],
+        "answer": "OllyDbg and IDA Pro"
+    },
+    {
+        "question": "Sam. an employee of a multinational company, sends emails to third-party organizations with a spoofed email address of his organization. How can you categorize this type of incident?",
+        "options": [
+            "Network intrusion incident",
+            "Inappropriate usage incident",
+            "Unauthorized access incident.",
+            "Denial-of-service incident"
+        ],
+        "answer": "Inappropriate usage incident"
+    },
+    {
+        "question": "Your company holds a large amount of customer PH, and you want to protect those data from theft or unauthorized modification. Among other actions, you classify and encrypt the data. In this process, which of the following OWASP security risks are you guarding against?",
+        "options": [
+            "Insecure deserialization",
+            "Security misconfiguration",
+            "Broken authentication",
+            "Sensitive data exposure"
+        ],
+        "answer": "Sensitive data exposure"
+    },
+    {
+        "question": "Dash wants to perform a DoS attack over 256 target URLs simultaneously. Which of the following tools can Dash employ to achieve his objective?",
+        "options": [
+            "HOIC",
+            "IDAPro",
+            "Ollydbg",
+            "OpenVAS"
+        ],
+        "answer": "HOIC"
+    },
+    {
+        "question": "Bob, an incident responder at CyberTech Solutions, is investigating a cybercrime attack occurred in the client company. He acquired the evidence data, preserved it, and started performing analysis on acquired evidentiary data to identify the source of the crime and the culprit behind the incident. Identify the forensic investigation phase in which Bob is currently in.",
+        "options": [
+            "Vulnerability assessment phase",
+            "Post-investigation phase",
+            "Pre-investigation phase",
+            "Investigation phase"
+        ],
+        "answer": "Investigation phase"
+    },
+    {
+        "question": "Alex is an incident handler for Tech-o-Tech Inc. and is tasked to identify any possible insider threats within his organization. Which of the following insider threat detection techniques can be used by Alex to detect insider threats based on the behavior of a suspicious employee, both individually and in a group?",
+        "options": [
+            "behavioral analysis",
+            "Physical detection",
+            "Profiling",
+            "Mole detection"
+        ],
+        "answer": "Profiling"
+    },
+    {
+        "question": "Which of the following is an inappropriate usage incident?",
+        "options": [
+            "Access-control attack",
+            "Reconnaissance attack",
+            "Insider threat",
+            "Denial-of-service attack"
+        ],
+        "answer": "Insider threat"
+    },
+    {
+        "question": "An insider threat response plan helps an organization minimize the damage caused by malicious insiders. One of the approaches to mitigate these threats is setting up controls from the human resources department. Which of the following guidelines can the human resources department use?",
+        "options": [
+            "Access granted to users should be documented and vetted by a supervisor.",
+            "Disable the default administrative account to ensure accountability.",
+            "Implement a person-to-person rule to secure the backup process and physical media.",
+            "Monitor and secure the organization's physical environment."
+        ],
+        "answer": "Access granted to users should be documented and vetted by a supervisor."
+    },
+    {
+        "question": "Finn is working in the eradication phase, wherein he is eliminating the root cause of an incident that occurred in the Windows operating system installed in a system. He ran a tool that can detect missing security patches and install the latest patches on the system and networks. Which of the following tools did he use to detect the missing security patches?",
+        "options": [
+            "Microsoft Cloud App Security",
+            "Office360 Advanced Threat Protection",
+            "Microsoft Advanced Threat Analytics",
+            "Microsoft Baseline Security Analyzer"
+        ],
+        "answer": "Microsoft Baseline Security Analyzer"
+    },
+    {
+        "question": "Dan is a newly appointed information security professional in a renowned organization. He is supposed to follow multiple security strategies to eradicate malware incidents. Which of the following is not considered as a good practice for maintaining information security and eradicating malware incidents?",
+        "options": [
+            "Do not download or execute applications from third-party sources",
+            "Do not click on web browser pop-up windows",
+            "Do not open files with file extensions such as .bat, .com, .exe, .pif, .vbs, and so on",
+            "Do not download or execute applications from trusted sources"
+        ],
+        "answer": "Do not download or execute applications from trusted sources"
+    },
+    {
+        "question": "Which of the following is a volatile evidence collecting tool?",
+        "options": [
+            "Netstat",
+            "HashTool",
+            "FTK Images",
+            "ProDiscover Forensics"
+        ],
+        "answer": "Netstat"
+    },
+    {
+        "question": "Ross is an incident manager (IM) at an organization, and his team provides support to all users in the organization who are affected by threats or attacks. David, who is the organization’s internal auditor, is also part of Ross’s incident response team. Which of the following is David’s responsibility?",
+        "options": [
+            "Configure information security controls.",
+            "Identify and report security loopholes to the management for necessary action.",
+            "Coordinate incident containment activities with the information security officer (ISO).",
+            "Perform the- necessary action to block the network traffic from the suspected intruder."
+        ],
+        "answer": "Identify and report security loopholes to the management for necessary action."
+    },
+    {
+        "question": "An organization implemented an encoding technique to eradicate SQL injection attacks. In this technique, if a user submits a request using single-quote and some values, then the encoding technique will convert it into numeric digits and letters ranging from a to f. This prevents the user request from performing SQL injection attempt on the web application. Identify the encoding technique used by the organization.",
+        "options": [
+            "Unicode encoding",
+            "Base64 encoding",
+            "Hex encoding",
+            "URL encoding"
+        ],
+        "answer": "Hex encoding"
+    },
+    {
+        "question": "Malicious Micky has moved from the delivery stage to the exploitation stage of the kill chain. This malware wants to find and report to the command center any useful services on the system. Which of the following recon attacks is the MOST LIKELY to provide this information?",
+        "options": [
+            "IP range sweep",
+            "Packet sniffing",
+            "Session hijack",
+            "Port scan"
+        ],
+        "answer": "Port scan"
+    },
+    {
+        "question": "An organization’s customers are experiencing either slower network communication or unavailability of services. In addition, network administrators are receiving alerts from security tools such as IDS/IPS and firewalls about a possible DoS/DDoS attack. In result, the organization requests the incident handling and response (IH&R) team further investigates the incident. The IH&R team decides to use manual techniques to detect DoS/DDoS attack. Which of the following commands helps the IH&R team to manually detect DoS/DDoS attack?",
+        "options": [
+            "netstat -r",
+            "nbtstat /c",
+            "netstat an",
+            "nbtstat/S"
+        ],
+        "answer": "netstat an"
+    },
+    {
+        "question": "John, a professional hacker, is attacking an organization, where he is trying to destroy the connectivity between an AP and client to make the target unavailable to other wireless devices. Which of the following attacks is John performing in this case?",
+        "options": [
+            "Routing attack",
+            "EAP failure",
+            "Disassociation attack",
+            "Denial-of-service"
+        ],
+        "answer": "Disassociation attack"
+    },
+    {
+        "question": "Jason is an incident handler dealing with malware incidents. He was asked to perform memory dump analysis in order to collect the information about the basic functionality of any program. As a part of his assignment, he needs to perform string search analysis to search for the malicious string that could determine harmful actions that a program can perform. Which of the following string-searching tools Jason needs to use to do the intended task?",
+        "options": [
+            "PEView",
+            "BinText",
+            "Dependency Walker",
+            "Process Explorer"
+        ],
+        "answer": "BinText"
+    },
+    {
+        "question": "Which of the following terms refers to vulnerable account management functions, including account update, recovery of forgotten or lost passwords, and password reset, that might weaken valid authentication schemes?",
+        "options": [
+            "SQL injection",
+            "Broken account management",
+            "Directory traversal",
+            "Cross-site scripting"
+        ],
+        "answer": "Broken account management"
+    },
+    {
+        "question": "In which of the following confidentiality attacks attackers try to lure users by posing themselves as authorized AP by beaconing the WLAN’s SSID?",
+        "options": [
+            "Evil twin AP",
+            "Session hijacking",
+            "Honeypot AP",
+            "Masqueradin"
+        ],
+        "answer": "Evil twin AP"
+    },
+    {
+        "question": "In which of the following stages of the incident handling and response (IH&R) process do the incident handlers try to find the root cause of the incident along with the threat actors behind the incidents, threat vectors, etc.?",
+        "options": [
+            "Evidence gathering and forensics analysis",
+            "Incident triage",
+            "Incident recording and assignment",
+            "Post-incident activities"
+        ],
+        "answer": "Evidence gathering and forensics analysis"
+    },
+    {
+        "question": "Which stage of the incident response and handling process involves auditing the system and network log files?",
+        "options": [
+            "Containment",
+            "Incident triage",
+            "Incident disclosure",
+            "Incident eradication"
+        ],
+        "answer": "Incident triage"
+    },
+    {
+        "question": "James has been appointed as an incident handling and response (IH&R) team lead and he was assigned to build an IH&R plan along with his own team in the company. Identify the IH&R process step James is currently working on.",
+        "options": [
+            "Eradication",
+            "Recovery",
+            "Preparation",
+            "Notification"
+        ],
+        "answer": "Preparation"
+    },
+    {
+        "question": "In which of the following phases of incident handling and response (IH&R) process the identified security incidents are analyzed, validated, categorized, and prioritized?",
+        "options": [
+            "Incident recording and assignment",
+            "Containment",
+            "Notification",
+            "Incident triage"
+        ],
+        "answer": "Incident triage"
+    },
+    {
+        "question": "Zaimasoft, a prominent IT organization, was attacked by perpetrators who directly targeted the hardware and caused irreversible damage to the hardware. In result, replacing or reinstalling the hardware was the only solution. Identify the type of denial-of-service attack performed on Zaimasoft.",
+        "options": [
+            "ddos",
+            "DoS",
+            "PDoS",
+            "DRDoS"
+        ],
+        "answer": "PDoS"
+    },
+    {
+        "question": "Alice is an incident handler and she has been informed by her lead that the data on affected systems must be backed up so that it can be retrieved if it is damaged during the incident response process. She was also told that the system backup can also be used for further investigation of the incident. In which of the following stages of the incident handling and response (IH&R) process does Alice need to do a complete backup of the infected system?",
+        "options": [
+            "Containment",
+            "Incident recording",
+            "Incident triage",
+            "Eradication"
+        ],
+        "answer": "Containment"
+    },
+    {
+        "question": "Which of the following tools helps incident handlers to view the file system, retrieve deleted data, perform timeline analysis, web artifacts, etc., during an incident response process?",
+        "options": [
+            "Autopsy",
+            "netstat",
+            "Process Explorer",
+            "nbislal"
+        ],
+        "answer": "Autopsy"
+    },
+    {
+        "question": "Mr. Smith is a lead incident responder of a small financial enterprise having few branches in Australia. Recently, the company suffered a massive attack losing USD 5 million through an inter-banking system. After in-depth investigation on the case, it was found out that the incident occurred because 6 months ago the attackers penetrated the network through a minor vulnerability and maintained the access without any user being aware of it. Then, he tried to delete users’ fingerprints and performed a lateral movement to the computer of a person with privileges in the inter-banking system. Finally, the attacker gained access and did fraudulent transactions. Based on the above scenario, identify the most accurate kind of attack.",
+        "options": [
+            "Ransomware attack",
+            "Denial-of-service attack",
+            "APT attack",
+            "Phishing"
+        ],
+        "answer": "APT attack"
+    },
+    {
+        "question": "Oscar receives an email from an unknown source containing his domain name oscar.com. Upon checking the link, he found that it contains a malicious URL that redirects to the website evilsite.org. What type of vulnerability is this?",
+        "options": [
+            "Malware",
+            "Bolen",
+            "Unvalidated redirects and forwards",
+            "SQL injection"
+        ],
+        "answer": "Unvalidated redirects and forwards"
+    },
+    {
+        "question": "Rica works as an incident handler for an international company. As part of her role, she must review the present security policy implemented. Upon inspection, Rica finds that the policy is wide open, and only known dangerous services/attacks or behaviors are blocked. Which of the following is the current policy that Rica identified?",
+        "options": [
+            "Prudent policy",
+            "Paranoic policy",
+            "Permissive policy",
+            "Promiscuous policy"
+        ],
+        "answer": "Permissive policy"
+    },
+    {
+        "question": "Who is mainly responsible for providing proper network services and handling network- related incidents in all the cloud service models?",
+        "options": [
+            "Cloud consumer",
+            "Cloud auditor",
+            "Cloud brokers",
+            "Cloud service provider"
+        ],
+        "answer": "Cloud service provider"
+    },
+    {
+        "question": "Which of the following best describes an email issued as an attack medium, in which several messages are sent to a mailbox to cause overflow?",
+        "options": [
+            "Email-bombing",
+            "Masquerading",
+            "Spoofing",
+            "Smurf attack"
+        ],
+        "answer": "Email-bombing"
+    },
+    {
+        "question": "An organization named Sam Morison Inc. decided to use cloud-based services to reduce the cost of maintenance. The organization identified various risks and threats associated with cloud service adoption and migrating business-critical data to thirdparty systems. Hence, the organization decided to deploy cloud-based security tools to prevent upcoming threats. Which of the following tools help the organization to secure the cloud resources and services?",
+        "options": [
+            "Nmap",
+            "Burp Suite",
+            "Wireshark",
+            "Alert Logic"
+        ],
+        "answer": "Alert Logic"
+    },
+    {
+        "question": "Identify Sarbanes–Oxley Act (SOX) Title, which consists of only one section, that includes measures designed to help restore investor confidence in the reporting of securities analysts.",
+        "options": [
+            "Title VIII: Corporate and Criminal Fraud Accountability",
+            "Title V: Analyst Conflicts of Interest",
+            "Title VII: Studies and Reports",
+            "Title IX: White-Collar-Crime Penalty Enhancement"
+        ],
+        "answer": "Title V: Analyst Conflicts of Interest"
+    },
+    {
+        "question": "Clark, a professional hacker, exploited the web application of a target organization by tampering the form and parameter values. He successfully exploited the web application and gained access to the information assets of the organization. Identify the vulnerability in the web application exploited by the attacker.",
+        "options": [
+            "Broken access control",
+            "Security misconfiguration",
+            "SQL injection",
+            "Sensitive data exposure"
+        ],
+        "answer": "SQL injection"
+    },
+    {
+        "question": "James is working as an incident responder at CyberSol Inc. The management instructed James to investigate a cybersecurity incident that recently happened in the company. As a part of the investigation process, James started collecting volatile information from a system running on Windows operating system. Which of the following commands helps James in determining all the executable files for running processes?",
+        "options": [
+            "cate A & time ./t",
+            "netstat -ab",
+            "top",
+            "doskey/history"
+        ],
+        "answer": "netstat -ab"
+    },
+    {
+        "question": "Which of the following is a term that describes the combination of strategies and services intended to restore data, applications, and other resources to the public cloud or dedicated service providers?",
+        "options": [
+            "Mitigation",
+            "Analysis",
+            "Eradication",
+            "Cloud recovery"
+        ],
+        "answer": "Cloud recovery"
+    },
+    {
+        "question": "Ren is assigned to handle a security incident of an organization. He is tasked with forensics investigation to find the evidence needed by the management. Which of the following steps falls under the investigation phase of the computer forensics investigation process?",
+        "options": [
+            "Secure the evidence",
+            "Risk assessment",
+            "Setup a computer forensics lab",
+            "Evidence assessment"
+        ],
+        "answer": "Evidence assessment"
+    },
+    {
+        "question": "Marley was asked by his incident handling and response (IH&R) team lead to collect volatile data such as system information and network information present in the registries, cache, and RAM of victim’s system. Identify the data acquisition method Marley must employ to collect volatile data.",
+        "options": [
+            "Validate data acquisition",
+            "Static data acquisition",
+            "Live data acquisition",
+            "Remote data acquisition"
+        ],
+        "answer": "Live data acquisition"
+    },
+    {
+        "question": "Chandler is a professional hacker who is targeting Technote organization. He wants to obtain important organizational information that is being transmitted between different hierarchies. In the process, he is sniffing the data packets transmitted through the network and then analyzing them to gather packet details such as network, ports, protocols, devices, issues in network transmission, and other network specifications. Which of the following tools Chandler must employ to perform packet analysis?",
+        "options": [
+            "BeEf",
+            "IDAPro",
+            "Omnipeek",
+            "shARP"
+        ],
+        "answer": "Omnipeek"
+    },
+    {
+        "question": "Malicious downloads that result from malicious office documents being manipulated are caused by which of the following?",
+        "options": [
+            "Clickjacking",
+            "Impersonation",
+            "Registry key manipulation",
+            "Macro abuse"
+        ],
+        "answer": "Macro abuse"
+    }
+]
