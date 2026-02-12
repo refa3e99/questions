@@ -27,7 +27,7 @@
             "Packaging and transporting the electronic evidence",
             "Preserving temporary and fragile evidence and then shut down or reboot the victim’s computer"
         ],
-        "answer": "Identifying the crime scene"
+        "answer": "Preserving temporary and fragile evidence and then shut down or reboot the victim’s computer"
     },
     {
         "question": "Your manager hands you several items of digital evidence and asks you to investigate them in the order of volatility. Which of the following is the MOST volatile?",
@@ -999,3 +999,4 @@
         "answer": "Macro abuse"
     }
 ]
+
