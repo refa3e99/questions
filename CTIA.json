@@ -498,5 +498,385 @@
       "D. Data management"
     ],
     "answer": "D. Data management"
+  },
+  {
+    "question": "A company, TechSoft Solutions, implemented a threat intelligence program and began developing operational capabilities obtained in the previous levels and created an organized team approach for strategic analysis. The company also established necessary intelligence processes and workflows to extract their own threat intelligence. Identify the threat intelligence maturity level at which the company stands.",
+    "options": [
+      "A. Level 4: well-defined CTI program",
+      "B. Level 3: CTI program in place",
+      "C. Level 1: preparing for CTI",
+      "D. Level 2: increasing CTI capabilities"
+    ],
+    "answer": "B. Level 3: CTI program in place"
+  },
+  {
+    "question": "Tech Crunch Inc. has hired John, who is a professional threat intelligence analyst. He was asked to conduct threat intelligence analysis that provides contextual information about the security events and incidents that further help the organization to disclose potential risks, provide greater insight into attacker methodologies, identify past malicious activities, and perform investigations on malicious activities in a more efficient way. Identify the type of threat intelligence John is going to perform for the organization.",
+    "options": [
+      "A. Technical threat intelligence",
+      "B. Tactical threat intelligence",
+      "C. Operational threat intelligence",
+      "D. Strategic threat intelligence"
+    ],
+    "answer": "C. Operational threat intelligence"
+  },
+  {
+    "question": "You are a cybersecurity analyst working at a financial institution. An unusual pattern of financial transactions was detected, suggesting potential fraud or money laundering. What specific type of threat intelligence would you rely on to analyze these financial activities and identify potential risks?",
+    "options": [
+      "A. TECHINT",
+      "B. CHIS",
+      "C. SOCINT",
+      "D. FININT"
+    ],
+    "answer": "D. FININT"
+  },
+  {
+    "question": "Sean works as a threat intelligence analyst. He is assigned a project for information gathering on a client's network to find a potential threat. He started analysis and was trying to find out the company's internal URLs, looking for any information about the different departments and business units. He was unable to find any information. What should Sean do to get the information he needs?",
+    "options": [
+      "A. Sean should use online services such as netcraft.com to find the company's internal URLs",
+      "B. Sean should use website mirroring tools such as HTTrack Web Site Copier to find the company's internal URLs",
+      "C. Sean should use e-mail tracking tools such as eMailTrackerPro to find the company's internal URLs",
+      "D. Sean should use WayBackMachine in Archive.org to find the company's internal URLs"
+    ],
+    "answer": "D. Sean should use WayBackMachine in Archive.org to find the company's internal URLs"
+  },
+  {
+    "question": "While monitoring network activities, an unusual surge in outbound traffic was noticed, and a potential security incident was suspected. In the context of incident responses, what is the initial stage at which you actively recognize and confirm the presence of an incident?",
+    "options": [
+      "A. Eradication",
+      "B. Containment",
+      "C. Recovery",
+      "D. Identification"
+    ],
+    "answer": "D. Identification"
+  },
+  {
+    "question": "Jack is a professional hacker who wants to perform remote exploitation on the target system of an organization. He established a two-way communication channel between the victim's system and his server. He used encryption techniques to hide the presence of a communication channel on a victim's system and further applied privilege escalation techniques to exploit the system. What phase of the cyber kill chain methodology is Jack currently in?",
+    "options": [
+      "A. Weaponization",
+      "B. Reconnaissance",
+      "C. Command and control",
+      "D. Delivery"
+    ],
+    "answer": "C. Command and control"
+  },
+  {
+    "question": "Bob is a threat intelligence analyst in Global Technologies Inc. While extracting threat intelligence, he identified that the organization is vulnerable to various application threats that can be exploited by attackers. Which of the following are the possible application threats that have been identified by Bob?",
+    "options": [
+      "A. Footprinting and spoofing",
+      "B. Man-in-the-middle attack and physical security attack",
+      "C. SQL injection and buffer overflow attack",
+      "D. DNS and ARP poisoning"
+    ],
+    "answer": "C. SQL injection and buffer overflow attack"
+  },
+  {
+    "question": "Marry wants to follow an iterative and incremental approach to prioritize requirements in order to protect the important assets of an organization against attacks. She wants to set the requirements based on the order of priority, where the most important requirement must be met before, for a greater chance of success. She wants to apply prioritization tasks, scenarios, use cases, tests, and so on. Which of the following methodologies should Marry use to prioritize the requirements?",
+    "options": [
+      "A. MoSCow",
+      "B. Data sampling",
+      "C. Fusion analysis",
+      "D. Data visualization"
+    ],
+    "answer": "A. MoSCow"
+  },
+  {
+    "question": "A consortium was established in a collaborative effort to strengthen the cybersecurity posture of multiple organizations within an industry sector. The participating entities decided to adopt a threat intelligence exchange architecture in which all threat data is collected, analyzed, and disseminated through a single central hub. What type of threat intelligence exchange architecture was implemented in this scenario?",
+    "options": [
+      "A. Hybrid exchange architecture",
+      "B. Federated exchange architecture",
+      "C. Decentralized exchange architecture",
+      "D. Centralized exchange architecture"
+    ],
+    "answer": "D. Centralized exchange architecture"
+  },
+  {
+    "question": "While analyzing a series of security incidents, you notice a pattern of attacks originating from specific geographical locations. To gain deeper insight into the spatial aspects of these threats, what contextualization method would you employ to understand the geographic origin and distribution of the attacks?",
+    "options": [
+      "A. Policy context",
+      "B. Historical context",
+      "C. Spatial context",
+      "D. Temporal context"
+    ],
+    "answer": "C. Spatial context"
+  },
+  {
+    "question": "Tech Knights Inc., a small-scale company, has decided to share the intelligence information with various organizations using a nonprofit association that provides a secure place to accumulate and share the information about the cyber threats in the industry, and it also provides an extended service of data analysis to the organizational network. Which of the following types of sharing organizations should Tech Knights Inc. use to share information?",
+    "options": [
+      "A. Information sharing and analysis centers (ISACs)",
+      "B. Trading partners",
+      "C. Informal contacts",
+      "D. Commercial vendors"
+    ],
+    "answer": "A. Information sharing and analysis centers (ISACs)"
+  },
+  {
+    "question": "The cybersecurity team seeks to enhance its threat hunting capabilities in a large enterprise. They plan to search systematically and proactively for adversaries within their networks. What types of threat hunting approaches are they most likely to adopt, involving predefined processes, methodologies, and frameworks for their investigation?",
+    "options": [
+      "A. Situational threat hunting",
+      "B. Structured threat hunting",
+      "C. Unstructured threat hunting",
+      "D. Entity-driven threat hunting"
+    ],
+    "answer": "B. Structured threat hunting"
+  },
+  {
+    "question": "In which of the following phases of the threat intelligence lifecycle is raw data converted into meaningful information by highly trained professionals using sophisticated technology and tools?",
+    "options": [
+      "A. Data collection",
+      "B. Analysis and production",
+      "C. Processing and exploitation",
+      "D. Planning and direction"
+    ],
+    "answer": "B. Analysis and production"
+  },
+  {
+    "question": "John, a threat intelligence analyst in Cybertech Company, was asked to obtain information that provides greater insight into the current cyber risks. To gather such information, John needs to find the answer of the following questions: Why the organization might be attacked? How the organization might be attacked? Who might be the intruders? Identity the type of security testing John is going to perform.",
+    "options": [
+      "A. White box testing",
+      "B. Black box testing",
+      "C. Intelligence-led security testing",
+      "D. Performance testing"
+    ],
+    "answer": "C. Intelligence-led security testing"
+  },
+  {
+    "question": "Which component of risk management involves evaluating and ranking risks based on their significance, allowing organizations to focus resources on addressing the most critical threats?",
+    "options": [
+      "A. Risk identification",
+      "B. Risk mitigation",
+      "C. Risk prioritization",
+      "D. Risk assessment"
+    ],
+    "answer": "C. Risk prioritization"
+  },
+  {
+    "question": "CalSoft is a large-scale organization that wants to establish a certain level of trust before sharing intelligence within the organization. As various departments in the organization share information frequently, they decided to use different trust models for different departments. In addition, the organization acts as a provider of threat intelligence to all connected members and organizations. Which of the following organizational trust models should be used by CalSoft?",
+    "options": [
+      "A. Mandated trust",
+      "B. Hybrid trust",
+      "C. Mediated trust",
+      "D. Validated trust"
+    ],
+    "answer": "B. Hybrid trust"
+  },
+  {
+    "question": "Kira works as a security analyst in an organization. She was asked to define and set up the requirements before collecting threat intelligence information. The requirements should focus on what must be collected in order to fulfil production intelligence. Which of the following categories of threat intelligence requirements should Kira focus on?",
+    "options": [
+      "A. Production requirements",
+      "B. Business requirements",
+      "C. Collection requirements",
+      "D. Intelligence requirements"
+    ],
+    "answer": "C. Collection requirements"
+  },
+  {
+    "question": "Jacob, a professional hacker, created an exact replica of an online shopping website. He copied the entire contents of the original website onto the local system that enables him to create a dummy spam website for performing social engineering attacks over the employees. What type of technique did Jacob use for cloning the website?",
+    "options": [
+      "A. Data sampling",
+      "B. Social engineering",
+      "C. Tailgating",
+      "D. Website mirroring"
+    ],
+    "answer": "D. Website mirroring"
+  },
+  {
+    "question": "John is a lead cybersecurity analyst preparing to gather threat intelligence for client organization. Arrange the following steps in the correct sequence, outlining the process that John would follow to plan an effective threat intelligence collection: 1. Structuring/normalization 2. Sharing information 3. Data collection 4. Storing and visualizing data",
+    "options": [
+      "A. 3 -> 1 -> 4 -> 2",
+      "B. 2 -> 1 -> 4 -> 3",
+      "C. 1 -> 2 -> 3 -> 4",
+      "D. 4 -> 3 -> 2 -> 1"
+    ],
+    "answer": "A. 3 -> 1 -> 4 -> 2"
+  },
+  {
+    "question": "Henry, working as a threat analyst in an organization named MylesTech, wants to share gathered intelligence. He wants to share the intelligence with a broad range of communities that can be trusted more, but the sensitivity of information is less. Which of the following tiers of the sharing model must be employed by Henry?",
+    "options": [
+      "A. Multitier",
+      "B. Private tier",
+      "C. Targeted tier",
+      "D. Public tier"
+    ],
+    "answer": "D. Public tier"
+  },
+  {
+    "question": "What term describes the trust establishment process, wherein the first organization relies on a body of evidence presented to the second organization, and the level of trust is contingent upon the degree and quality of evidence provided by the initiating organization?",
+    "options": [
+      "A. Mandated trust",
+      "B. Direct historical trust",
+      "C. Mediated trust",
+      "D. Validated trust"
+    ],
+    "answer": "D. Validated trust"
+  },
+  {
+    "question": "Steve is working as an analyst for Highlanders & Co. While performing data analysis, he used a method in which he included a list of all activities required to complete the project, time, dependencies, and logical endpoints such as milestones to acquire information about the relationship between various activities and the period of the activities obtained. Which of the following data analysis methods was used by Steve?",
+    "options": [
+      "A. Timeline analysis",
+      "B. Analogy analysis",
+      "C. Cone of plausibility",
+      "D. Critical path analysis"
+    ],
+    "answer": "D. Critical path analysis"
+  },
+  {
+    "question": "Organizations must choose a right threat intelligence platform to assess and leverage intelligence information, monitor multiple enforcement points, manage intelligence feeds, and select appropriate security for the digital assets. Which of the following key factors ensures that the TI platform offers a structured way to perform investigations on attacks by processing the threat intelligence and utilizing the internal security controls to automate the detection process?",
+    "options": [
+      "A. Search",
+      "B. Workflow",
+      "C. Scoring",
+      "D. Open"
+    ],
+    "answer": "B. Workflow"
+  },
+  {
+    "question": "In which of the following levels of the threat hunting maturity model (HMM) does an organization use threat intelligence to search for anomalies in the network, follow the latest threat reports gathered from open and closed sources, and use open-source tools for analysis?",
+    "options": [
+      "A. Level 2: Procedural",
+      "B. Level 4: Leading",
+      "C. Level 3: Innovative",
+      "D. Level 1: Minimal"
+    ],
+    "answer": "A. Level 2: Procedural"
+  },
+  {
+    "question": "Flora, a threat intelligence analyst at PanTech Cyber Solutions, is working on a threat intelligence program. She is trying to collect the company's crucial information through online job sites. Which of the following information will Flora obtain through job sites?",
+    "options": [
+      "A. Open ports and services",
+      "B. Hardware and software information, network-related information, and technologies used by the company",
+      "C. Employee details and social security numbers",
+      "D. Top-level domains and subdomains of the company"
+    ],
+    "answer": "B. Hardware and software information, network-related information, and technologies used by the company"
+  },
+  {
+    "question": "You are a Security Operations Center (SOC) analyst responsible for monitoring and safeguarding the organization's network. During routine activities, identify a potential vulnerability that can expose critical systems to exploitation. In what specific aspects of cybersecurity would you actively engage in when addressing and mitigating this vulnerability?",
+    "options": [
+      "A. Threat intelligence analysis",
+      "B. Vulnerability management",
+      "C. Security awareness training",
+      "D. Incident response"
+    ],
+    "answer": "B. Vulnerability management"
+  },
+  {
+    "question": "To extract useful intelligence from the gathered bulk data and to improve the efficiency of the composite bulk data, Sam, a threat analyst, follows a data analysis method where he creates a logical sequence of events based on the assumptions of an adversary's proposed actions, mechanisms, indicators, and implications. To develop accurate predictions, he further takes into consideration the important factors including bad actors, methods, vulnerabilities, targets, and so on. Which of the following data analysis methods is used by Sam to extract useful intelligence out of bulk data?",
+    "options": [
+      "A. Critical path analysis",
+      "B. Linchpin analysis",
+      "C. Opportunity analysis",
+      "D. Analogy analysis"
+    ],
+    "answer": "B. Linchpin analysis"
+  },
+  {
+    "question": "You are the leading cybersecurity analyst at financial institutions. An anomaly is detected in the network, suggesting a potential security threat. To proactively investigate and mitigate the risk, arrange the following steps in the correct sequence as part of the threat hunting process: 1) Investigation 2) Collect and process data 3) Response 4) Hypothesis 5) Trigger",
+    "options": [
+      "A. 5 -> 3 -> 1 -> 4 -> 2",
+      "B. 3 -> 2 -> 5 -> 1 -> 4",
+      "C. 4 -> 1 -> 3 -> 5 -> 2",
+      "D. 4 -> 2 -> 5 -> 1 -> 3"
+    ],
+    "answer": "D. 4 -> 2 -> 5 -> 1 -> 3"
+  },
+  {
+    "question": "Jamie, an analyst, was asked to perform statistical data analysis process on the acquired data. While performing the analysis, he used conditional probability method so as to understand the data and build insights for response actions based on it. What stage of the statistical data analysis is Jamie currently in?",
+    "options": [
+      "A. Data preparation",
+      "B. Data correlation",
+      "C. Data validation",
+      "D. Data classification"
+    ],
+    "answer": "B. Data correlation"
+  },
+  {
+    "question": "Mario is working as an analyst in an XYZ organization in the United States. He has been asked to prepare a threat landscape report to provide in-depth awareness and greater insight into the threats his organization is facing. Which of the following details should she include to prepare a threat landscape report?",
+    "options": [
+      "A. History of an attack and location where it was performed",
+      "B. Attacker's motivation and intention behind the attack",
+      "C. Attribution of an attack to specific threat actor or group",
+      "D. A summary of threat actors most likely targeting the organization along with their motivations, intentions, and TTPs."
+    ],
+    "answer": "D. A summary of threat actors most likely targeting the organization along with their motivations, intentions, and TTPs."
+  },
+  {
+    "question": "Philip, a professional hacker, is planning to attack an organization. In order to collect information, he covertly collects information from the target person by maintaining a personal or other relationship with the target person. Which of the following intelligence sources is used by Philip to collect information about the target organization?",
+    "options": [
+      "A. SOCMINT",
+      "B. FLU",
+      "C. CHIS",
+      "D. MASINT"
+    ],
+    "answer": "C. CHIS"
+  },
+  {
+    "question": "As the CEO of a multinational corporation, you focus on making decisions that align with the organization's long-term goals and overall business strategies. What type of threat intelligence would be most valuable in guiding your decisions to enhance a company's resilience against emerging cyber threats?",
+    "options": [
+      "A. Strategic threat intelligence",
+      "B. Tactical threat intelligence",
+      "C. Technical threat intelligence",
+      "D. Operational threat intelligence"
+    ],
+    "answer": "A. Strategic threat intelligence"
+  },
+  {
+    "question": "Marie, a threat analyst at an organization named TechSavvy, was asked to perform operational threat intelligence analysis to get contextual information about security events and incidents. Which of the following sources does Marie need to use to perform operational threat intelligence analysis?",
+    "options": [
+      "A. Activity-related attacks, social media sources, chat room conversations",
+      "B. Activity-related attacks, social media sources, chat room",
+      "C. OSINT, security industry white papers, human contacts",
+      "D. Malware indicators, network indicators, e-mail indicators"
+    ],
+    "answer": "A. Activity-related attacks, social media sources, chat room conversations"
+  },
+  {
+    "question": "Two cybersecurity teams from different organizations joined forces to combat a rapidly evolving malware campaign targeting their industry. They exchange real-time information about the attackers' techniques, compromised systems, and immediate defensive actions. What type of threat intelligence sharing characterizes this collaboration?",
+    "options": [
+      "A. Sharing technical threat intelligence",
+      "B. Sharing strategic threat intelligence",
+      "C. Sharing operational threat intelligence",
+      "D. Sharing tactical threat intelligence"
+    ],
+    "answer": "C. Sharing operational threat intelligence"
+  },
+  {
+    "question": "An organization, namely, Highlander, Inc., decided to integrate threat intelligence into the incident response process for rapid detection and recovery from various security incidents. In which of the following phases of the incident response management does the organization utilize operational and tactical threat intelligence to provide context to the alerts generated by various security mechanisms?",
+    "options": [
+      "A. Phase 2: event",
+      "B. Phase 1: incident",
+      "C. Phase 3: preplanning",
+      "D. Phase 4: breach"
+    ],
+    "answer": "C. Phase 3: preplanning"
+  },
+  {
+    "question": "James, a senior threat intelligence officer, was tasked with assessing the success and failure of the threat intelligence program established by the organization. As part of the assessment, James reviewed the outcome of the intelligence program, determined if any improvements were required in the program, and identified the past learnings that can be applied to the future program. Identify the activity performed by James in the above scenario.",
+    "options": [
+      "A. Determine the costs and benefits associated with the program",
+      "B. Determine the fulfillment of stakeholders",
+      "C. Report findings and recommendations",
+      "D. Conduct a gap analysis"
+    ],
+    "answer": "C. Report findings and recommendations"
+  },
+  {
+    "question": "A threat analyst working in XYZ Company was asked to perform threat intelligence analysis. During the information collection phase, he used a social engineering technique where he pretended to be a legitimate or authorized person. Using this technique, he gathered sensitive information by scanning terminals for passwords, searching important documents on the desks, rummaging bins, and so on. Which of the following social engineering techniques was used by the analyst for information collection?",
+    "options": [
+      "A. Shoulder surfing",
+      "B. Impersonation",
+      "C. Dumpster diving",
+      "D. Piggybacking"
+    ],
+    "answer": "B. Impersonation"
+  },
+  {
+    "question": "An autonomous robot was deployed to navigate and learn about the environment. Through a trial-and-error process, the robot refines its actions based on positive or negative feedback to maximize cumulative rewards. What type of machine learning will the robot employ in this scenario?",
+    "options": [
+      "A. Unsupervised learning",
+      "B. Semi-supervised learning",
+      "C. Reinforcement learning",
+      "D. Supervised learning"
+    ],
+    "answer": "C. Reinforcement learning"
   }
 ]
