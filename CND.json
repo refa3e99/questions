@@ -1,0 +1,3602 @@
+[
+    {
+        "question": "Katie has implemented the RAID level that split data into blocks and evenly write the data to multiple hard drives but does not provide data redundancy. This type of RAID level requires a minimum of in order to setup.",
+        "options": [
+            "Four drives",
+            "Three drives",
+            "Two drives",
+            "Six drives"
+        ],
+        "answer": "Two drives"
+    },
+    {
+        "question": "Arman transferred some money to his friend’s account using a net banking service. After a few hours, his friend informed him that he hadn’t received the money yet. Arman logged on to the bank’s website to investigate and discovered that the amount had been transferred to an unknown account instead. The bank, upon receiving Arman’s complaint, discovered that someone had established a station between Arman’s and the bank server’s communication system. The station intercepted the communication and inserted another account number replacing his friend’s account number. What is such an attack called?",
+        "options": [
+            "Privilege Escalation",
+            "DNS Poisoning",
+            "Man-in-the-Middle Attack",
+            "DNS Cache Poisoning"
+        ],
+        "answer": "Man-in-the-Middle Attack"
+    },
+    {
+        "question": "You are monitoring your network traffic with the Wireshark utility and noticed that your network is experiencing a large amount of traffic from a certain region. You suspect a DoS incident on the network. What will be your first reaction as a first responder?",
+        "options": [
+            "Avoid Fear, Uncertainty and Doubt",
+            "Communicate the incident",
+            "Make an initial assessment",
+            "Disable Virus Protection"
+        ],
+        "answer": "Make an initial assessment"
+    },
+    {
+        "question": "James wants to implement certain control measures to prevent denial-of-service attacks against the organization. Which of the following control measures can help James?",
+        "options": [
+            "Strong passwords",
+            "Reduce the sessions time-out duration for the connection attempts",
+            "A honeypot in DMZ",
+            "Provide network-based anti-virus"
+        ],
+        "answer": "A honeypot in DMZ"
+    },
+    {
+        "question": "Peter works as a network administrator at an IT company. He wants to avoid exploitation of the cloud, particularly Azure services. Which of the following is a group of PowerShell scripts designed to help the network administrator understand how attacks happen and help them protect the cloud?",
+        "options": [
+            "MicroBurst",
+            "POSH -Sysmon",
+            "SecurityPolicyDsc",
+            "Sysmon"
+        ],
+        "answer": "MicroBurst"
+    },
+    {
+        "question": "Daniel who works as a network administrator has just deployed an in his organizations network. He wants to calculate the False Positive rate for his implementation. Which of the following formulas will he use to calculate the False Positive rate?",
+        "options": [
+            "False Positive/False Positive+True Negative",
+            "True Negative/False Negative+True Positive",
+            "False Negative/False Negative+True Positive",
+            "False Negative/True Negative+True Positive"
+        ],
+        "answer": "False Positive/False Positive+True Negative"
+    },
+    {
+        "question": "Rosa is working as a network defender at Linda Systems. Recently, the company migrated from Windows to MacOS. Rosa wants to view the security related logs of her system, where con she find these logs?",
+        "options": [
+            "/private/var/log",
+            "/var/log/cups/access-log",
+            "/Library/Logs/Sync",
+            "/Library/Logs"
+        ],
+        "answer": "/private/var/log"
+    },
+    {
+        "question": "Which command is used to change the permissions of a file or directory?",
+        "options": [
+            "rmdir",
+            "systemctl",
+            "kill",
+            "chmod"
+        ],
+        "answer": "chmod"
+    },
+    {
+        "question": "Ryan, a network security engineer, after a recent attack, is trying to get information about the kind of attack his users were facing. He has decided to put into production one honeypot called Kojoney. He is interested in emulating the network vulnerability, rather than the real vulnerability system, making this probe safer and more flexible. Which type of honeypot is he trying to implement?",
+        "options": [
+            "Research honeypot",
+            "High interaction honeypots",
+            "Low interaction honeypots",
+            "Pure honeypots"
+        ],
+        "answer": "Low interaction honeypots"
+    },
+    {
+        "question": "Which of the following acts as a verifier for the certificate authority?",
+        "options": [
+            "Certificate Management system",
+            "Certificate authority",
+            "Directory management system",
+            "Registration authority"
+        ],
+        "answer": "Registration authority"
+    },
+    {
+        "question": "Riya bought some clothes and a watch from an online shopping site a few days back. Since then, whenever she accesses any other application (games, browser, etc.) on her mobile, she is spammed with advertisements for clothes and watches similar to the ones she bought. What can be the underlying reason for Riya’s situation?",
+        "options": [
+            "Ria’s system was infected by Adware",
+            "Ria’s system was infected by Spyware",
+            "Ria’s system was infected by Backdoor",
+            "Ria’s system was infected by Rootkit"
+        ],
+        "answer": "Ria’s system was infected by Adware"
+    },
+    {
+        "question": "What defines the maximum time period an organization is willing to lose data during a major IT outage event?",
+        "options": [
+            "BC",
+            "RTO",
+            "DR",
+            "RPO"
+        ],
+        "answer": "RPO"
+    },
+    {
+        "question": "Which of the following things need to be identified during attack surface visualization?",
+        "options": [
+            "Attacker’s tools, techniques, and procedures",
+            "Authentication, authorization, and auditing in networks",
+            "Regulatory frameworks, standards and, procedures for organizations",
+            "Assets, topologies, and policies of the organization"
+        ],
+        "answer": "Assets, topologies, and policies of the organization"
+    },
+    {
+        "question": "An attacker uses different types of password cracking techniques to crack the password and gain unauthorized access to a system. An attacker uses a file containing a list of commonly used passwords. They then upload this file into the cracking application that runs against the user accounts. Which of the following password cracking techniques is the attacker trying?",
+        "options": [
+            "Bruteforce",
+            "Rainbow table",
+            "Hybrid",
+            "Dictionary"
+        ],
+        "answer": "Dictionary"
+    },
+    {
+        "question": "Which biometric technique authenticates people by analyzing the layer of blood vessels at the back of their eyes?",
+        "options": [
+            "Fingerprinting",
+            "Iris Scanning",
+            "Retina Scanning",
+            "Vein Structure Recognition"
+        ],
+        "answer": "Retina Scanning"
+    },
+    {
+        "question": "Michael decides to view the to track employee actions on the organization's network.",
+        "options": [
+            "Firewall policy",
+            "Firewall log",
+            "Firewall settings",
+            "Firewall rule set"
+        ],
+        "answer": "Firewall log"
+    },
+    {
+        "question": "How is the chip-level security of an loT device achieved?",
+        "options": [
+            "Encrypting JTAC interface",
+            "Keeping the device on a that network",
+            "Closing insecure network services",
+            "Changing the password of the router"
+        ],
+        "answer": "Closing insecure network services"
+    },
+    {
+        "question": "Identify the spread spectrum technique that multiplies the original data signal with a pseudo random noise spreading code.",
+        "options": [
+            "FHSS",
+            "DSSS",
+            "OFDM",
+            "ISM"
+        ],
+        "answer": "DSSS"
+    },
+    {
+        "question": "John, who works as a team lead in Zen Technologies, found that his team members were accessing social networking sites, shopping sites and watching movies during office hours. He approached the network admin to block such websites. What kind of network security device can be used to implement John’s decision?",
+        "options": [
+            "Firewall",
+            "Internet Content Filter",
+            "Proxy server",
+            "Network Protocol Analyzer"
+        ],
+        "answer": "Internet Content Filter"
+    },
+    {
+        "question": "Which risk management phase helps in establishing context and quantifying risks?",
+        "options": [
+            "Risk identification",
+            "Risk assessment",
+            "Risk review",
+            "Risk treatment"
+        ],
+        "answer": "Risk assessment"
+    },
+    {
+        "question": "Sean has built a site-to-site VPN architecture between the head office and the branch office of his company. When users in the branch office and head office try to communicate with each other, the traffic is encapsulated. As the traffic passes though the gateway, it is encapsulated again. The header and payload both are encapsulated. This second encapsulation occurs only in the implementation of a VPN.",
+        "options": [
+            "Full Mesh Mode",
+            "Point-to-Point Mode",
+            "Transport Mode",
+            "Tunnel Mode"
+        ],
+        "answer": "Tunnel Mode"
+    },
+    {
+        "question": "In what type of IoT communication model do devices interact with each other through the internet, primarily using protocols such as ZigBee, Z-Wave, or Bluetooth?",
+        "options": [
+            "Back-End Data-Sharing Model",
+            "Device-to-Gateway Model",
+            "Device-to-Cloud Model",
+            "Device-to-Device Model"
+        ],
+        "answer": "Device-to-Device Model"
+    },
+    {
+        "question": "Frank is a network technician working for a medium-sized law firm in Memphis. Frank and two other IT employees take care of all the technical needs for the firm. The firm's partners have asked that a secure wireless network be implemented in the office so employees can move about freely without being tied to a network cable. While Frank and his colleagues are familiar with wired Ethernet technologies, 802.3, they are not familiar with how to setup wireless in a business environment. What IEEE standard should Frank and the other IT employees follow to become familiar with wireless?",
+        "options": [
+            "The IEEE standard covering wireless is 802.9 and they should follow this.",
+            "802.7 covers wireless standards and should be followed",
+            "They should follow the 802.11 standard",
+            "Frank and the other IT employees should follow the 802.1 standard."
+        ],
+        "answer": "They should follow the 802.11 standard"
+    },
+    {
+        "question": "Mark is monitoring the network traffic on his organization's network. He wants to detect a TCP and UDP ping sweep on his network. Which type of filter will be used to detect this on the network?",
+        "options": [
+            "Tcp.srcport==7 and udp.srcport==7",
+            "Tcp.srcport==7 and udp.dstport==7",
+            "Tcp.dstport==7 and udp.srcport==7",
+            "Tcp.dstport==7 and udp.dstport==7"
+        ],
+        "answer": "Tcp.dstport==7 and udp.dstport==7"
+    },
+    {
+        "question": "How is application whitelisting different from application blacklisting?",
+        "options": [
+            "It allows all applications other than the undesirable applications",
+            "It allows execution of trusted applications in a unified environment",
+            "It allows execution of untrusted applications in an isolated environment",
+            "It rejects all applications other than the allowed applications"
+        ],
+        "answer": "It rejects all applications other than the allowed applications"
+    },
+    {
+        "question": "Which OSI layer does a Network Interface Card (NIC) work on?",
+        "options": [
+            "Physical layer",
+            "Presentation layer",
+            "Network layer",
+            "Session layer"
+        ],
+        "answer": "Physical layer"
+    },
+    {
+        "question": "Which of the Windows security component is responsible for controlling access of a user to Windows resources?",
+        "options": [
+            "Network Logon Service (Netlogon)",
+            "Security Accounts Manager (SAM)",
+            "Security Reference Monitor (SRM)",
+            "Local Security Authority Subsystem (LSASS)"
+        ],
+        "answer": "Security Reference Monitor (SRM)"
+    },
+    {
+        "question": "If Myron, head of network defense at Cyberdyne, wants to change the default password policy settings on the company’s Linux systems, which directory should he access?",
+        "options": [
+            "/etc/logrotate.conf",
+            "/etc/hosts.allow",
+            "/etc/crontab",
+            "/etc/login.defs"
+        ],
+        "answer": "/etc/login.defs"
+    },
+    {
+        "question": "Which wireless networking topology setup requires same channel name and SSID?",
+        "options": [
+            "Ad-Hoc standalone network architecture",
+            "Infrastructure network topology",
+            "Hybrid topology",
+            "Mesh topology"
+        ],
+        "answer": "Infrastructure network topology"
+    },
+    {
+        "question": "Which firewall technology can filler application-specific commands such as CET and POST requests?",
+        "options": [
+            "Circuit-level gateways",
+            "Application-level gateways",
+            "Application proxy",
+            "Stateful multi-layer inspection"
+        ],
+        "answer": "Application-level gateways"
+    },
+    {
+        "question": "Kyle is an IT technician managing 25 workstations and 4 servers. The servers run applications and mostly store confidential data. Kyle must backup the server's data daily to ensure nothing is lost. The power in the company's office is not always reliable, Kyle needs to make sure the servers do not go down or are without power for too long. Kyle decides to purchase an Uninterruptible Power Supply (UPS) that has a pair of inverters and converters to charge the battery and provides power when needed. What type of UPS has Kyle purchased?",
+        "options": [
+            "Kyle purchased a Ferro resonant Standby UPS.",
+            "Kyle purchased a Line-Interactive UPS",
+            "He has bought a Standby UPS",
+            "He purchased a True Online UPS."
+        ],
+        "answer": "He purchased a True Online UPS."
+    },
+    {
+        "question": "Malone is finishing up his incident handling plan for IT before giving it to his boss for review. He is outlining the incident response methodology and the steps that are involved. What is the last step he should list?",
+        "options": [
+            "Assign eradication.",
+            "Recovery",
+            "Containment",
+            "A follow-up."
+        ],
+        "answer": "A follow-up."
+    },
+    {
+        "question": "Which of the following intrusion detection techniques observes the network for abnormal usage patterns by determining the performance parameters for regular activities and monitoring for actions beyond the normal parameters?",
+        "options": [
+            "Signature/Pattern matching",
+            "Stateful protocol analysis",
+            "None of these",
+            "Statistical anomaly detection"
+        ],
+        "answer": "Statistical anomaly detection"
+    },
+    {
+        "question": "Phishing-like attempts that present users a fake usage bill of the cloud provider is an example of a:",
+        "options": [
+            "Cloud to service attack surface",
+            "User to service attack surface",
+            "User to cloud attack surface",
+            "Cloud to user attack surface"
+        ],
+        "answer": "Cloud to user attack surface"
+    },
+    {
+        "question": "You are using Wireshark to monitor your network traffic and you see a lot of packages with FIN, PUSH and URG flags activated; what can you infer about this behavior?",
+        "options": [
+            "The Layer 3 Controls are activated in the Switches",
+            "The Spanning Tree Protocol is activated in the Switches",
+            "One NIC is broadcasting erroneous traffic",
+            "An attacker is running a XMAS scan against the network"
+        ],
+        "answer": "An attacker is running a XMAS scan against the network"
+    },
+    {
+        "question": "Rick has implemented several firewalls and IDS systems across his enterprise network. What should he do to effectively correlate all incidents that pass through these security controls?",
+        "options": [
+            "Use firewalls in Network Address Transition (NAT) mode",
+            "Implement IPsec",
+            "Implement Simple Network Management Protocol (SNMP)",
+            "Use Network Time Protocol (NTP)"
+        ],
+        "answer": "Use Network Time Protocol (NTP)"
+    },
+    {
+        "question": "Dan and Alex are business partners working together. Their Business-Partner Policy states that they should encrypt their emails before sending to each other. How will they ensure the authenticity of their emails?",
+        "options": [
+            "Dan will use his public key to encrypt his mails while Alex will use Dan's digital signature to verify the authenticity of the mails.",
+            "Dan will use his private key to encrypt his mails while Alex will use his digital signature to verify the authenticity of the mails.",
+            "Dan will use his digital signature to sign his mails while Alex will use his private key to verify the authenticity of the mails.",
+            "Dan will use his digital signature to sign his mails while Alex will use Dan's public key to verify the authencity of the mails."
+        ],
+        "answer": "Dan will use his digital signature to sign his mails while Alex will use Dan's public key to verify the authencity of the mails."
+    },
+    {
+        "question": "Identify the attack signature analysis technique carried out when attack signatures are contained in packet headers.",
+        "options": [
+            "Atomic signature-based analysis",
+            "Context-based signature analysis",
+            "Composite signature-based analysis",
+            "Content-based signature analysis"
+        ],
+        "answer": "Atomic signature-based analysis"
+    },
+    {
+        "question": "Steven's company has recently grown from 5 employees to over 50. Every workstation has a public IP address and navigated to the Internet with little to no protection. Steven wants to use a firewall. He also wants IP addresses to be private addresses, to prevent public Internet devices direct access to them. What should Steven implement on the firewall to ensure this happens?",
+        "options": [
+            "Steven should use a Demilitarized Zone (DMZ)",
+            "Steven should use Open Shortest Path First (OSPF)",
+            "Steven should use IPsec",
+            "Steven should enabled Network Address Translation(NAT)"
+        ],
+        "answer": "Steven should enabled Network Address Translation(NAT)"
+    },
+    {
+        "question": "The network administrator wants to strengthen physical security in the organization. Specifically, to implement a solution stopping people from entering certain restricted zones without proper credentials. Which of following physical security measures should the administrator use?",
+        "options": [
+            "Bollards",
+            "Fence",
+            "Video surveillance",
+            "Mantrap"
+        ],
+        "answer": "Mantrap"
+    },
+    {
+        "question": "In Public Key Infrastructure (PKI), which authority is responsible for issuing and verifying the certificates?",
+        "options": [
+            "Registration authority",
+            "Certificate authority",
+            "Digital Certificate authority",
+            "Digital signature authority"
+        ],
+        "answer": "Certificate authority"
+    },
+    {
+        "question": "The SNMP contains various commands that reduce the burden on the network administrators. Which of the following commands is used by SNMP agents to notify SNMP managers about an event occurring in the network?",
+        "options": [
+            "SET",
+            "TRAPS",
+            "INFORM",
+            "RESPONSE"
+        ],
+        "answer": "TRAPS"
+    },
+    {
+        "question": "A company wants to implement a data backup method that allows them to encrypt the data ensuring its security as well as access it at any time and from any location. What is the appropriate backup method that should be implemented?",
+        "options": [
+            "Cloud backup",
+            "Offsite backup",
+            "Hot site backup",
+            "Onsite backup"
+        ],
+        "answer": "Cloud backup"
+    },
+    {
+        "question": "Jason has set a firewall policy that allows only a specific list of network services and denies everything else. This strategy is known as a .",
+        "options": [
+            "Default allow",
+            "Default access",
+            "Default accept",
+            "Default deny"
+        ],
+        "answer": "Default deny"
+    },
+    {
+        "question": "Which of the following can be used to disallow a system/user from accessing all applications except a specific folder on a system?",
+        "options": [
+            "Hash rule",
+            "Path rule",
+            "Internet zone rule",
+            "Certificate rule"
+        ],
+        "answer": "Path rule"
+    },
+    {
+        "question": "Which of the following is an example of Indicators of Attack?",
+        "options": [
+            "Malware",
+            "Signatures",
+            "Exploits",
+            "Remote code execution"
+        ],
+        "answer": "Exploits"
+    },
+    {
+        "question": "Management asked Adam to implement a system allowing employees to use the same credentials to access multiple applications. Adam should implement the authentication technique to satisfy the management request.",
+        "options": [
+            "Two-factor Authentication",
+            "Smart Card Authentication",
+            "Single-sign-on",
+            "Biometric"
+        ],
+        "answer": "Single-sign-on"
+    },
+    {
+        "question": "Based on which of the following registry key, the Windows Event log audit configurations are recorded?",
+        "options": [
+            "HKEY_LOCAL_MACHINE\\SYSTEM\\Services\\EventLog\\ < ErrDev >",
+            "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\EventLog\\ < EntAppsvc >",
+            "HKEY_LOCAL_MACHINE\\CurrentControlSet\\Services\\EventLog\\< ESENT >",
+            "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\EventLog\\ < Event Log >"
+        ],
+        "answer": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\EventLog\\ < Event Log >"
+    },
+    {
+        "question": "Smith is an IT technician that has been appointed to his company's network vulnerability assessment team. He is the only IT employee on the team. The other team members include employees from Accounting, Management, Shipping, and Marketing. Smith and the team members are having their first meeting to discuss how they will proceed. What is the first step they should do to create the network vulnerability assessment plan?",
+        "options": [
+            "Their first step is to analyze the data they have currently gathered from the company or interviews.",
+            "Their first step is to make a hypothesis of what their final findings will be.",
+            "Their first step is to create an initial Executive report to show the management team.",
+            "Their first step is the acquisition of required documents, reviewing of security policies and compliance."
+        ],
+        "answer": "Their first step is the acquisition of required documents, reviewing of security policies and compliance."
+    },
+    {
+        "question": "The CEO of Max Rager wants to send a confidential message regarding the new formula for its coveted soft drink, SuperMax, to its manufacturer in Texas. However, he fears the message could be altered in transit. How can he prevent this incident from happening and what element of the message ensures the success of this method?",
+        "options": [
+            "Hashing; hash code",
+            "Symmetric encryption; secret key",
+            "Hashing; public key",
+            "Asymmetric encryption; public key"
+        ],
+        "answer": "Hashing; hash code"
+    },
+    {
+        "question": "Lyle is the IT director for a medium-sized food service supply company in Nebraska. Lyle's company employs over 300 workers, half of which use computers. He recently came back from a security training seminar on logical security. He now wants to ensure his company is as secure as possible. Lyle has many network nodes and workstation nodes across the network. He does not have much time for implementing a network-wide solution. He is primarily concerned about preventing any external attacks on the network by using a solution that can drop packets if they are found to be malicious. Lyle also wants this solution to be easy to implement and be network-wide. What type of solution would be best for Lyle?",
+        "options": [
+            "A NEPT implementation would be the best choice.",
+            "To better serve the security needs of his company, Lyle should use a HIDS system.",
+            "Lyle would be best suited if he chose a NIPS implementation",
+            "He should choose a HIPS solution, as this is best suited to his needs."
+        ],
+        "answer": "Lyle would be best suited if he chose a NIPS implementation"
+    },
+    {
+        "question": "Which type of information security policy addresses the implementation and configuration of technology and user behavior?",
+        "options": [
+            "Enterprise information security policy",
+            "Acceptable use policy",
+            "System specific security policy",
+            "Issue-specific security policy"
+        ],
+        "answer": "System specific security policy"
+    },
+    {
+        "question": "Individuals in the organization using system resources against acceptable usage policies indicates which of the following security incident:",
+        "options": [
+            "Malicious Code",
+            "Denial-of-Service ( DoS )",
+            "Improper Usage",
+            "Unauthorized Access"
+        ],
+        "answer": "Improper Usage"
+    },
+    {
+        "question": "Implementing access control mechanisms, such as a firewall, to protect the network is an example of which of the following network defense approach?",
+        "options": [
+            "Proactive approach",
+            "Retrospective approach",
+            "Preventive approach",
+            "Reactive approach"
+        ],
+        "answer": "Preventive approach"
+    },
+    {
+        "question": "How is a “risk” represented?",
+        "options": [
+            "Asset + threat",
+            "Motive (goal) + method",
+            "Asset + threat + vulnerability",
+            "Motive (goal) + method + vulnerability"
+        ],
+        "answer": "Asset + threat + vulnerability"
+    },
+    {
+        "question": "Which of the following provides a set of voluntary recommended cyber security features to include in network-capable loT devices?",
+        "options": [
+            "GCMA",
+            "FCMA",
+            "NIST",
+            "GLBA"
+        ],
+        "answer": "NIST"
+    },
+    {
+        "question": "Which firewall technology provides the best of both packet filtering and application-based filtering and is used in Cisco Adaptive Security Appliances?",
+        "options": [
+            "VPN",
+            "Stateful multilayer inspection",
+            "Application level gateway",
+            "Network address translation"
+        ],
+        "answer": "Stateful multilayer inspection"
+    },
+    {
+        "question": "Mark is monitoring the network traffic on his organization’s network. He wants to detect TCP and UDP ping sweeps on his network. Which type of filter will be used to detect this?",
+        "options": [
+            "tcp.dstport==7 and udp.srcport==7",
+            "tcp.dstport==7 and udp.dstport==7",
+            "tcp.dstport==7 and udp.dstport==7",
+            "tcp.dstport==7 and udp.srcport==7"
+        ],
+        "answer": "tcp.dstport==7 and udp.srcport==7"
+    },
+    {
+        "question": "An employee of a medical service company clicked a malicious link in an email sent by an attacker. Suddenly, employees of the company are not able to access billing information or client record as it is encrypted. The attacker asked the company to pay money for gaining access to their data. Which type of malware attack is described above?",
+        "options": [
+            "Logic bomb",
+            "Rootkits",
+            "Trojan",
+            "Ransomware"
+        ],
+        "answer": "Ransomware"
+    },
+    {
+        "question": "Assume that you are working as a network administrator in the head office of a bank. One day a bank employee informed you that she is unable to log in to her system. At the same time, you get a call from another network administrator informing you that there is a problem connecting to the main server. How will you prioritize these two incidents?",
+        "options": [
+            "Based on approval from management",
+            "Based on a first come first served basis",
+            "Based on a potential technical effect of the incident",
+            "Based on the type of response needed for the incident"
+        ],
+        "answer": "Based on a potential technical effect of the incident"
+    },
+    {
+        "question": "An enterprise recently moved to a new office and the new neighborhood is a little risky. The CEO wants to monitor the physical perimeter and the entrance doors 24 hours. What is the best option to do this job?",
+        "options": [
+            "Install a CCTV with cameras pointing to the entrance doors and the street",
+            "Use fences in the entrance doors",
+            "Use lights in all the entrance doors and along the company's perimeter",
+            "Use an IDS in the entrance doors and install some of them near the corners"
+        ],
+        "answer": "Install a CCTV with cameras pointing to the entrance doors and the street"
+    },
+    {
+        "question": "Which firewall can a network administrator use for better bandwidth management, deep packet inspection, and Hateful inspection?",
+        "options": [
+            "Circuit-level gateway firewall",
+            "Next generation firewall",
+            "Network address translation",
+            "Stateful muIti-layer inspection firewall"
+        ],
+        "answer": "Next generation firewall"
+    },
+    {
+        "question": "Which of the following standards does a cloud service provider has to comply with, to protect the privacy of its customer’s personal information?",
+        "options": [
+            "ISO/IEC 27018",
+            "ISO/IEC 27019",
+            "ISO/IEC 27020",
+            "ISO/IEC 27021"
+        ],
+        "answer": "ISO/IEC 27018"
+    },
+    {
+        "question": "Which of the following commands can be used to disable unwanted services on Debian, Ubuntu and other Debian-based Linux distributions?",
+        "options": [
+            "# chkconfig [service name]off",
+            "# chkconfig [service name] –del",
+            "# service [service name] stop",
+            "# update-rc.d -f [service name] remove"
+        ],
+        "answer": "# update-rc.d -f [service name] remove"
+    },
+    {
+        "question": "Sophie has been working as a Windows network administrator at an MNC over the past 7 years. She wants to check whether SMB1 is enabled or disabled. Which of the following command allows Sophie to do so?",
+        "options": [
+            "Get-WindowsOptionalFeatures -Online -FeatureNames SMB1Protocol",
+            "Get-WindowsOptionalFeature -Online -FeatureName SMB1Protocol",
+            "Get-WindowsOptionalFeature -Online -FeatureNames SMB1Protocol",
+            "Get-WindowsOptionalFeatures -Online -FeatureName SMB1Protocol"
+        ],
+        "answer": "Get-WindowsOptionalFeature -Online -FeatureName SMB1Protocol"
+    },
+    {
+        "question": "Identify the firewall technology that monitors the TCP handshake between the packets to determine whether a requested session is legitimate.",
+        "options": [
+            "Packet Filtering Firewall",
+            "Stateful Multilayer Inspection",
+            "Circuit Level Gateway",
+            "Network Address Translation"
+        ],
+        "answer": "Stateful Multilayer Inspection"
+    },
+    {
+        "question": "You want to increase your network security implementing a technology that only allows certain MAC addresses in specific ports in the switches; which one of the above is the best choice?",
+        "options": [
+            "Port Security",
+            "Port Detection",
+            "Port Authorization",
+            "Port Knocking"
+        ],
+        "answer": "Port Security"
+    },
+    {
+        "question": "What is composite signature-based analysis?",
+        "options": [
+            "Multiple packet analysis is required to detect attack signatures",
+            "Attack signatures are contained in packet headers",
+            "Attack signatures are contained in packet payloads",
+            "Single Packet analysis is enough to identify attack signatures"
+        ],
+        "answer": "Multiple packet analysis is required to detect attack signatures"
+    },
+    {
+        "question": "David is working in a mid-sized IT company. Management asks him to suggest a framework that can be used effectively to align the IT goals to the business goals of the company. David suggests the framework, as it provides a set of controls over IT and consolidates them to form a framework.",
+        "options": [
+            "RMIS",
+            "ITIL",
+            "ISO 27007",
+            "COBIT"
+        ],
+        "answer": "COBIT"
+    },
+    {
+        "question": "Leslie, the network administrator of Livewire Technologies, has been recommending multilayer inspection firewalls to deploy the company’s infrastructure. What layers of the TCP/IP model can it protect?",
+        "options": [
+            "Network interface, TCP, and IP",
+            "Application, TCP, and IP",
+            "IP. application, and network interface",
+            "Application, IP, and network interface"
+        ],
+        "answer": "Application, TCP, and IP"
+    },
+    {
+        "question": "If there is a fire incident caused by an electrical appliance short-circuit, which fire suppressant should be used to control it?",
+        "options": [
+            "Water",
+            "Wet chemical",
+            "Dry chemical",
+            "Raw chemical"
+        ],
+        "answer": "Dry chemical"
+    },
+    {
+        "question": "Which of the following information security standards defines security policies, technologies and ongoing processes for organizations that handle cardholder information for debit, credit, prepaid, epurse, ATM, and POS cards?",
+        "options": [
+            "Health Insurance Portability and Accountability Act (HIPAA)",
+            "Payment Card Industry Data Security Standard (PCI-DSS)",
+            "Information Security Acts: Gramm-Leach-Bliley Act (GLBA)",
+            "Information Security Acts: Sarbanes Oxley Act (SOX)"
+        ],
+        "answer": "Payment Card Industry Data Security Standard (PCI-DSS)"
+    },
+    {
+        "question": "Which of the following Layers of IoT Architecture provides dashboards to monitor, analyze, and implement proactive decisions?",
+        "options": [
+            "Device Layer",
+            "Communication Layer",
+            "Cloud Layer",
+            "Process Layer"
+        ],
+        "answer": "Process Layer"
+    },
+    {
+        "question": "Daniel works as a network administrator in an Information Security company. He has just deployed an IDS in his organization’s network and wants to calculate the false positive rate for his implementation. Which of the following formulae can he use to so?",
+        "options": [
+            "False Negative/False Negative+True Positive",
+            "False Positive/False Positive+True Negative",
+            "True Negative/False Negative+True Positive",
+            "False Negative/True Negative+True positive"
+        ],
+        "answer": "False Positive/False Positive+True Negative"
+    },
+    {
+        "question": "Which of the following is a drawback of traditional perimeter security?",
+        "options": [
+            "Traditional firewalls are static in nature",
+            "Traditional VPNs follow identity centric instead of trust based network centric approach",
+            "Traditional perimeter security is identity-centric",
+            "Traditional firewalls are dynamic in nature"
+        ],
+        "answer": "Traditional firewalls are static in nature"
+    },
+    {
+        "question": "Which of the following incident handling stage removes the root cause of the incident?",
+        "options": [
+            "Eradication",
+            "Recovery",
+            "Detection",
+            "Containment"
+        ],
+        "answer": "Eradication"
+    },
+    {
+        "question": "Which of following are benefits of using loT devices in loT-enabled environments? I. loT device car be connected anytime M. loT device can be connected at any place ill. loT devices connected to anything",
+        "options": [
+            "I, II and III",
+            "I",
+            "II",
+            "I and II"
+        ],
+        "answer": "I, II and III"
+    },
+    {
+        "question": "Which of the following network monitoring techniques requires extra monitoring software or hardware?",
+        "options": [
+            "Non-router based",
+            "Switch based",
+            "Hub based",
+            "Router based"
+        ],
+        "answer": "Switch based"
+    },
+    {
+        "question": "Which field is not included in the TCP header?",
+        "options": [
+            "Source IP address",
+            "Acknowledgment number",
+            "Sequence number",
+            "Source Port"
+        ],
+        "answer": "Source IP address"
+    },
+    {
+        "question": "To provide optimum security while enabling safe/necessary services, blocking known dangerous services, and making employees accountable for their online activity, what Internet Access policy would Brian, the network administrator, have to choose?",
+        "options": [
+            "Prudent policy",
+            "Paranoid policy",
+            "Promiscuous policy",
+            "Permissive policy"
+        ],
+        "answer": "Prudent policy"
+    },
+    {
+        "question": "Damian is the chief security officer of Enigma Electronics. To block intruders and prevent any environmental accidents, he needs to set a two-factor authenticated keypad lock at the entrance, rig a fire suppression system, and link any video cameras at various corridors to view the feeds in the surveillance room. What layer of network defense-in-depth strategy is he trying to follow?",
+        "options": [
+            "Physical",
+            "Perimeter",
+            "Policies and procedures",
+            "Host"
+        ],
+        "answer": "Physical"
+    },
+    {
+        "question": "Which authorization lets users access a requested resource on behalf of others?",
+        "options": [
+            "Explicit Authorization",
+            "Decentralized Authorization",
+            "Implicit Authorization",
+            "Centralized Authorization"
+        ],
+        "answer": "Implicit Authorization"
+    },
+    {
+        "question": "According to standard loT security practice, loT Gateway should be connected to a -------------",
+        "options": [
+            "Border router",
+            "Secure router",
+            "Pouter that is connected to internal servers",
+            "Router that is connected to other subnets"
+        ],
+        "answer": "Border router"
+    },
+    {
+        "question": "Eric is receiving complaints from employees that their systems are very slow and experiencing odd issues including restarting automatically and frequent system hangs. Upon investigating, he is convinced the systems are infected with a virus that forces systems to shut down automatically after period of time. What type of security incident are the employees a victim of?",
+        "options": [
+            "Scans and probes",
+            "Malicious Code",
+            "Denial of service",
+            "Distributed denial of service"
+        ],
+        "answer": "Malicious Code"
+    },
+    {
+        "question": "As a network administrator, you have implemented WPA2 encryption in your corporate wireless network. The WPA2's integrity check mechanism provides security against a replay attack",
+        "options": [
+            "CRC-32",
+            "CRC-MAC",
+            "CBC-MAC",
+            "CBC-32"
+        ],
+        "answer": "CBC-MAC"
+    },
+    {
+        "question": "John is a network administrator and is monitoring his network traffic with the help of Wireshark. He suspects that someone from outside is making a TCP OS fingerprinting attempt on his organization's network. Which of the following Wireshark filter(s) will he use to locate the TCP OS fingerprinting attempt?",
+        "options": [
+            "Tcp.flags==0x2b",
+            "Tcp.flags=0x00",
+            "Tcp.options.mss_val<1460",
+            "Tcp.options.wscale_val==20"
+        ],
+        "answer": "Tcp.options.mss_val<1460"
+    },
+    {
+        "question": "Which of the following includes examining the probability, impact status, and exposure of risk?",
+        "options": [
+            "Risk Review",
+            "Risk Tracking",
+            "Risk Identification",
+            "Risk Assessment"
+        ],
+        "answer": "Risk Assessment"
+    },
+    {
+        "question": "John is working as a network defender at a well-reputed multinational company. He wanted to implement security that can help him identify any future attacks that can be targeted toward his organization and take appropriate security measures and actions beforehand to defend against them. Which one of the following security defense techniques should be implement?",
+        "options": [
+            "Reactive security approach",
+            "Retrospective security approach",
+            "Proactive security approach",
+            "Preventive security approach"
+        ],
+        "answer": "Proactive security approach"
+    },
+    {
+        "question": "Alex is administrating the firewall in the organization's network. What command will he use to check all the remote addresses and ports in numerical form?",
+        "options": [
+            "Netstat -o",
+            "Netstat -a",
+            "Netstat -ao",
+            "Netstat -an"
+        ],
+        "answer": "Netstat -an"
+    },
+    {
+        "question": "If a network is at risk from unskilled individuals, what type of threat is this?",
+        "options": [
+            "External Threats",
+            "Structured Threats",
+            "Unstructured Threats",
+            "Internal Threats"
+        ],
+        "answer": "Unstructured Threats"
+    },
+    {
+        "question": "Which authentication technique involves mathematical pattern-recognition of the colored part of the eye behind the cornea?",
+        "options": [
+            "Iris Scanning",
+            "Retinal Scanning",
+            "Facial Recognition",
+            "Vein Scanning"
+        ],
+        "answer": "Iris Scanning"
+    },
+    {
+        "question": "Which of the following data security technology can ensure information protection by obscuring specific areas of information?",
+        "options": [
+            "Data encryption",
+            "Data hashing",
+            "Data masking",
+            "Data retention"
+        ],
+        "answer": "Data masking"
+    },
+    {
+        "question": "Which of the following Event Correlation Approach checks and compares all the fields systematically and intentionally for positive and negative correlation with each other to determine the correlation across one or multiple fields?",
+        "options": [
+            "Automated Field Correlation",
+            "Field-Based Approach",
+            "Rule-Based Approach",
+            "Graph-Based Approach"
+        ],
+        "answer": "Field-Based Approach"
+    },
+    {
+        "question": "Daniel is monitoring network traffic with the help of a network monitoring tool to detect any abnormalities. What type of network security approach is Daniel adopting?",
+        "options": [
+            "Preventative",
+            "Reactive",
+            "Retrospective",
+            "Defense-in-depth"
+        ],
+        "answer": "Reactive"
+    },
+    {
+        "question": "Which among the following options represents professional hackers with an aim of attacking systems for profit?",
+        "options": [
+            "Script kiddies",
+            "Organized hackers",
+            "Hacktivists",
+            "Cyber terrorists"
+        ],
+        "answer": "Organized hackers"
+    },
+    {
+        "question": "Management decides to implement a risk management system to reduce and maintain the organization's risk at an acceptable level. Which of the following is the correct order in the risk management phase?",
+        "options": [
+            "Risk Identification, Risk Assessment, Risk Treatment, Risk Monitoring & Review",
+            "Risk Treatment, Risk Monitoring & Review, Risk Identification, Risk Assessment",
+            "Risk Assessment, Risk Treatment, Risk Monitoring & Review, Risk Identification",
+            "Risk Identification. Risk Assessment. Risk Monitoring & Review, Risk Treatment"
+        ],
+        "answer": "Risk Identification, Risk Assessment, Risk Treatment, Risk Monitoring & Review"
+    },
+    {
+        "question": "James is a network administrator working at a student loan company in Minnesota. This company processes over 20,000 student loans a year from colleges all over the state. Most communication between the company schools, and lenders is carried out through emails. Much of the email communication used at his company contains sensitive information such as social security numbers. For this reason, James wants to utilize email encryption. Since a server-based PKI is not an option for him, he is looking for a low/no cost solution to encrypt emails. What should James use?",
+        "options": [
+            "James could use PGP as a free option for encrypting the company's emails.",
+            "James should utilize the free OTP software package.",
+            "James can use MD5 algorithm to encrypt all the emails",
+            "James can enforce mandatory HTTPS in the email clients to encrypt emails"
+        ],
+        "answer": "James could use PGP as a free option for encrypting the company's emails."
+    },
+    {
+        "question": "Hacktivists are threat actors, who can be described as -------------------",
+        "options": [
+            "People motivated by religious beliefs",
+            "Disgruntled/terminated employees",
+            "People motivated by monetary gams",
+            "People having political or social agenda"
+        ],
+        "answer": "People having political or social agenda"
+    },
+    {
+        "question": "Martin is a professional hacker. He is performing reconnaissance on an organization to hack a few target systems. As a part of this method, he needs to determine what hosts are available on the network, what services those hosts are offering, what operating systems they are running, what type of packet filters/firewalls, etc. To obtain such information, Martin decided to use automated tools. Which of the following tool must be employed by Martin?",
+        "options": [
+            "Burp Suite",
+            "FOCA",
+            "Nmap",
+            "Zendio"
+        ],
+        "answer": "Nmap"
+    },
+    {
+        "question": "Which of the following is NOT an AWS Shared Responsibility Model devised by AWS?",
+        "options": [
+            "Shared Responsibility Model for Container Services",
+            "Shared Responsibility Model for Infrastructure Services",
+            "Shared Responsibility Model for Abstract Services",
+            "Shared Responsibility Model for Storage Services"
+        ],
+        "answer": "Shared Responsibility Model for Abstract Services"
+    },
+    {
+        "question": "James, a network admin in a large US based IT firm, was asked to audit and implement security controls over all network layers to achieve Defense-in-Depth. While working on this assignment, James has implemented both blacklisting and whitelisting ACLs. Which layer of defense-in-depth architecture is Jason working on currently?",
+        "options": [
+            "Application Layer",
+            "Host Layer",
+            "Internal Network Layer",
+            "Perimeter Layer"
+        ],
+        "answer": "Perimeter Layer"
+    },
+    {
+        "question": "Which of the following characteristics represents a normal TCP packet?",
+        "options": [
+            "SYN and FIN bits are set",
+            "Source or destination port b zero",
+            "FIN ACK and ACK are used in terminating the connection",
+            "The destination address is a broadcast address"
+        ],
+        "answer": "FIN ACK and ACK are used in terminating the connection"
+    },
+    {
+        "question": "Which type of modulation technique is used in local area wireless networks (LAWNs)?",
+        "options": [
+            "FHSS",
+            "OFDM",
+            "DSSS",
+            "MIMO-OFDM"
+        ],
+        "answer": "OFDM"
+    },
+    {
+        "question": "Assume that you are a network administrator and the company has asked you to draft an Acceptable Use Policy (AUP) for employees. Under which category of an information security policy does AUP fall into?",
+        "options": [
+            "System Specific Security Policy (SSSP)",
+            "Incident Response Policy (IRP)",
+            "Enterprise Information Security Policy (EISP)",
+            "Issue Specific Security Policy (ISSP)"
+        ],
+        "answer": "Issue Specific Security Policy (ISSP)"
+    },
+    {
+        "question": "Which of the following is an example of MAC model?",
+        "options": [
+            "Chinese Waterfall model",
+            "Clark-Beason integrity model",
+            "Access control matrix model",
+            "Bell-LaPadula model"
+        ],
+        "answer": "Bell-LaPadula model"
+    },
+    {
+        "question": "Emmanuel works as a Windows system administrator at an MNC. He uses PowerShell to enforce the script execution policy. He wants to allow the execution of the scripts that are signed by a trusted publisher. Which of the following script execution policy setting this?",
+        "options": [
+            "AllSigned",
+            "Restricted",
+            "RemoteSigned",
+            "Unrestricted"
+        ],
+        "answer": "AllSigned"
+    },
+    {
+        "question": "- is a group of broadband wireless communications standards for Metropolitan Area Networks (MANs)",
+        "options": [
+            "802.15.4",
+            "802.15",
+            "802.12",
+            "802.16"
+        ],
+        "answer": "802.16"
+    },
+    {
+        "question": "A VPN Concentrator acts as a bidirectional tunnel endpoint among host machines. What are the other f unction(s) of the device? (Select all that apply)",
+        "options": [
+            "Provides access memory, achieving high efficiency",
+            "Assigns user addresses",
+            "Enables input/output (I/O) operations",
+            "Manages security keys"
+        ],
+        "answer": "Assigns user addresses"
+    },
+    {
+        "question": "Which of the following types of information can be obtained through network sniffing? (Select all that apply)",
+        "options": [
+            "Programming errors",
+            "DNS traffic",
+            "Telnet passwords",
+            "Syslog traffic"
+        ],
+        "answer": "DNS traffic"
+    },
+    {
+        "question": "Kyle, a front office executive, suspects that a Trojan has infected his computer. What should be his first course of action to deal with the incident?",
+        "options": [
+            "Contain the damage",
+            "Disconnect the five infected devices from the network",
+            "Inform the IRT about the incident and wait for their response",
+            "Inform everybody in the organization about the attack"
+        ],
+        "answer": "Contain the damage"
+    },
+    {
+        "question": "Oliver is a Linux security administrator at an MNC. An employee named Alice has resigned from his organization and Oliver wants to disable this user in Ubuntu. Which of the following commands can be used to accomplish this?",
+        "options": [
+            "usermod -3 alice",
+            "uscrmod- K alice",
+            "usermod- L alice",
+            "usermod- M alice"
+        ],
+        "answer": "usermod- L alice"
+    },
+    {
+        "question": "The protocol works in the network layer and is responsible for handling the error codes during the delivery of packets. This protocol is also responsible for providing communication in the TCP/IP stack.",
+        "options": [
+            "RARP",
+            "ICMP",
+            "DHCP",
+            "ARP"
+        ],
+        "answer": "ICMP"
+    },
+    {
+        "question": "The GMT enterprise is working on their internet and web usage policies. GMT would like to control internet bandwidth consumption by employees. Which group of policies would this belong to?",
+        "options": [
+            "Enterprise Information Security Policy",
+            "System Specific Security Policy",
+            "Network Services Specific Security Policy",
+            "Issue Specific Security Policy"
+        ],
+        "answer": "Network Services Specific Security Policy"
+    },
+    {
+        "question": "Blake is working on the company's updated disaster and business continuity plan. The last section of the plan covers computer and data incidence response. Blake is outlining the level of severity for each type of incident in the plan. Unsuccessful scans and probes are at what severity level?",
+        "options": [
+            "Extreme severity level",
+            "Low severity level",
+            "Mid severity level",
+            "High severity level"
+        ],
+        "answer": "Low severity level"
+    },
+    {
+        "question": "Which of the following refers to the data that is stored or processed by RAM, CPUs, or databases?",
+        "options": [
+            "Data is Use",
+            "Data at Rest",
+            "Data in Transit",
+            "Data in Backup"
+        ],
+        "answer": "Data is Use"
+    },
+    {
+        "question": "Blake is working on the company's updated disaster and business continuity plan. The last section of the plan covers computer and data incidence response. Blake is outlining the level of severity for each type of incident in the plan. Unsuccessful scans and probes are at what severity level?",
+        "options": [
+            "High severity level",
+            "Extreme severity level",
+            "Mid severity level",
+            "Low severity level"
+        ],
+        "answer": "Low severity level"
+    },
+    {
+        "question": "The security network team is trying to implement a firewall capable of operating only in the session layer, monitoring the TCP inter-packet link protocol to determine when a requested session is legitimate or not. Using the type of firewall,they could be able to intercept the communication, making the external network see that the firewall is the source, and facing the user, who responds from the outside is the firewall itself. They are just limiting a requirements previous listed, because they have already have a packet filtering firewall and they must add a cheap solution that meets the objective. What kind of firewall would you recommend?",
+        "options": [
+            "Application Proxies",
+            "Packet Filtering with NAT",
+            "Circuit Level Gateway",
+            "Application Level Gateways"
+        ],
+        "answer": "Circuit Level Gateway"
+    },
+    {
+        "question": "Albert works as a Windows system administrator at an MNC. He uses PowerShell logging to identify any suspicious scripting activity across the network. He wants to record pipeline execution details as PowerShell executes, including variable initialization and command invocations. Which PowerShell logging component records pipeline execution details as PowerShell executes?",
+        "options": [
+            "Module logging",
+            "Script block logging",
+            "Event logging",
+            "Transcript logging"
+        ],
+        "answer": "Script block logging"
+    },
+    {
+        "question": "How can organizations obtain information about threats through human intelligence?",
+        "options": [
+            "By extracting information from security blogs and forums",
+            "By discovering vulnerabilities through exploration, understanding malware behavior through malware processing, etc.",
+            "From the data of past incidents and network monitoring",
+            "From attackers through the dark web and honeypots"
+        ],
+        "answer": "By extracting information from security blogs and forums"
+    },
+    {
+        "question": "Which encryption algorithm does S/MIME protocol implement for digital signatures in emails?",
+        "options": [
+            "Rivest-Shamir-Adleman encryption",
+            "Digital Encryption Standard",
+            "Triple Data Encryption Standard",
+            "Advanced Encryption Standard"
+        ],
+        "answer": "Rivest-Shamir-Adleman encryption"
+    },
+    {
+        "question": "Which category of suspicious traffic signatures includes SYN flood attempts?",
+        "options": [
+            "Informational",
+            "Denial of Service",
+            "Reconnaissance",
+            "Unauthorized access"
+        ],
+        "answer": "Denial of Service"
+    },
+    {
+        "question": "Geon Solutions INC., had only 10 employees when it started. But as business grew, the organization had to increase the amount of staff. The network administrator is finding it difficult to accommodate an increasing number of employees in the existing network topology. So the organization is planning to implement a new topology where it will be easy to accommodate an increasing number of employees. Which network topology will help the administrator solve the problem of needing to add new employees and expand?",
+        "options": [
+            "Bus",
+            "Star",
+            "Ring",
+            "Mesh"
+        ],
+        "answer": "Star"
+    },
+    {
+        "question": "Which of the following filters can be used to detect UDP scan attempts using Wireshark?",
+        "options": [
+            "icmp.type==3 and icmp.code==3",
+            "icmp.type==13",
+            "icmp.type==8 or icmp.type==0",
+            "icmp.type==15"
+        ],
+        "answer": "icmp.type==3 and icmp.code==3"
+    },
+    {
+        "question": "A company has the right to monitor the activities of their employees on different information systems according to the policy.",
+        "options": [
+            "Information system",
+            "User access control",
+            "Internet usage",
+            "Confidential data"
+        ],
+        "answer": "User access control"
+    },
+    {
+        "question": "Which type of risk treatment process Includes not allowing the use of laptops in an organization to ensure its security?",
+        "options": [
+            "Risk avoidance",
+            "Mitigate the risk",
+            "Eliminate the risk",
+            "Reduce the risk"
+        ],
+        "answer": "Risk avoidance"
+    },
+    {
+        "question": "Cindy is the network security administrator for her company. She just got back from a security conference in Las Vegas where they talked about all kinds of old and new security threats; many of which she did not know of. She is worried about the current security state of her company's network so she decides to start scanning the network from an external IP address. To see how some of the hosts on her network react, she sends out SYN packets to an IP range. A number of IPs responds with a SYN/ACK response. Before the connection is established, she sends RST packets to those hosts to stop the session. She has done this to see how her intrusion detection system will log the traffic. What type of scan is Cindy attempting here?",
+        "options": [
+            "The type of scan she is usinq is called a NULL scan.",
+            "Cindy is using a half-open scan to find live hosts on her network.",
+            "Cindy is attempting to find live hosts on her company's network by using a XMAS scan.",
+            "She is utilizing a RST scan to find live hosts that are listening on her network."
+        ],
+        "answer": "Cindy is using a half-open scan to find live hosts on her network."
+    },
+    {
+        "question": "Who offers formal experienced testimony in court?",
+        "options": [
+            "Incident analyzer",
+            "Evidence documenter",
+            "Expert witness",
+            "Attorney"
+        ],
+        "answer": "Expert witness"
+    },
+    {
+        "question": "What is the IT security team responsible for effectively managing the security of the organization’s IT infrastructure, called?",
+        "options": [
+            "Grey Team",
+            "Red Team",
+            "Blue Team",
+            "Yellow Team"
+        ],
+        "answer": "Blue Team"
+    },
+    {
+        "question": "Management wants to calculate the risk factor for their organization. Kevin, a network administrator in the organization knows how to calculate the risk factor. Certain parameters are required before calculating risk factor. What are they? (Select all that apply) Risk factor =.............X...............X...........",
+        "options": [
+            "Vulnerability",
+            "Impact",
+            "Attack",
+            "Threat"
+        ],
+        "answer": "Vulnerability"
+    },
+    {
+        "question": "Which command list all ports available on a server?",
+        "options": [
+            "sudo apt netstate -Is tunlp",
+            "sudo ntstat -Is tunlp",
+            "sudo apt nst -tunlp",
+            "sudo netstat -tunlp"
+        ],
+        "answer": "sudo netstat -tunlp"
+    },
+    {
+        "question": "An administrator wants to monitor and inspect large amounts of traffic and detect unauthorized attempts from inside the organization, with the help of an IDS. They are not able to recognize the exact location to deploy the IDS sensor. Can you help him spot the location where the IDS sensor should be placed?",
+        "options": [
+            "Location 2",
+            "Location 3",
+            "Location 4",
+            "Location 1"
+        ],
+        "answer": "Location 3"
+    },
+    {
+        "question": "Which of the following refers to a potential occurrence of an undesired event that can eventually damage and interrupt the operational and functional activities of an organization?",
+        "options": [
+            "Attack",
+            "Risk",
+            "Threat",
+            "Vulnerability"
+        ],
+        "answer": "Threat"
+    },
+    {
+        "question": "Identity the method involved in purging technique of data destruction.",
+        "options": [
+            "Incineration",
+            "Overwriting",
+            "Degaussing",
+            "Wiping"
+        ],
+        "answer": "Overwriting"
+    },
+    {
+        "question": "Identify the Password Attack Technique in which the adversary attacks cryptographic hash functions based on the probability, that if a hashing process is used for creating a key, then the same is used for other keys?",
+        "options": [
+            "Dictionary Attack",
+            "Brute Forcing Attack",
+            "Hybrid Attack",
+            "Birthday Attack"
+        ],
+        "answer": "Birthday Attack"
+    },
+    {
+        "question": "Which of the following defines the extent to which an interruption affects normal business operations and the amount of revenue lost due to that interruption?",
+        "options": [
+            "RPO",
+            "RFO",
+            "RSP",
+            "RTO"
+        ],
+        "answer": "RTO"
+    },
+    {
+        "question": "Match the following NIST security life cycle components with their activities:",
+        "options": [
+            "1-ii, 2-i, 3-v, 4-iv",
+            "1-iii, 2-iv, 3-v, 4-i",
+            "1-iv, 2-iii, 3-v, 4-i",
+            "1-i, 2-v, 3-iii, 4-ii"
+        ],
+        "answer": "1-iv, 2-iii, 3-v, 4-i"
+    },
+    {
+        "question": "The SOC manager is reviewing logs in AlienVault USM to investigate an intrusion on the network. Which CND approach is being used?",
+        "options": [
+            "Preventive",
+            "Reactive",
+            "Retrospective",
+            "Deterrent"
+        ],
+        "answer": "Reactive"
+    },
+    {
+        "question": "Which of the following technologies can be used to leverage zero-trust model security?",
+        "options": [
+            "Software defined networking (SDN)",
+            "Network function visualization (NFV)",
+            "Network visualization (NV)",
+            "Software defined perimeter (SDP)"
+        ],
+        "answer": "Software defined perimeter (SDP)"
+    },
+    {
+        "question": "Which of the following indicators refers to potential risk exposures that attackers can use to breach the security of an organization?",
+        "options": [
+            "Indicators of attack",
+            "Key risk indicators",
+            "Indicators of exposure",
+            "Indicators of compromise"
+        ],
+        "answer": "Indicators of exposure"
+    },
+    {
+        "question": "How is an “attack” represented?",
+        "options": [
+            "Motive (goal) + method",
+            "Motive (goal) + method + vulnerability",
+            "Asset + Threat + Vulnerability",
+            "Asset + Threat"
+        ],
+        "answer": "Motive (goal) + method + vulnerability"
+    },
+    {
+        "question": "In mechanism, the system or application sends log records either on the local disk or over the network.",
+        "options": [
+            "Network-based",
+            "Pull-based",
+            "Push-based",
+            "Host-based"
+        ],
+        "answer": "Push-based"
+    },
+    {
+        "question": "Kyle is an IT consultant working on a contract for a large energy company in Houston. Kyle was hired on to do contract work three weeks ago so the company could prepare for an external IT security audit. With suggestions from upper management, Kyle has installed a network-based IDS system. This system checks for abnormal behavior and patterns found in network traffic that appear to be dissimilar from the traffic normally recorded by the IDS. What type of detection is this network-based IDS system using?",
+        "options": [
+            "This network-based IDS system is using anomaly detection.",
+            "This network-based IDS system is using dissimilarity algorithms.",
+            "This system is using misuse detection.",
+            "This network-based IDS is utilizing definition-based detection."
+        ],
+        "answer": "This network-based IDS system is using anomaly detection."
+    },
+    {
+        "question": "Steven is a Linux system administrator at an IT company. He wants to disable unnecessary services in the system, which can be exploited by the attackers. Which among the following is the correct syntax for disabling a service?",
+        "options": [
+            "$ sudo system-ctl disable [service]",
+            "$ sudo systemctl disable [service]",
+            "$ sudo system.ctl disable [service]",
+            "$ sudo system ctl disable [service]"
+        ],
+        "answer": "$ sudo systemctl disable [service]"
+    },
+    {
+        "question": "Which mobile-use approach allows an organization’s employees to use devices that they are comfortable with and best fits their preferences and work purposes?",
+        "options": [
+            "BYOD",
+            "COPE",
+            "COBO",
+            "CYOD"
+        ],
+        "answer": "BYOD"
+    },
+    {
+        "question": "Larry is responsible for the company's network consisting of 300 workstations and 25 servers. After using a hosted email service for a year, the company wants to control the email internally. Larry likes this idea because it will give him more control over the email. Larry wants to purchase a server for email but does not want the server to be on the internal network due to the potential to cause security risks. He decides to place the server outside of the company's internal firewall. There is another firewall connected directly to the Internet that will protect traffic from accessing the email server. The server will be placed between the two firewalls. What logical area is Larry putting the new email server into?",
+        "options": [
+            "He is going to place the server in a Demilitarized Zone (DMZ)",
+            "He will put the email server in an IPsec zone.",
+            "Larry is going to put the email server in a hot-server zone.",
+            "For security reasons, Larry is going to place the email server in the company's Logical Buffer Zone (LBZ)."
+        ],
+        "answer": "He is going to place the server in a Demilitarized Zone (DMZ)"
+    },
+    {
+        "question": "Identify the network topology in which the network devices are connected such that every device has a point-to-point link to all the other devices.",
+        "options": [
+            "Star Topology",
+            "Hybrid Topology",
+            "Mesh Topology",
+            "Bus Topology"
+        ],
+        "answer": "Mesh Topology"
+    },
+    {
+        "question": "Which scan attempt can penetrate through a router and a firewall that filter incoming packets with particular flags set and is not supported by Windows?",
+        "options": [
+            "ARP scan attempt",
+            "TCP full connect scan attempt",
+            "TCP null scan attempt",
+            "PINC sweep attempt"
+        ],
+        "answer": "TCP null scan attempt"
+    },
+    {
+        "question": "Sam, a network administrator is using Wireshark to monitor the network traffic of the organization. He wants to detect TCP packets with no flag set to check for a specific attack attempt. Which filter will he use to view the traffic?",
+        "options": [
+            "Tcp.flags==0x000",
+            "Tcp.flags==0000x",
+            "Tcp.flags==000x0",
+            "Tcp.flags==x0000"
+        ],
+        "answer": "Tcp.flags==0x000"
+    },
+    {
+        "question": "Which technique is used in RAID level 0 where the data is split into blocks and written evenly across multiple disks?",
+        "options": [
+            "Disk mirroring",
+            "Disk stripping",
+            "Data splitting",
+            "Disk partition"
+        ],
+        "answer": "Disk stripping"
+    },
+    {
+        "question": "What is the best way to describe a mesh network topology?",
+        "options": [
+            "A network the is extremely cost efficient, offering the best option for allowing computers to communicate amongst each other.",
+            "A network in which every computer in the network can communicate with a single central computer.",
+            "A network in which every computer in the network has a connection to each and every computer in the network.",
+            "A network in which every computer meshes together to form a hybrid between a star and bus topology."
+        ],
+        "answer": "A network in which every computer in the network has a connection to each and every computer in the network."
+    },
+    {
+        "question": "Harry has sued the company claiming they made his personal information public on a social networking site in the United States. The company denies the allegations and consulted a/an for legal advice to defend them against this allegation.",
+        "options": [
+            "PR Specialist",
+            "Attorney",
+            "Incident Handler",
+            "Evidence Manager"
+        ],
+        "answer": "Attorney"
+    },
+    {
+        "question": "Which of the following is a data destruction technique that protects the sensitivity of information against a laboratory attack where an unauthorized individual uses signal processing recovery tools in a laboratory environment to recover the information?",
+        "options": [
+            "Purging",
+            "Destroying",
+            "Clearing",
+            "Disposal"
+        ],
+        "answer": "Purging"
+    },
+    {
+        "question": "A local bank wants to protect their card holder data. The bank should comply with the standard to ensure the security of card holder data.",
+        "options": [
+            "HIPAA",
+            "ISEC",
+            "PCI DSS",
+            "SOAX"
+        ],
+        "answer": "PCI DSS"
+    },
+    {
+        "question": "Which Internet access policy starts with all services blocked and the administrator enables safe and necessary services individually, which provides maximum security and logs everything, such as system and network activities?",
+        "options": [
+            "Internet access policy",
+            "Permissive policy",
+            "Prudent policy",
+            "Paranoid policy"
+        ],
+        "answer": "Paranoid policy"
+    },
+    {
+        "question": "A network designer needs to submit a proposal for a company, which has just published a web portal for its clients on the internet. Such a server needs to be isolated from the internal network, placing itself in a DMZ. Faced with this need, the designer will present a proposal for a firewall with three interfaces, one for the internet network, another for the DMZ server farm and another for the internal network. What kind of topology will the designer propose?",
+        "options": [
+            "Screened subnet",
+            "DMZ, External-Internal firewall",
+            "Multi-homed firewall",
+            "Bastion host"
+        ],
+        "answer": "Screened subnet"
+    },
+    {
+        "question": "Bryson is the IT manager and sole IT employee working for a federal agency in California. The agency was just given a grant and was able to hire on 30 more employees for a new extended project. Because of this, Bryson has hired on two more IT employees to train up and work. Both of his new hires are straight out of college and do not have any practical IT experience. Bryson has spent the last two weeks teaching the new employees the basics of computers, networking, troubleshooting techniques etc. To see how these two new hires are doing, he asks them at what layer of the OSI model do Network Interface Cards (NIC) work on. What should the new employees answer?",
+        "options": [
+            "NICs work on the Session layer of the OSI model.",
+            "The new employees should say that NICs perform on the Network layer.",
+            "They should tell Bryson that NICs perform on the Physical layer",
+            "They should answer with the Presentation layer."
+        ],
+        "answer": "They should tell Bryson that NICs perform on the Physical layer"
+    },
+    {
+        "question": "Which of the following manages the Docker images, containers, networks, and storage volume and processes the request of Docker API?",
+        "options": [
+            "Docker CLI",
+            "Docker Engine REST API",
+            "Docker Daemon",
+            "Docker Registries"
+        ],
+        "answer": "Docker Daemon"
+    },
+    {
+        "question": "Which firewall technology can be implemented in all (application, session, transport, network, and presentation) layers of the OSl model?",
+        "options": [
+            "Circuit-level gateway",
+            "Network address translation",
+            "VPN",
+            "Packet filtering"
+        ],
+        "answer": "Circuit-level gateway"
+    },
+    {
+        "question": "John, the network administrator and he wants to enable the NetFlow feature in Cisco routers to collect and monitor the IP network traffic passing through the router. Which command will John use to enable NetFlow on an interface?",
+        "options": [
+            "Router(Config-if) # IP route - cache flow",
+            "Router# Netmon enable",
+            "Router IP route",
+            "Router# netflow enable"
+        ],
+        "answer": "Router(Config-if) # IP route - cache flow"
+    },
+    {
+        "question": "Timothy works as a network administrator in a multinational organization. He decides to implement a dedicated network for sharing storage resources. He uses a as it seperates the storage units from the servers and the user network.",
+        "options": [
+            "SAN",
+            "SCSA",
+            "NAS",
+            "SAS"
+        ],
+        "answer": "SAN"
+    },
+    {
+        "question": "What cryptography technique can encrypt small amounts of data and applies it to digital signatures?",
+        "options": [
+            "Hashing",
+            "Asymmetric encryption",
+            "Symmetric encryption",
+            "Digital certificates"
+        ],
+        "answer": "Asymmetric encryption"
+    },
+    {
+        "question": "A CCTV camera, which can be accessed on the smartphone from a remote location, is an example of",
+        "options": [
+            "Device-to-Device communication model",
+            "Device-to-Cloud communication model",
+            "Device-to-Gateway communication model",
+            "Back-End Data-Sharing communication model"
+        ],
+        "answer": "Device-to-Cloud communication model"
+    },
+    {
+        "question": "The Circuit-level gateway firewall technology functions at which of the following OSI layer?",
+        "options": [
+            "Data-link layer",
+            "Session layer",
+            "Network layer",
+            "Transport layer"
+        ],
+        "answer": "Session layer"
+    },
+    {
+        "question": "Which of the following statement holds true in terms of containers?",
+        "options": [
+            "Container requires more memory space",
+            "Each container runs in its own OS",
+            "Container is fully isolated; hence, more secure",
+            "Process-level isolation happens; a container in hence less secure"
+        ],
+        "answer": "Process-level isolation happens; a container in hence less secure"
+    },
+    {
+        "question": "An IDS or IDPS can be deployed in two modes. Which deployment mode allows the IDS to both detect and stop malicious traffic?",
+        "options": [
+            "promiscuous mode",
+            "passive mode",
+            "firewall mode",
+            "inline mode"
+        ],
+        "answer": "inline mode"
+    },
+    {
+        "question": "Which RAID level does not provide data redundancy?",
+        "options": [
+            "RAID level 0",
+            "RAID level 1",
+            "RAID level 50",
+            "RAID level 10"
+        ],
+        "answer": "RAID level 0"
+    },
+    {
+        "question": "HexCom, a leading IT Company in the USA, realized that their employees were having trouble accessing multiple servers with different passwords. Due to this, the centralized server was also being overburdened by avoidable network traffic. To overcome the issue, what type of authentication can be given to the employees?",
+        "options": [
+            "Two-Factor Authentication",
+            "Biometric Authentication",
+            "Single Sign-on (SSO)",
+            "Smart Card Authentication"
+        ],
+        "answer": "Single Sign-on (SSO)"
+    },
+    {
+        "question": "What represents the ability of an organization to respond under emergency in order to minimize the damage to its brand name, business operation, and profit?",
+        "options": [
+            "Disaster recovery",
+            "Incident management",
+            "Emergency management",
+            "Crisis management"
+        ],
+        "answer": "Crisis management"
+    },
+    {
+        "question": "Which BC/DR activity includes action taken toward resuming all services that are dependent on business-critical applications?",
+        "options": [
+            "Response",
+            "Recovery",
+            "Resumption",
+            "Restoration"
+        ],
+        "answer": "Resumption"
+    },
+    {
+        "question": "Which protocol would the network administrator choose for the wireless network design. If he needs to satisfy the minimum requirement of 2.4 GHz, 22 MHz of bandwidth, 2 Mbits/s stream for data rate and use DSSS for modulation.",
+        "options": [
+            "802.11a",
+            "802.11g",
+            "802.11b",
+            "802.11n"
+        ],
+        "answer": "802.11b"
+    },
+    {
+        "question": "Ryan works as a network security engineer at an organization the recently suffered an attack. As a countermeasure, Ryan would like to obtain more information about the attacker and chooses to deploy a honeypot into the organizations production environment called Kojoney. Using this honeypot, he would like to emulate the network vulnerability that was attacked previously. Which type of honeypot is he trying to implement?",
+        "options": [
+            "High-interaction honeypots",
+            "Pure honeypots",
+            "Research honeypot",
+            "Low-interaction honeypots"
+        ],
+        "answer": "Low-interaction honeypots"
+    },
+    {
+        "question": "Which policies exist only on AWS IAM identity (user, group, or role)?",
+        "options": [
+            "Inline Policies",
+            "Customer-Managed Policies",
+            "Power-user AWS managed policies",
+            "Full access AWS managed policie"
+        ],
+        "answer": "Inline Policies"
+    },
+    {
+        "question": "On which layer of the OSI model does the packet filtering firewalls work?",
+        "options": [
+            "Network Layer",
+            "Application Layer",
+            "Session Layer",
+            "Physical Layer"
+        ],
+        "answer": "Network Layer"
+    },
+    {
+        "question": "Which of the following Wireshark filters allows an administrator to detect SYN/FIN DDoS attempt on the network?",
+        "options": [
+            "tcp.flags==0x003",
+            "tcp.flags==0X029",
+            "TCP.flags==0x300",
+            "tcp.dstport==7"
+        ],
+        "answer": "tcp.flags==0X029"
+    },
+    {
+        "question": "What should an administrator do while installing a sniffer on a system to listen to all data transmitted over the network?",
+        "options": [
+            "Set the system's NIC to managed mode",
+            "Set the system's NIC to master mode",
+            "Set the system's NIC to ad-hoc mode",
+            "Set the system's NIC to promiscuous mode"
+        ],
+        "answer": "Set the system's NIC to promiscuous mode"
+    },
+    {
+        "question": "Ivan needs to pick an encryption method that is scalable even though it might be slower. He has settled on a method that works where one key is public and the other is private. What encryption method did Ivan settle on?",
+        "options": [
+            "Ivan settled on the private encryption method.",
+            "Ivan settled on the symmetric encryption method.",
+            "Ivan settled on the asymmetric encryption method",
+            "Ivan settled on the hashing encryption method"
+        ],
+        "answer": "Ivan settled on the asymmetric encryption method"
+    },
+    {
+        "question": "Ross manages 30 employees and only 25 computers in the organization. The network the company uses is a peer-to-peer. Ross configures access control measures allowing the employees to set their own control measures for their files and folders. Which access control did Ross implement?",
+        "options": [
+            "Discretionary access control",
+            "Mandatory access control",
+            "Non-discretionary access control",
+            "Role-based access control"
+        ],
+        "answer": "Discretionary access control"
+    },
+    {
+        "question": "If an organization has decided to consume PaaS Cloud service model, then identify the organization's responsibility that they need to look after based on shared responsibility model.",
+        "options": [
+            "Data, interfaces, application, etc.",
+            "Data, interfaces, application, middleware, OS, VM, virtual network, etc.",
+            "Data, interfaces, application, middleware, OS, VM, virtual network, hypervisors, processing and memory, data storage, network interfaces, facilities and data centers, etc.",
+            "Data, interfaces, etc."
+        ],
+        "answer": "Data, interfaces, application, etc."
+    },
+    {
+        "question": "Consider a scenario consisting of a tree network. The root Node N is connected to two man nodes N1 and N2. N1 is connected to N11 and N12. N2 is connected to N21 and N22. What will happen if any one of the main nodes fail?",
+        "options": [
+            "Failure of the main node affects all other child nodes at the same level irrespective of the main node.",
+            "Does not cause any disturbance to the child nodes or its tranmission",
+            "Failure of the main node will affect all related child nodes connected to the main node",
+            "Affects the root node only"
+        ],
+        "answer": "Failure of the main node will affect all related child nodes connected to the main node"
+    },
+    {
+        "question": "An organization needs to adhere to the rules for safeguarding and protecting the electronically stored health information of employees.",
+        "options": [
+            "HI PA A",
+            "PCI DSS",
+            "ISEC",
+            "SOX"
+        ],
+        "answer": "HI PA A"
+    },
+    {
+        "question": "Michelle is a network security administrator working at a multinational company. She wants to provide secure access to corporate data (documents, spreadsheets, email, schedules, presentations, and other enterprise data) on mobile devices across organizations networks without being slowed down and also wants to enable easy and secure sharing of information between devices within an enterprise. Based on the above mentioned requirements, which among the following solution should Michelle implement?",
+        "options": [
+            "MEM",
+            "MAM",
+            "MCM",
+            "MDM"
+        ],
+        "answer": "MCM"
+    },
+    {
+        "question": "James was inspecting ARP packets in his organization's network traffic with the help of Wireshark. He is checking the volume of traffic containing ARP requests as well as the source IP address from which they are originating. Which type of attack is James analyzing?",
+        "options": [
+            "ARP Sweep",
+            "ARP misconfiguration",
+            "ARP spoofinq",
+            "ARP Poisioning"
+        ],
+        "answer": "ARP Poisioning"
+    },
+    {
+        "question": "Kelly is taking backups of the organization's data. Currently, he is taking backups of only those files which are created or modified after the last backup. What type of backup is Kelly using?",
+        "options": [
+            "Full backup",
+            "Incremental backup",
+            "Differential Backup",
+            "Normal Backup"
+        ],
+        "answer": "Incremental backup"
+    },
+    {
+        "question": "You are tasked to perform black hat vulnerability assessment for a client. You received official written permission to work with: company site, forum, Linux server with LAMP, where this site is hosted. Which vulnerability assessment tool should you consider using?",
+        "options": [
+            "OpenVAS",
+            "hping",
+            "wireshark",
+            "dnsbrute"
+        ],
+        "answer": "OpenVAS"
+    },
+    {
+        "question": "Which of the following filters car be applied to detect an ICMP ping sweep attempt using Wireshark?",
+        "options": [
+            "icmp.type==8",
+            "icmp.type==13",
+            "icmp.type==17",
+            "icmp.type==15"
+        ],
+        "answer": "icmp.type==8"
+    },
+    {
+        "question": "Andrew would like to configure IPsec in a manner that provides confidentiality for the content of packets. What component of IPsec provides this capability?",
+        "options": [
+            "ESP",
+            "AH",
+            "IKE",
+            "ISAKMP"
+        ],
+        "answer": "ESP"
+    },
+    {
+        "question": "Paul is a network security technician working on a contract for a laptop manufacturing company in Chicago. He has focused primarily on securing network devices, firewalls, and traffic traversing in and out of the network. He just finished setting up a server a gateway between the internal private network and the outside public network. This server will act as a proxy, limited amount of services, and will filter packets. What is this type of server called?",
+        "options": [
+            "Bastion host",
+            "Edge transport server",
+            "SOCKS hsot",
+            "Session layer firewall"
+        ],
+        "answer": "Bastion host"
+    },
+    {
+        "question": "Which encryption algorithm h used by WPA5 encryption?",
+        "options": [
+            "RC4.TKIP",
+            "RC4",
+            "AES-GCMP 256",
+            "AES-CCMP"
+        ],
+        "answer": "AES-GCMP 256"
+    },
+    {
+        "question": "Which encryption algorithm is used by WPA3 encryption?",
+        "options": [
+            "RC4",
+            "RC4, TKIP",
+            "AES-CCMP",
+            "AES-GCMP 256"
+        ],
+        "answer": "AES-GCMP 256"
+    },
+    {
+        "question": "Which of the following Wireshark filters can a network administrator use to view the packets without any flags set in order to detect TCP Null Scan attempts?",
+        "options": [
+            "TCP.flags==0x000",
+            "tcp.flags==0X029",
+            "tcp.flags==0x003",
+            "tcp.dstport==7"
+        ],
+        "answer": "TCP.flags==0x000"
+    },
+    {
+        "question": "John wants to implement a firewall service that works at the session layer of the OSI model. The firewall must also have the ability to hide the private network information. Which type of firewall service is John thinking of implementing?",
+        "options": [
+            "Application level gateway",
+            "Stateful Multilayer Inspection",
+            "Circuit level gateway",
+            "Packet Filtering"
+        ],
+        "answer": "Circuit level gateway"
+    },
+    {
+        "question": "During the recovery process, RTO and RPO should be the main parameters of your disaster recovery plan. What does RPO refer to?",
+        "options": [
+            "The hot plugging technique used to replace computer components",
+            "The interval after which the data quality is lost",
+            "The encryption feature, acting as add-on security to the data",
+            "The duration required to restore the data"
+        ],
+        "answer": "The interval after which the data quality is lost"
+    },
+    {
+        "question": "Which RAID level system provides very good data performance but does not offer fault tolerance and data redundancy?",
+        "options": [
+            "PAID level 3",
+            "RAID level 5",
+            "RAID level 1",
+            "RAID level 0"
+        ],
+        "answer": "RAID level 0"
+    },
+    {
+        "question": "Syslog and SNMP are the two main protocols through which log records are transferred.",
+        "options": [
+            "Pull-based",
+            "Push-based",
+            "Host-based",
+            "Network-based"
+        ],
+        "answer": "Push-based"
+    },
+    {
+        "question": "You are an IT security consultant working on a contract for a large manufacturing company to audit their entire network. After performing all the tests and building your report, you present a number of recommendations to the company and what they should implement to become more secure. One recommendation is to install a network-based device that notifies IT employees whenever malicious or questionable traffic is found. From your talks with the company, you know that they do not want a device that actually drops traffic completely, they only want notification. What type of device are you suggesting?",
+        "options": [
+            "The best solution to cover the needs of this company would be a HIDS device.",
+            "A NIDS device would work best for the company",
+            "You are suggesting a NIPS device",
+            "A HIPS device would best suite this company"
+        ],
+        "answer": "A NIDS device would work best for the company"
+    },
+    {
+        "question": "Which of the following refers to the clues, artifacts, or evidence that indicate a potential intrusion or malicious activity in an organization's infrastructure?",
+        "options": [
+            "Indicators of attack",
+            "Indicators of compromise",
+            "Key risk indicators",
+            "Indicators of exposure"
+        ],
+        "answer": "Indicators of compromise"
+    },
+    {
+        "question": "According to the company's security policy, all access to any network resources must use Windows Active Directory Authentication. A Linux server was recently installed to run virtual servers and it is not using Windows Authentication. What needs to happen to force this server to use Windows Authentication?",
+        "options": [
+            "Edit the ADLIN file.",
+            "Edit the shadow file.",
+            "Remove the /var/bin/localauth.conf file.",
+            "Edit the PAM file to enforce Windows Authentication"
+        ],
+        "answer": "Edit the PAM file to enforce Windows Authentication"
+    },
+    {
+        "question": "A newly joined network administrator wants to assess the organization against possible risk. He notices the organization doesn't have a identified which helps measure how risky an activity is.",
+        "options": [
+            "Risk Severity",
+            "Risk Matrix",
+            "Key Risk Indicator",
+            "Risk levels"
+        ],
+        "answer": "Risk Matrix"
+    },
+    {
+        "question": "How can one identify the baseline for normal traffic?",
+        "options": [
+            "When the ACK flag appears at the beginning and the RST flag appears at the end of the connection",
+            "When the SYN flag appears at the beginning and the FIN flag appears at the end of the connection",
+            "When the RST flag appears at the beginning and the ACK flag appears at the end of the connection",
+            "When the FIN flag appears at the beginning and the SYN flag appears at the end of the connection"
+        ],
+        "answer": "When the SYN flag appears at the beginning and the FIN flag appears at the end of the connection"
+    },
+    {
+        "question": "What is the name of the authority that verifies the certificate authority in digital certificates?",
+        "options": [
+            "Directory management system",
+            "Certificate authority",
+            "Registration authority",
+            "Certificate Management system"
+        ],
+        "answer": "Registration authority"
+    },
+    {
+        "question": "Which among the following filter is used to detect a SYN/FIN attack?",
+        "options": [
+            "tcp.flags==0x002",
+            "tcp.flags==0x004",
+            "tcp.flags==0x003",
+            "tcp.flags==0x001"
+        ],
+        "answer": "tcp.flags==0x003"
+    },
+    {
+        "question": "Justine has been tasked by her supervisor to ensure that the company's physical security is on the same level as their logical security measures. She installs video cameras at all entrances and exits and installs badge access points for all doors. The last item she wants to install is a method to prevent unauthorized people piggybacking employees. What should she install to prevent piggybacking?",
+        "options": [
+            "She should install a mantrap",
+            "Justine needs to install a biometrics station at each entrance",
+            "Justine will need to install a revolving security door",
+            "She should install a Thompson Trapdoor."
+        ],
+        "answer": "She should install a mantrap"
+    },
+    {
+        "question": "A popular e-commerce company has recently received a lot of complaints from its customers. Most of the complaints are about the customers being redirected to some other website when trying to access the e-com site, leading to all their systems being compromised and corrupted. Upon investigation, the network admin of the firm discovered that some adversary had manipulated the company’s IP address in the domain name server’s cache. What is such an attack called?",
+        "options": [
+            "DNS Poisoning",
+            "DNS Application",
+            "DNS Attacked by DDoS",
+            "DNS Hijacking"
+        ],
+        "answer": "DNS Poisoning"
+    },
+    {
+        "question": "Which VPN QoS model guarantees the traffic from one customer edge (CE) to another?",
+        "options": [
+            "Pipe Model",
+            "AAA model",
+            "Hub-and-Spoke VPN model",
+            "Hose mode"
+        ],
+        "answer": "Pipe Model"
+    },
+    {
+        "question": "Elden is working as a network administrator at an IT company. His organization opted for a virtualization technique in which the guest OS is aware of the virtual environment in which it is running and communicates with the host machines for requesting resources. Identify the virtualization technique implemented by Elden’s organization.",
+        "options": [
+            "Hybrid virtualization",
+            "Hardware-assisted virtualization",
+            "Full virtualization",
+            "Para virtualization"
+        ],
+        "answer": "Para virtualization"
+    },
+    {
+        "question": "Will is working as a Network Administrator. Management wants to maintain a backup of all the company data as soon as it starts operations. They decided to use a RAID backup storage technology for their data backup plan. To implement the RAID data backup storage, Will sets up a pair of RAID disks so that all the data written to one disk is copied automatically to the other disk as well. This maintains an additional copy of the data. Which RAID level is used here?",
+        "options": [
+            "RAID 3",
+            "RAID 1",
+            "RAID 5",
+            "RAID 0"
+        ],
+        "answer": "RAID 1"
+    },
+    {
+        "question": "The mechanism works on the basis of a client-server model.",
+        "options": [
+            "Network-based",
+            "Pull-based",
+            "Push-based",
+            "Host-based"
+        ],
+        "answer": "Pull-based"
+    },
+    {
+        "question": "Docker provides Platforms-a-Service (PaaS) through and deliver*; containerized software packages",
+        "options": [
+            "Storage-level virtualization",
+            "Network level virtualization",
+            "OS level visualization",
+            "Server-level visualization"
+        ],
+        "answer": "OS level visualization"
+    },
+    {
+        "question": "Patrick wants to change the file permission of a file with permission value 755 to 744. He used a Linux command chmod [permission Value] [File Name] to make these changes. What will be the change in the file access?",
+        "options": [
+            "He changed the file permission from rwxr-xr-x to rwx-r--r--",
+            "He changes the file permission from rwxr-xr-x to rw-rw-rw-",
+            "He changed the file permission from rw to rw-r--r--",
+            "He changed the file permission from rwxrwxrwx to rwx------"
+        ],
+        "answer": "He changed the file permission from rwxr-xr-x to rwx-r--r--"
+    },
+    {
+        "question": "In MacOS, how can the user implement disk encryption?",
+        "options": [
+            "By enabling BitLocker feature",
+            "By executing dm-crypt command",
+            "By turning on Device Encryption feature",
+            "By enabling FileVault feature"
+        ],
+        "answer": "By enabling FileVault feature"
+    },
+    {
+        "question": "Which among the following tools can help in identifying IoEs to evaluate human attack surface?",
+        "options": [
+            "securiCAD",
+            "Amass",
+            "Skybox",
+            "SET"
+        ],
+        "answer": "SET"
+    },
+    {
+        "question": "What command is used to terminate certain processes in an Ubuntu system?",
+        "options": [
+            "#grep Kill [Target Process}",
+            "#kill-9[PID]",
+            "#ps ax Kill",
+            "# netstat Kill [Target Process]"
+        ],
+        "answer": "#kill-9[PID]"
+    },
+    {
+        "question": "Malone is finishing up his incident handling plan for IT before giving it to his boss for review. He is outlining the incident response methodology and the steps that are involved. Which step should Malone list as the last step in the incident response methodology?",
+        "options": [
+            "Malone should list a follow-up as the last step in the methodology",
+            "Recovery would be the correct choice for the last step in the incident response methodology",
+            "He should assign eradication to the last step.",
+            "Containment should be listed on Malone's plan for incident response."
+        ],
+        "answer": "Malone should list a follow-up as the last step in the methodology"
+    },
+    {
+        "question": "The company has implemented a backup plan. James is working as a network administrator for the company and is taking full backups of the data every time a backup is initiated. Alex who is a senior security manager talks to him about using a differential backup instead and asks him to implement this once a full backup of the data is completed. What is/are the reason(s) Alex is suggesting that James use a differential backup? (Select all that apply)",
+        "options": [
+            "Less storage space is required",
+            "Father restoration",
+            "Slower than a full backup",
+            "Faster than a full backup E. Less expensive than full backup"
+        ],
+        "answer": "Less storage space is required"
+    },
+    {
+        "question": "Which of the following DDoS attacks overloads a service by sending inundate packets?",
+        "options": [
+            "Network-centric attack",
+            "Application-centric attack",
+            "Web-centric attack",
+            "System-centric attack"
+        ],
+        "answer": "Network-centric attack"
+    },
+    {
+        "question": "Heather has been tasked with setting up and implementing VPN tunnels to remote offices. She will most likely be implementing IPsec VPN tunnels to connect the offices. At what layer of the OSI model does an IPsec tunnel function on?",
+        "options": [
+            "They work on the session layer.",
+            "They function on either the application or the physical layer.",
+            "They function on the data link layer",
+            "They work on the network layer"
+        ],
+        "answer": "They work on the network layer"
+    },
+    {
+        "question": "How does Windows’ in-built security component, AppLocker, whitelist applications?",
+        "options": [
+            "Using Path Rule",
+            "Using Signature Rule",
+            "Using Certificate Rule",
+            "Using Internet Zone Rule"
+        ],
+        "answer": "Using Path Rule"
+    },
+    {
+        "question": "Which of the following RAID storage techniques divides the data into multiple blocks, which are further written across the RAID system?",
+        "options": [
+            "Mirroring",
+            "Striping",
+            "None of these",
+            "Parity"
+        ],
+        "answer": "Striping"
+    },
+    {
+        "question": "Maximus Tech Is a multinational company that uses Cisco ASA Firewalls for their systems. Jason is the one of the members of the team that checks the logs at Maximus Tech. As a part of his job. he is going through me logs and he came across a firewall log that looks like this: May 06 2018 21:27:27 asa 1: % ASA -6-11008: User enable_16' executed the 'configure term' command Based on the security level mentioned in the log, what did Jason understand about the description of this message?",
+        "options": [
+            "Normal but significant message",
+            "Informational message",
+            "Critical condition message",
+            "Warning condition message"
+        ],
+        "answer": "Informational message"
+    },
+    {
+        "question": "Harry has successfully completed the vulnerability scanning process and found serious vulnerabilities exist in the organization's network. Identify the vulnerability management phases through which he will proceed to ensure all the detected vulnerabilities are addressed and eradicated. (Select all that apply)",
+        "options": [
+            "Mitigation",
+            "Assessment",
+            "Verification",
+            "Remediation"
+        ],
+        "answer": "Mitigation"
+    },
+    {
+        "question": "Which of the following type of UPS is used to supply power above 10kVA and provides an ideal electric output presentation, and its constant wear on the power components reduces the dependability?",
+        "options": [
+            "Stand by On-line hybrid",
+            "Line Interactive",
+            "Double conversion on-line",
+            "Stand by Ferro"
+        ],
+        "answer": "Double conversion on-line"
+    },
+    {
+        "question": "Which of the following provides the target for designing DR and BC solutions?",
+        "options": [
+            "RCO",
+            "RTO",
+            "RPO",
+            "RGO"
+        ],
+        "answer": "RTO"
+    },
+    {
+        "question": "- is a group of broadband wireless communications standards for Metropolitan Area Networks (MANs)",
+        "options": [
+            "802.15",
+            "802.16",
+            "802.15.4",
+            "802.12"
+        ],
+        "answer": "802.16"
+    },
+    {
+        "question": "Under which of the following acts can an international financial institution be prosecuted if it fails to maintain the privacy of its customer’s information?",
+        "options": [
+            "GLBA",
+            "FISMA",
+            "DMCA",
+            "SOX"
+        ],
+        "answer": "GLBA"
+    },
+    {
+        "question": "Which of the following network security protocols protects from sniffing attacks by encrypting entire communication between the clients and server including user passwords?",
+        "options": [
+            "TACACS+",
+            "RADIUS",
+            "CHAP",
+            "PAP"
+        ],
+        "answer": "TACACS+"
+    },
+    {
+        "question": "Physical access controls help organizations monitor, record, and control access to the information assets and facility. Identify the category of physical security controls which includes security labels and warning signs.",
+        "options": [
+            "Administrative control",
+            "Physical control",
+            "Technical control",
+            "Environmental control"
+        ],
+        "answer": "Physical control"
+    },
+    {
+        "question": "As a network administrator, you have implemented WPA2 encryption in your corporate wireless network. The WPA2's integrity check mechanism provides security against a replay attack",
+        "options": [
+            "CBC-32",
+            "CRC-MAC",
+            "CRC-32",
+            "CBC-MAC"
+        ],
+        "answer": "CBC-MAC"
+    },
+    {
+        "question": "A local bank wants to protect their cardholder data. Which standard should the bark comply with in order to ensure security of this data?",
+        "options": [
+            "GDPR",
+            "HIPAA",
+            "SOX",
+            "PCI DSS"
+        ],
+        "answer": "PCI DSS"
+    },
+    {
+        "question": "Identify the correct statements regarding a DMZ zone:",
+        "options": [
+            "It is a file integrity monitoring mechanism",
+            "It is a Neutral zone between a trusted network and an untrusted network",
+            "It serves as a proxy",
+            "It includes sensitive internal servers such as database servers"
+        ],
+        "answer": "It is a Neutral zone between a trusted network and an untrusted network"
+    },
+    {
+        "question": "To secure his company’s network, Tim the network admin, installed a security device that inspected all inbound and outbound network traffic for suspicious patterns. The device was configured to alert him if it found any such suspicious activity. Identify the type of network security device installed by Tim?",
+        "options": [
+            "Firewall",
+            "Honeypot",
+            "Proxy server",
+            "Intrusion Detection System (IDS)"
+        ],
+        "answer": "Intrusion Detection System (IDS)"
+    },
+    {
+        "question": "Which of the following best describes the Log Normalization process?",
+        "options": [
+            "It is a process of accepting logs from homogenous sources with the same formats and converting them into a different format",
+            "It is a process of accepting logs from homogenous sources with different formats and converting them into a common format",
+            "It is a process of accepting logs from heterogeneous sources with different formats and converting them into a common format",
+            "It is a process of accepting logs from heterogeneous sources with the same formats and converting them into a different format"
+        ],
+        "answer": "It is a process of accepting logs from heterogeneous sources with different formats and converting them into a common format"
+    },
+    {
+        "question": "The IR team and the network administrator have successfully handled a malware incident on the network. The team is now preparing countermeasure guideline to avoid a future occurrence of the malware incident. Which of the following countermeasure(s) should be added to deal with future malware incidents? (Select all that apply)",
+        "options": [
+            "Complying with the company's security policies",
+            "Implementing strong authentication schemes",
+            "Implementing a strong password policy",
+            "Install antivirus software"
+        ],
+        "answer": "Complying with the company's security policies"
+    },
+    {
+        "question": "John has implemented in the network to restrict the limit of public IP addresses in his organization and to enhance the firewall filtering technique.",
+        "options": [
+            "DMZ",
+            "Proxies",
+            "VPN",
+            "NAT"
+        ],
+        "answer": "NAT"
+    },
+    {
+        "question": "Which of the following is a windows in-built feature that provides filesystem-level encryption in the OS (starting from Windows 2000). except the Home version of Windows?",
+        "options": [
+            "Bit Locker",
+            "EFS",
+            "Disk Utility",
+            "FileVault"
+        ],
+        "answer": "EFS"
+    },
+    {
+        "question": "George was conducting a recovery drill test as a part of his network operation. Recovery drill tests are conducted on the .",
+        "options": [
+            "Archived data",
+            "Deleted data",
+            "Data in transit",
+            "Backup data"
+        ],
+        "answer": "Backup data"
+    },
+    {
+        "question": "Which phase of vulnerability management deals with the actions taken for correcting the discovered vulnerability?",
+        "options": [
+            "Mitigation",
+            "Assessment",
+            "Remediation",
+            "Verification"
+        ],
+        "answer": "Remediation"
+    },
+    {
+        "question": "Fargo, head of network defense at Globadyne Tech, has discovered an undesirable process in several Linux systems, which causes machines to hang every 1 hour. Fargo would like to eliminate it; what command should he execute?",
+        "options": [
+            "# update-rc.d -f [service name] remove",
+            "# service [service name] stop",
+            "# ps ax | grep [Target Process]",
+            "# kill -9 [PID]"
+        ],
+        "answer": "# kill -9 [PID]"
+    },
+    {
+        "question": "Which of the information below can be gained through network sniffing? (Select all that apply)",
+        "options": [
+            "Telnet Passwords",
+            "Syslog traffic",
+            "DNS traffic",
+            "Programming errors"
+        ],
+        "answer": "Telnet Passwords"
+    },
+    {
+        "question": "Identify the network topology where each computer acts as a repeater and the data passes from one computer to the other in a single direction until it reaches the destination.",
+        "options": [
+            "Ring",
+            "Mesh",
+            "Bus",
+            "Star"
+        ],
+        "answer": "Ring"
+    },
+    {
+        "question": "Management asked their network administrator to suggest an appropriate backup medium for their backup plan that best suits their organization's need. Which of the following factors will the administrator consider when deciding on the appropriate backup medium?",
+        "options": [
+            "Capability",
+            "Accountability",
+            "Extensibility",
+            "Reliability"
+        ],
+        "answer": "Reliability"
+    },
+    {
+        "question": "The bank where you work has 600 windows computers and 400 Red Hat computers which primarily serve as bank teller consoles. You have created a plan and deployed all the patches to the Windows computers and you are now working on updating the Red Hat computers. What command should you run on the network to update the Red Hat computers, download the security package, force the package installation, and update all currently installed packages?",
+        "options": [
+            "You should run the up2date -d -f -u command",
+            "You should run the up2data -u command",
+            "You should run the WSUS -d -f -u command.",
+            "You should type the sysupdate -d command"
+        ],
+        "answer": "You should run the up2date -d -f -u command"
+    },
+    {
+        "question": "Which of the following interfaces uses hot plugging technique to replace computer components without the need to shut down the system?",
+        "options": [
+            "SCSI",
+            "SATA",
+            "SDRAM",
+            "IDE"
+        ],
+        "answer": "SATA"
+    },
+    {
+        "question": "Which type of firewall consists of three interfaces and allows further subdivision of the systems based on specific security objectives of the organization?",
+        "options": [
+            "Screened subnet",
+            "Bastion host",
+            "Unscreened subnet",
+            "Multi-homed firewall"
+        ],
+        "answer": "Multi-homed firewall"
+    },
+    {
+        "question": "A network administrator is monitoring the network traffic with Wireshark. Which of the following filters will she use to view the packets moving without setting a flag to detect TCP Null Scan attempts?",
+        "options": [
+            "TCRflags==0x000",
+            "Tcp.flags==0X029",
+            "Tcp.dstport==7",
+            "Tcp.flags==0x003"
+        ],
+        "answer": "TCRflags==0x000"
+    },
+    {
+        "question": "Liza was told by her network administrator that they will be implementing IPsec VPN tunnels to connect the branch locations to the main office. What layer of the OSI model do IPsec tunnels function on?",
+        "options": [
+            "The data link layer",
+            "The session layer",
+            "The network layer",
+            "The application and physical layers"
+        ],
+        "answer": "The network layer"
+    },
+    {
+        "question": "What is the correct order of activities that a IDS is supposed to attempt in order to detect an intrusion?",
+        "options": [
+            "Prevention, Intrusion Monitoring, Intrusion Detection, Response",
+            "Intrusion Monitoring, Intrusion Detection, Response, Prevention",
+            "Intrusion Detection, Response, Prevention, Intrusion Monitoring",
+            "Prevention, Intrusion Detection, Response, Intrusion Monitoring"
+        ],
+        "answer": "Intrusion Monitoring, Intrusion Detection, Response, Prevention"
+    },
+    {
+        "question": "Jorge has developed a core program for a mobile application and saved it locally on his system. The next day, when he tried to access the file to work on it further, he found it missing from his system. Upon investigation, it was discovered that someone got into his system since he had not changed his login credentials, and that they were the ones that were given to him by the admin when he had joined the organization. Which of the following network security vulnerabilities can be attributed to Jorge’s situation?",
+        "options": [
+            "System account vulnerabilities",
+            "User account vulnerabilities",
+            "Default password and settings",
+            "Network device misconfiguration"
+        ],
+        "answer": "Default password and settings"
+    },
+    {
+        "question": "You are monitoring your network traffic with the Wireshark utility and noticed that your network is experiencing a large amount of traffic from certain region. You suspect a DoS incident on the network. What will be your first reaction as a first responder?",
+        "options": [
+            "Disable Virus Protection",
+            "Make an initial assessment",
+            "Communicate the incident",
+            "Avoid Fear, Uncertainty and Doubt"
+        ],
+        "answer": "Make an initial assessment"
+    },
+    {
+        "question": "David, a network and system admin, encrypted all the files in a Windows system that supports NTFS file system using Encrypted File Systems (EFS). He then backed up the same files into another Windows system that supports FAT file system. Later, he found that the backup files were not encrypted. What could be the reason for this?",
+        "options": [
+            "EFS could only encrypt the files that follow NTFS",
+            "FAT files cannot be encrypted",
+            "EFS is not the encryption system used in Windows",
+            "Copied files loses their encryption"
+        ],
+        "answer": "EFS could only encrypt the files that follow NTFS"
+    },
+    {
+        "question": "Which of the following entities is responsible for cloud security?",
+        "options": [
+            "Cloud provider",
+            "Cloud consumer",
+            "Cloud broker",
+            "Both cloud consumer and provider"
+        ],
+        "answer": "Both cloud consumer and provider"
+    },
+    {
+        "question": "Who oversees all the incident response activities in an organization and is responsible for all actions of the IR team and IR function?",
+        "options": [
+            "IR officer",
+            "Attorney",
+            "IR custodians",
+            "PR specialist"
+        ],
+        "answer": "IR officer"
+    },
+    {
+        "question": "Which of the following helps in viewing account activity and events for supported services made by AWS?",
+        "options": [
+            "AWS CloudFormation",
+            "AWS Certificate Manager",
+            "AWS CloudHSM",
+            "AWS CloudTrial"
+        ],
+        "answer": "AWS CloudTrial"
+    },
+    {
+        "question": "John has planned to update all Linux workstations in his network. The organization is using various Linux distributions including Red hat, Fedora and Debian. Which of following commands will he use to update each respective Linux distribution? XX",
+        "options": [
+            "1-iii,2-iv,3-ii,4-v",
+            "1-iv,2-v,3-iv,4-iii",
+            "1-v,2-iii,3-i,4-iv",
+            "1-ii,2-i,3-iv,4-iii"
+        ],
+        "answer": "1-v,2-iii,3-i,4-iv"
+    },
+    {
+        "question": "Who is responsible for executing the policies and plans required for supporting the information technology and computer systems of an organization?",
+        "options": [
+            "Senior management",
+            "IT security practitioners",
+            "Business and functional managers",
+            "Chief Information Officer (CIO)"
+        ],
+        "answer": "Chief Information Officer (CIO)"
+    },
+    {
+        "question": "A stateful multilayer inspection firewall combines the aspects of Application level gateway, Circuit level gateway and Packet filtering firewall. On which layers of the OSI model, does the Stateful multilayer inspection firewall works?",
+        "options": [
+            "Network, Session & Application",
+            "Physical & application",
+            "Session & network",
+            "Physical, session & application"
+        ],
+        "answer": "Network, Session & Application"
+    },
+    {
+        "question": "Ryan is a network security administrator, who wants to implement local security policies for privileges granted to users and groups, system security audit settings, user authentication, and want to send security audit messages to the Event Log. Which Windows security component fulfills Ryan’s requirement?",
+        "options": [
+            "Security Reference Monitor (SRM)",
+            "The Security Account Manager (SAM)",
+            "The Local Security Authority Subsystem (LSASS)",
+            "WinLogon and NetLogon"
+        ],
+        "answer": "The Local Security Authority Subsystem (LSASS)"
+    },
+    {
+        "question": "Which of the following is true regarding any attack surface?",
+        "options": [
+            "Decrease in vulnerabilities decreases the attack surface",
+            "Increase in vulnerabilities decreases the attack surface",
+            "Decrease in risk exposures increases the attack surface",
+            "Decrease in vulnerabilities increases the attack surface"
+        ],
+        "answer": "Decrease in vulnerabilities decreases the attack surface"
+    },
+    {
+        "question": "Simran is a network administrator at a start-up called Revolution. To ensure that neither party in the company can deny getting email notifications or any other communication, she mandates authentication before a connection establishment or message transfer occurs. What fundamental attribute of network defense is she enforcing?",
+        "options": [
+            "Integrity",
+            "Non-repudiation",
+            "Confidentiality",
+            "Authentication"
+        ],
+        "answer": "Non-repudiation"
+    },
+    {
+        "question": "Your company is planning to use an uninterruptible power supply (UPS) to avoid damage from power fluctuations. As a network administrator, you need to suggest an appropriate UPS solution suitable for specific resources or conditions. Match the type of UPS with the use and advantage:",
+        "options": [
+            "1-v,2-iv,3-iii,4-i",
+            "1-v,2-iii,3-i,4-ii",
+            "1-iii,2-iv,3-v,4-iv",
+            "1-i,2-iv,3-ii,4-v"
+        ],
+        "answer": "1-v,2-iv,3-iii,4-i"
+    },
+    {
+        "question": "Management wants to bring their organization into compliance with the ISO standard for information security risk management. Which ISO standard will management decide to implement?",
+        "options": [
+            "ISO/IEC 27004",
+            "ISO/IEC 27002",
+            "ISO/IEC 27006",
+            "ISO/IEC 27005"
+        ],
+        "answer": "ISO/IEC 27005"
+    },
+    {
+        "question": "An IT company has just been hit with a severe external security breach. To enhance the company’s security posture, the network admin has decided to first block all the services and then individually enable only the necessary services. What is such an Internet access policy called?",
+        "options": [
+            "Prudent Policy",
+            "Permissive Policy",
+            "Promiscuous Policy",
+            "Paranoid Policy"
+        ],
+        "answer": "Paranoid Policy"
+    },
+    {
+        "question": "The network administrator wants to strengthen physical security in the organization. Specifically, to implement a solution stopping people from entering certain restricted zones without proper credentials. Which of following physical security measures should the administrator use?",
+        "options": [
+            "Video surveillance",
+            "Fence",
+            "Mantrap",
+            "Bollards"
+        ],
+        "answer": "Mantrap"
+    },
+    {
+        "question": "The agency Jacob works for stores and transmits vast amounts of sensitive government data that cannot be compromised. Jacob has implemented Encapsulating Security Payload (ESP) to encrypt IP traffic. Jacob wants to encrypt the IP traffic by inserting the ESP header in the IP datagram before the transport layer protocol header. What mode of ESP does Jacob need to use to encrypt the IP traffic?",
+        "options": [
+            "He should use ESP in transport mode.",
+            "Jacob should utilize ESP in tunnel mode.",
+            "Jacob should use ESP in pass-through mode.",
+            "He should use ESP in gateway mode"
+        ],
+        "answer": "Jacob should utilize ESP in tunnel mode."
+    },
+    {
+        "question": "Which of the following wireless encryption provides enhanced password protection, secured IoT connections, and encompasses stronger encryption techniques?",
+        "options": [
+            "WEP",
+            "WPA",
+            "WPA2",
+            "WPA3"
+        ],
+        "answer": "WPA3"
+    },
+    {
+        "question": "Identify the virtualization level that creates a massive pool of storage areas for different virtual machines running on the hardware.",
+        "options": [
+            "Fabric virtualization",
+            "Storage device virtualization",
+            "Server virtualization",
+            "File system virtualization"
+        ],
+        "answer": "Storage device virtualization"
+    },
+    {
+        "question": "Clement is the CEO of an IT firm. He wants to implement a policy allowing employees with a preapproved set of devices from which the employees choose devices (laptops, smartphones, and tablets) to access company data as per the organization's access privileges. Which among the following policies does Clement want to enforce?",
+        "options": [
+            "BYOD policy",
+            "COPE policy",
+            "CYOD policy",
+            "COBO policy"
+        ],
+        "answer": "CYOD policy"
+    },
+    {
+        "question": "What is Azure Key Vault?",
+        "options": [
+            "It is secure storage for the keys used to encrypt data at rest in Azure services",
+            "It is secure storage for the keys used to encrypt data in motion in Azure services",
+            "It is secure storage for the keys used to encrypt data in use in Azure services",
+            "It is secure storage for the keys used to configure IAM in Azure services"
+        ],
+        "answer": "It is secure storage for the keys used to encrypt data at rest in Azure services"
+    },
+    {
+        "question": "Harry has sued the company claiming they made his personal information public on a social networking site in the United States. The company denies the allegations and consulted a/an for legal advice to defend them against this allegation.",
+        "options": [
+            "Evidence Manager",
+            "Incident Handler",
+            "Attorney",
+            "PR Specialist"
+        ],
+        "answer": "Attorney"
+    },
+    {
+        "question": "Disaster Recovery is a .",
+        "options": [
+            "Operation-centric strategy",
+            "Security-centric strategy",
+            "Data-centric strategy",
+            "Business-centric strategy"
+        ],
+        "answer": "Business-centric strategy"
+    },
+    {
+        "question": "Delta IT solutions suffered a substantial data loss translating into a huge monetary loss for them. While investigation, the network admin analyzed all the packets and traffic transmitted across the network and identified that some user, within the organization, had leaked the data. Which of the following devices could have helped the network admin reach this conclusion?",
+        "options": [
+            "Internet Content Filter",
+            "Network Access Control",
+            "Network Protocol Analyzer",
+            "Intrusion Detection System"
+        ],
+        "answer": "Network Protocol Analyzer"
+    },
+    {
+        "question": "Which of the following attack signature analysis techniques are implemented to examine the header information and conclude that a packet has been altered?",
+        "options": [
+            "Context-based signature analysis",
+            "Content-based signature analysis",
+            "Atomic signature-based analysis",
+            "Composite signature-based analysis"
+        ],
+        "answer": "Composite signature-based analysis"
+    },
+    {
+        "question": "Which of the following network security controls can an administrator use to detect, deflect or study attempts to gain unauthorized access to information systems?",
+        "options": [
+            "IDS/IPS",
+            "Network Protocol Analyzer",
+            "Proxy Server",
+            "Honeypot"
+        ],
+        "answer": "Honeypot"
+    },
+    {
+        "question": "Which antenna's characteristic refer to the calculation of radiated in a particular direction. It is generally the ratio of radiation intensity in a given direction to the average radiation intensity?",
+        "options": [
+            "Radiation pattern",
+            "Polarization",
+            "Directivity",
+            "Typical gain"
+        ],
+        "answer": "Directivity"
+    },
+    {
+        "question": "Jason has set a firewall policy that allows only a specific list of network services and deny everything else. This strategy is known as a .",
+        "options": [
+            "Default allow",
+            "Default deny",
+            "Default restrict",
+            "Default access"
+        ],
+        "answer": "Default deny"
+    },
+    {
+        "question": "Which among the following is used to limit the number of cmdlets or administrative privileges of administrator, user, or service accounts?",
+        "options": [
+            "Just Enough Administration (EA)",
+            "User Account Control (UAC)",
+            "Windows Security Identifier (SID)",
+            "Credential Guard"
+        ],
+        "answer": "Just Enough Administration (EA)"
+    },
+    {
+        "question": "Which type of training can create awareness among employees regarding compliance issues?",
+        "options": [
+            "Social engineering awareness training",
+            "Security policy training",
+            "Physical security awareness training",
+            "Training on data classification"
+        ],
+        "answer": "Security policy training"
+    },
+    {
+        "question": "How can a WAF validate traffic before it reaches a web application?",
+        "options": [
+            "It uses a role-based filtering technique",
+            "It uses an access-based filtering technique",
+            "It uses a sandboxing filtering technique",
+            "It uses a rule-based filtering technique"
+        ],
+        "answer": "It uses a rule-based filtering technique"
+    },
+    {
+        "question": "You are responsible for network functions and logical security throughout the corporation. Your company has over 250 servers running Windows Server 2012, 5000 workstations running Windows 10, and 200 mobile users working from laptops on Windows 8. Last week 10 of your company's laptops were stolen from a salesman, while at a conference in Barcelona. These laptops contained proprietary company information. While doing a damage assessment, a news story leaks about a blog post containing information about the stolen laptops and the sensitive information. What built-in Windows feature could you have implemented to protect the sensitive information on these laptops?",
+        "options": [
+            "You should have used 3DES.",
+            "You should have implemented the Distributed File System (DFS).",
+            "If you would have implemented Pretty Good Privacy (PGP).",
+            "You could have implemented the Encrypted File System (EFS)"
+        ],
+        "answer": "You could have implemented the Encrypted File System (EFS)"
+    },
+    {
+        "question": "Which filter to locate unusual ICMP request an Analyst can use in order to detect a ICMP probes from the attacker to a target OS looking for the response to perform ICMP fingerprinting?",
+        "options": [
+            "(icmp.type==9 && ((!(icmp.code==9))",
+            "(icmp.type==14) || (icmp.type==15 || (icmp.type==17)",
+            "(icmp.type==8 && ((!(icmp.code==8))",
+            "(icmp.type==12) || (icmp.type==15 || (icmp.type==17)"
+        ],
+        "answer": "(icmp.type==8 && ((!(icmp.code==8))"
+    },
+    {
+        "question": "Which type of wireless network attack is characterized by an attacker using a high gain amplifier from a nearby location to drown out the legitimate access point signal?",
+        "options": [
+            "Jamming signal attack",
+            "Ad Hoc Connection attack",
+            "Rogue access point attack",
+            "Unauthorized association"
+        ],
+        "answer": "Jamming signal attack"
+    },
+    {
+        "question": "Tom works as a network administrator in a multinational organization having branches across North America and Europe. Tom wants to implement a storage technology that can provide centralized data storage and provide free data backup on the server. He should be able to perform data backup and recovery more efficiently with the selected technology. Which of the following storage technologies best suits Tom's requirements?",
+        "options": [
+            "DAS",
+            "PAS",
+            "RAID",
+            "NAS"
+        ],
+        "answer": "NAS"
+    },
+    {
+        "question": "Henry, head of network security at Gentech, has discovered a general report template that someone has reserved only for the CEO. Since the file has to be editable, viewable, and deletable by everyone, what permission value should he set?",
+        "options": [
+            "777",
+            "700",
+            "755",
+            "0600"
+        ],
+        "answer": "777"
+    },
+    {
+        "question": "An organization’s web server was recently compromised triggering its admin team into action to defend the network. The admin team wants to place the web server in such a way that, even if it is attacked, the other network resources will be unavailable to the attacker. Moreover, the network monitoring will easily detect the future attacks. How can the admin team implement this plan?",
+        "options": [
+            "They can place the web server outside of the organization in a remote place",
+            "They can remove the web server from their organization",
+            "They can place it in a separate DMZ area behind the firewall",
+            "They can place it beside the firewall"
+        ],
+        "answer": "They can place it in a separate DMZ area behind the firewall"
+    },
+    {
+        "question": "Which among the following control and manage the communication between VNF with computing, storage, and network resources along with virtualization?",
+        "options": [
+            "Orchestrator",
+            "VNF Manager(s)",
+            "Virtualized Infrastructure Manager(s)",
+            "Element Management System (EMS)"
+        ],
+        "answer": "Virtualized Infrastructure Manager(s)"
+    },
+    {
+        "question": "Who acts as an intermediary to provide connectivity and transport services between cloud consumers and providers?",
+        "options": [
+            "Cloud Auditor",
+            "Cloud Broker",
+            "Cloud Carrier",
+            "Cloud Consultant"
+        ],
+        "answer": "Cloud Carrier"
+    },
+    {
+        "question": "Frank installed Wireshark at all ingress points in the network. Looking at the logs he notices an odd packet source. The odd source has an address of 1080:0:FF:0:8:800:200C:4171 and is using port 21. What does this source address signify?",
+        "options": [
+            "This address means that the source is using an IPv6 address and is spoofed and signifies an IPv4 address of 127.0.0.1.",
+            "This source address is IPv6 and translates as 13.1.68.3",
+            "This source address signifies that the originator is using 802dot1x to try and penetrate into Frank's network",
+            "This means that the source is using IPv4"
+        ],
+        "answer": "This address means that the source is using an IPv6 address and is spoofed and signifies an IPv4 address of 127.0.0.1."
+    },
+    {
+        "question": "Which of the following can be used to suppress fire from Class K sources?",
+        "options": [
+            "Foam",
+            "Carbon dioxide",
+            "Water",
+            "Dry Chemical"
+        ],
+        "answer": "Foam"
+    },
+    {
+        "question": "Which of the following helps prevent executing untrusted or untested programs or code from untrusted or unverified third-parties?",
+        "options": [
+            "Application sandboxing",
+            "Deployment of WAFS",
+            "Application whitelisting",
+            "Application blacklisting"
+        ],
+        "answer": "Application sandboxing"
+    },
+    {
+        "question": "Which of the following attack surface increase when you keep USB ports enabled on your laptop unnecessarily?",
+        "options": [
+            "Human attack surface",
+            "Network attack surface",
+            "Physical attack surface",
+            "Software attack surface"
+        ],
+        "answer": "Physical attack surface"
+    },
+    {
+        "question": "What can be the possible number of IP addresses that can be assigned to the hosts present in a subnet having 255.255.255.224 subnet mask?",
+        "options": [
+            "62",
+            "30",
+            "14",
+            "126"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "Bankofamerica Enterprise is working on an internet and usage policy in a way to control the internet demand. What group of policy does this belong to?",
+        "options": [
+            "Enterprise Information Security Policy",
+            "Issue Specific Security Policy",
+            "Network Services Specific Security Policy",
+            "System Specific Security Policy"
+        ],
+        "answer": "Issue Specific Security Policy"
+    },
+    {
+        "question": "An attacker has access to password hashes of a Windows 7 computer. Which of the following attacks can the attacker use to reveal the passwords?",
+        "options": [
+            "Brute force",
+            "XSS",
+            "Dictionary attacks",
+            "Rainbow table"
+        ],
+        "answer": "Rainbow table"
+    },
+    {
+        "question": "Which type of attack is used to hack an IoT device and direct large amounts of network traffic toward a web server, resulting in overloading the server with connections and preventing any new connections?",
+        "options": [
+            "XSS",
+            "DDoS",
+            "XCRF",
+            "Sniffing"
+        ],
+        "answer": "DDoS"
+    },
+    {
+        "question": "Stephanie is currently setting up email security so all company data is secured when passed through email. Stephanie first sets up encryption to make sure that a specific user's email is protected. Next, she needs to ensure that the incoming and the outgoing mail has not been modified or altered using digital signatures. What is Stephanie working on?",
+        "options": [
+            "Usability",
+            "Data Integrity",
+            "Availability",
+            "Confidentiality"
+        ],
+        "answer": "Data Integrity"
+    },
+    {
+        "question": "Choose the correct order of steps to analyze the attack surface.",
+        "options": [
+            "Identify the indicators of exposure->visualize the attack surface->simulate the attack->reduce the attack surface",
+            "Visualize the attack surface->simulate the attack->identify the indicators of exposure->reduce the attack surface",
+            "Identify the indicators of exposure->simulate the attack->visualize the attack surface->reduce the attack surface",
+            "Visualize the attack surface->identify the indicators of exposure->simulate the attack->reduce the attack surface"
+        ],
+        "answer": "Identify the indicators of exposure->visualize the attack surface->simulate the attack->reduce the attack surface"
+    },
+    {
+        "question": "Which of the following is a best practice for wireless network security?",
+        "options": [
+            "Enabling the remote router login",
+            "Do not changing the default SSID",
+            "Do not placing packet filter between the AP and the corporate intranet",
+            "Using SSID cloaking"
+        ],
+        "answer": "Using SSID cloaking"
+    },
+    {
+        "question": "Xenon is a leading real estate firm located in Australia. Recently, the company had decided a bid amount for a prestigious construction project and was sure of being awarded the project. Unfortunately, the company lost the tender to one of its competitors. A few days later, while performing a network scan, the network admin identified that somebody had captured the confidential e-mails conversions related to the tender. Upon further investigation, the admin discovered that one of the switch ports was left open and an employee had plugged into the network using an Ethernet cable. Which attack did the employee perform in the above situation?",
+        "options": [
+            "Network Sniffing",
+            "Password Attack",
+            "Social Engineering Attack",
+            "Man-in-the-Middle Attack"
+        ],
+        "answer": "Network Sniffing"
+    },
+    {
+        "question": "Which of the following NIST incident category includes any activity that seeks to access or identify a federal agency computer, open ports, protocols, service or any combination for later exploit?",
+        "options": [
+            "Scans/Probes/Attempted Access",
+            "Malicious code",
+            "Improper usage",
+            "Denial-of-Service"
+        ],
+        "answer": "Scans/Probes/Attempted Access"
+    },
+    {
+        "question": "Which of the following is consumed into SIEM solutions to take control of chaos, gain in-depth knowledge of threats, eliminate false positives, and implement proactive intelligence-driven defense?",
+        "options": [
+            "Threat intelligence sources",
+            "Threat intelligence feeds",
+            "Threat intelligence platform",
+            "Threat intelligence professional services"
+        ],
+        "answer": "Threat intelligence feeds"
+    },
+    {
+        "question": "Which event type indicates a significant problem such as loss of data or loss of functionality?",
+        "options": [
+            "Error",
+            "Warning",
+            "Information",
+            "Failure Audit"
+        ],
+        "answer": "Error"
+    },
+    {
+        "question": "Which of the following connects the SDN controller and SDN networking devices and relays information from network services to network devices such as switches and routers?",
+        "options": [
+            "Eastbound API",
+            "Northbound API",
+            "Southbound API",
+            "Westbound API"
+        ],
+        "answer": "Southbound API"
+    },
+    {
+        "question": "Which component of the data packets is encrypted in Transport mode encryption of an IPsec server?",
+        "options": [
+            "Payload",
+            "Header",
+            "Header and Payload",
+            "Encryption is not used in IPsec server"
+        ],
+        "answer": "Payload"
+    },
+    {
+        "question": "Which of the following is not part of the recommended first response steps for network defenders?",
+        "options": [
+            "Restrict yourself from doing the investigation",
+            "Extract relevant data from the suspected devices as early as possible",
+            "Disable virus protection",
+            "Do not change the state of the suspected device"
+        ],
+        "answer": "Disable virus protection"
+    },
+    {
+        "question": "Daniel is giving training on designing and implementing a security policy in the organization. He is explaining the hierarchy of the security policy which demonstrates how policies are drafted, designed and implemented. What is the correct hierarchy for a security policy implementation?",
+        "options": [
+            "Laws, Policies, Regulations, Procedures and Standards",
+            "Regulations, Policies, Laws, Standards and Procedures",
+            "Laws, Regulations, Policies, Standards and Procedures",
+            "Procedures, Policies, Laws, Standards and Regulations"
+        ],
+        "answer": "Laws, Regulations, Policies, Standards and Procedures"
+    },
+    {
+        "question": "Identify the type of event that is recorded when an application driver loads successfully in Windows.",
+        "options": [
+            "Success Audit",
+            "Error",
+            "Warning",
+            "Information"
+        ],
+        "answer": "Information"
+    },
+    {
+        "question": "Which of the following systems includes an independent NAS Head and multiple storage arrays?",
+        "options": [
+            "Gateway NAS System",
+            "FreeNAS",
+            "Integrated NAS System",
+            "None of these"
+        ],
+        "answer": "Gateway NAS System"
+    },
+    {
+        "question": "Identify the password cracking attempt involving precomputed hash values stored as plaintext and using these to crack the password.",
+        "options": [
+            "Bruteforce",
+            "Rainbow table",
+            "Dictionary",
+            "Hybrid"
+        ],
+        "answer": "Rainbow table"
+    },
+    {
+        "question": "Richard has been working as a Linux system administrator at an MNC. He wants to maintain a productive and secure environment by improving the performance of the systems through Linux patch management. Richard is using Ubuntu and wants to patch the Linux systems manually. Which among the following command installs updates (new ones) for Debun based Linux OSes?",
+        "options": [
+            "sudo apt-get dist-upgrade",
+            "sudo apt-get update",
+            "sudo apt-get dist-update",
+            "sudo apt-get upgrate"
+        ],
+        "answer": "sudo apt-get dist-upgrade"
+    },
+    {
+        "question": "Byron, a new network administrator at FBI, would like to ensure that Windows PCs there are up-to-date and have less internal security flaws. What can he do?",
+        "options": [
+            "Install antivirus software and turn off unnecessary services",
+            "Centrally assign Windows PC group policies",
+            "Download and install latest patches and enable Windows Automatic Updates",
+            "Dedicate a partition on HDD and format the disk using NTFS"
+        ],
+        "answer": "Download and install latest patches and enable Windows Automatic Updates"
+    },
+    {
+        "question": "Cindy is the network security administrator for her company. She just got back from a security conference in Las Vegas where they talked about all kinds of old and new security threats; many of which she did not know of. She is worried about the current security state of her company's network so she decides to start scanning the network from an external IP address. To see how some of the hosts on her network react, she sends out SYN packets to an IP range. A number of IPs responds with a SYN/ACK response. Before the connection is established, she sends RST packets to those hosts to stop the session. She has done this to see how her intrusion detection system will log the traffic. What type of scan is Cindy attempting here?",
+        "options": [
+            "Cindy is using a half-open scan to find live hosts on her network.",
+            "The type of scan she is using is called a NULL scan",
+            "She is utilizing a RST scan to find live hosts that are listening on her network",
+            "Cindy is attempting to find live hosts on her company’s network by using a XMAS scan"
+        ],
+        "answer": "Cindy is using a half-open scan to find live hosts on her network."
+    },
+    {
+        "question": "James is working as a Network Administrator in a reputed company situated in California. He is monitoring his network traffic with the help of Wireshark. He wants to check and analyze the traffic against a PING sweep attack. Which of the following Wireshark filters will he use?",
+        "options": [
+            "lcmp.type==0 and icmp.type==16",
+            "lcmp.type==8 or icmp.type==16",
+            "lcmp.type==8 and icmp.type==0",
+            "lcmp.type==8 or icmp.type==0"
+        ],
+        "answer": "lcmp.type==8 or icmp.type==0"
+    },
+    {
+        "question": "Stephanie is currently setting up email security so all company data is secured when passed through email. Stephanie first sets up encryption to make sure that a specific user's email is protected. Next, she needs to ensure that the incoming and the outgoing mail has not been modified or altered using digital signatures. What is Stephanie working on?",
+        "options": [
+            "Confidentiality",
+            "Availability",
+            "Data Integrity",
+            "Usability"
+        ],
+        "answer": "Data Integrity"
+    },
+    {
+        "question": "Which of the following creates passwords for individual administrator accounts and stores them in Windows AD?",
+        "options": [
+            "LSASS",
+            "SRM",
+            "SAM",
+            "LAPS"
+        ],
+        "answer": "LAPS"
+    },
+    {
+        "question": "Simon had all his systems administrators implement hardware and software firewalls to ensure network security. They implemented IDS/IPS systems throughout the network to check for and stop any unauthorized traffic that may attempt to enter. Although Simon and his administrators believed they were secure, a hacker group was able to get into the network and modify files hosted on the company's website. After searching through the firewall and server logs, no one could find how the attackers were able to get in. He decides that the entire network needs to be monitored for critical and essential file changes. This monitoring tool alerts administrators when a critical file is altered. What tool could Simon and his administrators implement to accomplish this?",
+        "options": [
+            "Snort is the best tool for their situation",
+            "They can implement Wireshark",
+            "They could use Tripwire",
+            "They need to use Nessus"
+        ],
+        "answer": "They could use Tripwire"
+    },
+    {
+        "question": "Who is responsible for conveying company details after an incident?",
+        "options": [
+            "PR specialist",
+            "IR officer",
+            "IR manager",
+            "IR custodians"
+        ],
+        "answer": "PR specialist"
+    },
+    {
+        "question": "Assume that you are working as a network defender at the head office of a bank. One day a bank employee informed you that she is unable to log in to her system. At the same time, you get a call from another network administrator informing you that there is a problem connecting to the main server. How will you prioritize these two incidents?",
+        "options": [
+            "Based on the type of response needed for the incident",
+            "Based on a potential technical effect of the incident",
+            "Based on a first come first served basis",
+            "Based on approval from management"
+        ],
+        "answer": "Based on a potential technical effect of the incident"
+    },
+    {
+        "question": "Fred is a network technician working for Johnson Services, a temporary employment agency in Boston. Johnson Services has three remote offices in New England and the headquarters in Boston where Fred works. The company relies on a number of customized applications to perform daily tasks and unfortunately these applications require users to be local administrators. Because of this, Fred's supervisor wants to implement tighter security measures in other areas to compensate for the inherent risks in making those users local admins. Fred's boss wants a solution that will be placed on all computers throughout the company and monitored by Fred. This solution will gather information on all network traffic to and from the local computers without actually affecting the traffic. What type of solution does Fred's boss want to implement?",
+        "options": [
+            "Fred's boss wants a NIDS implementation.",
+            "Fred's boss wants Fred to monitor a NIPS system.",
+            "Fred's boss wants to implement a HIPS solution.",
+            "Fred's boss wants to implement a HIDS solution."
+        ],
+        "answer": "Fred's boss wants a NIDS implementation."
+    },
+    {
+        "question": "John wants to implement a packet filtering firewall in his organization's network. What TCP/IP layer does a packet filtering firewall work on?",
+        "options": [
+            "Application layer",
+            "Network Interface layer",
+            "TCP layer",
+            "IP layer"
+        ],
+        "answer": "IP layer"
+    },
+    {
+        "question": "Which of the following statements holds true in terms of virtual machines?",
+        "options": [
+            "Hardware-level virtualization takes place in VMs",
+            "All VMs share the host OS",
+            "VMs are light weight than container",
+            "OS-level virtualization takes place in VMs"
+        ],
+        "answer": "Hardware-level virtualization takes place in VMs"
+    },
+    {
+        "question": "Sam wants to implement a network-based IDS in the network. Sam finds out the one IDS solution which works is based on patterns matching. Which type of network-based IDS is Sam implementing?",
+        "options": [
+            "Behavior-based IDS",
+            "Anomaly-based IDS",
+            "Stateful protocol analysis",
+            "Signature-based IDS"
+        ],
+        "answer": "Signature-based IDS"
+    },
+    {
+        "question": "Jeanne is working as a network administrator in an IT company. She wants to control/limit container access to CPU, memory, swap, block IO (rates), network. Which Linux kernel feature allows Jeanne to manage, restrict, and audit groups of the process?",
+        "options": [
+            "Cgroups",
+            "LSMs",
+            "Seccomp",
+            "Userns"
+        ],
+        "answer": "Seccomp"
+    },
+    {
+        "question": "Identify the minimum number of drives required to setup RAID level 5.",
+        "options": [
+            "Multiple",
+            "3",
+            "4",
+            "2"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "A network is setup using an IP address range of 0.0.0.0 to 127.255.255.255. The network has a default subnet mask of 255.0.0.0. What IP address class is the network range a part of?",
+        "options": [
+            "Class C",
+            "Class A",
+            "Class B",
+            "Class D"
+        ],
+        "answer": "Class A"
+    },
+    {
+        "question": "Which subdirectory in /var/log directory stores information related to Apache web server?",
+        "options": [
+            "/var/log/maillog/",
+            "/var/log/httpd/",
+            "/var/log/apachelog/",
+            "/var/log/lighttpd/"
+        ],
+        "answer": "/var/log/httpd/"
+    },
+    {
+        "question": "An insider in Hexagon, a leading IT company in USA, was testing a packet crafting tool. This tool generated a lot of malformed TCP/IP packets which crashed the main server’s operating system leading to restricting the employees’ accesses. Which attack did the insider use in the above situation?",
+        "options": [
+            "DoS attack",
+            "Session Hijacking",
+            "Man-in-the-Middle",
+            "Cross-Site-Scripting"
+        ],
+        "answer": "DoS attack"
+    },
+    {
+        "question": "The risk assessment team in Southern California has estimated that the probability of an incident that has potential to impact almost 80% of the bank's business is very high. How should this risk be categorized in the risk matrix?",
+        "options": [
+            "High",
+            "Medium",
+            "Extreme",
+            "Low"
+        ],
+        "answer": "Extreme"
+    },
+    {
+        "question": "Which of the following VPN topologies establishes a persistent connection between an organization's main office and its branch offices using a third-party network or the Internet?",
+        "options": [
+            "Star",
+            "Point-to-Point",
+            "Full Mesh",
+            "Hub-and-Spoke"
+        ],
+        "answer": "Hub-and-Spoke"
+    },
+    {
+        "question": "Which of the following indicators are discovered through an attacker's intent, their end goal or purpose, and a series of actions that they must take before being able to successfully launch an attack?",
+        "options": [
+            "Key risk indicators",
+            "Indicators of compromise",
+            "Indicators of attack",
+            "Indicators of exposure"
+        ],
+        "answer": "Indicators of attack"
+    },
+    {
+        "question": "In method, event logs are arranged in the form of a circular buffer.",
+        "options": [
+            "Non-wrapping method",
+            "LIFO method",
+            "Wrapping method",
+            "FIFO method"
+        ],
+        "answer": "Wrapping method"
+    },
+    {
+        "question": "Which IEEE standard does wireless network use?",
+        "options": [
+            "802.11",
+            "802.18",
+            "802.9",
+            "802.10"
+        ],
+        "answer": "802.11"
+    },
+    {
+        "question": "John is the Vice-President of a BPO. He wants to implement a policy allowing employees to use and manage devices purchased by the organization but restrict the use of the device for business use only. Which among the following policies does John want to implement?",
+        "options": [
+            "COBO policy",
+            "CYOD policy",
+            "BYOD policy",
+            "COPE policy"
+        ],
+        "answer": "CYOD policy"
+    },
+    {
+        "question": "Which of the following is a database encryption feature that secures sensitive data by encrypting it in client applications without revealing the encrypted keys to the data engine in MS SQL Server?",
+        "options": [
+            "IsEncrypted Enabled",
+            "NeverEncrypted disabled",
+            "Allow Encrypted",
+            "Always Encrypted"
+        ],
+        "answer": "Always Encrypted"
+    },
+    {
+        "question": "Alex is administrating the firewall in the organization's network. What command will he use to check the ports applications open?",
+        "options": [
+            "Netstat -an",
+            "Netstat -o",
+            "Netstat -a",
+            "Netstat -ao"
+        ],
+        "answer": "Netstat -an"
+    },
+    {
+        "question": "Michelle is a network security administrator working in an MNC company. She wants to set a resource limit for CPU in a container. Which command-line allows Michelle to limit a container to 2 CPUs?",
+        "options": [
+            "--cpu=“2”",
+            "$cpu=“2”",
+            "--cpus=“2”",
+            "$cpus=“2”"
+        ],
+        "answer": "--cpus=“2”"
+    },
+    {
+        "question": "Which of the following connects the SDN application layer and SDN controller and allows communication between the network services and business applications?",
+        "options": [
+            "Eastbound API",
+            "Westbound API",
+            "Northbound API",
+            "Southbound API"
+        ],
+        "answer": "Northbound API"
+    },
+    {
+        "question": "John is a senior network security administrator working at a multinational company. He wants to block specific syscalls from being used by container binaries. Which Linux kernel feature restricts actions within the container?",
+        "options": [
+            "Cgroups",
+            "LSMs",
+            "Seccomp",
+            "Userns"
+        ],
+        "answer": "Seccomp"
+    },
+    {
+        "question": "Which of the following examines Recovery Point Objectives (RPOs) and Recovery Time Objectives (RTOs) for a disaster recovery strategy?",
+        "options": [
+            "Risk Assessment",
+            "Risk Management",
+            "Business Continuity Plan",
+            "Business Impact Analysis"
+        ],
+        "answer": "Business Impact Analysis"
+    },
+    {
+        "question": "Which of the following provides enhanced password protection, secured loT connections, and encompasses stronger encryption techniques?",
+        "options": [
+            "WPA3",
+            "WEP",
+            "WPA",
+            "WPA2"
+        ],
+        "answer": "WPA3"
+    },
+    {
+        "question": "During a security awareness program, management was explaining the various reasons which create threats to network security. Which could be a possible threat to network security?",
+        "options": [
+            "Configuring automatic OS updates",
+            "Having a web server in the internal network",
+            "Implementing VPN",
+            "Patch management"
+        ],
+        "answer": "Having a web server in the internal network"
+    },
+    {
+        "question": "On which of the following OSI layers does the Pretty Good Privacy (PGP) work?",
+        "options": [
+            "Application",
+            "Data Link",
+            "Network",
+            "Transport"
+        ],
+        "answer": "Application"
+    },
+    {
+        "question": "John, a network administrator, is configuring Amazon EC2 cloud service for his organization. Identify the type of cloud service modules his organization adopted.",
+        "options": [
+            "Software-as-a-Service (SaaS)",
+            "Infrastructure-as-a-Service (IaaS)",
+            "Platform-as-a-Service (PaaS)",
+            "Storage-as-a-Service (SaaS)"
+        ],
+        "answer": "Infrastructure-as-a-Service (IaaS)"
+    },
+    {
+        "question": "A company wants to implement a data backup method which allows them to encrypt the data ensuring its security as well as access at any time and from any location. What is the appropriate backup method that should be implemented?",
+        "options": [
+            "Onsite backup",
+            "Hot site backup",
+            "Offsite backup",
+            "Cloud backup"
+        ],
+        "answer": "Cloud backup"
+    },
+    {
+        "question": "What should a network administrator perform to execute/test the untrusted or untested programs or code from untrusted or unverified third-parties without risking the host system or OS?",
+        "options": [
+            "Application Whitelisting",
+            "Application Blacklisting",
+            "Deployment of WAFs",
+            "Application Sandboxing"
+        ],
+        "answer": "Application Sandboxing"
+    },
+    {
+        "question": "Chris is a senior network administrator. Chris wants to measure the Key Risk Indicator (KRI) to assess the organization. Why is Chris calculating the KRI for his organization? It helps Chris to:",
+        "options": [
+            "Identifies adverse events",
+            "Facilitates backward",
+            "Facilitates post Incident management",
+            "Notifies when risk has reached threshold levels"
+        ],
+        "answer": "Notifies when risk has reached threshold levels"
+    },
+    {
+        "question": "Wallcot, a retail chain in US and Canada, wants to improve the security of their administration offices. They want to implement a mechanism with two doors. Only one of the doors can be opened at a time. Once people enter from the first door, they have to be authorized to open the next one. Failing the authorization, the person will be locked between the doors until an authorized person lets him or her out. What is such a mechanism called?",
+        "options": [
+            "Mantrap",
+            "Physical locks",
+            "Concealed detection device",
+            "Alarm system"
+        ],
+        "answer": "Mantrap"
+    },
+    {
+        "question": "Henry needs to design a backup strategy for the organization with no service level downtime. Which backup method will he select?",
+        "options": [
+            "Normal backup",
+            "Warm backup",
+            "Hot backup",
+            "Cold backup"
+        ],
+        "answer": "Hot backup"
+    },
+    {
+        "question": "Malone is finishing up his incident handling plan for IT before giving it to his boss for review. He is outlining the incident response methodology and the steps that are involved. What is the last step he should list?",
+        "options": [
+            "Containment",
+            "Assign eradication",
+            "A follow-up",
+            "Recovery"
+        ],
+        "answer": "A follow-up"
+    },
+    {
+        "question": "The network admin decides to assign a class B IP address to a host in the network. Identify which of the following addresses fall within a class B IP address range.",
+        "options": [
+            "255.255.255.0",
+            "18.12.4.1",
+            "172.168.12.4",
+            "169.254.254.254"
+        ],
+        "answer": "18.12.4.1"
+    },
+    {
+        "question": "John wants to implement a firewall service that works at the session layer of the OSI model. The firewall must also have the ability to hide the private network information. Which type of firewall service is John thinking of implementing?",
+        "options": [
+            "Application level gateway",
+            "Circuit level gateway",
+            "Stateful Multilayer Inspection",
+            "Packet Filtering"
+        ],
+        "answer": "Circuit level gateway"
+    },
+    {
+        "question": "Jason works as a System Administrator for www.company.com Inc. The company has a Windows based network. Sam, an employee of the company, accidentally changes some of the applications and system settings. He complains to Jason that his system is not working properly. To troubleshoot the problem, Jason diagnoses the internals of his computer and observes that some changes have been made in Sam's computer registry. To rectify the issue, Jason has to restore the registry. Which of the following utilities can Jason use to accomplish the task? Each correct answer represents a complete solution. Choose all that apply.",
+        "options": [
+            "Resplendent registrar",
+            "Reg.exe",
+            "Regedit.exe",
+            "EventCombMT"
+        ],
+        "answer": "Reg.exe"
+    },
+    {
+        "question": "An US-based organization decided to implement a RAID storage technology for their data backup plan. John wants to setup a RAID level that require a minimum of six drives but will meet high fault tolerance and with a high speed for the data read and write operations. What RAID level is John considering to meet this requirement?",
+        "options": [
+            "RAID level 1",
+            "RAID level 10",
+            "RAID level 5",
+            "RAID level 50"
+        ],
+        "answer": "RAID level 50"
+    },
+    {
+        "question": "John has successfully remediated the vulnerability of an internal application that could have caused a threat to the network. He is scanning the application for the existence of a remediated vulnerability, this process is called a and it has to adhere to the",
+        "options": [
+            "Verification, Security Policies",
+            "Mitigation, Security policies",
+            "Vulnerability scanning, Risk Analysis",
+            "Risk analysis, Risk matrix"
+        ],
+        "answer": "Verification, Security Policies"
+    },
+    {
+        "question": "How is the chip-level security of an IoT device achieved?",
+        "options": [
+            "By closing insecure network services",
+            "By turning off the device when not needed or not in use",
+            "By encrypting the JTAG interface",
+            "By changing the password of the router"
+        ],
+        "answer": "By encrypting the JTAG interface"
+    },
+    {
+        "question": "is a structured and continuous process which integrates information security and risk management activities into the system development life cycle (SDLC).",
+        "options": [
+            "COBIT Framework",
+            "NIST Risk Management Framework",
+            "ERM Framework",
+            "COSO ERM Framework"
+        ],
+        "answer": "NIST Risk Management Framework"
+    },
+    {
+        "question": "Brendan wants to implement a hardware based RAID system in his network. He is thinking of choosing a suitable RAM type for the architectural setup in the system. The type he is interested in provides access times of up to 20 ns. Which type of RAM will he select for his RAID system?",
+        "options": [
+            "NVRAM",
+            "SDRAM",
+            "NAND flash memory",
+            "SRAM"
+        ],
+        "answer": "SRAM"
+    },
+    {
+        "question": "Which of the following security models enable strict identity verification for every user or device attempting to access the network resources? 1. Zero-trust network model 2. Castle-and-Moat model",
+        "options": [
+            "Both 1 and 2",
+            "1 only",
+            "2 only",
+            "None"
+        ],
+        "answer": "1 only"
+    },
+    {
+        "question": "USB ports enabled on a laptop is an example of",
+        "options": [
+            "System Attack Surface",
+            "Network Attack Surface",
+            "Physical Attack Surface",
+            "Software attack Surface"
+        ],
+        "answer": "Physical Attack Surface"
+    },
+    {
+        "question": "Identify the attack where an attacker manipulates or tricks people into revealing their confidential details like bank account information, credit card details, etc.?",
+        "options": [
+            "Social Engineering Attacks",
+            "Port Scanning",
+            "DNS Footprinting",
+            "ICMP Scanning"
+        ],
+        "answer": "Social Engineering Attacks"
+    },
+    {
+        "question": "Who is an IR custodian?",
+        "options": [
+            "An individual responsible for conveying company details after an incident",
+            "An individual who receives the initial IR alerts and leads the IR team in all the IR activities",
+            "An individual who makes a decision on the classifications and the severity of the incident identified",
+            "An individual responsible for the remediation and resolution of the incident that occurred"
+        ],
+        "answer": "An individual who makes a decision on the classifications and the severity of the incident identified"
+    },
+    {
+        "question": "Which type of antenna is based on the principle of a satellite dish and can pick up Wi-Fi signals from a distance of ten miles of more?",
+        "options": [
+            "Yagi antenna",
+            "Directional antenna",
+            "Omnidirectional antenna",
+            "Parabolic Grid antenna"
+        ],
+        "answer": "Parabolic Grid antenna"
+    }
+]
