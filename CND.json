@@ -2647,7 +2647,7 @@
             "Server virtualization",
             "File system virtualization"
         ],
-        "answer": "Storage device virtualization"
+        "answer": "Fabric virtualization"
     },
     {
         "question": "Clement is the CEO of an IT firm. He wants to implement a policy allowing employees with a preapproved set of devices from which the employees choose devices (laptops, smartphones, and tablets) to access company data as per the organization's access privileges. Which among the following policies does Clement want to enforce?",
@@ -2707,7 +2707,7 @@
             "Atomic signature-based analysis",
             "Composite signature-based analysis"
         ],
-        "answer": "Composite signature-based analysis"
+        "answer": "Context-based signature analysis"
     },
     {
         "question": "Which of the following network security controls can an administrator use to detect, deflect or study attempts to gain unauthorized access to information systems?",
@@ -2947,7 +2947,7 @@
             "Identify the indicators of exposure->simulate the attack->visualize the attack surface->reduce the attack surface",
             "Visualize the attack surface->identify the indicators of exposure->simulate the attack->reduce the attack surface"
         ],
-        "answer": "Identify the indicators of exposure->visualize the attack surface->simulate the attack->reduce the attack surface"
+        "answer": "Visualize the attack surface->identify the indicators of exposure->simulate the attack->reduce the attack surface"
     },
     {
         "question": "Which of the following is a best practice for wireless network security?",
@@ -3167,7 +3167,7 @@
             "Fred's boss wants to implement a HIPS solution.",
             "Fred's boss wants to implement a HIDS solution."
         ],
-        "answer": "Fred's boss wants a NIDS implementation."
+        "answer": "Fred's boss wants to implement a HIDS solution."
     },
     {
         "question": "John wants to implement a packet filtering firewall in his organization's network. What TCP/IP layer does a packet filtering firewall work on?",
@@ -3207,7 +3207,7 @@
             "Seccomp",
             "Userns"
         ],
-        "answer": "Seccomp"
+        "answer": "Cgroups"
     },
     {
         "question": "Identify the minimum number of drives required to setup RAID level 5.",
@@ -3307,7 +3307,7 @@
             "BYOD policy",
             "COPE policy"
         ],
-        "answer": "CYOD policy"
+        "answer": "COBO policy"
     },
     {
         "question": "Which of the following is a database encryption feature that secures sensitive data by encrypting it in client applications without revealing the encrypted keys to the data engine in MS SQL Server?",
@@ -3327,7 +3327,7 @@
             "Netstat -a",
             "Netstat -ao"
         ],
-        "answer": "Netstat -an"
+        "answer": "Netstat -ao"
     },
     {
         "question": "Michelle is a network security administrator working in an MNC company. She wants to set a resource limit for CPU in a container. Which command-line allows Michelle to limit a container to 2 CPUs?",
@@ -3477,7 +3477,7 @@
             "172.168.12.4",
             "169.254.254.254"
         ],
-        "answer": "18.12.4.1"
+        "answer": "172.168.12.4"
     },
     {
         "question": "John wants to implement a firewall service that works at the session layer of the OSI model. The firewall must also have the ability to hide the private network information. Which type of firewall service is John thinking of implementing?",
@@ -3587,7 +3587,7 @@
             "An individual who makes a decision on the classifications and the severity of the incident identified",
             "An individual responsible for the remediation and resolution of the incident that occurred"
         ],
-        "answer": "An individual who makes a decision on the classifications and the severity of the incident identified"
+        "answer": "An individual responsible for the remediation and resolution of the incident that occurred"
     },
     {
         "question": "Which type of antenna is based on the principle of a satellite dish and can pick up Wi-Fi signals from a distance of ten miles of more?",
