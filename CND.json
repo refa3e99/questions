@@ -797,7 +797,7 @@
             "Promiscuous policy",
             "Permissive policy"
         ],
-        "answer": "Prudent policy"
+        "answer": "Permissive policy"
     },
     {
         "question": "Damian is the chief security officer of Enigma Electronics. To block intruders and prevent any environmental accidents, he needs to set a two-factor authenticated keypad lock at the entrance, rig a fire suppression system, and link any video cameras at various corridors to view the feeds in the surveillance room. What layer of network defense-in-depth strategy is he trying to follow?",
@@ -1537,7 +1537,7 @@
             "Prudent policy",
             "Paranoid policy"
         ],
-        "answer": "Paranoid policy"
+        "answer": "Prudent Policy"
     },
     {
         "question": "A network designer needs to submit a proposal for a company, which has just published a web portal for its clients on the internet. Such a server needs to be isolated from the internal network, placing itself in a DMZ. Faced with this need, the designer will present a proposal for a firewall with three interfaces, one for the internet network, another for the DMZ server farm and another for the internal network. What kind of topology will the designer propose?",
@@ -2607,7 +2607,7 @@
             "Promiscuous Policy",
             "Paranoid Policy"
         ],
-        "answer": "Paranoid Policy"
+        "answer": "Prudent Policy"
     },
     {
         "question": "The network administrator wants to strengthen physical security in the organization. Specifically, to implement a solution stopping people from entering certain restricted zones without proper credentials. Which of following physical security measures should the administrator use?",
