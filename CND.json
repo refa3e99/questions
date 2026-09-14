@@ -997,7 +997,7 @@
             "Shared Responsibility Model for Abstract Services",
             "Shared Responsibility Model for Storage Services"
         ],
-        "answer": "Shared Responsibility Model for Abstract Services"
+        "answer": "Shared Responsibility Model for Storage Services"
     },
     {
         "question": "James, a network admin in a large US based IT firm, was asked to audit and implement security controls over all network layers to achieve Defense-in-Depth. While working on this assignment, James has implemented both blacklisting and whitelisting ACLs. Which layer of defense-in-depth architecture is Jason working on currently?",
@@ -1027,7 +1027,7 @@
             "DSSS",
             "MIMO-OFDM"
         ],
-        "answer": "OFDM"
+        "answer": "FHSS"
     },
     {
         "question": "Assume that you are a network administrator and the company has asked you to draft an Acceptable Use Policy (AUP) for employees. Under which category of an information security policy does AUP fall into?",
@@ -1035,7 +1035,7 @@
             "System Specific Security Policy (SSSP)",
             "Incident Response Policy (IRP)",
             "Enterprise Information Security Policy (EISP)",
-            "Issue Specific Security Policy (ISSP)"
+            "Enterprise Information Security Policy (EISP)"
         ],
         "answer": "Issue Specific Security Policy (ISSP)"
     },
@@ -1077,7 +1077,7 @@
             "Enables input/output (I/O) operations",
             "Manages security keys"
         ],
-        "answer": "Assigns user addresses"
+        "answer": ["Assigns user addresses", "Manages security keys"]
     },
     {
         "question": "Which of the following types of information can be obtained through network sniffing? (Select all that apply)",
@@ -1087,7 +1087,7 @@
             "Telnet passwords",
             "Syslog traffic"
         ],
-        "answer": "DNS traffic"
+        "answer": "B, C & D"
     },
     {
         "question": "Kyle, a front office executive, suspects that a Trojan has infected his computer. What should be his first course of action to deal with the incident?",
@@ -1177,7 +1177,7 @@
             "Event logging",
             "Transcript logging"
         ],
-        "answer": "Script block logging"
+        "answer": "Module logging"
     },
     {
         "question": "How can organizations obtain information about threats through human intelligence?",
@@ -1577,7 +1577,7 @@
             "VPN",
             "Packet filtering"
         ],
-        "answer": "Circuit-level gateway"
+        "answer": "VPN"
     },
     {
         "question": "John, the network administrator and he wants to enable the NetFlow feature in Cisco routers to collect and monitor the IP network traffic passing through the router. Which command will John use to enable NetFlow on an interface?",
@@ -1687,7 +1687,7 @@
             "Resumption",
             "Restoration"
         ],
-        "answer": "Resumption"
+        "answer": "Recovery"
     },
     {
         "question": "Which protocol would the network administrator choose for the wireless network design. If he needs to satisfy the minimum requirement of 2.4 GHz, 22 MHz of bandwidth, 2 Mbits/s stream for data rate and use DSSS for modulation.",
@@ -1737,7 +1737,7 @@
             "TCP.flags==0x300",
             "tcp.dstport==7"
         ],
-        "answer": "tcp.flags==0X029"
+        "answer": "tcp.flags==0x003"
     },
     {
         "question": "What should an administrator do while installing a sniffer on a system to listen to all data transmitted over the network?",
@@ -2457,7 +2457,7 @@
             "Intrusion Detection, Response, Prevention, Intrusion Monitoring",
             "Prevention, Intrusion Detection, Response, Intrusion Monitoring"
         ],
-        "answer": "Intrusion Monitoring, Intrusion Detection, Response, Prevention"
+        "answer": "Prevention, Intrusion Monitoring, Intrusion Detection, Response"
     },
     {
         "question": "Jorge has developed a core program for a mobile application and saved it locally on his system. The next day, when he tried to access the file to work on it further, he found it missing from his system. Upon investigation, it was discovered that someone got into his system since he had not changed his login credentials, and that they were the ones that were given to him by the admin when he had joined the organization. Which of the following network security vulnerabilities can be attributed to Jorge’s situation?",
